@@ -2,6 +2,8 @@
 import { Outlet } from "react-router-dom";
 import Header from "../../components/common/Header/Header";
 import Footer from "../../components/common/Footer/Footer";
+import LeftPin from "../../components/LeftPin";
+import RightPin from "../../components/RightPin";
 
 const MainLayout = () => {
   return (
@@ -9,6 +11,9 @@ const MainLayout = () => {
       <Header />
       <Outlet />
       <Footer />
+
+      <LeftPin />
+      <RightPin />
     </>
   );
 };
