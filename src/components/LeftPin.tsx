@@ -20,7 +20,7 @@ const socials = [
 
 const LeftPin = () => {
   return (
-    <div className="fixed start-6 bottom-6 flex z-5 flex-col-reverse gap-4 justify-center items-center">
+    <div className="fixed start-1 md:start-6 bottom-6 flex z-5 flex-col-reverse gap-4 justify-center items-center">
       <p className="uppercase [writing-mode:vertical-rl] rotate-180 tracking-widest text-sm font-medium">
         Follow us
       </p>

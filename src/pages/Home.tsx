@@ -1,7 +1,12 @@
+import BannerLanding from "../components/home/BannerLanding"
+import Landing from "../components/home/Landing"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Landing />
+      <BannerLanding />
+    </div>
   )
 }
 
