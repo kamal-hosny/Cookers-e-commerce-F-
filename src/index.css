@@ -17,4 +17,6 @@
 
 body {
   color: #1d1d1b;
+  width: 100vw;
+  overflow-x: hidden;
 }

@@ -1,4 +1,4 @@
-import CollectionsLayout from "../../../layouts/CollectionsLayout";
+import Blocks from "../common/Blocks";
 
 const sections = [
   {
@@ -43,16 +43,18 @@ const sections = [
   },
 ];
 
-const CollectionsCookers = () => {
+const UniqueCollections = () => {
   return (
-    <CollectionsLayout
-      title="Built-in"
-      subtitle="ovens. Distinctive"
-      description="Built-in ovens. Distinctive Italian design and technologyExclusive aesthetics, superb quality and design are the ingredients that make Elba built-in ovens unique. With their iconic design, Elba collections offer a refined blend of advanced cooking features. Elba models, available in two widths, 60cm and 90cm, are gas or electric multifunction, offering a safe and efficient way to cook with special function such as Easy Steam, true fan cooking and many others."
-      sections={sections}
-      bgColor="#30505b"
-    />
+    <div className="w-full py-10 container flex flex-col gap-16 items-center justify-center bg-white">
+      <div className="titles w-full text-center ">
+        <p className="text-3xl font-medium">
+          Unique Collections <br /> <b>with distinguished lines </b>
+        </p>
+      </div>
+
+      <Blocks sections={sections} />
+    </div>
   );
 };
 
-export default CollectionsCookers;
+export default UniqueCollections;
