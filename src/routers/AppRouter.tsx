@@ -26,6 +26,7 @@ import Dealers from "../pages/Dealers";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import ReasonsToChooseFreestandigCooker from "../pages/ReasonsToChooseFreestandigCooker";
 import ReservedArea from "../pages/ReservedArea";
+import Login from "../pages/collections/ita/Login";
 
 const AppRouter = () => {
   const router = createBrowserRouter([
@@ -155,6 +156,10 @@ const AppRouter = () => {
         },
       ],
     },
+    {
+      path: "/ita/login",
+      element: <Login />,
+    }
   ]);
 
   return <RouterProvider router={router} />;
