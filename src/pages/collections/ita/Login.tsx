@@ -18,12 +18,12 @@ const Login = () => {
   };
 
   return (
-    <div className="relative min-h-screen  bg-[#0e223c]  text-white flex flex-col items-start max-md:items-center justify-center px-10 max-md:px-4 py-8">
+    <div className="relative min-h-screen bg-[#0e223c] text-white flex flex-col items-center justify-center px-4 py-8">
       <p className="text-xl sm:text-2xl absolute top-4 left-4 md:top-8 md:left-8 font-bold">
         SERVICE AREA
       </p>
 
-      <div className="text-start max-w-2xl mb-8 ">
+      <div className="text-center max-w-2xl mb-8">
         <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">
           Welcome to Elba Service Area
         </p>
@@ -32,7 +32,7 @@ const Login = () => {
         </p>
       </div>
 
-      <div className="w-full max-w-5xl flex flex-col md:flex-row gap-4 bg-white text-black shadow-lg overflow-hidden">
+      <div className="w-full max-w-5xl flex flex-col-reverse md:flex-row bg-white text-black shadow-lg rounded-lg overflow-hidden">
         {/* Login Form */}
         <div className="w-full md:w-1/2 p-6 sm:p-8">
           <h2 className="uppercase text-sm font-bold mb-4">Login</h2>

@@ -21,7 +21,8 @@ const Logo = () => {
     "/collections/collections-ovens/elio-giant-ovens/",
     "/collections/collections-ovens/alterum-ovens/",
     "/collections/collections-ovens/professional-ovens/",
-    "/collections/collections-ovens/country-ovens/"
+    "/collections/collections-ovens/country-ovens/",
+    "/collections/black-line-collection/"
   ];
 
   if (whitePaths.includes(pathname)) {

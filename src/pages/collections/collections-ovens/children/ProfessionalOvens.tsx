@@ -96,7 +96,7 @@ const ProfessionalOvens = () => {
   return (
     <div>
       <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2023/01/elba-professional-ovens-collection-2.jpg.webp" />
-      <div className=" container space-y-3 top-[400px] pt-10 pb-[300px] relative z-5">
+            <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
         <div className="flex items-center justify-between">
           <Breadcrumbs
             linkColor={"#000000"}

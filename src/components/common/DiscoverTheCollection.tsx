@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaChevronRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import "swiper/css";
-import "swiper/css/navigation";
+import { Autoplay } from "swiper/modules";
 
 interface IProduct {
   id: number;
@@ -12,15 +10,42 @@ interface IProduct {
   code?: string;
   link?: string;
   type?: "normal" | "special";
-  collections?: string; 
+  collections?: string;
 }
 
-// Define the props interface
 interface IProps {
   products: IProduct[];
 }
 
 const DiscoverTheCollection = ({ products }: IProps) => {
+  const productCount = products.length;
+
+  // ✅ valid breakpoints without undefined values
+  const dynamicBreakpoints: {
+    [width: number]: { slidesPerView: number; spaceBetween?: number };
+  } =
+    productCount <= 2
+      ? {
+          0: { slidesPerView: 1 },
+          640: { slidesPerView: 1.2 },
+          768: { slidesPerView: 1.5 },
+          1024: { slidesPerView: 2 },
+        }
+      : productCount === 3
+      ? {
+          0: { slidesPerView: 1 },
+          640: { slidesPerView: 1.5 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 2.5 },
+          1280: { slidesPerView: 3 },
+        }
+      : {
+          480: { slidesPerView: 1.5, spaceBetween: 12 },
+          640: { slidesPerView: 2, spaceBetween: 16 },
+          1024: { slidesPerView: 3, spaceBetween: 20 },
+          1280: { slidesPerView: 4, spaceBetween: 24 },
+        };
+
   return (
     <div className="bg-white py-10 md:py-20">
       {/* Title */}
@@ -33,14 +58,10 @@ const DiscoverTheCollection = ({ products }: IProps) => {
       {/* Swiper Container with Navigation */}
       <div className="container mx-auto mt-8 relative px-4">
         <Swiper
+          modules={[Autoplay]}
           spaceBetween={16}
           slidesPerView={1}
-          breakpoints={{
-            480: { slidesPerView: 1.5, spaceBetween: 12 }, // Extra small screens
-            640: { slidesPerView: 2, spaceBetween: 16 }, // Small screens
-            1024: { slidesPerView: 3, spaceBetween: 20 }, // Medium screens
-            1280: { slidesPerView: 4, spaceBetween: 24 }, // Large screens
-          }}
+          breakpoints={dynamicBreakpoints}
           autoplay={{ delay: 5000, disableOnInteraction: true }}
           className="overflow-hidden"
           role="region"
@@ -65,21 +86,18 @@ const DiscoverTheCollection = ({ products }: IProps) => {
                     <p className="text-3xl font-bold">
                       Find out <br /> more
                     </p>
-                    {/* Conditionally render Link only if product.link exists */}
                     {product.link ? (
                       <Link
                         to={product.link}
                         className="text-base font-bold border-b-2 p-2"
                       >
                         {product.collections}
-                        
                       </Link>
                     ) : (
                       <span className="text-base font-bold border-b-2 p-2 capitalize">
                         Classic
                       </span>
                     )}
-                    {/* Conditionally render Link only if product.link exists */}
                     {product.link ? (
                       <Link
                         to={product.link}
