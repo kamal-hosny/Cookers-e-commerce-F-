@@ -22,7 +22,8 @@ const Logo = () => {
     "/collections/collections-ovens/alterum-ovens/",
     "/collections/collections-ovens/professional-ovens/",
     "/collections/collections-ovens/country-ovens/",
-    "/collections/black-line-collection/"
+    "/collections/black-line-collection/",
+    "/about-bulm"
   ];
 
   if (whitePaths.includes(pathname)) {
