@@ -35,17 +35,15 @@ const Logo = () => {
   return (
     <Link
       to="/"
-      className={`flex gap-5 justify-center items-center ${footerClasses}`}
+      className={`flex items-center gap-6 md:gap-8 ${footerClasses}`}
     >
-      <div className="ms-20 flex flex-col justify-center items-center">
+      <div className="flex flex-col items-center">
         <svg
           version="1.0"
           xmlns="http://www.w3.org/2000/svg"
-          width="150"
-          height="54"
           viewBox="0 0 459.000000 119.000000"
           preserveAspectRatio="xMidYMid meet"
-          className="w-52"
+          className="w-36 md:w-44 h-auto"
         >
           <g
             transform="translate(0.000000,119.000000) scale(0.100000,-0.100000)"
@@ -60,18 +58,22 @@ const Logo = () => {
         </svg>
 
         <p
-          className="text-sm capitalize -translate-y-2 font-medium"
+          className="text-[10px] md:text-xs capitalize mt-1 font-medium"
           style={{ letterSpacing: "0.4em" }}
         >
           Italian Cuisine
         </p>
       </div>
 
-      {/* صورة إضافية لو عايز تفعلها لاحقًا
-      <div className="image w-28">
-        <img className="h-full w-full" src="/logo/Yearsofexperience-en.jpg" alt="Years-of-experience" />
-      </div> 
-      */}
+<span className="line block w-0.5 h-16 bg-[#d8dee0]"></span>
+
+      <div className="w-16 md:w-20 overflow-hidden">
+        <img 
+          className="h-full w-full object-contain scale-150" 
+          src="/logo/Yearsofexperience-en.jpg" 
+          alt="Years-of-experience" 
+        />
+      </div>
     </Link>
   );
 };

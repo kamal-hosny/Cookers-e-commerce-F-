@@ -45,7 +45,7 @@ const AppRouter = () => {
           element: <Home />,
         },
         {
-          path: "product-category/:id",
+          path: "product-category",
           element: <ProductCategory />,
         },
         // collections
@@ -143,7 +143,7 @@ const AppRouter = () => {
           element: <PrivacyPolicy />,
         },
         {
-          path: "/product-category",
+          path: "/product-category?cookers",
           element: <ProductCategory />,
         },
         {
