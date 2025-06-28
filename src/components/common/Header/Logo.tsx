@@ -29,7 +29,9 @@ const Logo = ({ isScrolled }: LogoProps) => {
     "/about-bulm",
   ];
 
-  if (whitePaths.includes(pathname)) {
+  if (isScrolled) {
+    footerClasses += " text-[#30505b]";
+  } else if (whitePaths.includes(pathname)) {
     footerClasses += " text-white";
   } else {
     footerClasses += " text-[#30505b]";

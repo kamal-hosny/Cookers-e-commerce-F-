@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import { CiSearch } from "react-icons/ci";
 import { Link, useLocation } from "react-router-dom";
 
-const NavBar = () => {
+interface LogoProps {
+  isScrolled: boolean;
+}
+
+const NavBar = ({ isScrolled }: LogoProps) => {
   const [showCollectionsMenu, setShowCollectionsMenu] = useState(false);
   const [showProductsMenu, setShowProductsMenu] = useState(false);
 
@@ -15,7 +19,7 @@ const NavBar = () => {
 
   return (
     <div className="relative">
-      <div className="flex justify-between items-center gap-x-4 px-6 py-4 bg-white ">
+      <div className="flex justify-between items-center gap-x-4 px-6 py-4">
         <nav>
           <ul className="flex gap-6 items-center max-md:hidden">
             {/* Collections */}
@@ -25,7 +29,13 @@ const NavBar = () => {
               className="relative"
             >
               <Link
-                className={`uppercase  hover:underline relative z-[10] ${showCollectionsMenu && "text-white"} ${showProductsMenu && "text-white"}`}
+                className={`uppercase hover:underline relative z-[10] ${
+                  showCollectionsMenu || showProductsMenu
+                    ? "text-white"
+                    : isScrolled
+                    ? "text-black"
+                    : ""
+                }`}
                 to="/"
               >
                 Collections
@@ -41,13 +51,23 @@ const NavBar = () => {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to={'/collections/collections-cookers'}>Collections Cookers</Link>
+                          <Link to={"/collections/collections-cookers"}>
+                            Collections Cookers
+                          </Link>
                         </p>
                         <ul className="space-y-4">
-                          <li><Link to="/collections/collections-cookers/classic">Vintage</Link></li>
-                          <li><Link to="/collections/collections-cookers/excellence">Excellence</Link></li>
-                          <li><Link to="/collections/collections-cookers/fusion">Fusion</Link></li>
-                          <li><Link to="/collections/collections-cookers/classic">Classic</Link></li>
+                          <li>
+                            <Link to="/collections/collections-cookers/classic">Vintage</Link>
+                          </li>
+                          <li>
+                            <Link to="/collections/collections-cookers/excellence">Excellence</Link>
+                          </li>
+                          <li>
+                            <Link to="/collections/collections-cookers/fusion">Fusion</Link>
+                          </li>
+                          <li>
+                            <Link to="/collections/collections-cookers/classic">Classic</Link>
+                          </li>
                         </ul>
                       </div>
 
@@ -56,11 +76,21 @@ const NavBar = () => {
                           <Link to={"/collections/collections-ovens"}>Collections Ovens</Link>
                         </p>
                         <ul className="space-y-4">
-                          <li><Link to="/collections/collections-ovens/elio-ovens">Elio</Link></li>
-                          <li><Link to="/collections/collections-ovens/elio-giant-ovens">Elio Giant</Link></li>
-                          <li><Link to="/collections/collections-ovens/country-ovens">Country</Link></li>
-                          <li><Link to="/collections/collections-ovens/professional-ovens">Professional</Link></li>
-                          <li><Link to="/collections/collections-ovens/alterum-ovens">Alterum</Link></li>
+                          <li>
+                            <Link to="/collections/collections-ovens/elio-ovens">Elio</Link>
+                          </li>
+                          <li>
+                            <Link to="/collections/collections-ovens/elio-giant-ovens">Elio Giant</Link>
+                          </li>
+                          <li>
+                            <Link to="/collections/collections-ovens/country-ovens">Country</Link>
+                          </li>
+                          <li>
+                            <Link to="/collections/collections-ovens/professional-ovens">Professional</Link>
+                          </li>
+                          <li>
+                            <Link to="/collections/collections-ovens/alterum-ovens">Alterum</Link>
+                          </li>
                         </ul>
                       </div>
 
@@ -69,8 +99,12 @@ const NavBar = () => {
                           <Link to={"/collections/collections-hobs"}>Collections Hobs</Link>
                         </p>
                         <ul className="space-y-4">
-                          <li><Link to="/collections/collections-hobs/elio-hobs">Elio Collection</Link></li>
-                          <li><Link to="/collections/collections-hobs/country-hobs">Country Collection</Link></li>
+                          <li>
+                            <Link to="/collections/collections-hobs/elio-hobs">Elio Collection</Link>
+                          </li>
+                          <li>
+                            <Link to="/collections/collections-hobs/country-hobs">Country Collection</Link>
+                          </li>
                         </ul>
                       </div>
 
@@ -92,7 +126,13 @@ const NavBar = () => {
               className="relative"
             >
               <Link
-                className={`uppercase  hover:underline relative z-[10] ${showProductsMenu && "text-white"} ${showCollectionsMenu && "text-white"}`}
+                className={`uppercase hover:underline relative z-[10] ${
+                  showProductsMenu || showCollectionsMenu
+                    ? "text-white"
+                    : isScrolled
+                    ? "text-black"
+                    : ""
+                }`}
                 to="/product-category?cookers"
               >
                 Products
@@ -117,11 +157,21 @@ const NavBar = () => {
 
                     {/* Right Links */}
                     <div className="w-1/3 flex flex-col justify-center px-10 space-y-6 font-semibold text-2xl text-[#7ba7b8]">
-                      <Link to="/product-category?cookers" className="hover:underline">Cookers</Link>
-                      <Link to="/product-category?ovens" className="hover:underline">Ovens</Link>
-                      <Link to="/product-category?hobs" className="hover:underline">Hobs</Link>
-                      <Link to="/product-category?hoods" className="hover:underline">Hoods</Link>
-                      <Link to="/product-category?compact-products" className="hover:underline">Compact products</Link>
+                      <Link to="/product-category?cookers" className="hover:underline">
+                        Cookers
+                      </Link>
+                      <Link to="/product-category?ovens" className="hover:underline">
+                        Ovens
+                      </Link>
+                      <Link to="/product-category?hobs" className="hover:underline">
+                        Hobs
+                      </Link>
+                      <Link to="/product-category?hoods" className="hover:underline">
+                        Hoods
+                      </Link>
+                      <Link to="/product-category?compact-products" className="hover:underline">
+                        Compact products
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -133,7 +183,13 @@ const NavBar = () => {
         {/* Search Icon */}
         <CiSearch
           size={25}
-          className={`cursor-pointer ${showCollectionsMenu || showProductsMenu ? "text-white" : "text-black"}`}
+          className={`cursor-pointer ${
+            showCollectionsMenu || showProductsMenu
+              ? "text-white"
+              : isScrolled
+              ? "text-black"
+              : "text-black"
+          }`}
         />
       </div>
     </div>
