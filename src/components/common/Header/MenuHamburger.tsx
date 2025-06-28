@@ -11,6 +11,9 @@ const MenuHamburger = ({ openMenu, onToggleMenu }: Props) => {
   let barColor = "";
   let textColor = "";
 
+  console.log(openMenu);
+  
+
   const whitePaths = [
     "/catalogues",
     "/collections",

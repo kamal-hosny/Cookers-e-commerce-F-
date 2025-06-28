@@ -18,7 +18,7 @@ const cataloguesImage = [
 
 const Catalogues = () => {
   return (
-    <div className="">
+    <main className="">
       <div className="bg-[#30505b]">
       <div className=" py-10 container ">
         <div className="head-catalogues text-white ">
@@ -52,7 +52,7 @@ const Catalogues = () => {
         ))}
       </div>
       <BoxesFooter />
-    </div>
+    </main>
   );
 };
 

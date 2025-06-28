@@ -1,6 +1,6 @@
 const CompanyInfo = () => {
   return (
-    <div className="container px-8 md:px-4 py-13 max-w-5xl bg-white space-y-6">
+    <main className="container px-8 md:px-4 py-13 max-w-5xl bg-white space-y-6">
       <h1 className="text-3xl font-semibold"> Bulm Italy SpA</h1>
       <div className="font-medium">
         <p>
@@ -22,7 +22,7 @@ const CompanyInfo = () => {
           elbaitalyspa@legailmail.it
         </p>
       </div>
-    </div>
+    </main>
   );
 };
 

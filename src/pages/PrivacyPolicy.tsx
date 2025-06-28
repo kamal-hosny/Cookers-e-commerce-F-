@@ -1,6 +1,6 @@
 const PrivacyPolicy = () => {
   return (
-    <div className="container px-8 md:px-4 py-12 max-w-5xl bg-white">
+    <main className="container px-8 md:px-4 py-12 max-w-5xl bg-white">
       <div className="font-sans">
   
         <section className="mb-8">
@@ -77,7 +77,7 @@ const PrivacyPolicy = () => {
           </p>
         </section>
       </div>
-    </div>
+    </main>
   );
 };
 

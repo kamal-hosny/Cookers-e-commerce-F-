@@ -34,7 +34,7 @@ const Contacts = () => {
   };
   
   return (
-    <div className="pt-10">
+    <main className="pt-10">
       <div>
         <div className="pb-10 container section-title flex justify-between items-start">
           <div>
@@ -170,7 +170,7 @@ const Contacts = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

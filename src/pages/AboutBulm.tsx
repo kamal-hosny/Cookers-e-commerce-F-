@@ -34,7 +34,7 @@ const sections = [
 
 const AboutBulm = () => {
   return (
-    <div>
+    <main>
       <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/01/primopiano-elba-fornelli.jpg.webp" />
 
       <div className="container relative z-5 pt-[380px] pb-20 space-y-8"></div>
@@ -149,7 +149,7 @@ const AboutBulm = () => {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

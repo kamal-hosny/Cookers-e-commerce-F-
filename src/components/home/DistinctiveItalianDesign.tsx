@@ -1,7 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoArrowForward } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import "swiper/css";
+import "swiper/swiper-bundle.css";
+
 const sliders = [
   {
     id: "1",

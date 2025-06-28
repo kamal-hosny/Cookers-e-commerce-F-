@@ -7,14 +7,14 @@ import UniqueCollections from "../components/home/UniqueCollections"
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Landing />
       <BannerLanding />
       <DistinctiveItalianDesign />
       <News />
       <UniqueCollections />
       <BoxesFooter />
-    </div>
+    </main>
   )
 }
 

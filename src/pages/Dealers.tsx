@@ -36,7 +36,7 @@ const Dealers = () => {
   };
 
   return (
-    <div>
+    <main>
       <div className="container py-1">
         <div className=" p-4">
           <iframe
@@ -205,7 +205,7 @@ const Dealers = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

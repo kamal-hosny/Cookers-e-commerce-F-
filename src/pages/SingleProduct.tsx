@@ -245,7 +245,7 @@ const SingleProduct = () => {
   ];
 
   return (
-    <div className="font-sans bg-[#e2eaeb] min-h-screen py-4">
+    <main className="font-sans bg-[#e2eaeb] min-h-screen py-4">
 
       <div className="container ">
       <div className="flex items-center justify-between">
@@ -368,7 +368,7 @@ const SingleProduct = () => {
 
       {/* Footer */}
      
-    </div>
+    </main>
   );
 };
 

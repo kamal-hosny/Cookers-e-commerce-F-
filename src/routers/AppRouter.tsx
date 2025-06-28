@@ -24,7 +24,7 @@ const CountryOvens = lazy(() => import("../pages/collections/collections-ovens/c
 const ElioGiantOvens = lazy(() => import("../pages/collections/collections-ovens/children/ElioGiantOvens"));
 const ElioOvens = lazy(() => import("../pages/collections/collections-ovens/children/ElioOvens"));
 const ProfessionalOvens = lazy(() => import("../pages/collections/collections-ovens/children/ProfessionalOvens"));
-const About = lazy(() => import("../pages/About"));
+
 const Catalogues = lazy(() => import("../pages/Catalogues"));
 const CompanyInfo = lazy(() => import("../pages/CompanyInfo"));
 const Contacts = lazy(() => import("../pages/Contacts"));
@@ -119,10 +119,6 @@ const AppRouter = () => {
           element: <ProfessionalOvens />,
         },
         // other routes
-        {
-          path: "/about",
-          element: <About />,
-        },
         {
           path: "/catalogues",
           element: <Catalogues />,

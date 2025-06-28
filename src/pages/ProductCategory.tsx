@@ -124,7 +124,7 @@ const ProductCategory = () => {
   };
 
   return (
-    <div className="bg-[#eaeaea]">
+    <main className="bg-[#eaeaea]">
       <div className="flex flex-col lg:flex-row items-center justify-between bg-[#30505b] text-white">
         <div className="lg:w-1/2 flex max-md:flex-col justify-between items-center mb-10 lg:mb-0 py-16 px-8">
         <p className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 self-start leading-snug min-h-[3.5rem] sm:min-h-[4rem] lg:min-h-[5rem]">
@@ -290,7 +290,7 @@ const ProductCategory = () => {
 
         <BoxesFooter />
       </div>
-    </div>
+    </main>
   );
 };
 

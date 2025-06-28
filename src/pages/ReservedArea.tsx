@@ -1,6 +1,6 @@
 const ReservedArea = () => {
   return (
-    <div className="py-10 bg-[#1d1d1b]">
+    <main className="py-10 bg-[#1d1d1b]">
       <div className="container">
         <div className="main-title">
           <p className="relative text-[#30505b] mb-10 text-[32px] font-bold after:content-[''] after:absolute after:left-0 after:-bottom-4 after:w-14 after:h-1 after:bg-[#30505b]">
@@ -37,7 +37,7 @@ const ReservedArea = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

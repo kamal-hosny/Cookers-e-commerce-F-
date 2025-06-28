@@ -1,7 +1,7 @@
 
 const ReasonsToChooseFreestandigCooker = () => {
   return (
-    <div>ReasonsToChooseFreestandigCooker</div>
+    <main>ReasonsToChooseFreestandigCooker</main>
   )
 }
 
