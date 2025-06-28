@@ -1,20 +1,19 @@
 import { useNavigate } from "react-router-dom";
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
-import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
 import BoxesFooter from "../../../../components/common/BoxesFooter";
 
-interface IProduct {
-  id: number;
-  image: string;
-  title: string;
-  code?: string;
-  link?: string;
-  type?: "normal" | "special";
-  collections?: string;
-}
+// interface IProduct {
+//   id: number;
+//   image: string;
+//   title: string;
+//   code?: string;
+//   link?: string;
+//   type?: "normal" | "special";
+//   collections?: string;
+// }
 
 const sections = [
   {

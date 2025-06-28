@@ -43,7 +43,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu }: Props) => {
   return (
     <div
       onClick={onToggleMenu}
-      className="group relative flex items-center space-x-2 cursor-pointer"
+      className="group relative flex items-center space-x-2 cursor-pointer relative z-[10]"
     >
       <div className="flex flex-col justify-center space-y-2.5">
         <span className={`w-13 h-0.5 ${barColor}`}></span>

@@ -143,7 +143,7 @@ const ProductCategory = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4">
+      <div className="container py-20">
         <Breadcrumbs
           activeColor="#1d1d1b"
           linkColor="#1d1d1b"

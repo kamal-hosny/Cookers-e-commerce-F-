@@ -1,6 +1,10 @@
 import { Link, useLocation } from "react-router-dom";
 
-const Logo = () => {
+interface LogoProps {
+  isScrolled: boolean;
+}
+
+const Logo = ({ isScrolled }: LogoProps) => {
   const { pathname } = useLocation();
 
   let footerClasses = "transition-all duration-300";
@@ -16,14 +20,13 @@ const Logo = () => {
     "/collections/collections-cookers/fusion/",
     "/collections/collections-cookers/classic/",
     "/collections/collections-hobs/country-hobs/",
-    "/collections/collections-hobs/country-hobs/",
     "/collections/collections-ovens/elio-ovens/",
     "/collections/collections-ovens/elio-giant-ovens/",
     "/collections/collections-ovens/alterum-ovens/",
     "/collections/collections-ovens/professional-ovens/",
     "/collections/collections-ovens/country-ovens/",
     "/collections/black-line-collection/",
-    "/about-bulm"
+    "/about-bulm",
   ];
 
   if (whitePaths.includes(pathname)) {
@@ -35,15 +38,17 @@ const Logo = () => {
   return (
     <Link
       to="/"
-      className={`flex items-center gap-6 md:gap-8 ${footerClasses}`}
+      className={`flex items-center gap-3 md:gap-8 ${footerClasses}`}
     >
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center transition-all duration-300 ease-in-out">
         <svg
           version="1.0"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 459.000000 119.000000"
           preserveAspectRatio="xMidYMid meet"
-          className="w-36 md:w-44 h-auto"
+          className={`transition-all duration-300 h-auto ${
+            isScrolled ? "w-24 md:w-36" : "w-28 md:w-44"
+          }`}
         >
           <g
             transform="translate(0.000000,119.000000) scale(0.100000,-0.100000)"
@@ -58,20 +63,26 @@ const Logo = () => {
         </svg>
 
         <p
-          className="text-[10px] md:text-xs capitalize mt-1 font-medium"
+          className={`text-[10px] md:text-xs capitalize mt-1 font-medium transition-all duration-300 ${
+            isScrolled ? "scale-90" : "scale-100"
+          }`}
           style={{ letterSpacing: "0.4em" }}
         >
           Italian Cuisine
         </p>
       </div>
 
-<span className="line block w-0.5 h-16 bg-[#d8dee0]"></span>
+      <span className="line block w-0.5 h-16 bg-[#d8dee0]"></span>
 
-      <div className="w-16 md:w-20 overflow-hidden">
-        <img 
-          className="h-full w-full object-contain scale-150" 
-          src="/logo/Yearsofexperience-en.jpg" 
-          alt="Years-of-experience" 
+      <div
+        className={`transition-all duration-300 overflow-hidden ${
+          isScrolled ? "w-10 md:w-16" : "w-12 md:w-20"
+        }`}
+      >
+        <img
+          className="h-full w-full object-contain scale-150"
+          src="/logo/Yearsofexperience-en.jpg"
+          alt="Years-of-experience"
         />
       </div>
     </Link>

@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout/MainLayout";
 import Home from "../pages/Home";
 import AboutBulm from "../pages/AboutBulm";
+import SingleProduct from "../pages/SingleProduct";
 const ProductCategory = lazy(() => import("../pages/ProductCategory"));
 const Collections = lazy(() => import("../pages/collections/Collections"));
 const CollectionsCookers = lazy(() => import("../pages/collections/collections-cookers/CollectionsCookers"));
@@ -157,6 +158,10 @@ const AppRouter = () => {
         {
           path: "/about-bulm",
           element: <AboutBulm />,
+        },
+        {
+          path: "/product",
+          element: <SingleProduct />,
         },
       ],
     },
