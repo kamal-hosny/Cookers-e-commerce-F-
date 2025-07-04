@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { CiSearch } from "react-icons/ci";
 import { Link, useLocation } from "react-router-dom";
+import Search from "./Search";
 
 interface LogoProps {
   isScrolled: boolean;
@@ -9,7 +10,7 @@ interface LogoProps {
 const NavBar = ({ isScrolled }: LogoProps) => {
   const [showCollectionsMenu, setShowCollectionsMenu] = useState(false);
   const [showProductsMenu, setShowProductsMenu] = useState(false);
-
+const [openSearch, setOpenSearch] = useState(false)
   const location = useLocation();
 
   useEffect(() => {
@@ -57,7 +58,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                         </p>
                         <ul className="space-y-4">
                           <li>
-                            <Link to="/collections/collections-cookers/classic">Vintage</Link>
+                            <Link to="/collections/collections-cookers/vintage">Vintage</Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-cookers/excellence">Excellence</Link>
@@ -133,7 +134,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                     ? "text-black"
                     : ""
                 }`}
-                to="/product-category?cookers"
+                to="/product-category/cookers"
               >
                 Products
               </Link>
@@ -157,19 +158,19 @@ const NavBar = ({ isScrolled }: LogoProps) => {
 
                     {/* Right Links */}
                     <div className="w-1/3 flex flex-col justify-center px-10 space-y-6 font-semibold text-2xl text-[#7ba7b8]">
-                      <Link to="/product-category?cookers" className="hover:underline">
+                      <Link to="/product-category/cookers" className="hover:underline">
                         Cookers
                       </Link>
-                      <Link to="/product-category?ovens" className="hover:underline">
+                      <Link to="/product-category/ovens" className="hover:underline">
                         Ovens
                       </Link>
-                      <Link to="/product-category?hobs" className="hover:underline">
+                      <Link to="/product-category/hobs" className="hover:underline">
                         Hobs
                       </Link>
-                      <Link to="/product-category?hoods" className="hover:underline">
+                      <Link to="/product-category/hoods" className="hover:underline">
                         Hoods
                       </Link>
-                      <Link to="/product-category?compact-products" className="hover:underline">
+                      <Link to="/product-category/compact-products" className="hover:underline">
                         Compact products
                       </Link>
                     </div>
@@ -180,9 +181,11 @@ const NavBar = ({ isScrolled }: LogoProps) => {
           </ul>
         </nav>
 
-        {/* Search Icon */}
+        {/* Search */}
+        <Search openSearch={openSearch} setOpenSearch={setOpenSearch} />
         <CiSearch
           size={25}
+          onClick={() => setOpenSearch(true)}
           className={`cursor-pointer ${
             showCollectionsMenu || showProductsMenu
               ? "text-white"
