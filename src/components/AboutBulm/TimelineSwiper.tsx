@@ -5,24 +5,34 @@ import { Autoplay } from 'swiper/modules';
 const TimelineSwiper: React.FC = () => {
   const timelineData = [
     {
-      year: "1950",
-      title: "Foundation",
-      content: "The Company was founded in 1950 by Elio Baggio, as a family business, in the village of Marostica (Vicenza province). Elio was the son of an entrepreneur, Plo Baggio, who owned various activities, such as building materials (bricks), pottery and quarrying. The initial main business was the operation of an enameling plant, as a subcontractor, along with a small production of wood/coal stoves for cooking/heating purposes."
+      year: "1979",
+      title: "The Beginning",
+      content:
+        "In 1979, BULM began its journey as a small initiative with a bold vision — to redefine the cooking experience. Born from a passion for craftsmanship and quality, the brand started producing durable, elegant cooking appliances for everyday use."
     },
     {
-      year: "1959",
-      title: "Specialization",
-      content: "The plant gradually specialized in enameling body components of stoves and cookers as well as bathtubs, sinks, etc. required by major manufacturers of Northern Italy, such as Zanussi, Zoppas, Fargas. By the end of the fifties, the post-second world war reconstruction was over and the following years were characterized by a huge demand for basic household appliances, like cookers and refrigerators."
+      year: "1985",
+      title: "Early Expansion",
+      content:
+        "With growing demand for refined appliances, BULM expanded its production lines to include integrated kitchen solutions. Every product reflected a dedication to precision and design excellence."
     },
     {
-      year: "1960",
-      title: "Expansion",
-      content: "This situation led Elio Baggio to build a new factory in 1960, in the town of Bassano del Grappa (Vicenza province), and to concentrate his activity in the manufacturing of freestanding cookers for the domestic market. The factory brand became ELBA, which is the acronym of the founder Elio Baggio."
+      year: "1995",
+      title: "Innovation Driven",
+      content:
+        "In the 1990s, the company focused on innovation — combining smart features with stylish aesthetics. This period marked BULM’s rise as a leading name in high-end European kitchen appliances."
     },
     {
-      year: "1970",
-      title: "Growth Era",
-      content: "The 1970s marked a period of significant growth for ELBA. The company expanded its product line to include modern kitchen appliances and began exporting to international markets. This decade saw the establishment of ELBA as a recognized brand in household appliances across Europe."
+      year: "2005",
+      title: "Global Reach",
+      content:
+        "BULM entered international markets, offering its signature Italian flair to kitchens around the world. The brand became synonymous with reliability, performance, and timeless design."
+    },
+    {
+      year: "2020",
+      title: "Future Forward",
+      content:
+        "Today, BULM continues to innovate by integrating smart technologies and sustainable materials — empowering modern lifestyles and shaping the future of kitchen living."
     }
   ];
 
@@ -37,18 +47,17 @@ const TimelineSwiper: React.FC = () => {
         </div>
 
         <div className="relative">
-          {/* Timeline line - visible on desktop */}
           <div className="absolute left-0 right-0 top-8 h-1 bg-[#1d1d1b] mx-16 hidden md:block"></div>
-          
+
           <Swiper
-          modules={[Autoplay]}
+            modules={[Autoplay]}
             spaceBetween={30}
             slidesPerView={1}
             centeredSlides={true}
             autoplay={{
-                delay: 3000, 
-                disableOnInteraction: false,
-              }}
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
             loop={true}
             breakpoints={{
               768: {
@@ -62,13 +71,11 @@ const TimelineSwiper: React.FC = () => {
           >
             {timelineData.map((item, index) => (
               <SwiperSlide key={index}>
-                <div className="h-full flex  flex-col items-center relative pb-12">
-                  {/* Year marker on timeline */}
+                <div className="h-full flex flex-col items-center relative pb-12">
                   <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-16 rounded-full bg-[#1d1d1b] flex items-center justify-center text-white font-bold text-xl shadow-lg z-10 border-4 border-white">
                     {item.year}
                   </div>
-                  
-                  {/* Content card */}
+
                   <div className="bg-white rounded-xl shadow-lg border border-[#e0e0e0] mt-20 h-full w-full p-6 flex flex-col transition-all duration-300 hover:shadow-xl hover:border-[#1d1d1b]">
                     <div className="mb-4">
                       <div className="text-[#1d1d1b] font-bold text-xl mb-2">
@@ -88,15 +95,13 @@ const TimelineSwiper: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  
-                  {/* Mobile timeline connector */}
+
                   <div className="md:hidden absolute -bottom-8 left-1/2 transform -translate-x-1/2 w-1 h-8 bg-[#1d1d1b]"></div>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
-          
-          {/* Timeline arrow for mobile */}
+
           <div className="md:hidden flex justify-center mt-8">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#1d1d1b] animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7l4-4m0 0l4 4m-4-4v18m0 0l-4-4m4 4l4-4" />

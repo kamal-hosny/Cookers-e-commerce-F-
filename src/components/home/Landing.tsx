@@ -1,17 +1,6 @@
-import { useEffect, useRef } from "react";
 
 const Landing = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (video) {
-      video.play().catch((e) => {
-        console.warn("Autoplay prevented:", e);
-      });
-    }
-  }, []);
-
+ 
   const handleScroll = () => {
     window.scrollTo({
       top: window.innerHeight,
@@ -23,15 +12,10 @@ const Landing = () => {
     <section className="w-full overflow-hidden">
       <div className="container">
         <div className="video relative">
-          <video
-            ref={videoRef}
+          <img
             className="w-full h-[800px] object-cover"
-            src="/video/ElbaBlackLine-videoBanner.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
+            src="/Home/landingImage.webp"
+            loading="eager"
           />
 
           <div className="absolute top-0 left-0 w-full h-full flex flex-col gap-4 items-center justify-center text-white text-center p-4">

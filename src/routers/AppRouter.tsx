@@ -11,6 +11,7 @@ import SingleProduct from "../pages/SingleProduct";
 const ProductCategory = lazy(
   () => import("../pages/ProductCategories/ProductCategory")
 );
+const CompanyInfo = lazy(() => import("../pages/CompanyInfo"));
 const Collections = lazy(() => import("../pages/collections/Collections"));
 const CollectionsCookers = lazy(
   () => import("../pages/collections/collections-cookers/CollectionsCookers")
@@ -60,7 +61,6 @@ const ProfessionalOvens = lazy(
 );
 
 const Catalogues = lazy(() => import("../pages/Catalogues"));
-const CompanyInfo = lazy(() => import("../pages/CompanyInfo"));
 const Contacts = lazy(() => import("../pages/Contacts"));
 const Dealers = lazy(() => import("../pages/Dealers"));
 const PrivacyPolicy = lazy(() => import("../pages/PrivacyPolicy"));
@@ -156,10 +156,6 @@ const AppRouter = () => {
           element: <Catalogues />,
         },
         {
-          path: "/company-info",
-          element: <CompanyInfo />,
-        },
-        {
           path: "/contacts",
           element: <Contacts />,
         },
@@ -182,6 +178,10 @@ const AppRouter = () => {
         {
           path: "/reserved-area",
           element: <ReservedArea />,
+        },
+        {
+          path: "/company-info",
+          element: <CompanyInfo />,
         },
         {
           path: "/about-bulm",

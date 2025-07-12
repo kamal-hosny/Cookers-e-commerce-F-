@@ -4,6 +4,7 @@ import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
+import { Helmet } from "react-helmet-async";
 
 interface IProduct {
   id: number;
@@ -79,7 +80,38 @@ const products: IProduct[] = [
 const ElioOvens = () => {
   const navigate = useNavigate();
   return (
-    <div>
+   <>
+   <Helmet>
+  <title>Elio Built-in Ovens | BULM Italy</title>
+  <meta
+    name="description"
+    content="Discover the Elio built-in oven collection from BULM – featuring Easy Steam, Idroclean, and Gas-Matik functions. Sleek design and exceptional performance in every bake."
+  />
+  <meta
+    name="keywords"
+    content="Elio ovens, BULM built-in ovens, multifunction ovens, electric ovens, Easy Steam oven, Idroclean oven, Gas-Matik, Italian kitchen appliances"
+  />
+  <meta property="og:title" content="Elio Built-in Ovens | BULM Italy" />
+  <meta
+    property="og:description"
+    content="Experience seamless design and innovative cooking with BULM’s Elio built-in ovens. Crafted for performance with cutting-edge features like Easy Steam and Idroclean."
+  />
+  <meta
+    property="og:image"
+    content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-oven.jpg.webp"
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content="https://bulm.it/collections/collections-ovens/elio-ovens"
+  />
+  <link
+    rel="canonical"
+    href="https://bulm.it/collections/collections-ovens/elio-ovens"
+  />
+</Helmet>
+
+   <div>
       <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-oven.jpg.webp" />
             <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
         <div className="flex items-center justify-between">
@@ -113,6 +145,7 @@ const ElioOvens = () => {
         <DiscoverTheCollection products={products} />
       </div>
     </div>
+   </>
   );
 };
 

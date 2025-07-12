@@ -18,35 +18,33 @@ const Footer = () => {
       className={`${footerClasses} py-8 px-4 sm:px-6 sm:py-12 md:px-8 md:py-16 lg:px-20 lg:py-20`}
     >
       <div className="container ">
-        <ul className="flex flex-col items-center space-y-6 text-center sm:flex-row sm:justify-around sm:space-y-0 font-medium text-sm">
+        <ul className="flex flex-col items-start space-y-6 text-center sm:flex-row sm:justify-around sm:space-y-0 font-medium text-sm">
           <li className="text-xl font-semibold">
-            Ⓒ Italian Cuisine {new Date().getFullYear()}
-          </li>
-          <li className="space-y-3">
-            <p>Via Fabbian Matteo, 7</p>
-            <p>Borso del Grappa (TV), Italy</p>
+             BULM ITALY SRL {new Date().getFullYear()}
           </li>
           <li className="space-y-3">
             <p className="underline">Service Area</p>
-            <p className="underline">
-              <a href="mailto:info@bulm-cookers.it">info@bulm-cookers.it</a>
+            
+          </li>
+          <li className="space-y-3">
+          <p className="underline">
+              <a href="mailto:info@bulm.it">info@bulm.it</a>
             </p>
+            
           </li>
           <li className="space-y-3">
             <Link to="/company-info" className="underline block">
               Company info
             </Link>
+            
+          </li>
+          <li className="space-y-3">
+            
             <Link
               to="/privacy-policy"
               className="underline  block"
             >
               Privacy Policy
-            </Link>
-          </li>
-          <li className="space-y-3">
-            <p>Cookie Policy</p>
-            <Link to="/company-info" className="underline block">
-              Credits
             </Link>
           </li>
         </ul>

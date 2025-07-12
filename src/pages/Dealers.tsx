@@ -14,6 +14,7 @@ const Dealers = () => {
     message: "",
     privacy: false,
   });
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -32,75 +33,44 @@ const Dealers = () => {
       return;
     }
     console.log("Form submitted:", formData);
-    
   };
 
   return (
     <main>
       <div className="container py-1">
-        <div className=" p-4">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.687583305424!2d11.758377315576224!3d45.81870497910672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778f3b7c9b7e7b7%3A0x8c6b7e7c9b7e7b7!2sVia%20Fabbian%20Matteo%2C%207%2C%2031030%20Borso%20del%20Grappa%20TV%2C%20Italy!5e0!3m2!1sen!2sit!4v1750354296114!5m2!1sen!2sit"
-            width="100%"
-            height="500px"
-            className="w"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Elba Italy S.p.A Location"
-          ></iframe>
-          <div className="bg-[#1d1d1b] text-white p-4 flex justify-between items-center ">
-            <p className="text-lg font-bold">Where do you want to search?</p>
 
-            <div className="relative">
-              <input
-                type="text"
-                className="border-white border p-2 pe-20 text-white placeholder:text-md placeholder:text-white "
-                placeholder="Search the dealar"
-              />
-              <CiSearch
-                size={25}
-                cursor={"pointer"}
-                className="absolute end-3 bottom-1/2  translate-y-1/2"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="Dealers-contact p-4 flex gap-4  justify-between items-start  max-md:flex-col">
-          <div className="flex-1 flex justify-between   w-full  ">
+        <div className="Dealers-contact p-4 flex gap-4 justify-between items-start max-md:flex-col">
+          <div className="flex-1 flex justify-between w-full">
             <div className="image h-100 flex-1 max-md:hidden">
               <img
                 src="https://www.elba-cookers.com/wp-content/uploads/2022/01/paesaggio-1280x625.jpg.webp"
-                alt="fsdf"
+                alt="dealers"
                 className="h-full object-cover"
               />
             </div>
-            <div className="bg-[#30505b] text-white p-4 flex-1 h-100 flex column space-between">
+            <div className="bg-[#30505b] text-white p-4 flex-1 h-100 flex flex-col justify-between">
               <div className="text-xs gap-2 flex justify-center items-start flex-col space-y-4">
                 <p>
-                  Via Fabbian Matteo, 7
-                  <br />
-                  31030 Borso del Grappa (TV) - Italy
+                  For inquiries or dealership information, feel free to contact
+                  us via phone or email. Our team is ready to support you
+                  globally.
                 </p>
-                <p>
-                  T.
-                  <a className="underline m-1" href="tel:+3904239121 ">+39 0423 9121</a>{" "}
-                  <br />
-                  F.
-                  <a className="underline m-1" href="tel:+3904239121">+39 0423 9121</a>
-                  <div className="contact flex flex-col gap-2 self-end mt-32">
-                    <a href="mailto:mailto:support@elba-coockers.com">
-                      support@elba-coockers.com
-                    </a>
-                    <a href="https://www.elba-coockers.com" target="_blank">
-                      www.elba-coockers.com
-                    </a>
-                  </div>
-                </p>
+                <div className="contact flex flex-col gap-2 self-start mt-12">
+                  <a href="mailto:info@bulm.it">
+                  info@bulm.it
+                  </a>
+                  <a
+                    href="http://www.bulm.com.it"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    http://www.bulm.com.it
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+
           <div className="section-contact flex-1 py-10">
             <div className="w-full">
               <form className="space-y-4 w-full" onSubmit={handleSubmit}>
@@ -244,4 +214,4 @@ const StyledWrapper = styled.div`
     stroke-dasharray: 70.5096664428711 9999999;
     stroke-dashoffset: -262.2723388671875;
   }
-`
+`;

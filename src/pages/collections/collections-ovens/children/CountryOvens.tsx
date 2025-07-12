@@ -4,6 +4,7 @@ import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
+import { Helmet } from "react-helmet-async";
 
 interface IProduct {
   id: number;
@@ -63,7 +64,37 @@ const products: IProduct[] = [
 const CountryOvens = () => {
   const navigate = useNavigate();
   return (
-    <div>
+ <>
+ <Helmet>
+  <title>Country Built-in Ovens | BULM Italy</title>
+  <meta
+    name="description"
+    content="Explore BULM’s Country Collection of built-in ovens — rustic, timeless design blended with modern performance. Discover electric multifunction ovens featuring Idroclean and traditional country style."
+  />
+  <meta
+    name="keywords"
+    content="Country ovens, BULM, built-in ovens, rustic ovens, traditional kitchen appliances, Idroclean, electric multifunction oven, country chic style"
+  />
+  <meta property="og:title" content="Country Built-in Ovens | BULM Italy" />
+  <meta
+    property="og:description"
+    content="Inspired by tradition, the Country Collection by BULM offers timeless built-in ovens with elegant brass details and easy-clean Idroclean function."
+  />
+  <meta
+    property="og:image"
+    content="https://www.elba-cookers.com/wp-content/uploads/2022/03/Country-collection.jpg.webp"
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content="https://bulm.it/collections/collections-ovens/country-ovens"
+  />
+  <link
+    rel="canonical"
+    href="https://bulm.it/collections/collections-ovens/country-ovens"
+  />
+</Helmet>
+ <div>
       <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/Country-collection.jpg.webp" />
             <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
         <div className="flex items-center justify-between">
@@ -94,7 +125,7 @@ const CountryOvens = () => {
 
         <DiscoverTheCollection products={products} />
       </div>
-    </div>
+    </div></>
   );
 };
 

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const Contacts = () => {
   const [formData, setFormData] = useState({
@@ -35,38 +36,56 @@ const Contacts = () => {
   
   return (
     <main className="pt-10">
+      <Helmet>
+  <html lang="en" />
+  <title>Contact BULM Italy – Reach Out for Inquiries and Support</title>
+  <meta
+    name="description"
+    content="Get in touch with BULM Italy for product information, partnership opportunities, or customer support. We're here to assist you."
+  />
+  <meta
+    name="keywords"
+    content="Contact BULM, Italian kitchen appliances, customer support, BULM Italy contact, appliance inquiry"
+  />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bulm.it/contact" />
+
+  {/* Multilingual hreflang */}
+  <link rel="alternate" href="https://bulm.it/contact" hrefLang="en" />
+  <link rel="alternate" href="https://bulm.it/it/contact" hrefLang="it" />
+  <link rel="alternate" href="https://bulm.it/contact" hrefLang="x-default" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Contact BULM Italy – Reach Out Today" />
+  <meta
+    property="og:description"
+    content="Fill out the form to get in touch with BULM Italy. Our team is ready to answer your questions and provide support."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bulm.it/contact" />
+  <meta property="og:image" content="/logo/BULMlogo.svg" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Contact BULM Italy – Reach Out for Support" />
+  <meta
+    name="twitter:description"
+    content="Need assistance? Contact BULM Italy for help with products, services, or partnerships."
+  />
+</Helmet>
+
       <div>
         <div className="pb-10 container section-title flex justify-between items-start">
           <div>
             <p className="mb-10">
-              <strong>Elba Italy S.p.A</strong>
+              <strong>Bulm Italy S.p.A</strong>
             </p>
             <p className="mb-10">
-              Via Fabbian Matteo, 7
-              <br /> 31030 Borso del Grappa (TV) – Italy
-            </p>
-            <p>
-              T. +39 0423 9121
-              <br />
-              F. +39 0423 912440
-              <br />
-              info@elba-cookers.it
+              info@bulm.it
             </p>
           </div>
 
-          <div className="w-full relative md:w-1/2 p-3 max-md:hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.687583305424!2d11.758377315576224!3d45.81870497910672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778f3b7c9b7e7b7%3A0x8c6b7e7c9b7e7b7!2sVia%20Fabbian%20Matteo%2C%207%2C%2031030%20Borso%20del%20Grappa%20TV%2C%20Italy!5e0!3m2!1sen!2sit!4v1750354296114!5m2!1sen!2sit"
-              width="100%"
-              height="300"
-              className="w-11/12 h-[660px] absolute -top-6 right-0"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Elba Italy S.p.A Location"
-            ></iframe>
-          </div>
+    
         </div>
         <div className="section-contact bg-[#30505b] text-white py-10">
           <div className="container flex justify-between items-center">

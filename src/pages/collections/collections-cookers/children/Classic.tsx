@@ -4,6 +4,7 @@ import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
+import { Helmet } from "react-helmet-async";
 
 interface IProduct {
   id: number;
@@ -78,7 +79,76 @@ const products: IProduct[] = [
 const Classic = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <>
+    <Helmet>
+  <html lang="en" />
+  <title>Classic Cookers Collection | BULM Italy – Elegant & Timeless</title>
+  <meta
+    name="description"
+    content="Explore BULM's Classic Collection: timeless freestanding cookers made in Italy. Available in dual fuel, induction, or electric. Quality that lasts generations."
+  />
+  <meta
+    name="keywords"
+    content="Classic cookers, Italian freestanding cookers, induction cookers, dual fuel cookers, electric cookers, timeless kitchen appliances, BULM Italy"
+  />
+  <meta name="robots" content="index, follow" />
+  <link
+    rel="canonical"
+    href="https://bulm.it/collections/collections-cookers/classic"
+  />
+
+  {/* hreflang for multilingual SEO */}
+  <link
+    rel="alternate"
+    href="https://bulm.it/collections/collections-cookers/classic"
+    hrefLang="en"
+  />
+  <link
+    rel="alternate"
+    href="https://bulm.it/it/collections/collections-cookers/classic"
+    hrefLang="it"
+  />
+  <link
+    rel="alternate"
+    href="https://bulm.it/collections/collections-cookers/classic"
+    hrefLang="x-default"
+  />
+
+  {/* Open Graph */}
+  <meta
+    property="og:title"
+    content="Classic Cookers Collection | BULM Italy"
+  />
+  <meta
+    property="og:description"
+    content="Timeless Italian design in BULM's Classic Collection of freestanding cookers. Tradition and performance in perfect balance."
+  />
+  <meta
+    property="og:image"
+    content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-collection-range-cookers-made-in-italy.jpg.webp"
+  />
+  <meta
+    property="og:url"
+    content="https://bulm.it/collections/collections-cookers/classic"
+  />
+  <meta property="og:type" content="website" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content="Classic Cookers Collection | BULM Italy"
+  />
+  <meta
+    name="twitter:description"
+    content="Explore timeless elegance with BULM's Classic Collection. Induction, electric, or dual-fuel cookers made in Italy."
+  />
+  <meta
+    name="twitter:image"
+    content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-collection-range-cookers-made-in-italy.jpg.webp"
+  />
+</Helmet>
+<div>
       <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-collection-range-cookers-made-in-italy.jpg.webp" />
             <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
         <div className="flex items-center justify-between">
@@ -111,6 +181,8 @@ const Classic = () => {
         <DiscoverTheCollection products={products} />
       </div>
     </div>
+    </>
+    
   );
 };
 

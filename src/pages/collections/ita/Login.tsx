@@ -25,10 +25,10 @@ const Login = () => {
 
       <div className="text-center max-w-2xl mb-8">
         <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">
-          Welcome to Elba Service Area
+          Welcome to BULM Service Area
         </p>
         <p className="text-sm sm:text-base text-gray-300">
-          This is a restricted website for authorized Dealers and Service Companies.
+          This is a restricted section for authorized Dealers and Service Partners.
         </p>
       </div>
 
@@ -41,7 +41,7 @@ const Login = () => {
               <input
                 type="email"
                 placeholder="Email"
-                {...register("email", { required: "Dato necessario" })}
+                {...register("email", { required: "Email is required" })}
                 className={`w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                   errors.email ? "border-red-500 bg-red-100" : "border-gray-300"
                 }`}
@@ -55,7 +55,7 @@ const Login = () => {
               <input
                 type="password"
                 placeholder="Password"
-                {...register("password", { required: "Dato necessario" })}
+                {...register("password", { required: "Password is required" })}
                 className={`w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                   errors.password ? "border-red-500 bg-red-100" : "border-gray-300"
                 }`}
@@ -73,7 +73,7 @@ const Login = () => {
                 LOGIN
               </button>
               <a href="#" className="text-sm underline text-blue-600 hover:text-blue-800">
-                Recupero password
+                Forgot password?
               </a>
             </div>
           </form>
@@ -81,18 +81,19 @@ const Login = () => {
 
         {/* Right Info Panel */}
         <div className="w-full md:w-1/2 p-6 sm:p-8 bg-[#0e223c] text-white">
-          <h2 className="uppercase text-sm font-bold mb-4">Non ancora registrato?</h2>
+          <h2 className="uppercase text-sm font-bold mb-4">Not registered yet?</h2>
           <p className="mb-2 text-sm sm:text-base">
-            Per accedere nell'area riservata, devi essere un cliente della Elba Italy Spa.
+            To access the reserved area, you must be a registered BULM dealer or service partner.
           </p>
           <p className="mb-4 text-sm sm:text-base">
-            Per la registrazione e ricevere le credenziali,{" "}
+            To request access and receive credentials,{" "}
             <a href="#" className="underline text-blue-300 hover:text-blue-500">
-              clicca qui
+              click here
             </a>
+            .
           </p>
           <p className="text-xs sm:text-sm text-gray-400">
-            Elba Italy Spa si riserva il diritto di aggiornare e modificare le informazioni senza preavviso.
+            BULM reserves the right to update or modify information without prior notice.
           </p>
         </div>
       </div>

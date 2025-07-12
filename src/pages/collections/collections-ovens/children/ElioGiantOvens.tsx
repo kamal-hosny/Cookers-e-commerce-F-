@@ -4,6 +4,7 @@ import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
+import { Helmet } from "react-helmet-async";
 
 interface IProduct {
   id: number;
@@ -70,7 +71,38 @@ const products: IProduct[] = [
 const ElioGiantOvens = () => {
   const navigate = useNavigate();
   return (
-    <div>
+<>
+<Helmet>
+  <title>Elio Giant Built-in Ovens | BULM Italy</title>
+  <meta
+    name="description"
+    content="Discover BULM’s Elio Giant built-in ovens — 90cm gas or electric multifunction ovens with massive 141L capacity, dual fans, rotisserie, and advanced features for seamless cooking."
+  />
+  <meta
+    name="keywords"
+    content="Elio Giant ovens, BULM ovens, built-in ovens, 90cm ovens, electric multifunction oven, gas oven with fan, rotisserie oven, Italian ovens"
+  />
+  <meta property="og:title" content="Elio Giant Built-in Ovens | BULM Italy" />
+  <meta
+    property="og:description"
+    content="Experience no space limits with BULM Elio Giant ovens. Choose between powerful gas or multifunction electric ovens for high-performance cooking."
+  />
+  <meta
+    property="og:image"
+    content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-giant-collection.jpg.webp"
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content="https://bulm.it/collections/collections-ovens/elio-giant-ovens"
+  />
+  <link
+    rel="canonical"
+    href="https://bulm.it/collections/collections-ovens/elio-giant-ovens"
+  />
+</Helmet>
+
+<div>
       <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-giant-collection.jpg.webp" />
             <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
         <div className="flex items-center justify-between">
@@ -99,6 +131,7 @@ const ElioGiantOvens = () => {
         <DiscoverTheCollection products={products} />
       </div>
     </div>
+</>
   );
 };
 

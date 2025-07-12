@@ -40,7 +40,7 @@ const Logo = ({ isScrolled }: LogoProps) => {
   return (
     <Link
       to="/"
-      className={`flex items-center gap-3 md:gap-8 ${footerClasses}`}
+      className={`flex items-center gap-1 md:gap-8 ${footerClasses}`}
     >
       <div className="flex flex-col items-center transition-all duration-300 ease-in-out">
         <svg
@@ -68,9 +68,9 @@ const Logo = ({ isScrolled }: LogoProps) => {
           className={`text-[10px] md:text-xs capitalize mt-1 font-medium transition-all duration-300 ${
             isScrolled ? "scale-90" : "scale-100"
           }`}
-          style={{ letterSpacing: "0.4em" }}
+          style={{ letterSpacing: "0.29em" }}
         >
-          Italian Cuisine
+          SKILL FOR COOKING
         </p>
       </div>
 

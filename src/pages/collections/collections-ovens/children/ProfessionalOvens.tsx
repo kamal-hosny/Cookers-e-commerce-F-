@@ -4,6 +4,7 @@ import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
+import { Helmet } from "react-helmet-async";
 
 interface IProduct {
   id: number;
@@ -94,38 +95,74 @@ const products: IProduct[] = [
 const ProfessionalOvens = () => {
   const navigate = useNavigate();
   return (
-    <div>
-      <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2023/01/elba-professional-ovens-collection-2.jpg.webp" />
-            <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
-        <div className="flex items-center justify-between">
-          <Breadcrumbs
-            linkColor={"#000000"}
-            activeColor={"#000000"}
-            separatorColor={"#000000"}
-          />
-          <button
-            onClick={() => navigate(-1)}
-            className="text-xl font-bold cursor-pointer"
-          >
-            Back_
-          </button>
+    <>
+      <Helmet>
+        <title>Professional Built-in Ovens | BULM Italy</title>
+        <meta
+          name="description"
+          content="Explore BULM's Professional built-in ovens collection – high-performance ovens with premium features like Easy Steam, Idroclean, Pizza300°C, and Leavening 40°C."
+        />
+        <meta
+          name="keywords"
+          content="Professional ovens, BULM built-in ovens, electric multifunction oven, Easy Steam, Idroclean, Pizza 300°C, Leavening 40°C, large oven cavity, Italian kitchen appliances"
+        />
+        <meta
+          property="og:title"
+          content="Professional Built-in Ovens | BULM Italy"
+        />
+        <meta
+          property="og:description"
+          content="Experience BULM’s Professional ovens – built for power, precision, and performance. Discover advanced cooking features for your modern kitchen."
+        />
+        <meta
+          property="og:image"
+          content="https://www.elba-cookers.com/wp-content/uploads/2023/01/elba-professional-ovens-collection-2.jpg.webp"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://bulm.it/collections/collections-ovens/professional-ovens"
+        />
+        <link
+          rel="canonical"
+          href="https://bulm.it/collections/collections-ovens/professional-ovens"
+        />
+      </Helmet>
+
+      <div>
+        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2023/01/elba-professional-ovens-collection-2.jpg.webp" />
+        <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
+          <div className="flex items-center justify-between">
+            <Breadcrumbs
+              linkColor={"#000000"}
+              activeColor={"#000000"}
+              separatorColor={"#000000"}
+            />
+            <button
+              onClick={() => navigate(-1)}
+              className="text-xl font-bold cursor-pointer"
+            >
+              Back_
+            </button>
+          </div>
+
+          <MainTitleCollections title="Professional Collection. Professional performance for your kitchen">
+            <p>
+              The <strong>Professional collection</strong> offers professional
+              performances for your kitchen at home. Its distinctive style
+              features elegant knobs and ergonomically designed handles,
+              capacity, flexibility and usability with dedicated special
+              functions such as
+              <strong> Easy Steam</strong> and <strong>Idroclean</strong>.
+            </p>
+          </MainTitleCollections>
+
+          <BlocksGap sections={sections} />
+
+          <DiscoverTheCollection products={products} />
         </div>
-
-        <MainTitleCollections title="Professional Collection. Professional performance for your kitchen">
-          <p>
-            The <strong>Professional collection</strong> offers professional
-            performances for your kitchen at home. Its distinctive style
-            features elegant knobs and ergonomically designed handles, capacity,
-            flexibility and usability with dedicated special functions such as
-            <strong> Easy Steam</strong> and <strong>Idroclean</strong>.
-          </p>
-        </MainTitleCollections>
-
-        <BlocksGap sections={sections} />
-
-        <DiscoverTheCollection products={products} />
       </div>
-    </div>
+    </>
   );
 };
 

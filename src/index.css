@@ -18,5 +18,7 @@
 body {
   color: #1d1d1b;
   width: 100vw;
+}
+html, body {
   overflow-x: hidden;
 }

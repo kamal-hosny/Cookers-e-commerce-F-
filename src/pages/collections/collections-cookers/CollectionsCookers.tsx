@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import CollectionsLayout from "../../../layouts/CollectionsLayout";
 
 const sections = [
@@ -45,6 +46,52 @@ const sections = [
 
 const CollectionsCookers = () => {
   return (
+    <>
+    <Helmet>
+  <html lang="en" />
+  <title>Cookers Collections | BULM Italy – Retro, Modern, and Timeless Design</title>
+  <meta
+    name="description"
+    content="Discover BULM's exclusive cookers collections: Vintage, Excellence, Fusion, and Classic. Combining Italian heritage, innovation, and elegant design."
+  />
+  <meta
+    name="keywords"
+    content="BULM cookers, vintage cookers, professional gas cookers, Italian freestanding cookers, retro kitchen design, built-in ovens, classic cookers"
+  />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bulm.it/collections/collections-cookers" />
+
+  {/* hreflang for multilingual SEO */}
+  <link rel="alternate" href="https://bulm.it/collections/collections-cookers" hrefLang="en" />
+  <link rel="alternate" href="https://bulm.it/it/collections/collections-cookers" hrefLang="it" />
+  <link rel="alternate" href="https://bulm.it/collections/collections-cookers" hrefLang="x-default" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Cookers Collections | BULM Italy" />
+  <meta
+    property="og:description"
+    content="Explore BULM's signature cookers: from elegant vintage to professional excellence. Italian engineering with stylish performance."
+  />
+  <meta
+    property="og:image"
+    content="https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-vintage-collection-freestanding-cookers.jpg.webp"
+  />
+  <meta property="og:url" content="https://bulm.it/collections/collections-cookers" />
+  <meta property="og:type" content="website" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Cookers Collections | BULM Italy" />
+  <meta
+    name="twitter:description"
+    content="Vintage, Fusion, Excellence, and Classic cookers — crafted for beauty and performance in every kitchen."
+  />
+  <meta
+    name="twitter:image"
+    content="https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-vintage-collection-freestanding-cookers.jpg.webp"
+  />
+</Helmet>
+
     <CollectionsLayout
       title="Built-in"
       subtitle="ovens. Distinctive"
@@ -52,6 +99,7 @@ const CollectionsCookers = () => {
       sections={sections}
       bgColor="#30505b"
     />
+    </>
   );
 };
 

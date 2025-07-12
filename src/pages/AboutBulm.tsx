@@ -8,25 +8,25 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const sections = [
   {
     id: 1,
-    title: "Style, design and technology: all is made in Italy",
+    title: "Style, Design and Technology — Made in Italy",
     description:
-      "We have chosen to maintain all manufacturing stages in our country in order to benefit from the added value arising from a combination of working procedures, creative processes, know-how and expertise.",
+      "All our production remains in Italy, combining advanced manufacturing techniques with local expertise, creativity, and craftsmanship. This is the true essence of Italian quality.",
     image:
       "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-produzione-1.jpg.webp",
   },
   {
     id: 2,
-    title: "54.000 mq production plant in the heart of Veneto",
+    title: "54,000 m² Production Site in Northern Italy",
     description:
-      "Production totally concentrated in the Veneto region, in north-east of Italy, guarantees care in the details, quality of materials and technologies more and more innovative.",
+      "Having our operations centralized in the northeast of Italy allows for tight quality control, innovation, and dedication to excellence at every stage of production.",
     image:
       "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-produzione-2.jpg.webp",
   },
   {
     id: 3,
-    title: "In every stage, high-quality standards",
+    title: "Commitment to High-Quality Standards",
     description:
-      "According to our philosophy, “Made in Italy” does not mean only assembly within the Italian territory. It is also the selection of components, both functional and aesthetical, deriving from certified partner companies, as we are, following the high-quality standards required by the certification UNI ISO 9001-2008.",
+      "At BULM, 'Made in Italy' means more than assembly — it reflects a full ecosystem of quality-driven component sourcing, certified partners, and adherence to the strictest European standards.",
     image:
       "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-produzione-3.jpg.webp",
   },
@@ -41,10 +41,9 @@ const AboutBulm = () => {
 
       <div className="mx-auto max-w-10/12 px-4">
         <MainTitleCollections title="Since 1950 we are sharing our history, achievements, strengths and know-how all over the world">
-          <p>
-            Our expertise and flexibility in the manufacturing process in{" "}
-            <strong>cooking appliances</strong> have contributed to our
-            expansion to over 60 different markets worldwide.
+        <p>
+            Our deep experience and production flexibility in{" "}
+            <strong>cooking appliances</strong> have empowered us to grow across more than 60 global markets.
           </p>
         </MainTitleCollections>
       </div>
@@ -64,12 +63,10 @@ const AboutBulm = () => {
       <div className="!bg-[#1d1d1b] text-white py-20">
         <div className="container relative z-5 space-y-12">
           <div className="mx-auto max-w-10/12 px-4">
-            <p className="text-4xl font-bold mb-8">Totally made in Italy</p>
+            <p className="text-4xl font-bold mb-8">Entirely made in Italy</p>
             <p>
-              What is the secret of our success? The Italian style that the
-              world envies us and that we do we have been giving our products
-              for seventy years. The Italian style is not only transpired in the
-              design but it comes also declined in technologies.
+            What's the secret behind our success? It's the Italian style — admired worldwide — that we infuse into every product we make.
+              This style goes beyond aesthetics; it's deeply embedded in our technology, design, and manufacturing values.
             </p>
           </div>
 
@@ -82,13 +79,9 @@ const AboutBulm = () => {
         <div className="about-main-title space-y-20 text-center mx-auto max-w-10/12 px-4">
           <p className="text-4xl font-bold">In the heart of your kitchen</p>
           <p>
-            Warmth and hospitality, entertainment: this is even more than
-            kitchen. It is a place of conviviality and alchemical
-            experimentation, a space to give and a space to receive hospitality.
-            For more than seventy years, Elba has been bringing life to the
-            home. We understand the importance of home, family, friendship and
-            good food. This is why we've created an Elba cooking appliance for
-            every need of yours.
+          More than a cooking space, the kitchen is a place of warmth, creativity, and togetherness.
+            For over four decades, BULM has brought life into homes. We believe in the power of good food, family, and design —
+            which is why every BULM appliance is designed to meet your unique culinary needs.
           </p>
         </div>
 
@@ -136,16 +129,10 @@ const AboutBulm = () => {
         <div className="about-last-title space-y-6 text-start mx-auto max-w-10/12 px-4">
           <p className="text-3xl font-bold">Quality guaranteed</p>
           <p>
-            Since 1979, Bulm has been committed to excellence in every stage of
-            its manufacturing process. Each step is guided by a strict system of
-            procedures, testing, and documentation to ensure consistent quality
-            across all operations. Our dedication to quality was officially
-            recognized in September 1998 with the achievement of the ISO 9001
-            certification. Even before that, our internal system had complied
-            with CE mark requirements since 1995. To stay ahead, we updated our
-            quality management to meet ISO 9001:2008 standards in 2009 and then
-            ISO 9001:2015 in 2018. For over four decades, quality has been more
-            than a standard at Bulm — it's our legacy.
+          Since 1979, BULM has prioritized excellence in every step of its production. Every process is guided by strict testing,
+            quality controls, and documentation. We proudly earned ISO 9001 certification in 1998, having already met CE mark
+            standards since 1995. Our quality system evolved with ISO 9001:2008 and ISO 9001:2015 updates — a testament to our legacy
+            of trust and performance.
           </p>
         </div>
       </div>

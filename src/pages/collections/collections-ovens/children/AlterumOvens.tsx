@@ -4,6 +4,7 @@ import BlocksGap from "../../../../components/common/BlocksGap";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
 import BoxesFooter from "../../../../components/common/BoxesFooter";
+import { Helmet } from "react-helmet-async";
 
 // interface IProduct {
 //   id: number;
@@ -39,6 +40,35 @@ const sections = [
 const AlterumOvens = () => {
   const navigate = useNavigate();
   return (
+    <><Helmet>
+    <title>Alterum Ovens | BULM Italy</title>
+    <meta
+      name="description"
+      content="Discover the Alterum built-in oven collection by BULM — minimalist design, exclusive style, and smart features like Easy Steam and Idroclean for clean, efficient cooking."
+    />
+    <meta
+      name="keywords"
+      content="Alterum, BULM, Built-in Ovens, Minimalist Design, Easy Steam, Idroclean, Italian Kitchen, Premium Ovens, Modern Appliances"
+    />
+    <meta property="og:title" content="Alterum Ovens | BULM Italy" />
+    <meta
+      property="og:description"
+      content="Explore BULM’s Alterum built-in ovens — elegant, minimalist, and equipped with innovative features for a smarter kitchen experience."
+    />
+    <meta
+      property="og:image"
+      content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-alterum-collection-oven.jpg.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://bulm.it/collections/collections-ovens/alterum-ovens"
+    />
+    <link
+      rel="canonical"
+      href="https://bulm.it/collections/collections-ovens/alterum-ovens"
+    />
+  </Helmet>
     <div>
       <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-alterum-collection-oven.jpg.webp" />
             <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
@@ -64,7 +94,7 @@ const AlterumOvens = () => {
 
        <BoxesFooter />
       </div>
-    </div>
+    </div></>
   );
 };
 

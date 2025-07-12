@@ -17,9 +17,7 @@ const BannerLanding = () => {
           {/* Description */}
           <div className="text-center md:text-left max-w-lg">
             <p className="text-sm sm:text-base leading-relaxed text-[#e3eaec]">
-              Proudly made in Italy since 1950, Elba freestanding cookers, hobs,
-              and ovens combine expert craftsmanship with innovative technology,
-              sophisticated design, and uncompromising quality.
+            Crafted with precision since 1979, BULM cookers, hobs, and ovens bring together Italian elegance, cutting-edge technology, and unmatched performance to elevate every kitchen experience.
             </p>
           </div>
         </div>
@@ -42,7 +40,7 @@ const BannerLanding = () => {
                 +45 Years
               </div>
               <div className="text-sm text-[#30505b]">
-                of Trusted Italian Craftsmanship
+              of Italian Craftsmanship & Innovation
               </div>
             </div>
           </div>

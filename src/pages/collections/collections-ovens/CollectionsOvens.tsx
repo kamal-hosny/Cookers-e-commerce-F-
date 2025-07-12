@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import CollectionsLayout from "../../../layouts/CollectionsLayout";
 
 const sections = [
@@ -56,14 +57,43 @@ const sections = [
 
 const CollectionsOvens = () => {
   return (
+   <>
+   <Helmet>
+  <title>Built-in Ovens | BULM Italy</title>
+  <meta
+    name="description"
+    content="Discover BULM's built-in ovens: a perfect blend of Italian design and advanced cooking technology. Available in gas or electric, with features like Easy Steam, fan cooking, and more."
+  />
+  <meta
+    name="keywords"
+    content="BULM, Built-in Ovens, Italian Ovens, Gas Oven, Electric Oven, Easy Steam, 60cm Oven, 90cm Oven, Modern Kitchen Appliances"
+  />
+  <meta property="og:title" content="Built-in Ovens | BULM Italy" />
+  <meta
+    property="og:description"
+    content="Discover BULM's built-in ovens: premium design, advanced features, and Italian craftsmanship."
+  />
+  <meta
+    property="og:image"
+    content="https://www.elba-cookers.com/wp-content/uploads/2022/03/27085R15_900x600.jpg.webp"
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content="https://bulm.it/collections/collections-ovens"
+  />
+  <link rel="canonical" href="https://bulm.it/collections/collections-ovens" />
+</Helmet>
+
     <CollectionsLayout
       title="Built-in"
-      subtitle="ovens. Distinctive Italian design and technology"
-      description="Exclusive aesthetics, superb quality and design are the ingredients that make Elba built-in ovens unique. With their iconic design, Elba collections offer a refined blend of advanced cooking features. Elba models, available in two widths, 60cm and 90cm, are gas or electric multifunction, offering a safe and efficient way to cook with special function such as Easy Steam, true fan cooking and many others."
+      subtitle="Where Italian craftsmanship meets modern innovation"
+      description="Discover the elegance of BULM built-in ovens — where iconic Italian design meets advanced cooking technology. Available in both 60cm and 90cm formats, our ovens offer gas or electric multifunction options and feature innovations such as Easy Steam, true fan cooking, and more."
       sections={sections}
       bgColor="#30505b"
       textColor="#ffffff"
     />
+   </>
   );
 };
 

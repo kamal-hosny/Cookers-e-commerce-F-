@@ -4,6 +4,7 @@ import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
+import { Helmet } from "react-helmet-async";
 
 interface IProduct {
   id: number;
@@ -94,39 +95,112 @@ const products: IProduct[] = [
 const ElioHobs = () => {
   const navigate = useNavigate();
   return (
-    <div>
-      <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-gas-induction-hobs.jpg.webp" />
-            <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
-        <div className="flex items-center justify-between">
-          <Breadcrumbs
-            linkColor={"#000000"}
-            activeColor={"#000000"}
-            separatorColor={"#000000"}
-          />
-          <button
-            onClick={() => navigate(-1)}
-            className="text-xl font-bold cursor-pointer"
-          >
-            Back_
-          </button>
+    <>
+      <Helmet>
+        <html lang="en" />
+        <title>
+          BULM Elio Hobs Collection | Gas, Glass, Vitroceramic & Induction
+        </title>
+        <meta
+          name="description"
+          content="Explore BULM's Elio Collection of hobs — premium gas, gas-on-glass, induction and vitroceramic hobs designed with safety, performance, and Italian style."
+        />
+        <meta
+          name="keywords"
+          content="Elio hobs, gas hobs, induction hobs, gas on glass hob, vitroceramic hob, BULM Elio collection, kitchen appliances, built-in hobs"
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://bulm.it/collections/collections-hobs/elio"
+        />
+
+        {/* hreflang for multilingual SEO */}
+        <link
+          rel="alternate"
+          href="https://bulm.it/collections/collections-hobs/elio"
+          hrefLang="en"
+        />
+        <link
+          rel="alternate"
+          href="https://bulm.it/it/collections/collections-hobs/elio"
+          hrefLang="it"
+        />
+        <link
+          rel="alternate"
+          href="https://bulm.it/collections/collections-hobs/elio"
+          hrefLang="x-default"
+        />
+
+        {/* Open Graph (Facebook, LinkedIn) */}
+        <meta
+          property="og:title"
+          content="BULM Elio Hobs Collection | Gas, Glass, Vitroceramic & Induction"
+        />
+        <meta
+          property="og:description"
+          content="Versatile, durable, and beautifully designed — discover BULM Elio hobs in gas, glass, vitroceramic, and induction formats."
+        />
+        <meta
+          property="og:image"
+          content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-gas-induction-hobs.jpg.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://bulm.it/collections/collections-hobs/elio"
+        />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="BULM Elio Hobs Collection | Gas, Glass, Vitroceramic & Induction"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover the latest from BULM's Elio hob series — combining high-end cooking performance with refined Italian design."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-gas-induction-hobs.jpg.webp"
+        />
+      </Helmet>
+
+      <div>
+        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-gas-induction-hobs.jpg.webp" />
+        <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
+          <div className="flex items-center justify-between">
+            <Breadcrumbs
+              linkColor={"#000000"}
+              activeColor={"#000000"}
+              separatorColor={"#000000"}
+            />
+            <button
+              onClick={() => navigate(-1)}
+              className="text-xl font-bold cursor-pointer"
+            >
+              Back_
+            </button>
+          </div>
+
+          <MainTitleCollections title="Elio Collection">
+            <p>
+              All <strong>Elio hobs</strong> are made with top-quality materials
+              and therefore always give above standard results. All are equipped
+              with features for increased safety and performance. There are{" "}
+              <strong>gas on metal</strong>, <strong>gas on glass</strong> and{" "}
+              <strong>induction hobs</strong>, with four or more burners and
+              even smaller sized or traditional-looking hobs.
+            </p>
+          </MainTitleCollections>
+
+          <BlocksGap sections={sections} />
+
+          <DiscoverTheCollection products={products} />
         </div>
-
-        <MainTitleCollections title="Elio Collection">
-          <p>
-            All <strong>Elio hobs</strong> are made with top-quality materials
-            and therefore always give above standard results. All are equipped
-            with features for increased safety and performance. There are{" "}
-            <strong>gas on metal</strong>, <strong>gas on glass</strong> and{" "}
-            <strong>induction hobs</strong>, with four or more burners and even
-            smaller sized or traditional-looking hobs.
-          </p>
-        </MainTitleCollections>
-
-        <BlocksGap sections={sections} />
-
-        <DiscoverTheCollection products={products} />
       </div>
-    </div>
+    </>
   );
 };
 
