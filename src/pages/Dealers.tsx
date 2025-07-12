@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
