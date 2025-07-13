@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 const RightPin = () => {
   const links = [
     {
-      name: "catalogues",
-      href: "/catalogues",
-    },
-    {
       name: "jobs",
       href: "/",
     },

@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
@@ -16,80 +17,79 @@ interface IProduct {
   collections?: string;
 }
 
-const sections = [
-  {
-    id: 1,
-    title: "Nickel finishing knobs with inner bezel",
-    description:
-      "Nickel finishing knobs with inner bezel have a functional and practical style, chosen for their easiness of use.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-knobs.jpg.webp",
-  },
-  {
-    id: 2,
-    title: "Enamelled steel pan supports",
-    description:
-      "Enamelled steel pan supports design gives a seamless and smooth appearance that allows for easy cleaning.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-pan-supports.jpg.webp",
-  },
-  {
-    id: 3,
-    title: "Essential style handle",
-    description:
-      "Metal handle with brushed finishing on all the Classic Collection Cookers.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-handle.jpg.webp",
-  },
-];
-
-const products: IProduct[] = [
-  {
-    id: 1,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-664-im.png.webp",
-    title: "Classic single cavity induction freestanding cooker",
-    code: "CXX 664 IM",
-  },
-  {
-    id: 2,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-965-bm.png.webp",
-    title: "Classic single cavity dual fuel freestanding cooker",
-    code: "CXX 965 BM",
-  },
-  {
-    id: 3,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-965-vm.png.webp",
-    title: "Classic single cavity electric freestanding cooker",
-    code: "CXX 965 VM",
-  },
-  {
-    id: 4,
-    type: "special",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2023/06/04_Linea_Classica_1_v2_500x700_new.jpg.webp",
-    title: "Find out more",
-    link: "/home",
-    collections: "Classic",
-  },
-];
-
 const Classic = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
+
+  const sections = [
+    {
+      id: 1,
+      title: t("collectionsCookers.classic.sections.0.title"),
+      description: t("collectionsCookers.classic.sections.0.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-knobs.jpg.webp",
+    },
+    {
+      id: 2,
+      title: t("collectionsCookers.classic.sections.1.title"),
+      description: t("collectionsCookers.classic.sections.1.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-pan-supports.jpg.webp",
+    },
+    {
+      id: 3,
+      title: t("collectionsCookers.classic.sections.2.title"),
+      description: t("collectionsCookers.classic.sections.2.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-handle.jpg.webp",
+    },
+  ];
+
+  const products: IProduct[] = [
+    {
+      id: 1,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-664-im.png.webp",
+      title: t("collectionsCookers.classic.products.0.title"),
+      code: t("collectionsCookers.classic.products.0.code"),
+    },
+    {
+      id: 2,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-965-bm.png.webp",
+      title: t("collectionsCookers.classic.products.1.title"),
+      code: t("collectionsCookers.classic.products.1.code"),
+    },
+    {
+      id: 3,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-965-vm.png.webp",
+      title: t("collectionsCookers.classic.products.2.title"),
+      code: t("collectionsCookers.classic.products.2.code"),
+    },
+    {
+      id: 4,
+      type: "special",
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2023/06/04_Linea_Classica_1_v2_500x700_new.jpg.webp",
+      title: t("collectionsCookers.classic.products.3.title"),
+      link: "/home",
+      collections: "Classic",
+    },
+  ];
+
   return (
     <>
     <Helmet>
   <html lang="en" />
-  <title>Classic Cookers Collection | BULM Italy – Elegant & Timeless</title>
+  <title>{t("collectionsCookers.classic.meta.title")}</title>
   <meta
     name="description"
-    content="Explore BULM's Classic Collection: timeless freestanding cookers made in Italy. Available in dual fuel, induction, or electric. Quality that lasts generations."
+    content={t("collectionsCookers.classic.meta.description")}
   />
   <meta
     name="keywords"
-    content="Classic cookers, Italian freestanding cookers, induction cookers, dual fuel cookers, electric cookers, timeless kitchen appliances, BULM Italy"
+    content={t("collectionsCookers.classic.meta.keywords")}
   />
   <meta name="robots" content="index, follow" />
   <link
@@ -117,11 +117,11 @@ const Classic = () => {
   {/* Open Graph */}
   <meta
     property="og:title"
-    content="Classic Cookers Collection | BULM Italy"
+    content={t("collectionsCookers.classic.meta.ogTitle")}
   />
   <meta
     property="og:description"
-    content="Timeless Italian design in BULM's Classic Collection of freestanding cookers. Tradition and performance in perfect balance."
+    content={t("collectionsCookers.classic.meta.ogDescription")}
   />
   <meta
     property="og:image"
@@ -137,11 +137,11 @@ const Classic = () => {
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="Classic Cookers Collection | BULM Italy"
+    content={t("collectionsCookers.classic.meta.twitterTitle")}
   />
   <meta
     name="twitter:description"
-    content="Explore timeless elegance with BULM's Classic Collection. Induction, electric, or dual-fuel cookers made in Italy."
+    content={t("collectionsCookers.classic.meta.twitterDescription")}
   />
   <meta
     name="twitter:image"
@@ -161,19 +161,12 @@ const Classic = () => {
             onClick={() => navigate(-1)}
             className="text-xl font-bold cursor-pointer"
           >
-            Back_
+            {t("collectionsCookers.common.back")}
           </button>
         </div>
 
-        <MainTitleCollections title="Classic Collection. Beyond all passing fashion trends">
-          <p>
-            The <strong>Classic Collection</strong> offers a durable and safe
-            solution for your everyday cooking needs.
-            <br /> The quality of the materials and the traditional made in
-            Italy crafting skills are combined with a sober and simple style.
-            <br /> <strong>Single cavity cookers</strong> are available in two
-            different widths, 60cm and 90cm wide.
-          </p>
+        <MainTitleCollections title={t("collectionsCookers.classic.title")}>
+          <p dangerouslySetInnerHTML={{ __html: t("collectionsCookers.classic.description") }} />
         </MainTitleCollections>
 
         <BlocksGap sections={sections} />

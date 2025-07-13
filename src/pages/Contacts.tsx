@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 
 const Contacts = () => {
+  const { t, i18n } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     surname: "",
@@ -27,66 +29,44 @@ const Contacts = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.privacy) {
-      alert("Please agree to the privacy policy.");
+      alert(t("contact.form.privacyError"));
       return;
     }
     console.log("Form submitted:", formData);
-    // Add API call or further form handling here
   };
-  
+
   return (
     <main className="pt-10">
       <Helmet>
-  <html lang="en" />
-  <title>Contact BULM Italy – Reach Out for Inquiries and Support</title>
-  <meta
-    name="description"
-    content="Get in touch with BULM Italy for product information, partnership opportunities, or customer support. We're here to assist you."
-  />
-  <meta
-    name="keywords"
-    content="Contact BULM, Italian kitchen appliances, customer support, BULM Italy contact, appliance inquiry"
-  />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://bulm.it/contact" />
-
-  {/* Multilingual hreflang */}
-  <link rel="alternate" href="https://bulm.it/contact" hrefLang="en" />
-  <link rel="alternate" href="https://bulm.it/it/contact" hrefLang="it" />
-  <link rel="alternate" href="https://bulm.it/contact" hrefLang="x-default" />
-
-  {/* Open Graph */}
-  <meta property="og:title" content="Contact BULM Italy – Reach Out Today" />
-  <meta
-    property="og:description"
-    content="Fill out the form to get in touch with BULM Italy. Our team is ready to answer your questions and provide support."
-  />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bulm.it/contact" />
-  <meta property="og:image" content="/logo/BULMlogo.svg" />
-
-  {/* Twitter */}
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Contact BULM Italy – Reach Out for Support" />
-  <meta
-    name="twitter:description"
-    content="Need assistance? Contact BULM Italy for help with products, services, or partnerships."
-  />
-</Helmet>
+        <html lang={i18n.language} />
+        <title>{t("contact.meta.title")}</title>
+        <meta name="description" content={t("contact.meta.description")} />
+        <meta name="keywords" content={t("contact.meta.keywords")} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://bulm.it/contact" />
+        <link rel="alternate" href="https://bulm.it/contact" hrefLang="en" />
+        <link rel="alternate" href="https://bulm.it/it/contact" hrefLang="it" />
+        <link rel="alternate" href="https://bulm.it/contact" hrefLang="x-default" />
+        <meta property="og:title" content={t("contact.meta.ogTitle")} />
+        <meta property="og:description" content={t("contact.meta.ogDescription")} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bulm.it/contact" />
+        <meta property="og:image" content="/logo/BULMlogo.svg" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={t("contact.meta.twitterTitle")} />
+        <meta name="twitter:description" content={t("contact.meta.twitterDescription")} />
+      </Helmet>
 
       <div>
         <div className="pb-10 container section-title flex justify-between items-start">
           <div>
             <p className="mb-10">
-              <strong>Bulm Italy S.p.A</strong>
+              <strong>{t("contact.company.title")}</strong>
             </p>
-            <p className="mb-10">
-              info@bulm.it
-            </p>
+            <p className="mb-10">{t("contact.company.email")}</p>
           </div>
-
-    
         </div>
+
         <div className="section-contact bg-[#30505b] text-white py-10">
           <div className="container flex justify-between items-center">
             <form className="flex-1 space-y-4" onSubmit={handleSubmit}>
@@ -94,7 +74,7 @@ const Contacts = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Name"
+                  placeholder={t("contact.form.name")}
                   className="border-white placeholder:text-white text-white border p-3 outline-none"
                   value={formData.name}
                   onChange={handleChange}
@@ -103,7 +83,7 @@ const Contacts = () => {
                 <input
                   type="text"
                   name="surname"
-                  placeholder="Surname"
+                  placeholder={t("contact.form.surname")}
                   className="border-white placeholder:text-white text-white border p-3 outline-none"
                   value={formData.surname}
                   onChange={handleChange}
@@ -112,7 +92,7 @@ const Contacts = () => {
                 <input
                   type="text"
                   name="company"
-                  placeholder="Company"
+                  placeholder={t("contact.form.company")}
                   className="border-white placeholder:text-white text-white border p-3 outline-none"
                   value={formData.company}
                   onChange={handleChange}
@@ -120,7 +100,7 @@ const Contacts = () => {
                 <input
                   type="text"
                   name="role"
-                  placeholder="Role"
+                  placeholder={t("contact.form.role")}
                   className="border-white placeholder:text-white text-white border p-3 outline-none"
                   value={formData.role}
                   onChange={handleChange}
@@ -128,7 +108,7 @@ const Contacts = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="Email"
+                  placeholder={t("contact.form.email")}
                   className="border-white placeholder:text-white text-white border p-3 outline-none"
                   value={formData.email}
                   onChange={handleChange}
@@ -137,20 +117,22 @@ const Contacts = () => {
                 <input
                   type="tel"
                   name="phone"
-                  placeholder="Phone"
+                  placeholder={t("contact.form.phone")}
                   className="border-white placeholder:text-white text-white border p-3 outline-none"
                   value={formData.phone}
                   onChange={handleChange}
                 />
               </div>
+
               <textarea
                 name="message"
-                placeholder="Message"
+                placeholder={t("contact.form.message")}
                 className="border-white placeholder:text-white text-white border p-3 outline-none w-full min-h-28"
                 value={formData.message}
                 onChange={handleChange}
                 required
               ></textarea>
+
               <div className="flex justify-between items-center">
                 <span className="flex items-center gap-3">
                   <StyledWrapper>
@@ -173,15 +155,17 @@ const Contacts = () => {
                     </label>
                   </StyledWrapper>
                   <label htmlFor="privacy-checkbox" className="ms-2">
-                    We treat your personal data with care; view our{" "}
-                    <Link to="/privacy-policy" className="underline">Privacy Policy</Link>{" "}
+                    {t("contact.form.privacyLabel")}{" "}
+                    <Link to="/privacy-policy" className="underline">
+                      {t("contact.form.privacyLink")}
+                    </Link>
                   </label>
                 </span>
                 <button
                   type="submit"
                   className="bg-[#30505b] hover:bg-white border-white hover:border-[#30505b] hover:text-[#30505b] transition-colors border px-8 py-2"
                 >
-                  Submit
+                  {t("contact.form.submit")}
                 </button>
               </div>
             </form>

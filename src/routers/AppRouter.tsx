@@ -1,4 +1,4 @@
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useEffect } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 // Lazy load components
@@ -7,6 +7,7 @@ import MainLayout from "../layouts/MainLayout/MainLayout";
 import AboutBulm from "../pages/AboutBulm";
 import Home from "../pages/Home";
 import SingleProduct from "../pages/SingleProduct";
+import i18n from "../language";
 
 const ProductCategory = lazy(
   () => import("../pages/ProductCategories/ProductCategory")
@@ -60,7 +61,7 @@ const ProfessionalOvens = lazy(
     import("../pages/collections/collections-ovens/children/ProfessionalOvens")
 );
 
-const Catalogues = lazy(() => import("../pages/Catalogues"));
+
 const Contacts = lazy(() => import("../pages/Contacts"));
 const Dealers = lazy(() => import("../pages/Dealers"));
 const PrivacyPolicy = lazy(() => import("../pages/PrivacyPolicy"));
@@ -71,6 +72,27 @@ const ReservedArea = lazy(() => import("../pages/ReservedArea"));
 const Login = lazy(() => import("../pages/collections/ita/Login"));
 
 const AppRouter = () => {
+
+  // Handle language changes
+  useEffect(() => {
+    const savedLang = localStorage.getItem("language") || "en";
+    i18n.changeLanguage(savedLang);
+    document.documentElement.lang = savedLang;
+    document.documentElement.dir = i18n.dir(savedLang);
+
+    const handleLanguageChange = (lng: string) => {
+      localStorage.setItem("language", lng);
+      document.documentElement.lang = lng;
+      document.documentElement.dir = i18n.dir(lng);
+    };
+
+    i18n.on("languageChanged", handleLanguageChange);
+    return () => {
+      i18n.off("languageChanged", handleLanguageChange);
+    };
+  }, []);
+
+
   const router = createBrowserRouter([
     {
       path: "/",
@@ -151,10 +173,6 @@ const AppRouter = () => {
           element: <ProfessionalOvens />,
         },
         // other routes
-        {
-          path: "/catalogues",
-          element: <Catalogues />,
-        },
         {
           path: "/contacts",
           element: <Contacts />,

@@ -1,10 +1,11 @@
+import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
-import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
-import { Helmet } from "react-helmet-async";
+import MainTitleCollections from "../../../../components/common/MainTitleCollections";
+import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 
 interface IProduct {
   id: number;
@@ -16,88 +17,86 @@ interface IProduct {
   collections?: string;
 }
 
-const sections = [
-  {
-    id: 1,
-    title: "Advanced Control Panel",
-    description:
-      "Every BULM Excellence cooker features a digital touch control system for precise timing and flexible functionality — tailored to serious cooking needs.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-excellence-touch-control-electronic-programmer.jpg.webp",
-  },
-  {
-    id: 2,
-    title: "Heavy-duty Dual Burners",
-    description:
-      "Our brass dual burners ensure excellent durability and uniform heat distribution for any cooking technique.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-brass-dual-burners.jpg.webp",
-  },
-  {
-    id: 3,
-    title: "Professional-Grade Knobs",
-    description:
-      "The brushed metal knobs with premium detailing give a distinct, modern look — inspired by the most refined professional kitchens.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-brushed-metal-finishing-knobs-with-outer-bezel.jpg.webp",
-  },
-  {
-    id: 4,
-    title: "Elegant Handle Finish",
-    description:
-      "All appliances in this collection are equipped with a dual-finish handle: brushed steel center with polished chrome ends — a unique BULM signature.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-double-finishing-handle.jpg.webp",
-  },
-];
-
-const products: IProduct[] = [
-  {
-    id: 1,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-ea-966-m.png.webp",
-    title: "Single Cavity Dual Fuel Freestanding Cooker",
-    code: "BLM 966 M",
-  },
-  {
-    id: 2,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-eg-965-im.png.webp",
-    title: "Single Cavity Induction Freestanding Cooker",
-    code: "BLM 965 IM",
-  },
-  {
-    id: 3,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-ex-106-m.png.webp",
-    title: "Dual Fuel Freestanding Cooker",
-    code: "BLM 106 M",
-  },
-  {
-    id: 4,
-    type: "special",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2023/06/02_Linea_Excellence_1_500x700_new.jpg.webp",
-    title: "Find out more",
-    link: "/home",
-    collections: "Excellence",
-  },
-];
-
 const Excellence = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
+
+  const sections = [
+    {
+      id: 1,
+      title: t("collectionsCookers.excellence.sections.0.title"),
+      description: t("collectionsCookers.excellence.sections.0.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-excellence-touch-control-electronic-programmer.jpg.webp",
+    },
+    {
+      id: 2,
+      title: t("collectionsCookers.excellence.sections.1.title"),
+      description: t("collectionsCookers.excellence.sections.1.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-brass-dual-burners.jpg.webp",
+    },
+    {
+      id: 3,
+      title: t("collectionsCookers.excellence.sections.2.title"),
+      description: t("collectionsCookers.excellence.sections.2.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-brushed-metal-finishing-knobs-with-outer-bezel.jpg.webp",
+    },
+    {
+      id: 4,
+      title: t("collectionsCookers.excellence.sections.3.title"),
+      description: t("collectionsCookers.excellence.sections.3.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-double-finishing-handle.jpg.webp",
+    },
+  ];
+
+  const products: IProduct[] = [
+    {
+      id: 1,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-ea-966-m.png.webp",
+      title: t("collectionsCookers.excellence.products.0.title"),
+      code: t("collectionsCookers.excellence.products.0.code"),
+    },
+    {
+      id: 2,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-eg-965-im.png.webp",
+      title: t("collectionsCookers.excellence.products.1.title"),
+      code: t("collectionsCookers.excellence.products.1.code"),
+    },
+    {
+      id: 3,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-ex-106-m.png.webp",
+      title: t("collectionsCookers.excellence.products.2.title"),
+      code: t("collectionsCookers.excellence.products.2.code"),
+    },
+    {
+      id: 4,
+      type: "special",
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2023/06/02_Linea_Excellence_1_500x700_new.jpg.webp",
+      title: t("collectionsCookers.excellence.products.3.title"),
+      link: "/home",
+      collections: "Excellence",
+    },
+  ];
+
   return (
     <>
     <Helmet>
   <html lang="en" />
-  <title>BULM Excellence Cookers | High-Performance Freestanding Appliances</title>
+  <title>{t("collectionsCookers.excellence.meta.title")}</title>
   <meta
     name="description"
-    content="Discover the BULM Excellence Collection – premium freestanding cookers crafted for serious chefs. Choose from gas or induction hobs with electric or dual fuel ovens."
+    content={t("collectionsCookers.excellence.meta.description")}
   />
   <meta
     name="keywords"
-    content="BULM cookers, Excellence collection, freestanding cookers Italy, induction cookers, gas cookers, dual fuel ovens, modern kitchen appliances, professional design cookers"
+    content={t("collectionsCookers.excellence.meta.keywords")}
   />
   <meta name="robots" content="index, follow" />
   <link
@@ -125,11 +124,11 @@ const Excellence = () => {
   {/* Open Graph */}
   <meta
     property="og:title"
-    content="BULM Excellence Cookers | High-Performance Freestanding Appliances"
+    content={t("collectionsCookers.excellence.meta.ogTitle")}
   />
   <meta
     property="og:description"
-    content="Explore the Excellence Collection by BULM. Modern freestanding cookers with Italian design, built for precision, power, and elegance."
+    content={t("collectionsCookers.excellence.meta.ogDescription")}
   />
   <meta
     property="og:image"
@@ -145,11 +144,11 @@ const Excellence = () => {
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="BULM Excellence Cookers | High-Performance Freestanding Appliances"
+    content={t("collectionsCookers.excellence.meta.twitterTitle")}
   />
   <meta
     name="twitter:description"
-    content="Premium Italian cookers engineered for culinary precision. Discover the BULM Excellence Collection."
+    content={t("collectionsCookers.excellence.meta.twitterDescription")}
   />
   <meta
     name="twitter:image"
@@ -170,22 +169,12 @@ const Excellence = () => {
             onClick={() => navigate(-1)}
             className="text-xl font-bold cursor-pointer"
           >
-            Back_
+            {t("collectionsCookers.common.back")}
           </button>
         </div>
 
-        <MainTitleCollections title="Excellence Collection — Built to Perform, Designed to Inspire">
-          <p>
-            With a professional-grade aesthetic and a commitment to performance,
-            the <strong>BULM Excellence Series</strong> delivers a new standard
-            in freestanding cookers.
-            <br />
-            Available in both <strong>60cm</strong> and <strong>90cm</strong>{" "}
-            widths, choose between <strong>induction</strong> or{" "}
-            <strong>gas hobs</strong>, and cook with precision using{" "}
-            <strong>multifunction electric ovens</strong> or{" "}
-            <strong>dual fuel combinations</strong>.
-          </p>
+        <MainTitleCollections title={t("collectionsCookers.excellence.title")}>
+          <p dangerouslySetInnerHTML={{ __html: t("collectionsCookers.excellence.description") }} />
         </MainTitleCollections>
 
         <BlocksGap sections={sections} />

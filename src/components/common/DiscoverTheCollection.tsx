@@ -9,7 +9,7 @@ interface IProduct {
   title: string;
   code?: string;
   link?: string;
-  type?: "normal" | "special";
+  type?: "normal" | "special" | string;
   collections?: string;
 }
 
@@ -20,7 +20,6 @@ interface IProps {
 const DiscoverTheCollection = ({ products }: IProps) => {
   const productCount = products.length;
 
-  // ✅ valid breakpoints without undefined values
   const dynamicBreakpoints: {
     [width: number]: { slidesPerView: number; spaceBetween?: number };
   } =

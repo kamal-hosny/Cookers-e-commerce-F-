@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 
 const Landing = () => {
- 
+  const { t } = useTranslation();
+
   const handleScroll = () => {
     window.scrollTo({
       top: window.innerHeight,
@@ -20,19 +22,19 @@ const Landing = () => {
 
           <div className="absolute top-0 left-0 w-full h-full flex flex-col gap-4 items-center justify-center text-white text-center p-4">
             <p className="uppercase tracking-widest text-3xl font-medium max-w-[700px]">
-              BLACK LINE. High-quality kitchen experience
+              {t("landing.headline")}
             </p>
 
             <p className="font-bold border-b border-white p-2 hover:border transition-colors cursor-pointer">
-              Discover the new Collection
+              {t("landing.discover")}
             </p>
 
             <p className="translate-y-4 uppercase [writing-mode:vertical-rl] rotate-180 tracking-widest text-sm font-medium flex flex-col items-center cursor-pointer">
-              <span>Scroll</span>
+              <span>{t("landing.scroll")}</span>
             </p>
           </div>
 
-          <div 
+          <div
             className="absolute bottom-50 left-0 w-full flex flex-col items-center justify-center cursor-pointer"
             onClick={handleScroll}
           >

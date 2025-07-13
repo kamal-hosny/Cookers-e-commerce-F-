@@ -1,41 +1,43 @@
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 const BoxesFooter = () => {
   const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
 
   const card = [
     {
-      title: "BULM around you",
-      description:
-        "Explore our product range and locate certified BULM dealers near you.",
-      button: "Find dealers",
+      key: "card1",
       image:
         "https://www.elba-cookers.com/wp-content/uploads/2022/01/mondo-tech-1280x465.jpg.webp",
       className: "bg-[#30505b] text-white",
       link: "/dealers",
     },
     {
-      title: "Partner access",
-      description:
-        "Restricted access for authorized BULM distributors and service providers.",
-      button: "Access area",
+      key: "card2",
       image:
         "https://www.elba-cookers.com/wp-content/uploads/2022/01/Schermata-1-1280x465.jpg.webp",
       className: "bg-[#1d1d1b] text-white",
       link: "/reserved-area",
     },
     {
-      title: "Discover BULM",
-      description: "Get to know BULM’s story and our dedication to excellence.",
-      button: "Learn more",
+      key: "card3",
       image:
         "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-italy-1280x704.jpg.webp",
       className: "bg-[#72909a] text-white",
-      link: "/about-us",
+      link: "/about-us", // نستخدمه فقط لتبديل اللغة
     },
   ];
 
   const handleNavigate = (path: string) => {
+    if (path === "/about-us") {
+      const newLang = i18n.language === "en" ? "it" : "en";
+      i18n.changeLanguage(newLang);
+      document.documentElement.lang = newLang;
+      document.documentElement.dir = "ltr";
+      return;
+    }
+
     if (path) {
       navigate(path);
     }
@@ -55,15 +57,15 @@ const BoxesFooter = () => {
                   index === 1 ? "text-[#72909a]" : ""
                 }`}
               >
-                {item.title}
+                {t(`boxesFooter.${item.key}.title`)}
               </h3>
-              <p className="mb-4">{item.description}</p>
+              <p className="mb-4">{t(`boxesFooter.${item.key}.description`)}</p>
             </div>
 
             <div className="relative group">
               <img
                 src={item.image}
-                alt={item.title}
+                alt={t(`boxesFooter.${item.key}.title`)}
                 className="w-full h-48 object-cover"
               />
 
@@ -72,7 +74,7 @@ const BoxesFooter = () => {
                 disabled={!item.link}
                 className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold w-3/4 px-4 py-2 transition-transform bg-white underline cursor-pointer group-hover:scale-105`}
               >
-                {item.button}
+                {t(`boxesFooter.${item.key}.button`)}
               </button>
             </div>
           </div>

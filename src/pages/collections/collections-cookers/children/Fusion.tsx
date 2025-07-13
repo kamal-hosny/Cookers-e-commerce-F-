@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
@@ -16,89 +17,88 @@ interface IProduct {
   collections?: string;
 }
 
-const sections = [
-  {
-    id: 1,
-    title: "Simple to use electronic programmer",
-    description:
-      "Time and oven functions are controlled by an electronic programmer bringing precision and flexibility to cooking performances.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-startend-of-cooking-electronic-programmer.jpg.webp",
-  },
-  {
-    id: 2,
-    title: "Cast iron pan supports",
-    description:
-      "Heavy-duty and durable cast iron pan supports give stability to the pots.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-cast-iron-pan-supports.jpg.webp",
-  },
-  {
-    id: 3,
-    title: "Coordinated handle design",
-    description:
-      "The brushed metal handles on each appliance are ergonomic and pleasant to use.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-brushed-metal-handle.jpg.webp",
-  },
-  {
-    id: 4,
-    title: "Double finishing knobs",
-    description: "Black soft touch and stainless steel finishing knobs.",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-knobs.jpg.webp",
-  },
-];
-
-const products: IProduct[] = [
-  {
-    id: 1,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fr-9642-m.png.webp",
-    title: "Fusion single cavity dual fuel freestanding cooker",
-    code: "FR 9642 M",
-  },
-  {
-    id: 2,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fa-9642-m.png.webp",
-    title: "Fusion single cavity dual fuel freestanding cooker",
-    code: "FA 9642 M",
-  },
-  {
-    id: 3,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fx-9642-m.png.webp",
-    title: "Fusion single cavity dual fuel freestanding cooker",
-    code: "FX 9642 M",
-  },
-  {
-    id: 4,
-    type: "special",
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2023/06/03_Linea_Fusion_1_500x700_new.jpg.webp",
-    title: "Find out more",
-    link: "/home",
-    collections: "Fusion",
-  },
-];
-
 const Fusion = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
+
+  const sections = [
+    {
+      id: 1,
+      title: t("collectionsCookers.fusion.sections.0.title"),
+      description: t("collectionsCookers.fusion.sections.0.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-startend-of-cooking-electronic-programmer.jpg.webp",
+    },
+    {
+      id: 2,
+      title: t("collectionsCookers.fusion.sections.1.title"),
+      description: t("collectionsCookers.fusion.sections.1.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-cast-iron-pan-supports.jpg.webp",
+    },
+    {
+      id: 3,
+      title: t("collectionsCookers.fusion.sections.2.title"),
+      description: t("collectionsCookers.fusion.sections.2.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-brushed-metal-handle.jpg.webp",
+    },
+    {
+      id: 4,
+      title: t("collectionsCookers.fusion.sections.3.title"),
+      description: t("collectionsCookers.fusion.sections.3.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-knobs.jpg.webp",
+    },
+  ];
+
+  const products: IProduct[] = [
+    {
+      id: 1,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fr-9642-m.png.webp",
+      title: t("collectionsCookers.fusion.products.0.title"),
+      code: t("collectionsCookers.fusion.products.0.code"),
+    },
+    {
+      id: 2,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fa-9642-m.png.webp",
+      title: t("collectionsCookers.fusion.products.1.title"),
+      code: t("collectionsCookers.fusion.products.1.code"),
+    },
+    {
+      id: 3,
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fx-9642-m.png.webp",
+      title: t("collectionsCookers.fusion.products.2.title"),
+      code: t("collectionsCookers.fusion.products.2.code"),
+    },
+    {
+      id: 4,
+      type: "special",
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2023/06/03_Linea_Fusion_1_500x700_new.jpg.webp",
+      title: t("collectionsCookers.fusion.products.3.title"),
+      link: "/home",
+      collections: "Fusion",
+    },
+  ];
+
   return (
     <>
       <Helmet>
         <html lang="en" />
         <title>
-          BULM Fusion Cookers | Stylish Dual Fuel Freestanding Appliances
+          {t("collectionsCookers.fusion.meta.title")}
         </title>
         <meta
           name="description"
-          content="Discover the BULM Fusion Collection – elegant dual fuel freestanding cookers with seamless integration, advanced oven controls, and premium Italian design."
+          content={t("collectionsCookers.fusion.meta.description")}
         />
         <meta
           name="keywords"
-          content="BULM cookers, Fusion collection, dual fuel cookers, freestanding cookers, Italian appliances, modern kitchen cookers, gas ovens, cast iron pan supports"
+          content={t("collectionsCookers.fusion.meta.keywords")}
         />
         <meta name="robots" content="index, follow" />
         <link
@@ -126,11 +126,11 @@ const Fusion = () => {
         {/* Open Graph for social sharing */}
         <meta
           property="og:title"
-          content="BULM Fusion Cookers | Stylish Dual Fuel Freestanding Appliances"
+          content={t("collectionsCookers.fusion.meta.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Designed for modern kitchens, BULM Fusion cookers combine refined design with exceptional functionality. Explore now."
+          content={t("collectionsCookers.fusion.meta.ogDescription")}
         />
         <meta
           property="og:image"
@@ -146,11 +146,11 @@ const Fusion = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="BULM Fusion Cookers | Stylish Dual Fuel Freestanding Appliances"
+          content={t("collectionsCookers.fusion.meta.twitterTitle")}
         />
         <meta
           name="twitter:description"
-          content="Freestanding cookers from BULM’s Fusion line bring timeless elegance and top-tier performance to your home."
+          content={t("collectionsCookers.fusion.meta.twitterDescription")}
         />
         <meta
           name="twitter:image"
@@ -171,18 +171,12 @@ const Fusion = () => {
               onClick={() => navigate(-1)}
               className="text-xl font-bold cursor-pointer"
             >
-              Back_
+              {t("collectionsCookers.common.back")}
             </button>
           </div>
 
-          <MainTitleCollections title="Fusion Collection. Seamless integration into your kitchen.">
-            <p>
-              Designed to be perfectly combined in the space of your kitchen,{" "}
-              <strong>Fusion Collection</strong> offers freestanding cookers
-              with dual fuel cooktops and gas or electric ovens.
-              <br /> The clean lines of these cookers are designed for seamless
-              integration into any contemporary kitchen design.
-            </p>
+          <MainTitleCollections title={t("collectionsCookers.fusion.title")}>
+            <p dangerouslySetInnerHTML={{ __html: t("collectionsCookers.fusion.description") }} />
           </MainTitleCollections>
 
           <BlocksGap sections={sections} />

@@ -1,110 +1,103 @@
-import CollectionsLayout from "../../../layouts/CollectionsLayout";
 import { Helmet } from "react-helmet-async";
-
-const sections = [
-  {
-    id: 1,
-    title: "Elio Collection",
-    description: `Explore versatility with the Elio Collection, available in three width options: 60cm, 75cm, and 90cm.
-
-Choose from sleek gas on glass-ceramic hobs with electronic controls, classic all-gas options, modern induction, or vitroceramic solutions.`,
-    image: `https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp`,
-    link: "/collections/collections-cookers/",
-    bgColor: "#e8e8e8",
-    textColor: "#1d1d1b",
-  },
-  {
-    id: 2,
-    title: "Country Collection",
-    description: `For those who appreciate a touch of rustic elegance, the Country Collection adds warmth and timeless character to any kitchen. Its textured colors and authentic materials recall the charm of countryside homes — with all the innovation of BULM.`,
-    image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-giant-electric-multifunction-ovens.jpg.webp",
-    link: "/collections/collections-hobs/",
-    bgColor: "#ede7d3",
-    textColor: "#1d1d1b",
-  },
-];
+import { useTranslation } from "react-i18next";
+import CollectionsLayout from "../../../layouts/CollectionsLayout";
 
 const CollectionsHobs = () => {
+  const { t } = useTranslation();
+
+  const sections = [
+    {
+      id: 1,
+      title: t("collections_hobs.sections.elio.title"),
+      description: t("collections_hobs.sections.elio.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp",
+      link: "/collections/collections-hobs/elio-hobs",
+      bgColor: "#e8e8e8",
+      textColor: "#1d1d1b",
+    },
+    {
+      id: 2,
+      title: t("collections_hobs.sections.country.title"),
+      description: t("collections_hobs.sections.country.description"),
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-giant-electric-multifunction-ovens.jpg.webp",
+      link: "/collections/collections-hobs/country-hobs",
+      bgColor: "#ede7d3",
+      textColor: "#1d1d1b",
+    },
+  ];
+
   return (
     <>
-    <Helmet>
-  <html lang="en" />
-  <title>BULM Hobs Collections | Gas, Induction & Vitroceramic Cooktops</title>
-  <meta
-    name="description"
-    content="Discover BULM's premium hobs: gas, induction, vitroceramic, and more. Designed in Italy for superior performance and seamless kitchen integration."
-  />
-  <meta
-    name="keywords"
-    content="BULM hobs, gas hobs, induction hobs, vitroceramic cooktops, glass cooktops, Italian kitchen appliances, modern hobs"
-  />
-  <meta name="robots" content="index, follow" />
-  <link
-    rel="canonical"
-    href="https://bulm.it/collections/collections-hobs"
-  />
+      <Helmet>
+        <html lang="en" />
+        <title>{t("collections_hobs.page_title")}</title>
+        <meta
+          name="description"
+          content={t("collections_hobs.page_description")}
+        />
+        <meta name="keywords" content={t("collections_hobs.meta_keywords")} />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://bulm.it/collections/collections-hobs"
+        />
 
-  {/* hreflang for multilingual SEO */}
-  <link
-    rel="alternate"
-    href="https://bulm.it/collections/collections-hobs"
-    hrefLang="en"
-  />
-  <link
-    rel="alternate"
-    href="https://bulm.it/it/collections/collections-hobs"
-    hrefLang="it"
-  />
-  <link
-    rel="alternate"
-    href="https://bulm.it/collections/collections-hobs"
-    hrefLang="x-default"
-  />
+        {/* hreflang for multilingual SEO */}
+        <link
+          rel="alternate"
+          href="https://bulm.it/collections/collections-hobs"
+          hrefLang="en"
+        />
+        <link
+          rel="alternate"
+          href="https://bulm.it/it/collections/collections-hobs"
+          hrefLang="it"
+        />
+        <link
+          rel="alternate"
+          href="https://bulm.it/collections/collections-hobs"
+          hrefLang="x-default"
+        />
 
-  {/* Open Graph (Facebook, LinkedIn) */}
-  <meta
-    property="og:title"
-    content="BULM Hobs Collections | Gas, Induction & Vitroceramic Cooktops"
-  />
-  <meta
-    property="og:description"
-    content="Premium Italian hobs crafted from the finest materials. Explore gas, induction, and vitroceramic cooktops from BULM."
-  />
-  <meta
-    property="og:image"
-    content="https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp"
-  />
-  <meta
-    property="og:url"
-    content="https://bulm.it/collections/collections-hobs"
-  />
-  <meta property="og:type" content="website" />
+        {/* Open Graph */}
+        <meta property="og:title" content={t("collections_hobs.page_title")} />
+        <meta
+          property="og:description"
+          content={t("collections_hobs.og_description")}
+        />
+        <meta
+          property="og:image"
+          content="https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://bulm.it/collections/collections-hobs"
+        />
+        <meta property="og:type" content="website" />
 
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="BULM Hobs Collections | Gas, Induction & Vitroceramic Cooktops"
-  />
-  <meta
-    name="twitter:description"
-    content="Versatile, efficient, and beautiful — BULM's Italian-designed hobs offer top-tier cooking performance for modern kitchens."
-  />
-  <meta
-    name="twitter:image"
-    content="https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp"
-  />
-</Helmet>
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t("collections_hobs.page_title")} />
+        <meta
+          name="twitter:description"
+          content={t("collections_hobs.twitter_description")}
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp"
+        />
+      </Helmet>
 
-    <CollectionsLayout
-      title="Superior materials meet"
-      subtitle="cutting-edge performance"
-      description="BULM hobs are crafted from premium materials and built with the latest Italian cooking technology. Available in a variety of shapes, sizes, and methods — gas, induction, glass or vitroceramic — each hob is engineered to pair perfectly with BULM ovens and elevate your cooking experience."
-      sections={sections}
-      bgColor="#30505b"
-      textColor="#ffffff"
-    />
+      <CollectionsLayout
+        title={t("collections_hobs.layout.title")}
+        subtitle={t("collections_hobs.layout.subtitle")}
+        description={t("collections_hobs.layout.description")}
+        sections={sections}
+        bgColor="#30505b"
+        textColor="#ffffff"
+      />
     </>
   );
 };

@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoArrowForward } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { useTranslation, Trans } from "react-i18next";
 import "swiper/swiper-bundle.css";
 
 const sliders = [
@@ -42,11 +43,13 @@ const sliders = [
 ];
 
 const DistinctiveItalianDesign = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="w-full py-10 container flex flex-col gap-16 items-center justify-center bg-white">
       <div className="titles w-full text-center">
         <p className="text-3xl font-medium">
-          Distinctive <b>Italian Design</b>
+          <Trans i18nKey="distinctive.title" components={{ 1: <b /> }} />
         </p>
       </div>
 
@@ -70,8 +73,6 @@ const DistinctiveItalianDesign = () => {
               slidesPerView: 5,
             },
           }}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           {sliders.map((slider) => (
             <SwiperSlide key={slider.id}>
@@ -85,7 +86,7 @@ const DistinctiveItalianDesign = () => {
                 </div>
 
                 <div className="absolute flex justify-center flex-col items-center gap-2 transition-all duration-500 group-hover:top-0 -top-48 left-0 right-0 bg-[#30505b] bg-opacity-60 py-8 text-white text-center group-hover:bg-opacity-80">
-                  <p>Explore</p>
+                  <p>{t("distinctive.explore")}</p>
                   <p className="font-bold text-2xl">{slider.name}</p>
                   <Link to={slider.link} className="text-sm underline">
                     <IoArrowForward size={23} />
@@ -97,14 +98,15 @@ const DistinctiveItalianDesign = () => {
         </Swiper>
       </div>
 
-      {/* وصف الكاتالوج - بصيغة JSX صحيحة */}
+      {/* وصف الكاتالوج مترجم */}
       <div className="text-center px-4 max-w-4xl leading-relaxed text-gray-800">
-        <span>
-          For every type of cooking, for every style of kitchen. Check out our
-          complete selection of high-performance <b>cooking appliances</b>{" "}
-          catalogue. A vast range of <b>cooking products</b>, all suitable for
-          customer personalization.
-        </span>
+        <Trans
+          i18nKey="distinctive.catalogText"
+          components={{
+            1: <b />,
+            3: <b />,
+          }}
+        />
       </div>
     </div>
   );
