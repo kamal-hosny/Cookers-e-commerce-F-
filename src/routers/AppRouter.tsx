@@ -1,75 +1,39 @@
 import { Suspense, lazy, useEffect } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-// Lazy load components
-
 import MainLayout from "../layouts/MainLayout/MainLayout";
 import AboutBulm from "../pages/AboutBulm";
 import Home from "../pages/Home";
 import SingleProduct from "../pages/SingleProduct";
 import i18n from "../language";
 
-const ProductCategory = lazy(
-  () => import("../pages/ProductCategories/ProductCategory")
-);
+// Lazy Imports
+const ProductCategory = lazy(() => import("../pages/ProductCategories/ProductCategory"));
 const CompanyInfo = lazy(() => import("../pages/CompanyInfo"));
 const Collections = lazy(() => import("../pages/collections/Collections"));
-const CollectionsCookers = lazy(
-  () => import("../pages/collections/collections-cookers/CollectionsCookers")
-);
-const Classic = lazy(
-  () => import("../pages/collections/collections-cookers/children/Classic")
-);
-const Excellence = lazy(
-  () => import("../pages/collections/collections-cookers/children/Excellence")
-);
-const Fusion = lazy(
-  () => import("../pages/collections/collections-cookers/children/Fusion")
-);
-const Vintage = lazy(
-  () => import("../pages/collections/collections-cookers/children/Vintage")
-);
-const CollectionsHobs = lazy(
-  () => import("../pages/collections/collections-hobs/CollectionsHobs")
-);
-const CountryHobs = lazy(
-  () => import("../pages/collections/collections-hobs/children/CountryHobs")
-);
-const ElioHobs = lazy(
-  () => import("../pages/collections/collections-hobs/children/ElioHobs")
-);
-const BlackLineCollection = lazy(
-  () => import("../pages/collections/black-line-collection/BlackLineCollection")
-);
-const CollectionsOvens = lazy(
-  () => import("../pages/collections/collections-ovens/CollectionsOvens")
-);
-const AlterumOvens = lazy(
-  () => import("../pages/collections/collections-ovens/children/AlterumOvens")
-);
-const CountryOvens = lazy(
-  () => import("../pages/collections/collections-ovens/children/CountryOvens")
-);
-const ElioGiantOvens = lazy(
-  () => import("../pages/collections/collections-ovens/children/ElioGiantOvens")
-);
-const ElioOvens = lazy(
-  () => import("../pages/collections/collections-ovens/children/ElioOvens")
-);
-const ProfessionalOvens = lazy(
-  () =>
-    import("../pages/collections/collections-ovens/children/ProfessionalOvens")
-);
-
+const CollectionsCookers = lazy(() => import("../pages/collections/collections-cookers/CollectionsCookers"));
+const Elegant = lazy(() => import("../pages/collections/collections-cookers/children/Elegant"));
+const Perfection = lazy(() => import("../pages/collections/collections-cookers/children/Perfection"));
+const Mixture = lazy(() => import("../pages/collections/collections-cookers/children/Mixture"));
+const Antique = lazy(() => import("../pages/collections/collections-cookers/children/Antique"));
+const CollectionsHobs = lazy(() => import("../pages/collections/collections-hobs/CollectionsHobs"));
+const LandHobs = lazy(() => import("../pages/collections/collections-hobs/children/LandHobs"));
+const EnzoHobs = lazy(() => import("../pages/collections/collections-hobs/children/EnzoHobs"));
+const BlackLineCollection = lazy(() => import("../pages/collections/black-line-collection/BlackLineCollection"));
+const CollectionsOvens = lazy(() => import("../pages/collections/collections-ovens/CollectionsOvens"));
+const AlterumOvens = lazy(() => import("../pages/collections/collections-ovens/children/AlterumOvens"));
+const LandOvens = lazy(() => import("../pages/collections/collections-ovens/children/LandOvens"));
+const EnzoTitanOvens = lazy(() => import("../pages/collections/collections-ovens/children/EnzoTitanOvens"));
+const EnzoOvens = lazy(() => import("../pages/collections/collections-ovens/children/EnzoOvens"));
+const ExpertOvens = lazy(() => import("../pages/collections/collections-ovens/children/ExpertOvens"));
 
 const Contacts = lazy(() => import("../pages/Contacts"));
 const Dealers = lazy(() => import("../pages/Dealers"));
 const PrivacyPolicy = lazy(() => import("../pages/PrivacyPolicy"));
-const ReasonsToChooseFreestandigCooker = lazy(
-  () => import("../pages/ReasonsToChooseFreestandigCooker")
-);
+const ReasonsToChooseFreestandigCooker = lazy(() => import("../pages/ReasonsToChooseFreestandigCooker"));
 const ReservedArea = lazy(() => import("../pages/ReservedArea"));
 const Login = lazy(() => import("../pages/collections/ita/Login"));
+
 
 const AppRouter = () => {
 
@@ -114,105 +78,33 @@ const AppRouter = () => {
           element: <BlackLineCollection />,
         },
         //-- collections-cookers
-        {
-          path: "collections/collections-cookers",
-          element: <CollectionsCookers />,
-        },
-        {
-          path: "collections/collections-cookers/classic",
-          element: <Classic />,
-        },
-        {
-          path: "collections/collections-cookers/excellence",
-          element: <Excellence />,
-        },
-        {
-          path: "collections/collections-cookers/fusion",
-          element: <Fusion />,
-        },
-        {
-          path: "collections/collections-cookers/vintage",
-          element: <Vintage />,
-        },
+        { path: "collections/collections-cookers", element: <CollectionsCookers /> },
+        { path: "collections/collections-cookers/elegant", element: <Elegant /> },
+        { path: "collections/collections-cookers/perfection", element: <Perfection /> },
+        { path: "collections/collections-cookers/mixture", element: <Mixture /> },
+        { path: "collections/collections-cookers/antique", element: <Antique /> },
         //-- collections-hobs
-        {
-          path: "collections/collections-hobs",
-          element: <CollectionsHobs />,
-        },
-        {
-          path: "collections/collections-hobs/country-hobs",
-          element: <CountryHobs />,
-        },
-        {
-          path: "collections/collections-hobs/elio-hobs",
-          element: <ElioHobs />,
-        },
+        { path: "collections/collections-hobs", element: <CollectionsHobs /> },
+        { path: "collections/collections-hobs/land-hobs", element: <LandHobs /> },
+        { path: "collections/collections-hobs/enzo-hobs", element: <EnzoHobs /> },
         //-- collections-ovens
-        {
-          path: "collections/collections-ovens",
-          element: <CollectionsOvens />,
-        },
-        {
-          path: "collections/collections-ovens/alterum-ovens",
-          element: <AlterumOvens />,
-        },
-        {
-          path: "collections/collections-ovens/country-ovens",
-          element: <CountryOvens />,
-        },
-        {
-          path: "collections/collections-ovens/elio-giant-ovens",
-          element: <ElioGiantOvens />,
-        },
-        {
-          path: "collections/collections-ovens/elio-ovens",
-          element: <ElioOvens />,
-        },
-        {
-          path: "collections/collections-ovens/professional-ovens",
-          element: <ProfessionalOvens />,
-        },
+        { path: "collections/collections-ovens", element: <CollectionsOvens /> },
+        { path: "collections/collections-ovens/alterum-ovens", element: <AlterumOvens /> },
+        { path: "collections/collections-ovens/land-ovens", element: <LandOvens /> },
+        { path: "collections/collections-ovens/enzo-titan-ovens", element: <EnzoTitanOvens /> },
+        { path: "collections/collections-ovens/enzo-ovens", element: <EnzoOvens /> },
+        { path: "collections/collections-ovens/expert-ovens", element: <ExpertOvens /> },
         // other routes
-        {
-          path: "/contacts",
-          element: <Contacts />,
-        },
-        {
-          path: "/dealers",
-          element: <Dealers />,
-        },
-        {
-          path: "/privacy-policy",
-          element: <PrivacyPolicy />,
-        },
-        {
-          path: "/product-category/:categoryName",
-          element: <ProductCategory />,
-        },
-        {
-          path: "/reasons-to-choose-freestandig-cooker",
-          element: <ReasonsToChooseFreestandigCooker />,
-        },
-        {
-          path: "/reserved-area",
-          element: <ReservedArea />,
-        },
-        {
-          path: "/company-info",
-          element: <CompanyInfo />,
-        },
-        {
-          path: "/about-bulm",
-          element: <AboutBulm />,
-        },
-        {
-          path: "/product",
-          element: <SingleProduct />,
-        },
-        {
-          path: "/product:id",
-          element: <SingleProduct />,
-        },
+        { path: "/contacts", element: <Contacts /> },
+        { path: "/dealers", element: <Dealers /> },
+        { path: "/privacy-policy", element: <PrivacyPolicy /> },
+        { path: "/product-category/:categoryName", element: <ProductCategory /> },
+        { path: "/reasons-to-choose-freestandig-cooker", element: <ReasonsToChooseFreestandigCooker /> },
+        { path: "/reserved-area", element: <ReservedArea /> },
+        { path: "/company-info", element: <CompanyInfo /> },
+        { path: "/about-bulm", element: <AboutBulm /> },
+        { path: "/product", element: <SingleProduct /> },
+        { path: "/product:id", element: <SingleProduct /> },
       ],
     },
     {

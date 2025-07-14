@@ -1,41 +1,46 @@
 import { useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
-import { useTranslation } from "react-i18next";
-
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
 import BoxesFooter from "../../../../components/common/BoxesFooter";
+import { Helmet } from "react-helmet-async";
 
-const CountryHobs = () => {
+const sections = [
+  {
+    id: 1,
+    title: "Country design",
+    description:
+      "The country aesthetic is enhanced by the characteristic knobs, all rigorously in antiqued brass; the gold-colored serigraphies reproduce a old-fashion design in balance between tradition and innovation.",
+    image:
+      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-country-collection-hobs.jpg.webp",
+  },
+];
+
+const LandHobs = () => {
   const navigate = useNavigate();
-  const { t } = useTranslation();
-
-  const sections = [
-    {
-      id: 1,
-      title: t("country_hobs.section.title"),
-      description: t("country_hobs.section.description"),
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-country-collection-hobs.jpg.webp",
-    },
-  ];
-
   return (
     <>
       <Helmet>
         <html lang="en" />
-        <title>{t("country_hobs.meta.title")}</title>
-        <meta name="description" content={t("country_hobs.meta.description")} />
-        <meta name="keywords" content={t("country_hobs.meta.keywords")} />
+        <title>
+          BULM Country Hobs Collection | Rustic Elegance in Your Kitchen
+        </title>
+        <meta
+          name="description"
+          content="Explore BULM's Country Collection of hobs — crafted with traditional design, antiqued brass knobs, and rustic charm to bring countryside warmth into your kitchen."
+        />
+        <meta
+          name="keywords"
+          content="Country kitchen hobs, rustic hobs, BULM country collection, brass knobs, traditional gas hobs, countryside kitchen appliances"
+        />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
           href="https://bulm.it/collections/collections-hobs/country"
         />
 
-        {/* hreflang */}
+        {/* hreflang for multilingual SEO */}
         <link
           rel="alternate"
           href="https://bulm.it/collections/collections-hobs/country"
@@ -52,11 +57,14 @@ const CountryHobs = () => {
           hrefLang="x-default"
         />
 
-        {/* Open Graph */}
-        <meta property="og:title" content={t("country_hobs.meta.title")} />
+        {/* Open Graph (Facebook, LinkedIn) */}
+        <meta
+          property="og:title"
+          content="BULM Country Hobs Collection | Rustic Elegance in Your Kitchen"
+        />
         <meta
           property="og:description"
-          content={t("country_hobs.meta.og_description")}
+          content="Authentic and charming, BULM's Country Collection hobs blend traditional style with modern performance."
         />
         <meta
           property="og:image"
@@ -70,10 +78,13 @@ const CountryHobs = () => {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={t("country_hobs.meta.title")} />
+        <meta
+          name="twitter:title"
+          content="BULM Country Hobs Collection | Rustic Elegance in Your Kitchen"
+        />
         <meta
           name="twitter:description"
-          content={t("country_hobs.meta.twitter_description")}
+          content="Designed for those who appreciate countryside aesthetics — discover BULM's Country hobs with antique brass finishes and timeless style."
         />
         <meta
           name="twitter:image"
@@ -83,7 +94,7 @@ const CountryHobs = () => {
 
       <div>
         <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-country-collection-hobs.jpg.webp" />
-        <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
+        <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs
               linkColor={"#000000"}
@@ -94,17 +105,23 @@ const CountryHobs = () => {
               onClick={() => navigate(-1)}
               className="text-xl font-bold cursor-pointer"
             >
-              {t("country_hobs.back")}
+              Back_
             </button>
           </div>
 
-          <MainTitleCollections
-            title={t("country_hobs.main.title")}
-          >
-            <p>{t("country_hobs.main.description")}</p>
+          <MainTitleCollections title="Country Collection. Inspired by tradition">
+            <p>
+              For those who love a touch of{" "}
+              <strong>"country chic" style</strong>
+              in the kitchen and prefer the nuances of material colors,
+              <strong>Country Collection hobs</strong> are the ideal solution,
+              giving the interior spaces the atmosphere that especially recalls
+              the houses of countryside.
+            </p>
           </MainTitleCollections>
 
           <BlocksGap sections={sections} />
+
           <BoxesFooter />
         </div>
       </div>
@@ -112,4 +129,4 @@ const CountryHobs = () => {
   );
 };
 
-export default CountryHobs;
+export default LandHobs;

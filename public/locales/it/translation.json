@@ -154,719 +154,7 @@
       "companyInfo": "Informazioni aziendali",
       "privacyPolicy": "Informativa sulla privacy"
     },
-    "collections": {
-      "title": "Collezioni Uniche.",
-      "subtitle": "Linee Distintive",
-      "description": "Il talento in cucina significa anche saper soddisfare tutti i requisiti derivanti da diverse culture e approcci alla cucina. Per questo motivo, Elba offre la più ampia gamma di elettrodomestici per la cucina. Scopri il tuo stile migliore per la cucina con le Collezioni Elba.",
-      "sections": [
-        {
-          "title": "Collezione Cucine",
-          "description": "Nelle cucine free-standing Elba abbiamo quindi combinato la funzionalità della tecnologia con un'estetica attraente, per creare un ambiente accogliente e stimolante. Innovazione e tradizione sono perfettamente bilanciate nei nostri design, frutto di anni di esperienza nel settore, creando prodotti di punta per la nostra attività."
-        },
-        {
-          "title": "Collezione Piani Cottura",
-          "description": "Ci sono piani cottura a gas classici, gas su vetro e a induzione Elba, con quattro o più bruciatori e anche piani cottura più piccoli o dal look tradizionale. Tutti i piani cottura Elba sono realizzati con materiali di altissima qualità e offrono quindi risultati superiori alla media. Sono tutti dotati di funzionalità per maggiore sicurezza e prestazioni, come ad esempio, nei piani a induzione, la funzione booster per tempi di cottura rapidi e consumo energetico ridotto."
-        },
-        {
-          "title": "Collezione Forni",
-          "description": "Abbiamo forni per usi specifici, come carne, pizza, pane, dolci e prodotti lievitati. Esiste il forno Elba giusto per tutti, perché vogliamo che ognuno possa mostrare al meglio il proprio talento in cucina."
-        }
-      ]
-    },
-    "blackLine": {
-      "title": "BULM Black Line – Precisione ed Eleganza",
-      "subtitle": "Scopri l’essenza dell’ingegneria italiana e dell’estetica raffinata con la linea Black Line di BULM. Una collezione premium di elettrodomestici da incasso pensata per chi cerca prestazioni, eleganza e innovazione all’avanguardia — tutto in uno.",
-      "back": "Indietro_",
-      "sections": [
-        {
-          "title": "Forno Multifunzione Elettrico da Incasso",
-          "description": "Dotato di numerose funzioni innovative, questo forno offre un'esperienza culinaria professionale. Con 11 modalità tra cui Air Fry, Pizza 300°C, Easy Steam e Booster per un preriscaldamento rapido, ridefinisce la cucina domestica."
-        },
-        {
-          "title": "Microonde Combinato 45cm",
-          "description": "Griglia, cuoci, arrostisci e altro ancora — tutto in un unico apparecchio efficiente con 13 funzioni e programmi automatici preimpostati per ricette quotidiane come verdure, pizza o zuppe. Progettato per adattarsi a qualsiasi cucina moderna."
-        },
-        {
-          "title": "Macchina per Caffè & Cappuccino",
-          "description": "Goditi un caffè da barista a casa. Questo elegante apparecchio è progettato per preparare espresso ricco e cappuccini cremosi con un solo tocco — unendo la tradizione italiana alla comodità moderna."
-        },
-        {
-          "title": "Cassetto Scaldavivande",
-          "description": "Un'aggiunta elegante alla tua cucina, perfetta per preriscaldare piatti o mantenere caldi i pasti prima di servirli. Completamente in linea con il design della linea Black Line di BULM."
-        }
-      ],
-      "products": [
-        { "title": "Forno Multifunzione Elettrico" },
-        { "title": "Microonde Combinato" },
-        { "title": "Macchina Automatica per Caffè & Cappuccino" }
-      ],
-      "meta": {
-        "title": "Collezione Black Line | BULM Italy – Eleganza da Incasso in Cucina",
-        "description": "Scopri la collezione Black Line di BULM: forni da incasso, microonde, macchine da caffè e cassetti scaldavivande. Design italiano e tecnologia all'avanguardia in cucina.",
-        "keywords": "BULM Black Line, elettrodomestici da incasso, cucina italiana, forno moderno, forno multifunzione, microonde, cassetto scaldavivande, macchina da caffè",
-        "ogTitle": "Collezione Black Line | BULM Italy",
-        "ogDescription": "Esplora la linea Black Line di BULM — una collezione di elettrodomestici premium da incasso che uniscono prestazioni ed eleganza italiana.",
-        "twitterTitle": "Collezione Black Line | BULM Italy",
-        "twitterDescription": "La linea Black Line di BULM è una collezione di elettrodomestici da cucina da incasso, eleganti e innovativi, realizzati in Italia."
-      }
-    },
-    "collectionsCookers": {
-      "title": "Forni da incasso",
-      "subtitle": "Distintivi",
-      "description": "Forni da incasso. Design e tecnologia italiana distintiva. Estetica esclusiva, qualità superiore e design raffinato sono gli ingredienti che rendono unici i forni da incasso BULM. Con il loro design iconico, le collezioni BULM offrono una combinazione raffinata di funzionalità avanzate. I modelli BULM, disponibili in due larghezze, 60 cm e 90 cm, sono a gas o multifunzione elettrici e offrono un modo sicuro ed efficiente di cucinare con funzioni speciali come Easy Steam, cottura ventilata e molte altre.",
-      "sections": {
-        "vintage": {
-          "title": "Vintage",
-          "description": "La nostra Collezione Vintage è un omaggio al passato attraverso dettagli di design retrò affascinanti e finiture curate."
-        },
-        "excellence": {
-          "title": "Excellence",
-          "description": "Esplora la nostra collezione moderna progettata per cucine eleganti e contemporanee con tecnologia avanzata. La Collezione Excellence si ispira alle cucine professionali con una forma raffinata e un aspetto lineare."
-        },
-        "fusion": {
-          "title": "Fusion",
-          "description": "Linee morbide e bordi arrotondati caratterizzano la Collezione Fusion, dove coesistono in perfetta armonia con le esigenze funzionali."
-        },
-        "classic": {
-          "title": "Classic",
-          "description": "La Collezione Classic combina la cottura a radiazione con piastre in ghisa e la cottura tradizionale, offrendo la flessibilità di scegliere ogni giorno il tuo modo preferito di cucinare."
-        }
-      },
-      "meta": {
-        "title": "Collezioni di Forni | BULM Italia – Design Retrò, Moderno e Senza Tempo",
-        "description": "Scopri le collezioni esclusive di forni BULM: Vintage, Excellence, Fusion e Classic. Un mix di eredità italiana, innovazione e design elegante.",
-        "keywords": "Forni BULM, forni vintage, cucine professionali, forni indipendenti italiani, design cucina retrò, forni da incasso, forni classici",
-        "ogTitle": "Collezioni di Forni | BULM Italia",
-        "ogDescription": "Esplora i forni distintivi BULM: dallo stile vintage all'eccellenza professionale. Ingegneria italiana e prestazioni raffinate.",
-        "twitterTitle": "Collezioni di Forni | BULM Italia",
-        "twitterDescription": "Vintage, Fusion, Excellence e Classic — creati per bellezza e prestazioni in ogni cucina."
-      },
-      "vintage": {
-        "meta": {
-          "title": "Forni BULM Vintage | Cucine Retrò Italiane Indipendenti",
-          "description": "Scopri la Collezione Vintage BULM — cucine italiane indipendenti classiche con fascino retrò e prestazioni moderne. Opzioni forno dual fuel e a gas disponibili.",
-          "keywords": "forni vintage, BULM vintage, elettrodomestici cucina retrò, cucine dual fuel, cucine a gas indipendenti, design cucina italiana",
-          "ogTitle": "Forni BULM Vintage | Cucine Retrò Italiane Indipendenti",
-          "ogDescription": "I forni BULM Vintage aggiungono un tocco italiano senza tempo a qualsiasi cucina con manopole in acciaio spazzolato, pannelli curvi e supporti pentole in ghisa.",
-          "twitterTitle": "Forni BULM Vintage | Cucine Retrò Italiane Indipendenti",
-          "twitterDescription": "Ispirati agli anni '50, i forni BULM Vintage presentano linee morbide, maniglie cromate lucidate e prestazioni professionali."
-        },
-        "title": "Stile classico, realizzazione bellissima",
-        "description": "I <strong>forni della linea Vintage</strong> donano un tocco di carattere agli arredi con le loro linee morbide, colori diversi e stile vintage inconfondibile.<br />Disponibili come forno singolo o con due e tre cavità, i forni Elba Vintage sono <strong>dual fuel</strong>, con <strong>piani cottura a gas</strong> e <strong>forni elettrici o ventilati a gas</strong>.",
-        "sections": [
-          {
-            "title": "Tocchi di finitura affascinanti",
-            "description": "I pannelli posteriori in acciaio inox leggermente curvi e i pannelli arrotondati sulle facciate del forno sono completati da manopole di controllo retrò in acciaio spazzolato e corrimano coordinati."
-          },
-          {
-            "title": "Piano cottura ampio con supporti pentole in ghisa resistenti",
-            "description": "Piano cottura a gas a cinque fuochi in acciaio inox. Sono inclusi supporti pentole e wok in ghisa pesanti e resistenti."
-          },
-          {
-            "title": "Manopole vintage",
-            "description": "Ispirate dalle stufe a legna originali che il nostro fondatore creò nel 1950, i forni Elba Vintage sono controllati da manopole con finitura in acciaio inox."
-          },
-          {
-            "title": "Dettagli raffinati",
-            "description": "Lo stile vintage si trova anche nei dettagli del design, come il comodo programmatore elettronico. Inoltre, la maniglia cromata lucida è disponibile su tutti i forni Elba Vintage, come replica del corrimano presente sulle stufe Elba originali, donando alla cucina un tratto tradizionale."
-          }
-        ],
-        "products": [
-          {
-            "title": "Forno indipendente dual fuel a tre cavità vintage",
-            "code": "VW 9653 M"
-          },
-          {
-            "title": "Forno indipendente a gas a cavità singola vintage",
-            "code": "VX 965 FG"
-          },
-          {
-            "title": "Forno indipendente dual fuel a doppia cavità vintage",
-            "code": "VG 965 TM"
-          },
-          {
-            "title": "Scopri di più",
-            "type": "special"
-          }
-        ]
-      },
-      "excellence": {
-        "meta": {
-          "title": "Forni BULM Excellence | Elettrodomestici Indipendenti ad Alte Prestazioni",
-          "description": "Scopri la Collezione Excellence BULM – forni indipendenti premium realizzati per chef seri. Scegli tra piani cottura a gas o a induzione con forni elettrici o dual fuel.",
-          "keywords": "forni BULM, collezione Excellence, forni indipendenti Italia, forni a induzione, forni a gas, forni dual fuel, elettrodomestici cucina moderna, design forni professionali",
-          "ogTitle": "Forni BULM Excellence | Elettrodomestici Indipendenti ad Alte Prestazioni",
-          "ogDescription": "Esplora la Collezione Excellence di BULM. Forni indipendenti moderni con design italiano, costruiti per precisione, potenza ed eleganza.",
-          "twitterTitle": "Forni BULM Excellence | Elettrodomestici Indipendenti ad Alte Prestazioni",
-          "twitterDescription": "Forni italiani premium progettati per precisione culinaria. Scopri la Collezione Excellence BULM."
-        },
-        "title": "Collezione Excellence — Costruita per Performare, Progettata per Ispirare",
-        "description": "Con un'estetica di livello professionale e un impegno per le prestazioni, la <strong>Serie Excellence BULM</strong> stabilisce un nuovo standard nei forni indipendenti.<br />Disponibili in larghezze di <strong>60cm</strong> e <strong>90cm</strong>, scegli tra <strong>piani cottura a induzione</strong> o <strong>a gas</strong>, e cucina con precisione utilizzando <strong>forni elettrici multifunzione</strong> o <strong>combinazioni dual fuel</strong>.",
-        "sections": [
-          {
-            "title": "Pannello di controllo avanzato",
-            "description": "Ogni forno BULM Excellence presenta un sistema di controllo touch digitale per tempistica precisa e funzionalità flessibile — adattato alle esigenze di cucina serie."
-          },
-          {
-            "title": "Bruciatori dual heavy-duty",
-            "description": "I nostri bruciatori dual in ottone garantiscono eccellente durata e distribuzione uniforme del calore per qualsiasi tecnica di cottura."
-          },
-          {
-            "title": "Manopole di livello professionale",
-            "description": "Le manopole in metallo spazzolato con dettagli premium donano un aspetto distintivo e moderno — ispirato alle cucine professionali più raffinate."
-          },
-          {
-            "title": "Finitura maniglia elegante",
-            "description": "Tutti gli elettrodomestici di questa collezione sono dotati di una maniglia a doppia finitura: centro in acciaio spazzolato con estremità cromate lucidate — una firma BULM unica."
-          }
-        ],
-        "products": [
-          {
-            "title": "Forno indipendente dual fuel a cavità singola",
-            "code": "BLM 966 M"
-          },
-          {
-            "title": "Forno indipendente a induzione a cavità singola",
-            "code": "BLM 965 IM"
-          },
-          {
-            "title": "Forno indipendente dual fuel",
-            "code": "BLM 106 M"
-          },
-          {
-            "title": "Scopri di più",
-            "type": "special"
-          }
-        ]
-      },
-      "fusion": {
-        "meta": {
-          "title": "Forni BULM Fusion | Elettrodomestici Indipendenti Dual Fuel Eleganti",
-          "description": "Scopri la Collezione Fusion BULM – eleganti forni indipendenti dual fuel con integrazione perfetta, controlli forno avanzati e design italiano premium.",
-          "keywords": "forni BULM, collezione Fusion, forni dual fuel, forni indipendenti, elettrodomestici italiani, forni cucina moderna, forni a gas, supporti pentole in ghisa",
-          "ogTitle": "Forni BULM Fusion | Elettrodomestici Indipendenti Dual Fuel Eleganti",
-          "ogDescription": "Progettati per cucine moderne, i forni BULM Fusion combinano design raffinato con funzionalità eccezionale. Esplora ora.",
-          "twitterTitle": "Forni BULM Fusion | Elettrodomestici Indipendenti Dual Fuel Eleganti",
-          "twitterDescription": "I forni indipendenti della linea Fusion di BULM portano eleganza senza tempo e prestazioni di alto livello nella tua casa."
-        },
-        "title": "Collezione Fusion. Integrazione perfetta nella tua cucina.",
-        "description": "Progettati per essere perfettamente combinati nello spazio della tua cucina, la <strong>Collezione Fusion</strong> offre forni indipendenti con piani cottura dual fuel e forni a gas o elettrici.<br /> Le linee pulite di questi forni sono progettate per un'integrazione perfetta in qualsiasi design di cucina contemporanea.",
-        "sections": [
-          {
-            "title": "Programmatore elettronico semplice da usare",
-            "description": "Tempo e funzioni del forno sono controllati da un programmatore elettronico che porta precisione e flessibilità alle prestazioni di cottura."
-          },
-          {
-            "title": "Supporti pentole in ghisa",
-            "description": "I supporti pentole in ghisa heavy-duty e resistenti donano stabilità alle pentole."
-          },
-          {
-            "title": "Design maniglia coordinato",
-            "description": "Le maniglie in metallo spazzolato su ogni elettrodomestico sono ergonomiche e piacevoli da usare."
-          },
-          {
-            "title": "Manopole a doppia finitura",
-            "description": "Manopole con finitura soft touch nera e acciaio inox."
-          }
-        ],
-        "products": [
-          {
-            "title": "Forno indipendente dual fuel a cavità singola Fusion",
-            "code": "FR 9642 M"
-          },
-          {
-            "title": "Forno indipendente dual fuel a cavità singola Fusion",
-            "code": "FA 9642 M"
-          },
-          {
-            "title": "Forno indipendente dual fuel a cavità singola Fusion",
-            "code": "FX 9642 M"
-          },
-          {
-            "title": "Scopri di più",
-            "type": "special"
-          }
-        ]
-      },
-      "classic": {
-        "meta": {
-          "title": "Collezione Forni Classic | BULM Italia – Elegante e Senza Tempo",
-          "description": "Esplora la Collezione Classic di BULM: forni indipendenti senza tempo realizzati in Italia. Disponibili in dual fuel, induzione o elettrico. Qualità che dura generazioni.",
-          "keywords": "Forni Classic, forni indipendenti italiani, forni a induzione, forni dual fuel, forni elettrici, elettrodomestici cucina senza tempo, BULM Italia",
-          "ogTitle": "Collezione Forni Classic | BULM Italia",
-          "ogDescription": "Design italiano senza tempo nella Collezione Classic di forni indipendenti BULM. Tradizione e prestazioni in perfetto equilibrio.",
-          "twitterTitle": "Collezione Forni Classic | BULM Italia",
-          "twitterDescription": "Esplora l'eleganza senza tempo con la Collezione Classic di BULM. Forni a induzione, elettrici o dual-fuel realizzati in Italia."
-        },
-        "title": "Collezione Classic. Oltre tutte le mode passeggere",
-        "description": "La <strong>Collezione Classic</strong> offre una soluzione duratura e sicura per le tue esigenze di cottura quotidiane.<br /> La qualità dei materiali e le tradizionali abilità artigianali made in Italy sono combinate con uno stile sobrio e semplice.<br /> I <strong>forni a cavità singola</strong> sono disponibili in due larghezze diverse, 60cm e 90cm di larghezza.",
-        "sections": [
-          {
-            "title": "Manopole con finitura nichel e fascetta interna",
-            "description": "Le manopole con finitura nichel e fascetta interna hanno uno stile funzionale e pratico, scelto per la loro facilità d'uso."
-          },
-          {
-            "title": "Supporti pentole in acciaio smaltato",
-            "description": "Il design dei supporti pentole in acciaio smaltato dona un aspetto perfetto e liscio che permette una facile pulizia."
-          },
-          {
-            "title": "Maniglia stile essenziale",
-            "description": "Maniglia in metallo con finitura spazzolata su tutti i forni della Collezione Classic."
-          }
-        ],
-        "products": [
-          {
-            "title": "Forno indipendente a induzione a cavità singola Classic",
-            "code": "CXX 664 IM"
-          },
-          {
-            "title": "Forno indipendente dual fuel a cavità singola Classic",
-            "code": "CXX 965 BM"
-          },
-          {
-            "title": "Forno indipendente elettrico a cavità singola Classic",
-            "code": "CXX 965 VM"
-          },
-          {
-            "title": "Scopri di più",
-            "type": "special"
-          }
-        ]
-      },
-      "common": {
-        "back": "Indietro_",
-        "findOutMore": "Scopri di più"
-      }
-    },
-    "collectionsHobs": {
-      "title": "Materiali superiori incontrano",
-      "subtitle": "prestazioni all'avanguardia",
-      "description": "I piani cottura BULM sono realizzati con materiali di alta qualità e costruiti con la più recente tecnologia italiana. Disponibili in una varietà di forme, dimensioni e metodi — gas, induzione, vetro o vitroceramica — ogni piano è progettato per abbinarsi perfettamente ai forni BULM e migliorare la tua esperienza in cucina.",
-      "sections": [
-        {
-          "title": "Collezione Elio",
-          "description": "Scopri la versatilità con la Collezione Elio, disponibile in tre larghezze: 60cm, 75cm e 90cm.\n\nScegli tra piani cottura a gas su vetroceramica con controlli elettronici, opzioni classiche solo gas, moderne a induzione o soluzioni vitroceramiche."
-        },
-        {
-          "title": "Collezione Country",
-          "description": "Per chi apprezza un tocco di eleganza rustica, la Collezione Country aggiunge calore e carattere senza tempo a qualsiasi cucina. I suoi colori materici e materiali autentici richiamano il fascino delle case di campagna — con tutta l'innovazione BULM."
-        }
-      ],
-      "meta": {
-        "title": "Collezioni Piani Cottura BULM | Gas, Induzione & Vitroceramica",
-        "description": "Scopri i piani cottura premium BULM: gas, induzione, vitroceramica e altro. Progettati in Italia per prestazioni superiori e integrazione perfetta in cucina.",
-        "keywords": "piani cottura BULM, piani gas, piani induzione, piani vitroceramica, piani in vetro, elettrodomestici cucina italiani, piani moderni",
-        "ogTitle": "Collezioni Piani Cottura BULM | Gas, Induzione & Vitroceramica",
-        "ogDescription": "Piani cottura italiani premium realizzati con i migliori materiali. Scopri gas, induzione e vitroceramica di BULM.",
-        "twitterTitle": "Collezioni Piani Cottura BULM | Gas, Induzione & Vitroceramica",
-        "twitterDescription": "Versatili, efficienti e belli — i piani cottura BULM dal design italiano offrono prestazioni di alto livello per cucine moderne."
-      },
-      "elio": {
-        "meta": {
-          "title": "Collezione Elio Piani Cottura BULM | Gas, Vetro, Vitroceramica & Induzione",
-          "description": "Scopri la Collezione Elio di piani cottura BULM — gas premium, gas su vetro, induzione e vitroceramica progettati per sicurezza, prestazioni e stile italiano.",
-          "keywords": "piani Elio, piani gas, piani induzione, gas su vetro, vitroceramica, collezione BULM Elio, elettrodomestici cucina, piani da incasso",
-          "ogTitle": "Collezione Elio Piani Cottura BULM | Gas, Vetro, Vitroceramica & Induzione",
-          "ogDescription": "Versatili, durevoli e dal design raffinato — scopri i piani Elio BULM in gas, vetro, vitroceramica e induzione.",
-          "twitterTitle": "Collezione Elio Piani Cottura BULM | Gas, Vetro, Vitroceramica & Induzione",
-          "twitterDescription": "Scopri le ultime novità della serie Elio di BULM — alte prestazioni di cottura e design italiano."
-        },
-        "title": "Collezione Elio",
-        "description": "Tutti i <strong>piani Elio</strong> sono realizzati con materiali di altissima qualità e garantiscono sempre risultati superiori alla media. Sono tutti dotati di funzionalità per maggiore sicurezza e prestazioni. Sono disponibili <strong>gas su metallo</strong>, <strong>gas su vetro</strong> e <strong>piani a induzione</strong>, con quattro o più fuochi e anche versioni più piccole o dal look tradizionale.",
-        "sections": [
-          {
-            "title": "Gas su metallo",
-            "description": "Bordi lisci e design minimale creano uno stile esclusivo, i piani gas Elio sono realizzati con uno spessore maggiorato (8/10) per garantire resistenza nel tempo. Disponibili in tre misure: 60cm, 75cm e 90cm."
-          },
-          {
-            "title": "Gas su vetro",
-            "description": "I piani Elio gas su vetro sono rifiniti in elegante vetroceramica nera. Con bruciatori neri opachi e manopole in metallo: cucinare diventa semplice, versatile e preciso. Disponibili in tre misure: 60cm, 75cm e 90cm."
-          },
-          {
-            "title": "Gas-matik",
-            "description": "Il piano gas-matik Elio offre funzioni aggiuntive: ogni bruciatore può essere programmato per spegnersi dopo un tempo impostato o come timer. Include blocco bambini e spegnimento automatico dopo 4 ore di uso continuo. Disponibile in 90cm."
-          },
-          {
-            "title": "Vitroceramica Elio",
-            "description": "Facili da pulire, i piani Elio in vitroceramica hanno una superficie antigraffio che trasmette rapidamente il calore solo verticalmente, dagli elementi riscaldanti sotto il piano direttamente alle pentole tradizionali, garantendo ottime prestazioni. Disponibili in quattro misure: 30cm, 60cm, 78cm e 90cm."
-          },
-          {
-            "title": "Induzione Elio",
-            "description": "Con un design essenziale, i piani a induzione Elio sono compatibili con qualsiasi spazio e facili da installare sia in sostituzione che in prima installazione. Funzioni speciali come Chef Cook, Full bridge e Melting aumentano il tuo talento in cucina. Disponibili in: 30cm, 60cm, 70cm, 75cm, 80cm e 90cm."
-          }
-        ],
-        "products": [
-          {
-            "title": "Piano a induzione",
-            "code": "EIN 900 XF"
-          },
-          {
-            "title": "Piano a gas",
-            "code": "ELIO 95G-MATIK"
-          },
-          {
-            "title": "Piano a gas",
-            "code": "ELIO 95-545"
-          },
-          {
-            "title": "Scopri di più",
-            "type": "special"
-          }
-        ]
-      },
-      "country": {
-        "meta": {
-          "title": "Collezione Country Piani Cottura BULM | Eleganza Rustica & Prestazioni Moderne",
-          "description": "Scopri i piani Country BULM — fascino rustico e tecnologia moderna. Perfetti per chi ama il design senza tempo e la massima efficienza.",
-          "keywords": "piani country, piani rustici, piani tradizionali, collezione BULM Country, elettrodomestici cucina, piani gas, piani induzione",
-          "ogTitle": "Collezione Country Piani Cottura BULM | Eleganza Rustica & Prestazioni Moderne",
-          "ogDescription": "Vivi il calore della campagna con i piani Country BULM — dove tradizione e innovazione si incontrano.",
-          "twitterTitle": "Collezione Country Piani Cottura BULM | Eleganza Rustica & Prestazioni Moderne",
-          "twitterDescription": "Porta il fascino delle case di campagna nella tua cucina con i piani Country BULM."
-        },
-        "title": "Collezione Country",
-        "description": "La <strong>Collezione Country</strong> porta il calore e il carattere delle case di campagna nelle cucine moderne. Finiture materiche e materiali autentici si uniscono alla tecnologia BULM più avanzata.",
-        "sections": [
-          {
-            "title": "Design tradizionale",
-            "description": "Ispirata alle cucine classiche di campagna, la Collezione Country offre texture calde e materiali autentici per un'atmosfera accogliente."
-          },
-          {
-            "title": "Prestazioni moderne",
-            "description": "Nonostante l'aspetto tradizionale, i piani Country integrano la tecnologia BULM più avanzata per prestazioni e sicurezza superiori."
-          },
-          {
-            "title": "Opzioni versatili",
-            "description": "Disponibili in versione gas, induzione e vitroceramica, i piani Country offrono soluzioni per ogni esigenza e stile di cucina."
-          }
-        ],
-        "products": [
-          {
-            "title": "Piano a gas Country",
-            "code": "COUNTRY-60G"
-          },
-          {
-            "title": "Piano a induzione Country",
-            "code": "COUNTRY-75I"
-          },
-          {
-            "title": "Piano vitroceramica Country",
-            "code": "COUNTRY-90V"
-          },
-          {
-            "title": "Scopri di più",
-            "type": "special"
-          }
-        ]
-      }
-    },
-    "collectionsOvens": {
-      "title": "Forni da incasso",
-      "subtitle": "Dove l'artigianalità italiana incontra l'innovazione",
-      "description": "Scopri l'eleganza dei forni da incasso BULM — dove il design italiano iconico incontra la tecnologia di cottura più avanzata. Disponibili nei formati 60cm e 90cm, offrono opzioni a gas o multifunzione elettrici e innovazioni come Easy Steam, cottura ventilata e altro.",
-      "sections": [
-        {
-          "title": "Elio",
-          "description": "La Collezione Elio ha linee semplici e minimaliste in uno stile esclusivo. Le funzioni speciali Easy Steam e Idroclean garantiscono alte prestazioni e risultati eccellenti."
-        },
-        {
-          "title": "Elio Giant",
-          "description": "A gas o multifunzione elettrici, tutti i forni Elio Giant da 90cm offrono 141 litri di volume lordo, per nessun limite di spazio e più possibilità senza sprechi di tempo."
-        },
-        {
-          "title": "Country",
-          "description": "I forni da incasso Country sono la soluzione ideale per donare agli ambienti l'atmosfera delle case di campagna."
-        },
-        {
-          "title": "Professional",
-          "description": "La collezione Professional, dal design raffinato, offre prestazioni professionali per la tua cucina di casa."
-        },
-        {
-          "title": "Alterum",
-          "description": "La Collezione Alterum ha linee semplici e minimaliste in uno stile esclusivo; un design elegante e discreto."
-        }
-      ],
-      "meta": {
-        "title": "Forni da Incasso | BULM Italia",
-        "description": "Scopri i forni da incasso BULM: perfetta combinazione di design italiano e tecnologia avanzata. Disponibili a gas o elettrici, con funzioni come Easy Steam, cottura ventilata e altro.",
-        "keywords": "BULM, forni da incasso, forni italiani, forno a gas, forno elettrico, Easy Steam, forno 60cm, forno 90cm, elettrodomestici cucina moderni",
-        "ogTitle": "Forni da Incasso | BULM Italia",
-        "ogDescription": "Scopri i forni da incasso BULM: design premium, funzioni avanzate e artigianalità italiana.",
-        "twitterTitle": "Forni da Incasso | BULM Italia",
-        "twitterDescription": "Vivi l'eccellenza italiana con i forni da incasso BULM — dove design e prestazioni si incontrano."
-      }
-    },
-    "collections_hobs": {
-      "page_title": "Collezione Piani Cottura BULM | Gas, Induzione e Vetroceramica",
-      "page_description": "Scopri i piani cottura premium di BULM: gas, induzione, vetroceramica e altro ancora. Progettati in Italia per prestazioni superiori e perfetta integrazione in cucina.",
-      "meta_keywords": "piani cottura BULM, piani cottura a gas, a induzione, vetroceramica, piani cottura in vetro, elettrodomestici da cucina italiani, piani cottura moderni",
-      "og_description": "Piani cottura italiani premium realizzati con materiali di alta qualità. Scopri le soluzioni a gas, induzione e vetroceramica di BULM.",
-      "twitter_description": "Versatili, efficienti e belli — i piani cottura BULM, progettati in Italia, offrono prestazioni di cottura di alto livello per cucine moderne.",
-      
-      "layout": {
-        "title": "Materiali superiori incontrano",
-        "subtitle": "prestazioni all’avanguardia",
-        "description": "I piani cottura BULM sono realizzati con materiali di alta qualità e costruiti con la più recente tecnologia italiana. Disponibili in diverse forme, dimensioni e modalità — gas, induzione, vetro o vetroceramica — ogni piano è progettato per abbinarsi perfettamente ai forni BULM e migliorare la tua esperienza in cucina."
-      },
-  
-      "sections": {
-        "elio": {
-          "title": "Collezione Elio",
-          "description": "Scopri la versatilità della Collezione Elio, disponibile in tre larghezze: 60cm, 75cm e 90cm.\n\nScegli tra eleganti piani cottura a gas su vetroceramica con controlli elettronici, classiche soluzioni a gas, moderne a induzione o in vetroceramica."
-        },
-        "country": {
-          "title": "Collezione Country",
-          "description": "Per chi ama un tocco di eleganza rustica, la Collezione Country dona calore e carattere senza tempo a qualsiasi cucina. I suoi colori materici e materiali autentici richiamano il fascino delle case di campagna — con tutta l’innovazione di BULM."
-        }
-      }
-    },
-    "country_hobs": {
-      "meta": {
-        "title": "Collezione Piani Cottura Country BULM | Eleganza Rustica in Cucina",
-        "description": "Scopri la Collezione Country di BULM — piani cottura con design tradizionale, manopole in ottone anticato e uno stile rustico che porta il calore della campagna nella tua cucina.",
-        "keywords": "piani cottura country, piani rustici, collezione country BULM, manopole ottone, piani gas tradizionali, elettrodomestici da cucina rustici",
-        "og_description": "Autentici e affascinanti, i piani cottura della Collezione Country di BULM fondono stile tradizionale e prestazioni moderne.",
-        "twitter_description": "Per chi apprezza l’estetica della campagna — scopri i piani BULM Country con finiture in ottone antico e uno stile senza tempo."
-      },
-      "back": "Indietro_",
-      "main": {
-        "title": "Collezione Country. Ispirata alla tradizione",
-        "description": "Per chi ama un tocco di stile \"country chic\" in cucina e preferisce le sfumature dei colori materici, i piani cottura della Collezione Country sono la soluzione ideale, donando agli spazi interni un’atmosfera che richiama le case di campagna."
-      },
-      "section": {
-        "title": "Design Country",
-        "description": "L’estetica country è valorizzata dalle caratteristiche manopole, tutte rigorosamente in ottone anticato; le serigrafie dorate riproducono un design retrò in equilibrio tra tradizione e innovazione."
-      }
-    },
-    "elio_hobs": {
-      "meta": {
-        "title": "Collezione Piani Cottura Elio BULM | Gas, Vetro, Vetroceramica e Induzione",
-        "description": "Scopri la Collezione Elio di BULM — piani cottura a gas, vetro, induzione e vetroceramica progettati per sicurezza, prestazioni e stile italiano.",
-        "keywords": "piani Elio, gas, induzione, gas su vetro, vetroceramica, BULM Elio, elettrodomestici cucina, piani da incasso",
-        "og_description": "Versatili, resistenti e dal design elegante — scopri i piani Elio BULM in vari formati.",
-        "twitter_description": "Scopri i nuovi piani Elio BULM — alte prestazioni culinarie unite a design italiano raffinato."
-      },
-      "back": "Indietro_",
-      "main": {
-        "title": "Collezione Elio",
-        "description": "Tutti i piani Elio sono realizzati con materiali di alta qualità e garantiscono prestazioni superiori. Sono dotati di funzioni avanzate per sicurezza e prestazioni. Disponibili versioni a gas su metallo, gas su vetro e a induzione, con quattro o più fuochi, anche in versioni compatte o dal look tradizionale."
-      },
-      "sections": {
-        "1": {
-          "title": "Piani a gas su metallo",
-          "description": "Linee morbide e design minimale creano un look esclusivo. I piani Elio sono realizzati con spessore maggiorato (8/10) per garantire resistenza nel tempo. Disponibili in tre misure: 60cm, 75cm e 90cm."
-        },
-        "2": {
-          "title": "Piani a gas su vetro",
-          "description": "Rifiniti in elegante vetroceramica nera, con bruciatori opachi neri e manopole in metallo: cucina semplice, versatile e precisa. Disponibili in tre misure: 60cm, 75cm e 90cm."
-        },
-        "3": {
-          "title": "Piano Gas-matik",
-          "description": "Dotato di funzioni avanzate: ogni bruciatore può spegnersi automaticamente o essere usato come timer. Include blocco bambini e spegnimento automatico dopo 4 ore. Disponibile in misura 90cm."
-        },
-        "4": {
-          "title": "Piani Elio in vetroceramica",
-          "description": "Facili da pulire, superficie antigraffio che trasmette calore solo verticalmente, direttamente alle pentole. Buone prestazioni di cottura. Disponibili in 30cm, 60cm, 78cm e 90cm."
-        },
-        "5": {
-          "title": "Piani Elio a induzione",
-          "description": "Design essenziale e facile installazione in qualsiasi spazio. Funzioni speciali come Chef Cook, Full bridge e Melting. Disponibili in 30cm, 60cm, 70cm, 75cm, 80cm e 90cm."
-        }
-      },
-      "products": {
-        "1": { "title": "Piano a induzione" },
-        "2": { "title": "Piano a gas" },
-        "3": { "title": "Piano a gas" },
-        "4": { "title": "Scopri di più" }
-      }
-    },
-    "collections_ovens": {
-      "title": "Forni da incasso",
-      "subtitle": "Dove l’artigianato italiano incontra l’innovazione moderna",
-      "description": "Scopri l’eleganza dei forni da incasso BULM — dove il design iconico italiano si unisce alla tecnologia di cottura più avanzata. Disponibili nei formati da 60 cm e 90 cm, i nostri forni offrono opzioni a gas o elettriche multifunzione e includono innovazioni come Easy Steam, ventilazione forzata e molto altro.",
-      "sections": [
-        {
-          "title": "Elio",
-          "description": "La Collezione Elio presenta linee semplici e minimaliste in uno stile esclusivo. Le funzioni speciali Easy Steam e Idroclean garantiscono elevate prestazioni e ottimi risultati di cottura."
-        },
-        {
-          "title": "Elio Giant",
-          "description": "A gas o elettrici multifunzione, tutti i forni da incasso Elio Giant da 90 cm offrono un volume lordo di 141 litri, per una cucina senza limiti di spazio e con maggiori possibilità senza perdere tempo."
-        },
-        {
-          "title": "Country",
-          "description": "I forni da incasso della Collezione Country sono la soluzione ideale per donare agli spazi interni un’atmosfera che richiama le case di campagna."
-        },
-        {
-          "title": "Professional",
-          "description": "La collezione Professional, dal design raffinato, offre prestazioni professionali per la tua cucina di casa."
-        },
-        {
-          "title": "Alterum",
-          "description": "La Collezione Alterum presenta linee semplici e minimaliste in uno stile esclusivo; un design elegante e discreto."
-        }
-      ],
-      "seo": {
-        "title": "Forni da incasso | BULM Italia",
-        "description": "Scopri i forni da incasso BULM: una perfetta combinazione tra design italiano e tecnologia avanzata per la cucina. Disponibili a gas o elettrici, con funzioni come Easy Steam, cottura ventilata e altro ancora.",
-        "keywords": "BULM, Forni da incasso, Forni italiani, Forno a gas, Forno elettrico, Easy Steam, Forno 60cm, Forno 90cm, Elettrodomestici moderni",
-        "og_title": "Forni da incasso | BULM Italia",
-        "og_description": "Scopri i forni da incasso BULM: design di alta gamma, funzionalità avanzate e maestria artigianale italiana."
-      }
-    },
-    "alterum_ovens": {
-      "title": "Collezione Alterum. Linee minimaliste in uno stile sobrio",
-      "description": "La Collezione Alterum presenta linee semplici e minimaliste in uno stile esclusivo; un design elegante e sobrio.",
-      "sections": [
-        {
-          "title": "Easy Steam",
-          "description": "Facendo evaporare l’acqua all’interno del forno, la funzione Easy Steam aiuta a cuocere meglio gli alimenti rispetto alla stessa cottura senza umidità."
-        },
-        {
-          "title": "Idroclean",
-          "description": "Senza l’uso di alcun detergente, questa funzione aiuta a rimuovere lo sporco all’interno del forno grazie all’umidità generata dal riscaldamento dell’acqua a 80-90°C."
-        }
-      ],
-      "seo": {
-        "title": "Forni Alterum | BULM Italia",
-        "description": "Scopri la collezione di forni da incasso Alterum di BULM — design minimalista, stile esclusivo e funzioni intelligenti come Easy Steam e Idroclean per una cucina pulita ed efficiente.",
-        "keywords": "Alterum, BULM, Forni da incasso, Design minimalista, Easy Steam, Idroclean, Cucina italiana, Forni di alta qualità, Elettrodomestici moderni",
-        "og_title": "Forni Alterum | BULM Italia",
-        "og_description": "Esplora i forni da incasso Alterum di BULM — eleganti, minimalisti e dotati di funzionalità innovative per una cucina più intelligente."
-      }
-    },
-    "country_ovens": {
-      "title": "Collezione Country. Ispirata alla tradizione",
-      "description": "Per chi ama lo stile \"Country Chic\" in cucina e preferisce le sfumature dei colori materici, i forni da incasso della Collezione Country sono la soluzione ideale, donando agli spazi interni un’atmosfera che richiama le case di campagna.",
-      "sections": [
-        {
-          "title": "Estetica country inconfondibile",
-          "description": "Lo stile country è valorizzato dalle manopole caratteristiche, tutte rigorosamente in ottone anticato; le serigrafie dorate riproducono un design retrò in equilibrio tra tradizione e innovazione."
-        },
-        {
-          "title": "Idroclean",
-          "description": "Senza utilizzare alcun tipo di detergente, questa funzione aiuta a rimuovere lo sporco all'interno del forno grazie all'umidità generata dal riscaldamento dell'acqua a 80-90°C."
-        }
-      ],
-      "products": [
-        { "title": "Forno elettrico multifunzione" },
-        { "title": "Forno elettrico multifunzione" },
-        { "title": "Scopri di più" }
-      ],
-      "seo": {
-        "title": "Forni da Incasso Country | BULM Italia",
-        "description": "Scopri la Collezione Country di forni da incasso BULM — design rustico e senza tempo unito a prestazioni moderne. Forni elettrici multifunzione con funzione Idroclean e stile country tradizionale.",
-        "keywords": "Forni Country, BULM, forni da incasso, forni rustici, elettrodomestici da cucina tradizionali, Idroclean, forno elettrico multifunzione, stile country chic",
-        "og_title": "Forni da Incasso Country | BULM Italia",
-        "og_description": "Ispirata alla tradizione, la Collezione Country di BULM offre forni da incasso senza tempo con dettagli in ottone eleganti e funzione autopulente Idroclean."
-      }
-    },
-    "elio_giant_ovens": {
-      "seo": {
-        "title": "Forni da incasso Elio Giant | BULM Italia",
-        "description": "Scopri i forni da incasso Elio Giant di BULM — forni da 90cm a gas o elettrici multifunzione con una capienza di 141L, doppi ventilatori, girarrosto e funzionalità avanzate.",
-        "keywords": "forni Elio Giant, forni BULM, forni da incasso, forni da 90cm, forno elettrico multifunzione, forno a gas con ventilatore, forno con girarrosto, forni italiani",
-        "og_title": "Forni da incasso Elio Giant | BULM Italia",
-        "og_description": "Scopri l’ampiezza e la potenza dei forni Elio Giant di BULM. Scegli tra forni a gas o elettrici multifunzione per cucinare senza limiti."
-      },
-      "title": "Collezione Elio Giant. Un grande spazio con più potenza e prestazioni",
-      "description": "Immagina di non avere limiti di spazio con ancora più possibilità; un risultato perfetto in ogni condizione senza perdere tempo.",
-      "sections": [
-        {
-          "title": "Forni elettrici multifunzione Giant",
-          "description": "Scegli tra i forni elettrici multifunzione. Qualsiasi finitura tu preferisca, tutti i forni da 90 cm della linea Giant offrono 141 litri lordi di volume e 121 litri utilizzabili con 7 livelli, programmi di cottura variati, preriscaldamento rapido e 2 ventole per una cottura tridimensionale completa."
-        },
-        {
-          "title": "Forni a gas Giant",
-          "description": "Una caratteristica unica dei forni a gas Giant è il forno ventilato e il grill a gas a tutta larghezza. Una combinazione potente per un controllo ottimale del calore. Il kit girarrosto in acciaio inox si adatta alla larghezza totale del forno ed è dotato di doppia forchetta."
-        }
-      ],
-      "products": [
-        { "title": "Forno a gas ventilato" },
-        { "title": "Forno a gas ventilato" },
-        { "title": "Forno elettrico multifunzione" },
-        { "title": "Scopri di più" }
-      ]
-    },
-    "elio_ovens": {
-      "seo": {
-        "title": "Forni da Incasso Elio | BULM Italia",
-        "description": "Scopri la collezione di forni da incasso Elio di BULM – con funzioni Easy Steam, Idroclean e Gas-Matik. Design elegante e prestazioni eccezionali per ogni cottura.",
-        "keywords": "Forni Elio, forni da incasso BULM, forni multifunzione, forni elettrici, forno Easy Steam, forno Idroclean, Gas-Matik, elettrodomestici da cucina italiani",
-        "og_title": "Forni da Incasso Elio | BULM Italia",
-        "og_description": "Scopri il design senza interruzioni e la cucina innovativa con i forni da incasso Elio di BULM. Progettati per prestazioni eccellenti con funzioni avanzate come Easy Steam e Idroclean."
-      },
-      "title": "Collezione Elio. Integrazione perfetta tra stile ed efficienza",
-      "description": "L’innovazione e il fascino si rivelano nei modelli da incasso Elio. Materiali di alta qualità progettati con tecnologia di ultima generazione, come le funzioni Easy Steam e Idroclean, garantiscono prestazioni elevate e risultati eccellenti. La Collezione Elio presenta linee semplici ed ergonomiche in uno stile esclusivo.",
-      "sections": [
-        {
-          "title": "Ampio vano forno",
-          "description": "74 litri utilizzabili (86 lordi), con guide laterali a 7 livelli, perfetti per preparazioni multilivello."
-        },
-        {
-          "title": "Easy Steam",
-          "description": "Evaporando l'acqua all'interno del forno, la funzione Easy Steam aiuta a cuocere meglio gli alimenti aggiungendo il giusto grado di umidità."
-        },
-        {
-          "title": "Piano cottura Gas-matik",
-          "description": "Il piano cottura gas-matik Elio ha una serie di funzioni aggiuntive: ogni bruciatore può essere programmato per spegnersi dopo un tempo prestabilito o impostato come timer. Inoltre, è presente una funzione di blocco bambini e, se un bruciatore è in uso continuo per 4 ore, il sistema si spegne automaticamente. Disponibile nel formato da 90 cm."
-        },
-        {
-          "title": "Idroclean",
-          "description": "Senza l'utilizzo di detergenti, questa funzione aiuta a rimuovere lo sporco all'interno del forno grazie all'umidità generata dall'acqua riscaldata a 80-90°C."
-        }
-      ],
-      "products": [
-        {
-          "title": "Forno elettrico multifunzione Elio"
-        },
-        {
-          "title": "Forno elettrico multifunzione"
-        },
-        {
-          "title": "Scopri di più"
-        }
-      ]
-    },
-    "professional_ovens": {
-      "seo": {
-        "title": "Forni da Incasso Professional | BULM Italia",
-        "description": "Esplora la collezione di forni da incasso Professional di BULM – alte prestazioni con funzioni premium come Easy Steam, Idroclean, Pizza300°C e Leavening 40°C.",
-        "keywords": "Forni Professional, forni da incasso BULM, forno elettrico multifunzione, Easy Steam, Idroclean, Pizza 300°C, Leavening 40°C, cavità ampia, elettrodomestici italiani",
-        "og_title": "Forni da Incasso Professional | BULM Italia",
-        "og_description": "Scopri i forni Professional di BULM – progettati per potenza, precisione e prestazioni. Funzionalità avanzate per una cucina moderna."
-      },
-      "title": "Collezione Professional. Prestazioni professionali per la tua cucina",
-      "description": "La collezione Professional offre prestazioni professionali per la tua cucina domestica. Uno stile distintivo con manopole eleganti e maniglie ergonomiche, capacità, flessibilità e usabilità con funzioni speciali come Easy Steam e Idroclean.",
-      "sections": [
-        {
-          "title": "Easy Steam",
-          "description": "Easy Steam. Evaporando l'acqua all'interno del forno, la funzione Easy Steam aiuta a cuocere meglio gli alimenti rispetto alla stessa cottura senza umidità."
-        },
-        {
-          "title": "Idroclean",
-          "description": "Senza l'uso di detergenti, questa funzione aiuta a rimuovere lo sporco all'interno del forno grazie all'umidità generata dall'acqua riscaldata a 80-90°C."
-        },
-        {
-          "title": "Lievitazione 40°C",
-          "description": "Progettati per durare e affrontare la cucina quotidiana, questi forni offrono la funzione di lievitazione a 40°C che mantiene le caratteristiche dell'impasto per una lievitazione ottimale."
-        },
-        {
-          "title": "Funzione speciale Pizza 300°C",
-          "description": "La funzione speciale Pizza a 300°C consente una cottura perfetta come in un forno professionale. L’elemento superiore e la ventola si attivano, diffondendo il calore dal basso per convezione forzata."
-        },
-        {
-          "title": "Cavità del forno ampia",
-          "description": "74 litri utilizzabili (86 lordi), con 7 livelli e guide laterali facilmente removibili per preparazioni su più livelli."
-        }
-      ],
-      "products": [
-        { "title": "Forno elettrico multifunzione" },
-        { "title": "Forno elettrico multifunzione" },
-        { "title": "Forno elettrico multifunzione" },
-        { "title": "Scopri di più" }
-      ]
-    },
+
     "timeline_swiper": {
       "title": "Una Storia di Successo Italiana",
       "seo": {
@@ -925,6 +213,76 @@
         "Lavastoviglie"
       ],
       "escToClose": "Premi ESC per chiudere"
+    },
+    "collections": {
+      "title": "Collezioni Uniche.",
+      "subtitle": "Linee Distintive",
+      "description": "Il talento in cucina significa anche saper soddisfare tutti i requisiti derivanti da diverse culture e approcci alla cucina. Per questo motivo, Elba offre la più ampia gamma di elettrodomestici per la cucina. Scopri il tuo stile migliore per la cucina con le Collezioni Elba.",
+      "sections": [
+        {
+          "title": "Collezione Cucine",
+          "description": "Nelle cucine free-standing Elba abbiamo quindi combinato la funzionalità della tecnologia con un'estetica attraente, per creare un ambiente accogliente e stimolante. Innovazione e tradizione sono perfettamente bilanciate nei nostri design, frutto di anni di esperienza nel settore, creando prodotti di punta per la nostra attività."
+        },
+        {
+          "title": "Collezione Piani Cottura",
+          "description": "Ci sono piani cottura a gas classici, gas su vetro e a induzione Elba, con quattro o più bruciatori e anche piani cottura più piccoli o dal look tradizionale. Tutti i piani cottura Elba sono realizzati con materiali di altissima qualità e offrono quindi risultati superiori alla media. Sono tutti dotati di funzionalità per maggiore sicurezza e prestazioni, come ad esempio, nei piani a induzione, la funzione booster per tempi di cottura rapidi e consumo energetico ridotto."
+        },
+        {
+          "title": "Collezione Forni",
+          "description": "Abbiamo forni per usi specifici, come carne, pizza, pane, dolci e prodotti lievitati. Esiste il forno Elba giusto per tutti, perché vogliamo che ognuno possa mostrare al meglio il proprio talento in cucina."
+        }
+      ]
+    },
+    "blackLinePage": {
+      "title": "BULM Black Line – Precisione ed Eleganza",
+      "description": "Scopri l'essenza dell'ingegneria italiana e dell'estetica raffinata con la linea Black di BULM. Una collezione premium di elettrodomestici da incasso per chi cerca prestazioni, eleganza e innovazione d’avanguardia — tutto in uno.",
+      "back": "Indietro_",
+      "meta": {
+        "title": "Collezione Black Line | BULM Italia – Eleganza da Incasso",
+        "description": "Scopri la collezione Black Line di BULM: forni da incasso, microonde, macchine da caffè e cassetti scaldavivande. Design italiano e tecnologia all'avanguardia.",
+        "keywords": "BULM Black Line, elettrodomestici da incasso, cucina italiana, forno multifunzione, microonde, macchina da caffè, cassetto scaldavivande",
+        "ogTitle": "Collezione Black Line | BULM Italia",
+        "ogDescription": "Scopri la collezione Black Line di BULM — elettrodomestici da incasso di alta gamma che uniscono prestazioni e stile italiano.",
+        "twitterTitle": "Collezione Black Line | BULM Italia",
+        "twitterDescription": "BULM Black Line è una collezione di elettrodomestici eleganti, innovativi e da incasso, progettati in Italia.",
+        "imageAlt": "Galleria della linea Black"
+      },
+      "mainImageAlt": "Immagine Principale Black Line",
+      "breadcrumb": {
+        "home": "Home",
+        "collections": "Collezioni",
+        "blackLine": "Black Line"
+      },
+      "productTitle": "Esplora i Nostri Prodotti",
+      "sections": [
+        {
+          "title": "Forno Elettrico Multifunzione da Incasso",
+          "description": "Dotato di numerose funzioni innovative, questo forno offre un'esperienza culinaria professionale. Con 11 modalità tra cui Air Fry, Pizza 300°C, Easy Steam e Booster per il preriscaldamento rapido."
+        },
+        {
+          "title": "Microonde Combinato 45cm",
+          "description": "Griglia, cuoci, arrostisci e altro ancora — tutto in un solo apparecchio con 13 funzioni e menu automatici preimpostati per ricette quotidiane. Progettato per qualsiasi cucina moderna."
+        },
+        {
+          "title": "Macchina per Caffè e Cappuccino",
+          "description": "Goditi il caffè come al bar a casa tua. Questo elegante apparecchio è progettato per preparare espresso e cappuccini cremosi con un solo tocco — unendo tradizione italiana e comodità moderna."
+        },
+        {
+          "title": "Cassetto Scaldavivande",
+          "description": "Un'aggiunta elegante alla tua cucina, perfetta per preriscaldare i piatti o mantenere i cibi caldi prima di servirli. In linea con il design Black Line di BULM."
+        }
+      ],
+      "products": [
+        {
+          "title": "Forno Multifunzione Elettrico"
+        },
+        {
+          "title": "Forno a Microonde Combinato"
+        },
+        {
+          "title": "Macchina Automatica per Caffè e Cappuccino"
+        }
+      ]
     }
   }
   

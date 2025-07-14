@@ -81,29 +81,29 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/collections-cookers">
+                          <Link to="/collections/collections-cookers/">
                             Collections Cookers
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
-                            <Link to="/collections/collections-cookers/vintage">
-                              Vintage
+                            <Link to="/collections/collections-cookers/antique">
+                              Antique
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-cookers/excellence">
-                              Excellence
+                            <Link to="/collections/collections-cookers/perfection">
+                              Perfection
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-cookers/fusion">
-                              Fusion
+                            <Link to="/collections/collections-cookers/mixture">
+                              Mixture
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-cookers/classic">
-                              Classic
+                            <Link to="/collections/collections-cookers/elegant">
+                              Elegant
                             </Link>
                           </li>
                         </ul>
@@ -111,29 +111,29 @@ const NavBar = ({ isScrolled }: LogoProps) => {
 
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/collections-ovens">
+                          <Link to="/collections/collections-ovens/">
                             Collections Ovens
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
-                            <Link to="/collections/collections-ovens/elio-ovens">
-                              Elio
+                            <Link to="/collections/collections-ovens/enzo-ovens">
+                              Enzo
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-ovens/elio-giant-ovens">
-                              Elio Giant
+                            <Link to="/collections/collections-ovens/enzo-titan-ovens">
+                              Enzo Titan
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-ovens/country-ovens">
-                              Country
+                            <Link to="/collections/collections-ovens/land-ovens">
+                              Land
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-ovens/professional-ovens">
-                              Professional
+                            <Link to="/collections/collections-ovens/expert-ovens">
+                              Expert
                             </Link>
                           </li>
                           <li>
@@ -146,19 +146,19 @@ const NavBar = ({ isScrolled }: LogoProps) => {
 
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/collections-hobs">
+                          <Link to="/collections/collections-hobs/">
                             Collections Hobs
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
-                            <Link to="/collections/collections-hobs/elio-hobs">
-                              Elio Collection
+                            <Link to="/collections/collections-hobs/enzo-hobs">
+                              Enzo Collection
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-hobs/country-hobs">
-                              Country Collection
+                            <Link to="/collections/collections-hobs/land-hobs">
+                              Land Collection
                             </Link>
                           </li>
                         </ul>
@@ -166,7 +166,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
 
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/black-line-collection">
+                          <Link to="/collections/black-line-collection/">
                             Black Line Collection
                           </Link>
                         </p>

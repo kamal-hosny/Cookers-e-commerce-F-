@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 interface LogoProps {
   isScrolled: boolean;
@@ -6,6 +7,7 @@ interface LogoProps {
 
 const Logo = ({ isScrolled }: LogoProps) => {
   const { pathname } = useLocation();
+  const { i18n } = useTranslation(); // استخراج اللغة الحالية
 
   let footerClasses = "transition-all duration-300";
 
@@ -36,6 +38,12 @@ const Logo = ({ isScrolled }: LogoProps) => {
   } else {
     footerClasses += " text-[#30505b]";
   }
+
+  const lang = i18n.language;
+  const logoImageSrc =
+    lang === "it"
+      ? "/logo/Yearsofexperience-it.png"
+      : "/logo/Yearsofexperience-en.png";
 
   return (
     <Link
@@ -83,7 +91,7 @@ const Logo = ({ isScrolled }: LogoProps) => {
       >
         <img
           className="h-full w-full object-contain scale-150"
-          src="/logo/Yearsofexperience-en.jpg"
+          src={logoImageSrc}
           alt="Years-of-experience"
         />
       </div>
