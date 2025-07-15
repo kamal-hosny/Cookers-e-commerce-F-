@@ -2,12 +2,18 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 const BannerLanding = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation(); 
+
+  const currentLang = i18n.language;
+  const experienceImage =
+    currentLang === "it"
+    ? "/logo/Yearsofexperience-it.png"
+    : "/logo/Yearsofexperience-en.png";
 
   return (
     <div className="w-full container overflow-hidden bg-white font-sans">
       {/* Top Section */}
-      <div className=" bg-gradient-to-r from-[#30505b] to-[#4c6f7c] px-4 py-10 sm:px-6 sm:py-12 md:px-16 md:py-16">
+      <div className="bg-gradient-to-r from-[#30505b] to-[#4c6f7c] px-4 py-10 sm:px-6 sm:py-12 md:px-16 md:py-16">
         <div className="mx-auto max-w-6xl flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           {/* Title */}
           <div className="text-center md:text-left max-w-md">
@@ -34,7 +40,7 @@ const BannerLanding = () => {
             <div className="p-2 border-4 border-[#4c6f7c] rounded-xl shadow-md">
               <img
                 className="h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 rounded-lg object-cover"
-                src="/logo/Yearsofexperience-en.jpg"
+                src={experienceImage}
                 alt={t("bannerLanding.years")}
               />
             </div>

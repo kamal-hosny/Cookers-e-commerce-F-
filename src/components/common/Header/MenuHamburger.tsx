@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   openMenu: boolean;
@@ -9,6 +10,8 @@ interface Props {
 
 const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
   const { pathname } = useLocation();
+  const { t } = useTranslation();
+
   const [isMobile, setIsMobile] = useState(false);
   const [openCollections, setOpenCollections] = useState(false);
   const [openProducts, setOpenProducts] = useState(false);
@@ -26,7 +29,6 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
     };
   }, []);
 
-  // التحكم في الألوان حسب حالة القائمة أو التمرير
   let barColor = "";
   let textColor = "";
 
@@ -71,15 +73,14 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
           ></span>
         </div>
         <span
-          className={`absolute uppercase opacity-0 -translate-x-12 top-0 transition-all duration-300 group-hover:translate-x-0.5 group-hover:opacity-100 ${textColor} text-md font-medium ${
+          className={`absolute uppercase opacity-0 -translate-x-12 top-0 transition-all duration-300 group-hover:translate-x-0.5 group-hover:opacity-100 ${textColor} text-lg font-semibold ${
             openMenu && "hidden"
           }`}
         >
-          Menu
+          {t("menu.menu")}
         </span>
       </div>
 
-      {/* Full Screen Menu */}
       <div
         className={`fixed top-0 left-0 h-screen px-20 py-40 space-y-28 ${
           isMobile ? "w-full" : "w-1/2"
@@ -87,56 +88,56 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
           openMenu ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className=" text-white">
+        <div className="text-white">
           <ul className="space-y-6">
-            <li className="text-2xl hover:text-black transition-colors">
+            <li className="text-4xl hover:text-black transition-colors">
               <Link onClick={onToggleMenu} to={"/about-bulm"}>
-                About Bulm
+                {t("menu.aboutBulm")}
               </Link>
             </li>
             <li className="flex items-center justify-between group">
               <Link
                 onClick={onToggleMenu}
                 to="/collections"
-                className="text-2xl hover:text-black transition-colors"
+                className="text-4xl hover:text-black transition-colors"
               >
-                Collections
+                {t("menu.collections")}
               </Link>
               <button
                 onClick={() => setOpenCollections(!openCollections)}
-                className="ml-2 text-white text-xl w-full transform transition-transform duration-300 group-hover:text-black"
+                className="ml-2 text-white text-3xl w-full transform transition-transform duration-300 group-hover:text-black"
               >
                 {openCollections ? "▲" : "▼"}
               </button>
             </li>
 
             {openCollections && (
-              <ul className="pl-6 mt-2 space-y-2 text-lg text-white">
+              <ul className="pl-6 mt-2 space-y-2 text-2xl text-white">
                 <li>
                   <Link
                     onClick={onToggleMenu}
-                    to="/collections/collections-cookers"
+                    to="/collections/collections-cookers/"
                     className="hover:text-black"
                   >
-                    Collections cookers
+                    {t("menu.collectionsCookers")}
                   </Link>
                 </li>
                 <li>
                   <Link
                     onClick={onToggleMenu}
-                    to="/collections/collections-hobs"
+                    to="/collections/collections-hobs/"
                     className="hover:text-black"
                   >
-                    Collections hobs
+                    {t("menu.collectionsHobs")}
                   </Link>
                 </li>
                 <li>
                   <Link
                     onClick={onToggleMenu}
-                    to="/collections/collections-ovens"
+                    to="/collections/collections-ovens/"
                     className="hover:text-black"
                   >
-                    Collections ovens
+                    {t("menu.collectionsOvens")}
                   </Link>
                 </li>
               </ul>
@@ -146,93 +147,85 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
               <Link
                 onClick={onToggleMenu}
                 to="/product-category?cookers"
-                className="text-2xl hover:text-black transition-colors"
+                className="text-4xl hover:text-black transition-colors"
               >
-                Products
+                {t("menu.products")}
               </Link>
               <button
                 onClick={() => setOpenProducts(!openProducts)}
-                className="ml-2 text-white w-full text-xl transform transition-transform duration-300 group-hover:text-black"
+                className="ml-2 text-white w-full text-3xl transform transition-transform duration-300 group-hover:text-black"
               >
                 {openProducts ? "▲" : "▼"}
               </button>
             </li>
 
             {openProducts && (
-              <ul className="pl-6 mt-2 space-y-2 text-lg text-white">
+              <ul className="pl-6 mt-2 space-y-2 text-2xl text-white">
                 <li>
                   <Link
                     onClick={onToggleMenu}
-                    to="/product-category?cookers"
+                    to="/product-category/cookers"
                     className="hover:text-black"
                   >
-                    Cookers
+                    {t("menu.cookers")}
                   </Link>
                 </li>
                 <li>
                   <Link
                     onClick={onToggleMenu}
-                    to="/product-category?ovens"
+                    to="/product-category/ovens"
                     className="hover:text-black"
                   >
-                    Hobs
+                    {t("menu.ovens")}
                   </Link>
                 </li>
                 <li>
                   <Link
                     onClick={onToggleMenu}
-                    to="/product-category?hobs"
+                    to="/product-category/hobs"
                     className="hover:text-black"
                   >
-                    Ovens
+                    {t("menu.hobs")}
                   </Link>
                 </li>
                 <li>
                   <Link
                     onClick={onToggleMenu}
-                    to="/product-category?hoods"
+                    to="/product-category/hoods"
                     className="hover:text-black"
                   >
-                    Hoods
+                    {t("menu.hoods")}
                   </Link>
                 </li>
                 <li>
                   <Link
                     onClick={onToggleMenu}
-                    to="/product-category?compact-products"
+                    to="/product-category/compact-products"
                     className="hover:text-black"
                   >
-                    Compact products
+                    {t("menu.compactProducts")}
                   </Link>
                 </li>
               </ul>
             )}
 
-            <li className="text-2xl hover:text-black transition-colors">
+            <li className="text-4xl hover:text-black transition-colors">
               <Link onClick={onToggleMenu} to="/dealers">
-                Dealers
+                {t("menu.dealers")}
               </Link>
             </li>
           </ul>
         </div>
+
         <div>
-          <ul className="text-white space-y-1 ">
-            <li>
-              <Link
-                onClick={onToggleMenu}
-                to="/catalogues"
-                className="p-2 hover:text-black transition-colors"
-              >
-                Catalogues
-              </Link>
-            </li>
+          <ul className="text-white space-y-2 text-xl">
             <li>
               <Link
                 onClick={onToggleMenu}
                 to="/"
                 className="p-2 hover:text-black transition-colors"
               >
-                Jobs
+                {t("menu.jobs")}
               </Link>
             </li>
             <li>
@@ -241,7 +234,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 to="/ita/login"
                 className="p-2 hover:text-black transition-colors"
               >
-                Service
+                {t("menu.service")}
               </Link>
             </li>
             <li>
@@ -250,7 +243,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 to="/contacts"
                 className="p-2 hover:text-black transition-colors"
               >
-                Contacts
+                {t("menu.contacts")}
               </Link>
             </li>
             <li>
@@ -259,7 +252,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 to="/reserved-area"
                 className="p-2 hover:text-black transition-colors"
               >
-                Reserved area
+                {t("menu.reservedArea")}
               </Link>
             </li>
           </ul>

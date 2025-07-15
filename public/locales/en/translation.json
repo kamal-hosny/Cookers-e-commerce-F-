@@ -213,6 +213,106 @@
     ],
     "escToClose": "Press ESC to close"
   },
+  "navbar": {
+    "collections": "Collections",
+    "collectionsCookers": "Collections Cookers",
+    "antique": "Antique",
+    "perfection": "Perfection",
+    "mixture": "Mixture",
+    "elegant": "Elegant",
+    "collectionsOvens": "Collections Ovens",
+    "enzo": "Enzo",
+    "enzoTitan": "Enzo Titan",
+    "land": "Land",
+    "expert": "Expert",
+    "alterum": "Alterum",
+    "collectionsHobs": "Collections Hobs",
+    "enzoCollection": "Enzo Collection",
+    "landCollection": "Land Collection",
+    "blackLine": "Black Line Collection",
+    "products": "Products",
+    "cookers": "Cookers",
+    "ovens": "Ovens",
+    "hobs": "Hobs",
+    "hoods": "Hoods",
+    "compactProducts": "Compact products"
+  },
+  "breadcrumbs": {
+    "home": "< Home",
+    "collections": "Collections",
+    "black-line-collection": "Black Line Collection",
+    "collections-cookers": "Cookers",
+    "elegant": "Elegant",
+    "perfection": "Perfection",
+    "mixture": "Mixture",
+    "antique": "Antique",
+    "collections-hobs": "Hobs",
+    "land-hobs": "Land Hobs",
+    "enzo-hobs": "Enzo Hobs",
+    "collections-ovens": "Ovens",
+    "alterum-ovens": "Alterum Ovens",
+    "land-ovens": "Land Ovens",
+    "enzo-titan-ovens": "Enzo Titan Ovens",
+    "enzo-ovens": "Enzo Ovens",
+    "expert-ovens": "Expert Ovens",
+    "contacts": "Contacts",
+    "dealers": "Dealers",
+    "privacy-policy": "Privacy Policy",
+    "product-category": "Product Category",
+    "reasons-to-choose-freestandig-cooker": "Why Choose Freestanding Cooker",
+    "reserved-area": "Reserved Area",
+    "company-info": "Company Info",
+    "about-bulm": "About BULM",
+    "product": "Product",
+    "ita": "Italian",
+    "login": "Login",
+    "cookers": "Cookers",
+    "ovens": "Ovens",
+    "hobs": "Hobs",
+    "hoods": "Hoods",
+    "compact-products": "Compact Products"
+  },
+  "leftPin": {
+    "followUs": "Follow us"
+  },
+  "rightPin": {
+    "jobs": "Jobs",
+    "contactUs": "Contact Us",
+    "reservedArea": "Reserved Area"
+  },
+  "menu": {
+    "menu": "Menu",
+    "aboutBulm": "About Bulm",
+    "collections": "Collections",
+    "collectionsCookers": "Collections Cookers",
+    "collectionsHobs": "Collections Hobs",
+    "collectionsOvens": "Collections Ovens",
+    "products": "Products",
+    "cookers": "Cookers",
+    "hobs": "Hobs",
+    "ovens": "Ovens",
+    "hoods": "Hoods",
+    "compactProducts": "Compact Products",
+    "dealers": "Dealers",
+    "catalogues": "Catalogues",
+    "jobs": "Jobs",
+    "service": "Service",
+    "contacts": "Contacts",
+    "reservedArea": "Reserved Area"
+  },
+  "dealers": {
+    "intro": "For inquiries or dealership information, feel free to contact us via phone or email. Our team is ready to support you globally.",
+    "name": "Name",
+    "surname": "Surname",
+    "company": "Company",
+    "role": "Role",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "privacy": "We treat your personal data with care; view our",
+    "privacyLink": "Privacy Policy",
+    "submit": "Submit"
+  },
   "collections": {
     "title": "Unique Collections.",
     "subtitle": "Distinctive lines",
@@ -231,7 +331,8 @@
         "description": "We have ovens for specific uses, such as for meat, pizza, bread, cakes and leavened products. There is a right Elba oven for everybody because we want everyone to be able to show the best of their talents for cooking."
       }
     ]
-  }, "blackLinePage": {
+  },
+   "blackLinePage": {
     "title": "BULM Black Line – Precision Meets Elegance",
     "description": "Discover the essence of Italian engineering and refined aesthetics with the BULM Black Line. A premium collection of built-in kitchen appliances created for those who demand performance, elegance, and cutting-edge innovation — all in one.",
     "back": "Back_",
@@ -281,7 +382,470 @@
         "title": "Automatic Coffee & Cappuccino Maker"
       }
     ]
+  },
+  "collectionsCookers": {
+    "layout": {
+      "title": "Cookers Collections",
+      "subtitle": "Designed for every culinary style",
+      "description": "BULM freestanding cookers bring together sophisticated Italian design and powerful cooking features. Whether you prefer traditional aesthetics or sleek modern lines, our cookers are built to perform and impress."
+    },
+    "sections": {
+      "antique": {
+        "title": "Antique",
+        "description": "Our Antique Collection is a tribute to classic design. Elegant retro touches meet modern technology in freestanding cookers built for both charm and performance."
+      },
+      "perfection": {
+        "title": "Perfection",
+        "description": "Perfection Collection brings a sleek, contemporary look to your kitchen. Inspired by professional kitchens, it blends advanced functionality with minimalist elegance."
+      },
+      "mixture": {
+        "title": "Mixture",
+        "description": "Rounded edges and soft lines define the Mixture Collection. Where functional innovation meets harmonious design — perfect for the modern lifestyle."
+      },
+      "elegant": {
+        "title": "Elegant",
+        "description": "The Elegant Collection delivers timeless beauty and reliable cooking power. A balance of cast-iron tradition and contemporary control in one refined appliance."
+      }
+    },
+    "meta": {
+      "title": "BULM Cooker Collections | Antique, Elegant, and More",
+      "description": "Explore BULM’s range of freestanding cookers: Antique, Elegant, Perfection, and Mixture. Italian design meets culinary innovation in every collection.",
+      "keywords": "BULM cookers, Italian freestanding cookers, vintage cookers, modern cookers, professional gas cookers, Elegant cookers",
+      "ogTitle": "BULM Cooker Collections | Antique, Elegant, and More",
+      "ogDescription": "Browse BULM's Italian-made cookers designed for every style — from antique charm to modern minimalism. Discover the perfect fit for your kitchen.",
+      "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-vintage-collection-freestanding-cookers.jpg.webp",
+      "twitterTitle": "BULM Cooker Collections | Antique, Elegant, and More",
+      "twitterDescription": "Antique, Mixture, Elegant, and Perfection cookers by BULM – combining beauty and innovation in Italian kitchen appliances.",
+      "twitterImage": "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-vintage-collection-freestanding-cookers.jpg.webp"
+    }
+  },
+  "collectionsHobs": {
+    "layout": {
+      "title": "Superior materials meet",
+      "subtitle": "cutting-edge performance",
+      "description": "BULM hobs are crafted from premium materials and built with the latest Italian cooking technology. Available in a variety of shapes, sizes, and methods — gas, induction, glass or vitroceramic — each hob is engineered to pair perfectly with BULM ovens and elevate your cooking experience."
+    },
+    "sections": {
+      "enzo": {
+        "title": "Enzo Hobs",
+        "description": "Explore versatility with the Enzo Collection, available in three width options: 60cm, 75cm, and 90cm.\n\nChoose from sleek gas on glass-ceramic hobs with electronic controls, classic all-gas options, modern induction, or vitroceramic solutions."
+      },
+      "land": {
+        "title": "Land Hobs",
+        "description": "For those who appreciate a touch of rustic elegance, the Land Collection adds warmth and timeless character to any kitchen. Its textured colors and authentic materials recall the charm of countryside homes — with all the innovation of BULM."
+      }
+    },
+    "meta": {
+      "title": "BULM Hobs Collections | Gas, Induction & Vitroceramic Cooktops",
+      "description": "Discover BULM's premium hobs: gas, induction, vitroceramic, and more. Designed in Italy for superior performance and seamless kitchen integration.",
+      "keywords": "BULM hobs, gas hobs, induction hobs, vitroceramic cooktops, glass cooktops, Italian kitchen appliances, modern hobs",
+      "ogTitle": "BULM Hobs Collections | Gas, Induction & Vitroceramic Cooktops",
+      "ogDescription": "Premium Italian hobs crafted from the finest materials. Explore gas, induction, and vitroceramic cooktops from BULM.",
+      "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp",
+      "twitterTitle": "BULM Hobs Collections | Gas, Induction & Vitroceramic Cooktops",
+      "twitterDescription": "Versatile, efficient, and beautiful — BULM's Italian-designed hobs offer top-tier cooking performance for modern kitchens.",
+      "twitterImage": "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp"
+    }
+  },
+  "collectionsOvens": {
+    "layout": {
+      "title": "Built-in",
+      "subtitle": "Where Italian craftsmanship meets modern innovation",
+      "description": "Discover the elegance of BULM built-in ovens — where iconic Italian design meets advanced cooking technology. Available in both 60cm and 90cm formats, our ovens offer gas or electric multifunction options and feature innovations such as Easy Steam, true fan cooking, and more."
+    },
+    "sections": {
+      "enzo": {
+        "title": "Enzo",
+        "description": "Enzo Collection has simple, minimalist lines in an exclusive style. Easy Steam and Idroclean special functions ensure high performance and excellent cooking results."
+      },
+      "enzoTitan": {
+        "title": "Enzo Titan",
+        "description": "Gas or multifunction electric, all 90cm Enzo Titan built-in ovens feature 141 litres gross volume, for no space limits with even more possibilities without wasting time."
+      },
+      "land": {
+        "title": "Land",
+        "description": "Land Collection built-in ovens are the ideal solution for giving the interior spaces the atmosphere that especially recalls the houses of the countryside."
+      },
+      "expert": {
+        "title": "Expert",
+        "description": "The beautifully designed Expert collection offers professional performance for your kitchen at home."
+      },
+      "alterum": {
+        "title": "Alterum",
+        "description": "Alterum Collection has simple, minimalist lines in an exclusive style; an elegant and discreet design."
+      }
+    },
+    "meta": {
+      "title": "Built-in Ovens | BULM Italy",
+      "description": "Discover BULM's built-in ovens: a perfect blend of Italian design and advanced cooking technology. Available in gas or electric, with features like Easy Steam, fan cooking, and more.",
+      "keywords": "BULM, Built-in Ovens, Italian Ovens, Gas Oven, Electric Oven, Easy Steam, 60cm Oven, 90cm Oven, Modern Kitchen Appliances",
+      "ogTitle": "Built-in Ovens | BULM Italy",
+      "ogDescription": "Discover BULM's built-in ovens: premium design, advanced features, and Italian craftsmanship.",
+      "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/03/27085R15_900x600.jpg.webp"
+    }
+  },
+  "enzoHobs": {
+    "title": "Enzo Hobs Collection",
+    "description": "All <strong>Enzo hobs</strong> are made with top-quality materials and therefore always give above standard results. All are equipped with features for increased safety and performance. There are <strong>gas on metal</strong>, <strong>gas on glass</strong> and <strong>induction hobs</strong>, with four or more burners and even smaller sized or traditional-looking hobs.",
+    "back": "Back_",
+    "sections": {
+      "gasMetal": {
+        "title": "Gas on metal hobs",
+        "description": "Smooth edges and minimal design create an exclusive look. Enzo gas hobs are crafted using an expressly increased thickness (8/10) to ensure resistance over time. Available in three different sizes: 60cm, 75cm and 90cm."
+      },
+      "gasGlass": {
+        "title": "Gas on glass hobs",
+        "description": "Enzo gas on glass hobs are finished in stylish black vitroceramic. With matt black burners and accurate metal finishing knobs: cooking becomes simple, versatile and precise. Available in three different sizes: 60cm, 75cm and 90cm."
+      },
+      "gasMatik": {
+        "title": "Gas-matik hob",
+        "description": "Enzo gas-matik hob has a range of additional features: each gas burner can be programmed to turn off after a set period of time or set as a minute minder. It features a child lock function and shuts off automatically after 4 hours of continuous use. Available in 90cm size."
+      },
+      "vitro": {
+        "title": "Vitroceramic Enzo hobs",
+        "description": "Easy to clean, Vitroceramic Enzo hobs are equipped with a scratch-resistant surface that quickly transmits heat only vertically, from the heating elements directly to pots. Available in four sizes: 30cm, 60cm, 78cm and 90cm."
+      },
+      "induction": {
+        "title": "Induction Enzo hobs",
+        "description": "With their essential design, Enzo induction hobs are easy to install and include features like Chef Cook, Full Bridge, and Melting. Available in 30cm, 60cm, 70cm, 75cm, 80cm and 90cm sizes."
+      }
+    },
+    "products": {
+      "1": { "title": "Induction hob" },
+      "2": { "title": "Gas hob" },
+      "3": { "title": "Gas hob" },
+      "4": { "title": "Find out more" }
+    },
+    "meta": {
+      "title": "BULM Enzo Hobs Collection | Gas, Glass, Vitroceramic & Induction",
+      "description": "Explore BULM's Enzo Collection of hobs — premium gas, gas-on-glass, induction and vitroceramic hobs designed with safety, performance, and Italian style.",
+      "keywords": "Enzo hobs, gas hobs, induction hobs, gas on glass hob, vitroceramic hob, BULM Enzo collection, kitchen appliances, built-in hobs",
+      "ogTitle": "BULM Enzo Hobs Collection | Gas, Glass, Vitroceramic & Induction",
+      "ogDescription": "Versatile, durable, and beautifully designed — discover BULM Enzo hobs in gas, glass, vitroceramic, and induction formats.",
+      "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-gas-induction-hobs.jpg.webp"
+    }
+  },
+  "landHobs": {
+    "title": "Land Hobs. Rustic charm, modern performance",
+    "description": "For those who love a touch of <strong>\"country chic\" style</strong> in the kitchen and prefer warm, material-inspired tones, <strong>Land Hobs</strong> bring timeless rustic charm combined with the innovation and reliability of BULM.",
+    "back": "Back_",
+    "sections": {
+      "1": {
+        "title": "Land design",
+        "description": "The Land aesthetic is enhanced by the characteristic knobs, all rigorously in antiqued brass; the gold-colored serigraphies reproduce an old-fashioned design balanced between tradition and innovation."
+      }
+    },
+    "meta": {
+      "title": "BULM Land Hobs Collection | Rustic Charm with Italian Innovation",
+      "description": "Explore BULM's Land Collection of hobs — crafted with traditional design, antiqued brass knobs, and rustic charm to bring countryside warmth into your kitchen.",
+      "keywords": "Land hobs, rustic hobs, BULM Land collection, brass knobs, traditional gas hobs, countryside kitchen appliances",
+      "ogTitle": "BULM Land Hobs Collection | Rustic Charm with Italian Innovation",
+      "ogDescription": "Authentic and charming, BULM's Land Collection hobs blend traditional style with modern performance.",
+      "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-country-collection-hobs.jpg.webp"
+    }
+  },
+  "antique": {
+    "title": "Classically styled, beautifully made",
+    "paragraph": "Vintage line cookers provide a touch of character to the furnishings with their soft lines, different colours and unmistakable vintage style.\nAvailable as a single oven cooker or with two and three cavities, Elba Vintage cookers are dual fuel, with gas hobs and electric or fan gas ovens.",
+    "back": "Back_",
+    "sections": {
+      "1": {
+        "title": "Charming finishing touches",
+        "description": "Gently curved stainless steel back guards softly rounded paneling on the oven fronts are complemented by retro brushed steel control knobs and matching handrails."
+      },
+      "2": {
+        "title": "Large cooktop with durable cast iron pan supports",
+        "description": "Stainless steel five-burners gas top. Heavy and durable cast iron and wok supports are included."
+      },
+      "3": {
+        "title": "Vintage knobs",
+        "description": "Inspired by the original wood-burning stoves that our founder created in 1950, Elba Vintage Cookers are controlled by knobs with stainless steel finishing."
+      },
+      "4": {
+        "title": "Refined details",
+        "description": "The vintage style is also in the design details, such as the comfortable electronic programmer. In addition, the bright chrome handle is available on all Elba Vintage cookers, as a replica of the handrail found on the original Elba stoves, giving the kitchen a traditional trait."
+      }
+    },
+    "products": {
+      "1": { "title": "Vintage three cavity dual fuel freestanding cooker" },
+      "2": { "title": "Vintage single cavity gas freestanding cooker" },
+      "3": { "title": "Vintage twin cavity dual fuel freestanding cooker" },
+      "4": { "title": "Find out more" }
+    },
+    "meta": {
+      "title": "BULM Vintage Cookers | Retro Italian Freestanding Ranges",
+      "description": "Discover the BULM Vintage Collection — classic Italian freestanding cookers with retro charm and modern performance. Dual fuel and gas oven options available.",
+      "keywords": "vintage cookers, BULM vintage, retro kitchen appliances, dual fuel ranges, freestanding gas cookers, Italian cooking design",
+      "ogDescription": "BULM Vintage cookers add a timeless Italian flair to any kitchen with brushed steel knobs, curved panels, and cast iron pan supports.",
+      "twitterDescription": "Inspired by the 1950s, BULM Vintage cookers feature soft lines, polished chrome handles, and professional performance."
+    }
+  },
+  "elegant": {
+    "title": "Classic Collection. Beyond all passing fashion trends",
+    "paragraph": "The <strong>Classic Collection</strong> offers a durable and safe solution for your everyday cooking needs.<br /> The quality of the materials and the traditional made in Italy crafting skills are combined with a sober and simple style.<br /> <strong>Single cavity cookers</strong> are available in two different widths, 60cm and 90cm wide.",
+    "back": "Back_",
+    "sections": {
+      "1": {
+        "title": "Nickel finishing knobs with inner bezel",
+        "description": "Nickel finishing knobs with inner bezel have a functional and practical style, chosen for their easiness of use."
+      },
+      "2": {
+        "title": "Enamelled steel pan supports",
+        "description": "Enamelled steel pan supports design gives a seamless and smooth appearance that allows for easy cleaning."
+      },
+      "3": {
+        "title": "Essential style handle",
+        "description": "Metal handle with brushed finishing on all the Classic Collection Cookers."
+      }
+    },
+    "products": {
+      "1": { "title": "Classic single cavity induction freestanding cooker" },
+      "2": { "title": "Classic single cavity dual fuel freestanding cooker" },
+      "3": { "title": "Classic single cavity electric freestanding cooker" },
+      "4": { "title": "Find out more" }
+    },
+    "meta": {
+      "title": "Classic Cookers Collection | BULM Italy – Elegant & Timeless",
+      "description": "Explore BULM's Classic Collection: timeless freestanding cookers made in Italy. Available in dual fuel, induction, or electric. Quality that lasts generations.",
+      "keywords": "Classic cookers, Italian freestanding cookers, induction cookers, dual fuel cookers, electric cookers, timeless kitchen appliances, BULM Italy",
+      "ogTitle": "Classic Cookers Collection | BULM Italy",
+      "ogDescription": "Timeless Italian design in BULM's Classic Collection of freestanding cookers. Tradition and performance in perfect balance.",
+      "twitterTitle": "Classic Cookers Collection | BULM Italy",
+      "twitterDescription": "Explore timeless elegance with BULM's Classic Collection. Induction, electric, or dual-fuel cookers made in Italy."
+    }
+  },
+  "mixture": {
+    "title": "Fusion Collection. Seamless integration into your kitchen.",
+    "paragraph": "Designed to be perfectly combined in the space of your kitchen, <strong>Fusion Collection</strong> offers freestanding cookers with dual fuel cooktops and gas or electric ovens.<br /> The clean lines of these cookers are designed for seamless integration into any contemporary kitchen design.",
+    "back": "Back_",
+    "sections": {
+      "1": {
+        "title": "Simple to use electronic programmer",
+        "description": "Time and oven functions are controlled by an electronic programmer bringing precision and flexibility to cooking performances."
+      },
+      "2": {
+        "title": "Cast iron pan supports",
+        "description": "Heavy-duty and durable cast iron pan supports give stability to the pots."
+      },
+      "3": {
+        "title": "Coordinated handle design",
+        "description": "The brushed metal handles on each appliance are ergonomic and pleasant to use."
+      },
+      "4": {
+        "title": "Double finishing knobs",
+        "description": "Black soft touch and stainless steel finishing knobs."
+      }
+    },
+    "products": {
+      "1": { "title": "Fusion single cavity dual fuel freestanding cooker" },
+      "2": { "title": "Fusion single cavity dual fuel freestanding cooker" },
+      "3": { "title": "Fusion single cavity dual fuel freestanding cooker" },
+      "4": { "title": "Find out more" }
+    },
+    "meta": {
+      "title": "BULM Fusion Cookers | Stylish Dual Fuel Freestanding Appliances",
+      "description": "Discover the BULM Fusion Collection – elegant dual fuel freestanding cookers with seamless integration, advanced oven controls, and premium Italian design.",
+      "keywords": "BULM cookers, Fusion collection, dual fuel cookers, freestanding cookers, Italian appliances, modern kitchen cookers, gas ovens, cast iron pan supports",
+      "ogTitle": "BULM Fusion Cookers | Stylish Dual Fuel Freestanding Appliances",
+      "ogDescription": "Designed for modern kitchens, BULM Fusion cookers combine refined design with exceptional functionality. Explore now.",
+      "twitterTitle": "BULM Fusion Cookers | Stylish Dual Fuel Freestanding Appliances",
+      "twitterDescription": "Freestanding cookers from BULM’s Fusion line bring timeless elegance and top-tier performance to your home."
+    }
+  },
+  "perfection": {
+    "title": "Excellence Collection — Built to Perform, Designed to Inspire",
+    "description": "With a professional-grade aesthetic and a commitment to performance, the <strong>BULM Excellence Series</strong> delivers a new standard in freestanding cookers.<br />Available in both <strong>60cm</strong> and <strong>90cm</strong> widths, choose between <strong>induction</strong> or <strong>gas hobs</strong>, and cook with precision using <strong>multifunction electric ovens</strong> or <strong>dual fuel combinations</strong>.",
+    "sections": [
+      {
+        "title": "Advanced Control Panel",
+        "description": "Every BULM Excellence cooker features a digital touch control system for precise timing and flexible functionality — tailored to serious cooking needs."
+      },
+      {
+        "title": "Heavy-duty Dual Burners",
+        "description": "Our brass dual burners ensure excellent durability and uniform heat distribution for any cooking technique."
+      },
+      {
+        "title": "Professional-Grade Knobs",
+        "description": "The brushed metal knobs with premium detailing give a distinct, modern look — inspired by the most refined professional kitchens."
+      },
+      {
+        "title": "Elegant Handle Finish",
+        "description": "All appliances in this collection are equipped with a dual-finish handle: brushed steel center with polished chrome ends — a unique BULM signature."
+      }
+    ],
+    "products": [
+      { "title": "Single Cavity Dual Fuel Freestanding Cooker" },
+      { "title": "Single Cavity Induction Freestanding Cooker" },
+      { "title": "Dual Fuel Freestanding Cooker" },
+      { "title": "Find out more" }
+    ],
+    "seo": {
+      "title": "BULM Excellence Cookers | High-Performance Freestanding Appliances",
+      "description": "Discover the BULM Excellence Collection – premium freestanding cookers crafted for serious chefs. Choose from gas or induction hobs with electric or dual fuel ovens.",
+      "keywords": "BULM cookers, Excellence collection, freestanding cookers Italy, induction cookers, gas cookers, dual fuel ovens, modern kitchen appliances, professional design cookers",
+      "ogTitle": "BULM Excellence Cookers | High-Performance Freestanding Appliances",
+      "ogDescription": "Explore the Excellence Collection by BULM. Modern freestanding cookers with Italian design, built for precision, power, and elegance.",
+      "twitterDescription": "Premium Italian cookers engineered for culinary precision. Discover the BULM Excellence Collection."
+    }
+  },
+  "alterum": {
+    "title": "Alterum Collection. Minimalist lines in a sober style",
+    "description": "Alterum Collection features clean, minimalist lines in an exclusive style — the perfect harmony of elegance and simplicity.",
+    "sections": [
+      {
+        "title": "Easy Steam",
+        "description": "By evaporating water inside the oven, the Easy Steam function helps food to be better cooked compared to the same cooking without the addition of humidity."
+      },
+      {
+        "title": "Idroclean",
+        "description": "Without using any type of detergent, this function helps remove the dirt inside the oven thanks to the moisture generated by the water warming at 80-90°C."
+      }
+    ],
+    "seo": {
+      "title": "Alterum Ovens | BULM Italy",
+      "description": "Discover the Alterum built-in oven collection by BULM — minimalist design, exclusive style, and smart features like Easy Steam and Idroclean for clean, efficient cooking.",
+      "keywords": "Alterum, BULM, Built-in Ovens, Minimalist Design, Easy Steam, Idroclean, Italian Kitchen, Premium Ovens, Modern Appliances",
+      "ogTitle": "Alterum Ovens | BULM Italy",
+      "ogDescription": "Explore BULM’s Alterum built-in ovens — elegant, minimalist, and equipped with innovative features for a smarter kitchen experience."
+    }
+  },
+  "enzo": {
+    "title": "Enzo Collection. Seamless integration between style and efficiency",
+    "description": "Innovation and appeal are revealed in the Enzo built-in models. Top-quality materials, designed with the latest generation technology, such as Easy Steam and Idroclean functions, ensure high performances and excellent cooking results. Enzo Collection has simple, ergonomic lines in an exclusive style.",
+    "sections": [
+      {
+        "title": "Large oven cavity",
+        "description": "74 usable litres (86 gross litres), with 7 levels positioning side racks, perfect for your multilevel preparations."
+      },
+      {
+        "title": "Easy Steam",
+        "description": "By evaporating water inside the oven, the Easy Steam function helps food to be better cooked adding the right degree of humidity."
+      },
+      {
+        "title": "Gas-matik hob",
+        "description": "Enzo gas-matik hob has a range of additional features: each gas burner can be programmed to turn off after a set period of time or set as a minute minder. Furthermore, this hob features a child lock function and if a burner is in use continuously for 4 hours, the system will automatically shut down. Available in 90cm size."
+      },
+      {
+        "title": "Idroclean",
+        "description": "Without using any type of detergent, this function helps remove the dirt inside the oven thanks to the moisture generated by the water heating at 80-90°C."
+      }
+    ],
+    "products": [
+      {
+        "title": "Enzo electric multifunction oven"
+      },
+      {
+        "title": "Electric multifunction oven"
+      },
+      {
+        "title": "Find out more"
+      }
+    ],
+    "seo": {
+      "title": "Enzo Built-in Ovens | BULM Italy",
+      "description": "Discover the Enzo built-in oven collection from BULM – featuring Easy Steam, Idroclean, and Gas-Matik functions. Sleek design and exceptional performance in every bake.",
+      "keywords": "Enzo ovens, BULM built-in ovens, multifunction ovens, electric ovens, Easy Steam oven, Idroclean oven, Gas-Matik, Italian kitchen appliances",
+      "ogTitle": "Enzo Built-in Ovens | BULM Italy",
+      "ogDescription": "Experience seamless design and innovative cooking with BULM’s Enzo built-in ovens. Crafted for performance with cutting-edge features like Easy Steam and Idroclean."
+    }
+  },
+  "enzoTitan": {
+    "title": "Enzo Titan Collection. A huge space with more power and performance",
+    "description": "Imagine having no space limits with even more possibilities; a perfect result in every condition without wasting time.",
+    "sections": [
+      {
+        "title": "Giant electric multifunction ovens",
+        "description": "Choose from electric multifunction ovens. Whichever finish you prefer, all 90cm Titan Ovens feature 141 litres gross volume and 121 usable litres with 7 racks positions, varied cooking programs including rapid pre-heat and 2 fans for full 3D cooking experience."
+      },
+      {
+        "title": "Giant gas ovens",
+        "description": "A unique feature of Titan gas ovens is the fan gas oven and full-width, all gas grill. It is a powerful combination offering heat control and flexibility. Stainless steel rotisserie kit which, when needed, can fit across the full width of the oven and features a double fork setting."
+      }
+    ],
+    "products": [
+      { "title": "Fan gas oven" },
+      { "title": "Fan gas oven" },
+      { "title": "Electric multifunction oven" },
+      { "title": "Find out more" }
+    ],
+    "seo": {
+      "title": "Enzo Titan Built-in Ovens | BULM Italy",
+      "description": "Discover BULM’s Enzo Titan built-in ovens — 90cm gas or electric multifunction ovens with massive 141L capacity, dual fans, rotisserie, and advanced features for seamless cooking.",
+      "keywords": "Enzo Titan ovens, BULM ovens, built-in ovens, 90cm ovens, electric multifunction oven, gas oven with fan, rotisserie oven, Italian ovens",
+      "ogTitle": "Enzo Titan Built-in Ovens | BULM Italy",
+      "ogDescription": "Experience no space limits with BULM Enzo Titan ovens. Choose between powerful gas or multifunction electric ovens for high-performance cooking."
+    }
   }
+  ,
+  "expertOvens": {
+    "meta": {
+      "title": "Expert Built-in Ovens | BULM Italy",
+      "description": "Explore BULM's Expert built-in ovens collection – high-performance ovens with premium features like Easy Steam, Idroclean, Pizza300°C, and Leavening 40°C.",
+      "keywords": "Expert ovens, BULM built-in ovens, electric multifunction oven, Easy Steam, Idroclean, Pizza 300°C, Leavening 40°C, large oven cavity, Italian kitchen appliances",
+      "ogDescription": "Experience BULM’s Expert ovens – built for power, precision, and performance. Discover advanced cooking features for your modern kitchen."
+    },
+    "title": "Expert Collection. Professional performance for your kitchen",
+    "description": "The <strong>Expert collection</strong> offers professional performances for your kitchen at home. Its distinctive style features elegant knobs and ergonomically designed handles, capacity, flexibility and usability with dedicated special functions such as <strong>Easy Steam</strong> and <strong>Idroclean</strong>.",
+    "sections": {
+      "easySteam": {
+        "title": "Easy Steam",
+        "description": "Easy Steam: By evaporating water inside the oven, the Easy Steam function helps food to be better cooked compared to the same cooking without the addition of humidity."
+      },
+      "idroclean": {
+        "title": "Idroclean",
+        "description": "Without using any type of detergent, this function helps remove the dirt inside the oven thanks to the moisture generated by the water warming at 80-90°C."
+      },
+      "leavening": {
+        "title": "Leavening 40°C",
+        "description": "Built to last and to deal with the demands of daily cooking, these high-spec ovens feature the function of Leavening at 40°C by which the dough maintains its characteristics, allowing optimal leavening."
+      },
+      "pizza": {
+        "title": "Special function Pizza300°C",
+        "description": "The exclusive Pizza special function with its 300°C allows you to cook your pizza perfectly as in a real professional oven. The upper heating element and the fan turn on. The heat coming from the bottom is diffused by forced convection."
+      },
+      "largeCavity": {
+        "title": "Large oven cavity",
+        "description": "74 usable liters (86 gross liters) with 7 levels and easier-to-remove side racks for your multilevel preparations."
+      }
+    },
+    "products": [
+      { "title": "Electric multifunction oven" },
+      { "title": "Electric multifunction oven" },
+      { "title": "Electric multifunction oven" },
+      { "title": "Find out more" }
+    ]
+  },
+  "back": "Back_"
+  ,
+  "landOvens": {
+    "meta": {
+      "title": "Land Built-in Ovens | BULM Italy",
+      "description": "Explore BULM’s Land Collection of built-in ovens — rustic, timeless design blended with modern performance. Discover electric multifunction ovens featuring Idroclean and traditional country style.",
+      "keywords": "Land ovens, BULM, built-in ovens, rustic ovens, traditional kitchen appliances, Idroclean, electric multifunction oven, country chic style",
+      "ogDescription": "Inspired by tradition, the Land Collection by BULM offers timeless built-in ovens with elegant brass details and easy-clean Idroclean function."
+    },
+    "title": "Land Collection. Inspired by tradition",
+    "description": "For those who love a touch of \"Country Chic\" style in the kitchen and prefer the nuances of material colours, <strong>Land Collection built-in ovens</strong> are the ideal solution, giving the interior spaces the atmosphere that especially recalls the houses of the countryside.",
+    "sections": {
+      "countryStyle": {
+        "title": "Unmistakable country aesthetic",
+        "description": "The country aesthetic is enhanced by the characteristic knobs, all rigorously in antiqued brass; the gold-colored serigraphies reproduce an old-fashion design in balance between tradition and innovation."
+      },
+      "idroclean": {
+        "title": "Idroclean",
+        "description": "Without using any type of detergent, this function helps remove the dirt inside the oven thanks to the moisture generated by the water warming at 80-90°C."
+      }
+    },
+    "products": [
+      { "title": "Electric multifunction oven" },
+      { "title": "Electric multifunction oven" },
+      { "title": "Find out more" }
+    ]
+  }
+
+  
+  
+  
 
   }
   

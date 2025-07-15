@@ -1,17 +1,20 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const RightPin = () => {
+  const { t } = useTranslation();
+
   const links = [
     {
-      name: "jobs",
+      name: t("rightPin.jobs"),
       href: "/",
     },
     {
-      name: "contact us",
+      name: t("rightPin.contactUs"),
       href: "/contacts",
     },
     {
-      name: "reserved area",
+      name: t("rightPin.reservedArea"),
       href: "/reserved-area",
     },
   ];

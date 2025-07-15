@@ -214,6 +214,103 @@
       ],
       "escToClose": "Premi ESC per chiudere"
     },
+    "navbar": {
+      "collections": "Collezioni",
+      "collectionsCookers": "Collezioni Cucine",
+      "antique": "Antico",
+      "perfection": "Perfezione",
+      "mixture": "Miscela",
+      "elegant": "Elegante",
+      "collectionsOvens": "Collezioni Forni",
+      "enzo": "Enzo",
+      "enzoTitan": "Enzo Titan",
+      "land": "Terra",
+      "expert": "Esperto",
+      "alterum": "Alterum",
+      "collectionsHobs": "Collezioni Piani Cottura",
+      "enzoCollection": "Collezione Enzo",
+      "landCollection": "Collezione Terra",
+      "blackLine": "Collezione Linea Nera",
+      "products": "Prodotti",
+      "cookers": "Cucine",
+      "ovens": "Forni",
+      "hobs": "Piani Cottura",
+      "hoods": "Cappe",
+      "compactProducts": "Prodotti Compatti"
+    },
+    "breadcrumbs": {
+      "home": "< Casa",
+      "collections": "Collezioni",
+      "black-line-collection": "Linea Nera",
+      "collections-cookers": "Cucine",
+      "elegant": "Elegante",
+      "perfection": "Perfezione",
+      "mixture": "Miscela",
+      "antique": "Antico",
+      "collections-hobs": "Piani Cottura",
+      "land-hobs": "Piani Cottura Land",
+      "enzo-hobs": "Piani Cottura Enzo",
+      "collections-ovens": "Forni",
+      "alterum-ovens": "Forni Alterum",
+      "land-ovens": "Forni Land",
+      "enzo-titan-ovens": "Forni Enzo Titan",
+      "enzo-ovens": "Forni Enzo",
+      "expert-ovens": "Forni Esperti",
+      "contacts": "Contatti",
+      "dealers": "Rivenditori",
+      "privacy-policy": "Privacy",
+      "product-category": "Categoria Prodotto",
+      "reasons-to-choose-freestandig-cooker": "Perché scegliere una cucina indipendente",
+      "reserved-area": "Area Riservata",
+      "company-info": "Info Azienda",
+      "about-bulm": "Chi Siamo",
+      "product": "Prodotto",
+      "ita": "Italiano",
+      "login": "Accesso"
+    },
+    "leftPin": {
+      "followUs": "Seguici"
+    },
+    "rightPin": {
+      "jobs": "Lavori",
+      "contactUs": "Contattaci",
+      "reservedArea": "Area Riservata"
+    },
+    "menu": {
+      "menu": "Menu",
+      "aboutBulm": "Chi Siamo",
+      "collections": "Collezioni",
+      "collectionsCookers": "Cucine",
+      "collectionsHobs": "Piani Cottura",
+      "collectionsOvens": "Forni",
+      "products": "Prodotti",
+      "cookers": "Cucine",
+      "hobs": "Piani Cottura",
+      "ovens": "Forni",
+      "hoods": "Cappe",
+      "compactProducts": "Prodotti Compatti",
+      "dealers": "Rivenditori",
+      "catalogues": "Cataloghi",
+      "jobs": "Lavori",
+      "service": "Servizio",
+      "contacts": "Contatti",
+      "reservedArea": "Area Riservata",
+      "product-category": "Categoria Prodotto",
+    "compact-products": "Prodotti Compatti"
+    },
+    "dealers": {
+      "intro": "Per richieste o informazioni sulla rivendita, non esitare a contattarci via telefono o email. Il nostro team è pronto a supportarti a livello globale.",
+      "name": "Nome",
+      "surname": "Cognome",
+      "company": "Azienda",
+      "role": "Ruolo",
+      "email": "Email",
+      "phone": "Telefono",
+      "message": "Messaggio",
+      "privacy": "Trattiamo i tuoi dati personali con cura; visualizza la nostra",
+      "privacyLink": "Informativa sulla privacy",
+      "submit": "Invia"
+    },
     "collections": {
       "title": "Collezioni Uniche.",
       "subtitle": "Linee Distintive",
@@ -234,7 +331,7 @@
       ]
     },
     "blackLinePage": {
-      "title": "BULM Black Line – Precisione ed Eleganza",
+      "title": "BULM Linea Nera – Precisione ed Eleganza",
       "description": "Scopri l'essenza dell'ingegneria italiana e dell'estetica raffinata con la linea Black di BULM. Una collezione premium di elettrodomestici da incasso per chi cerca prestazioni, eleganza e innovazione d’avanguardia — tutto in uno.",
       "back": "Indietro_",
       "meta": {
@@ -282,6 +379,465 @@
         {
           "title": "Macchina Automatica per Caffè e Cappuccino"
         }
+      ]
+    },
+    "collectionsCookers": {
+      "layout": {
+        "title": "Collezioni di Cucine",
+        "subtitle": "Progettate per ogni stile culinario",
+        "description": "Le cucine free-standing BULM uniscono il design italiano sofisticato con potenti funzionalità di cottura. Che tu preferisca l’estetica tradizionale o linee moderne, le nostre cucine sono pensate per stupire e durare nel tempo."
+      },
+      "sections": {
+        "antique": {
+          "title": "Antico",
+          "description": "La collezione Antico è un omaggio al design classico. Tocchi retrò eleganti incontrano la tecnologia moderna in cucine free-standing ricche di fascino e prestazioni."
+        },
+        "perfection": {
+          "title": "Perfezione",
+          "description": "La collezione Perfezione dona un look moderno e raffinato alla tua cucina. Ispirata alle cucine professionali, fonde funzionalità avanzate con un’eleganza minimalista."
+        },
+        "mixture": {
+          "title": "Miscela",
+          "description": "Linee morbide e curve arrotondate definiscono la collezione Miscela. L’innovazione funzionale si unisce a un design armonioso — perfetta per la vita moderna."
+        },
+        "elegant": {
+          "title": "Elegante",
+          "description": "La collezione Elegante offre una bellezza senza tempo e una potenza di cottura affidabile. Una fusione tra tradizione in ghisa e controllo moderno in un unico elettrodomestico raffinato."
+        }
+      },
+      "meta": {
+        "title": "Collezioni di Cucine BULM | Antico, Elegante e altro",
+        "description": "Esplora la gamma BULM di cucine free-standing: Antico, Elegante, Perfezione e Miscela. Il design italiano incontra l’innovazione culinaria in ogni collezione.",
+        "keywords": "Cucine BULM, cucine italiane free-standing, cucine vintage, cucine moderne, cucine a gas professionali, cucine Elegante",
+        "ogTitle": "Collezioni di Cucine BULM | Antico, Elegante e altro",
+        "ogDescription": "Scopri le cucine made in Italy di BULM progettate per ogni stile — dal fascino antico al minimalismo moderno. Trova quella perfetta per la tua cucina.",
+        "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-vintage-collection-freestanding-cookers.jpg.webp",
+        "twitterTitle": "Collezioni di Cucine BULM | Antico, Elegante e altro",
+        "twitterDescription": "Antico, Miscela, Elegante e Perfezione: le cucine BULM uniscono bellezza e innovazione nella cucina italiana.",
+        "twitterImage": "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-vintage-collection-freestanding-cookers.jpg.webp"
+      }
+    },
+    "collectionsHobs": {
+      "layout": {
+        "title": "Materiali superiori incontrano",
+        "subtitle": "prestazioni all'avanguardia",
+        "description": "I piani cottura BULM sono realizzati con materiali di alta qualità e con la più recente tecnologia di cucina italiana. Disponibili in diverse forme, dimensioni e tipologie — gas, induzione, vetro o vitroceramica — ogni piano è progettato per abbinarsi perfettamente ai forni BULM e migliorare la tua esperienza culinaria."
+      },
+      "sections": {
+        "enzo": {
+          "title": "Collezione Enzo",
+          "description": "Scopri la versatilità con la Collezione Enzo, disponibile in tre larghezze: 60 cm, 75 cm e 90 cm.\n\nScegli tra piani gas su vetroceramica con comandi elettronici, opzioni completamente a gas classiche, moderne a induzione o soluzioni vitroceramiche."
+        },
+        "land": {
+          "title": "Collezione Terra",
+          "description": "Per chi apprezza un tocco di eleganza rustica, la Collezione Land aggiunge calore e carattere senza tempo a qualsiasi cucina. I suoi colori testurizzati e i materiali autentici richiamano il fascino delle case di campagna — con tutta l'innovazione di BULM."
+        }
+      },
+      "meta": {
+        "title": "Collezioni BULM Hobs | Piani a Gas, Induzione e Vitroceramica",
+        "description": "Scopri i piani cottura BULM: gas, induzione, vitroceramica e altro ancora. Progettati in Italia per prestazioni superiori e integrazione perfetta in cucina.",
+        "keywords": "piani cottura BULM, piani a gas, induzione, vetroceramica, piani in vetro, elettrodomestici italiani, piani moderni",
+        "ogTitle": "Collezioni BULM Hobs | Piani a Gas, Induzione e Vitroceramica",
+        "ogDescription": "Piani cottura italiani premium realizzati con materiali di alta qualità. Esplora le soluzioni a gas, induzione e vitroceramica di BULM.",
+        "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp",
+        "twitterTitle": "Collezioni BULM Hobs | Piani a Gas, Induzione e Vitroceramica",
+        "twitterDescription": "Versatili, efficienti e belli — i piani cottura BULM, progettati in Italia, offrono prestazioni culinarie di altissimo livello.",
+        "twitterImage": "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp"
+      }
+    },
+    "collectionsOvens": {
+      "layout": {
+        "title": "A incasso",
+        "subtitle": "Dove l’artigianalità italiana incontra l’innovazione moderna",
+        "description": "Scopri l'eleganza dei forni da incasso BULM — dove il design italiano iconico si fonde con la tecnologia di cottura avanzata. Disponibili nei formati da 60 cm e 90 cm, offrono opzioni multifunzione a gas o elettriche e funzionalità innovative come Easy Steam, cottura ventilata e altro ancora."
+      },
+      "sections": {
+        "enzo": {
+          "title": "Enzo",
+          "description": "La collezione Enzo presenta linee semplici e minimaliste in uno stile esclusivo. Le funzioni speciali Easy Steam e Idroclean garantiscono alte prestazioni e risultati eccellenti di cottura."
+        },
+        "enzoTitan": {
+          "title": "Enzo Titan",
+          "description": "A gas o elettrici multifunzione, tutti i forni da incasso Enzo Titan da 90 cm offrono 141 litri di volume lordo, per cucinare senza limiti di spazio e con ancora più possibilità."
+        },
+        "land": {
+          "title": "Terra",
+          "description": "I forni da incasso della collezione Land sono la soluzione ideale per donare agli ambienti interni un’atmosfera che richiama le case di campagna."
+        },
+        "expert": {
+          "title": "Esperto",
+          "description": "La collezione Expert, dal design raffinato, offre prestazioni professionali per la tua cucina di casa."
+        },
+        "alterum": {
+          "title": "Alterum",
+          "description": "La collezione Alterum presenta linee semplici e minimaliste in uno stile esclusivo; un design elegante e discreto."
+        }
+      },
+      "meta": {
+        "title": "Forni da incasso | BULM Italia",
+        "description": "Scopri i forni da incasso BULM: un perfetto equilibrio tra design italiano e tecnologia di cottura avanzata. Disponibili a gas o elettrici, con funzioni come Easy Steam, cottura ventilata e altro ancora.",
+        "keywords": "BULM, Forni da incasso, Forni italiani, Forno a gas, Forno elettrico, Easy Steam, Forno 60 cm, Forno 90 cm, Elettrodomestici da cucina moderni",
+        "ogTitle": "Forni da incasso | BULM Italia",
+        "ogDescription": "Scopri i forni da incasso BULM: design di alta qualità, funzionalità avanzate e artigianalità italiana.",
+        "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/03/27085R15_900x600.jpg.webp"
+      }
+    }
+    ,
+    "enzoHobs": {
+      "title": "Collezione Enzo Hobs",
+      "description": "Tutti i <strong>piani cottura Enzo</strong> sono realizzati con materiali di alta qualità e offrono risultati superiori. Sono dotati di funzionalità per maggiore sicurezza e prestazioni. Disponibili in versioni <strong>gas su metallo</strong>, <strong>gas su vetro</strong> e <strong>induzione</strong>, con quattro o più bruciatori o anche in formati compatti o tradizionali.",
+      "back": "Indietro_",
+      "sections": {
+        "gasMetal": {
+          "title": "Piani cottura a gas su metallo",
+          "description": "Bordi arrotondati e design minimalista per un look esclusivo. I piani cottura Enzo sono realizzati con spessore maggiorato (8/10) per garantire resistenza nel tempo. Disponibili in tre misure: 60cm, 75cm e 90cm."
+        },
+        "gasGlass": {
+          "title": "Piani cottura a gas su vetro",
+          "description": "Finitura in vetro nero vitroceramico elegante. Bruciatori neri opachi e manopole in metallo. Facili da usare e precisi. Disponibili in tre misure: 60cm, 75cm e 90cm."
+        },
+        "gasMatik": {
+          "title": "Piano cottura Gas-matik",
+          "description": "Il piano Gas-matik offre funzioni avanzate: spegnimento programmato, timer, blocco bambini e spegnimento automatico dopo 4 ore. Disponibile nel formato 90cm."
+        },
+        "vitro": {
+          "title": "Piani cottura Enzo in vetroceramica",
+          "description": "Facili da pulire e resistenti ai graffi. Trasmettono il calore solo verticalmente verso la pentola. Disponibili in quattro formati: 30cm, 60cm, 78cm e 90cm."
+        },
+        "induction": {
+          "title": "Piani a induzione Enzo",
+          "description": "Design essenziale, facile installazione. Funzioni speciali come Chef Cook, Full Bridge e Melting. Disponibili in: 30cm, 60cm, 70cm, 75cm, 80cm e 90cm."
+        }
+      },
+      "products": {
+        "1": { "title": "Piano a induzione" },
+        "2": { "title": "Piano a gas" },
+        "3": { "title": "Piano a gas" },
+        "4": { "title": "Scopri di più" }
+      },
+      "meta": {
+        "title": "Collezione Enzo Hobs BULM | Gas, Vetro, Vetroceramica e Induzione",
+        "description": "Scopri la collezione Enzo di BULM — piani a gas, a induzione e in vetroceramica progettati per sicurezza, prestazioni e stile italiano.",
+        "keywords": "piani cottura Enzo, gas, induzione, vetro, vetroceramica, collezione Enzo BULM, elettrodomestici da cucina, incasso",
+        "ogTitle": "Collezione Enzo Hobs BULM | Gas, Vetro, Vetroceramica e Induzione",
+        "ogDescription": "Versatili, resistenti ed eleganti — scopri i piani Enzo BULM in tutte le varianti.",
+        "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-gas-induction-hobs.jpg.webp"
+      }
+    },
+    "landHobs": {
+      "title": "Piani Cottura Land. Fascino rustico, prestazioni moderne",
+      "description": "Per chi ama lo stile <strong>\"country chic\"</strong> in cucina e predilige tonalità calde e materiali naturali, i <strong>Land Hobs</strong> offrono un fascino rustico senza tempo unito all'innovazione e all'affidabilità di BULM.",
+      "back": "Indietro_",
+      "sections": {
+        "1": {
+          "title": "Design rustico",
+          "description": "L'estetica Land è valorizzata da manopole caratteristiche, tutte rigorosamente in ottone anticato; le serigrafie dorate richiamano un design retrò in equilibrio tra tradizione e innovazione."
+        }
+      },
+      "meta": {
+        "title": "Collezione Piani Cottura Land BULM | Fascino rustico e innovazione italiana",
+        "description": "Scopri la collezione Land di BULM: piani cottura dal design tradizionale, manopole in ottone anticato e fascino rustico per riscaldare la tua cucina.",
+        "keywords": "Piani Cottura Land, piani cottura rustici, collezione BULM Land, manopole in ottone, cucine tradizionali, elettrodomestici rustici",
+        "ogTitle": "Collezione Piani Cottura Land BULM | Fascino rustico e innovazione italiana",
+        "ogDescription": "Autentici e affascinanti, i piani cottura della collezione Land BULM uniscono stile tradizionale e prestazioni moderne.",
+        "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-country-collection-hobs.jpg.webp"
+      }
+    },
+    "antique": {
+      "title": "Stile classico, realizzazione impeccabile",
+      "paragraph": "I cuochi della linea Vintage aggiungono un tocco di carattere all'arredamento con le loro linee morbide, i diversi colori e lo stile vintage inconfondibile.\nDisponibili come cucine a forno singolo o con due e tre cavità, i cuochi Elba Vintage sono a doppia alimentazione, con piani cottura a gas e forni elettrici o a gas ventilato.",
+      "back": "Indietro_",
+      "sections": {
+        "1": {
+          "title": "Rifiniture affascinanti",
+          "description": "I parafiamma posteriori in acciaio inossidabile curvati e i pannelli anteriori rotondeggianti sono completati da manopole retrò in acciaio spazzolato e maniglie abbinate."
+        },
+        "2": {
+          "title": "Ampio piano cottura con supporti in ghisa",
+          "description": "Piano a cinque fuochi in acciaio inossidabile. Supporti in ghisa pesanti e resistenti, incluso supporto per wok."
+        },
+        "3": {
+          "title": "Manopole vintage",
+          "description": "Ispirate alle originali stufe a legna create dal nostro fondatore nel 1950, le cucine Elba Vintage sono controllate da manopole con finitura in acciaio inox."
+        },
+        "4": {
+          "title": "Dettagli raffinati",
+          "description": "Lo stile vintage si riflette anche nei dettagli del design, come il comodo programmatore elettronico. Inoltre, la brillante maniglia cromata è disponibile su tutte le cucine Elba Vintage, come replica del corrimano delle stufe originali Elba, conferendo alla cucina un tocco tradizionale."
+        }
+      },
+      "products": {
+        "1": { "title": "Cucina indipendente vintage a tre cavità a doppia alimentazione" },
+        "2": { "title": "Cucina indipendente vintage a una cavità a gas" },
+        "3": { "title": "Cucina indipendente vintage a due cavità a doppia alimentazione" },
+        "4": { "title": "Scopri di più" }
+      },
+      "meta": {
+        "title": "BULM Cucine Vintage | Cucine a Libera Installazione in Stile Retrò",
+        "description": "Scopri la collezione BULM Vintage — cucine italiane classiche con fascino retrò e prestazioni moderne. Disponibili opzioni a gas e doppia alimentazione.",
+        "keywords": "cucine vintage, BULM vintage, elettrodomestici da cucina retrò, cucine a doppia alimentazione, cucine a gas italiane",
+        "ogDescription": "Le cucine BULM Vintage aggiungono un fascino italiano senza tempo a ogni cucina con manopole in acciaio, pannelli curvi e supporti in ghisa.",
+        "twitterDescription": "Ispirate agli anni '50, le cucine BULM Vintage presentano linee morbide, maniglie cromate lucide e prestazioni professionali."
+      }
+    },
+    "elegant": {
+      "title": "Collezione Classica. Oltre tutte le mode passeggere",
+      "paragraph": "La <strong>Collezione Classica</strong> offre una soluzione sicura e durevole per la cucina di tutti i giorni.<br /> La qualità dei materiali e l'artigianalità tradizionale Made in Italy si uniscono a uno stile sobrio e semplice.<br /> Le <strong>cucine a singola cavità</strong> sono disponibili in due larghezze: 60 cm e 90 cm.",
+      "back": "Indietro_",
+      "sections": {
+        "1": {
+          "title": "Manopole con finitura nichel e ghiera interna",
+          "description": "Le manopole con finitura nichel e ghiera interna offrono uno stile funzionale e pratico, scelto per la sua semplicità d'uso."
+        },
+        "2": {
+          "title": "Supporti per pentole in acciaio smaltato",
+          "description": "Il design dei supporti in acciaio smaltato dona un aspetto uniforme e liscio che facilita la pulizia."
+        },
+        "3": {
+          "title": "Maniglia in stile essenziale",
+          "description": "Maniglia in metallo con finitura spazzolata su tutte le cucine della Collezione Classica."
+        }
+      },
+      "products": {
+        "1": { "title": "Cucina classica a induzione a singola cavità a libera installazione" },
+        "2": { "title": "Cucina classica a doppia alimentazione a singola cavità" },
+        "3": { "title": "Cucina classica elettrica a singola cavità" },
+        "4": { "title": "Scopri di più" }
+      },
+      "meta": {
+        "title": "Collezione Cucine Classiche | BULM Italia – Elegante & Senza Tempo",
+        "description": "Esplora la Collezione Classica di BULM: cucine a libera installazione senza tempo, fatte in Italia. Disponibili a induzione, elettriche o a doppia alimentazione.",
+        "keywords": "cucine classiche, cucine italiane, cucine a induzione, cucine a doppia alimentazione, cucine elettriche, elettrodomestici senza tempo, BULM Italia",
+        "ogTitle": "Collezione Cucine Classiche | BULM Italia",
+        "ogDescription": "Design italiano senza tempo nella Collezione Classica di BULM. Tradizione e prestazioni in perfetto equilibrio.",
+        "twitterTitle": "Collezione Cucine Classiche | BULM Italia",
+        "twitterDescription": "Scopri l'eleganza senza tempo con la Collezione Classica di BULM. Cucine a induzione, elettriche o a doppia alimentazione fatte in Italia."
+      }
+    },
+    "mixture": {
+      "title": "Collezione Fusion. Integrazione perfetta nella tua cucina.",
+      "paragraph": "Progettata per integrarsi perfettamente nello spazio della tua cucina, la <strong>Collezione Fusion</strong> offre cucine a libera installazione con piani di cottura a doppia alimentazione e forni a gas o elettrici.<br /> Le linee pulite di queste cucine sono pensate per un'integrazione perfetta in qualsiasi cucina contemporanea.",
+      "back": "Indietro_",
+      "sections": {
+        "1": {
+          "title": "Programmatore elettronico semplice da usare",
+          "description": "Le funzioni di tempo e del forno sono controllate da un programmatore elettronico che offre precisione e flessibilità nella cottura."
+        },
+        "2": {
+          "title": "Supporti in ghisa per pentole",
+          "description": "Supporti in ghisa pesanti e resistenti che garantiscono stabilità alle pentole."
+        },
+        "3": {
+          "title": "Maniglie coordinate nel design",
+          "description": "Le maniglie in metallo spazzolato sono ergonomiche e piacevoli da usare."
+        },
+        "4": {
+          "title": "Manopole con doppia finitura",
+          "description": "Manopole in acciaio inox con finitura soft touch nera."
+        }
+      },
+      "products": {
+        "1": { "title": "Cucina Fusion a singola cavità a doppia alimentazione" },
+        "2": { "title": "Cucina Fusion a singola cavità a doppia alimentazione" },
+        "3": { "title": "Cucina Fusion a singola cavità a doppia alimentazione" },
+        "4": { "title": "Scopri di più" }
+      },
+      "meta": {
+        "title": "Cucine Fusion BULM | Elettrodomestici a doppia alimentazione eleganti",
+        "description": "Scopri la Collezione Fusion BULM – cucine eleganti a libera installazione con comandi avanzati e design italiano premium.",
+        "keywords": "cucine BULM, collezione Fusion, cucine a doppia alimentazione, cucine a libera installazione, elettrodomestici italiani, cucine moderne, forni a gas, supporti in ghisa",
+        "ogTitle": "Cucine Fusion BULM | Elettrodomestici a doppia alimentazione eleganti",
+        "ogDescription": "Progettate per cucine moderne, le cucine Fusion BULM combinano design raffinato e funzionalità eccezionali. Scopri ora.",
+        "twitterTitle": "Cucine Fusion BULM | Elettrodomestici a doppia alimentazione eleganti",
+        "twitterDescription": "Le cucine a libera installazione della linea Fusion di BULM offrono eleganza senza tempo e prestazioni di alto livello."
+      }
+    },
+    "perfection": {
+      "title": "Collezione Excellence — Progettata per Prestazioni Eccellenti",
+      "description": "Con un'estetica professionale e un impegno per le prestazioni, la <strong>Serie Excellence di BULM</strong> stabilisce un nuovo standard nei cucinatori free-standing.<br />Disponibili in larghezze di <strong>60cm</strong> e <strong>90cm</strong>, scegli tra <strong>piani a induzione</strong> o <strong>a gas</strong> e cucina con precisione utilizzando <strong>forni elettrici multifunzione</strong> o <strong>combinazioni a doppio combustibile</strong>.",
+      "sections": [
+        {
+          "title": "Pannello di Controllo Avanzato",
+          "description": "Ogni cucinatore Excellence di BULM è dotato di sistema di controllo touch digitale per una tempistica precisa e una funzionalità flessibile — pensato per veri chef."
+        },
+        {
+          "title": "Bruciatori Doppi Heavy-Duty",
+          "description": "I nostri bruciatori in ottone garantiscono durata eccellente e distribuzione uniforme del calore per ogni tecnica di cottura."
+        },
+        {
+          "title": "Manopole di Grado Professionale",
+          "description": "Le manopole in metallo spazzolato con dettagli premium donano un look moderno e distintivo — ispirato alle cucine professionali più raffinate."
+        },
+        {
+          "title": "Maniglia con Finitura Elegante",
+          "description": "Tutti gli apparecchi di questa collezione presentano una maniglia a doppia finitura: acciaio spazzolato al centro e cromato lucido alle estremità — una firma unica BULM."
+        }
+      ],
+      "products": [
+        { "title": "Cucina free-standing a gas/elettrica con una cavità" },
+        { "title": "Cucina free-standing a induzione con una cavità" },
+        { "title": "Cucina free-standing a doppio combustibile" },
+        { "title": "Scopri di più" }
+      ],
+      "seo": {
+        "title": "Cucinatori BULM Excellence | Elettrodomestici Free-standing di Alta Gamma",
+        "description": "Scopri la Collezione Excellence di BULM – cucinatori free-standing premium progettati per chef esigenti. Scegli tra piani a gas o induzione e forni elettrici o a doppio combustibile.",
+        "keywords": "Cucinatori BULM, Collezione Excellence, cucine free-standing Italia, cucine a induzione, cucine a gas, forni a doppio combustibile, elettrodomestici da cucina moderni, design professionale",
+        "ogTitle": "Cucinatori BULM Excellence | Elettrodomestici Free-standing di Alta Gamma",
+        "ogDescription": "Esplora la Collezione Excellence di BULM. Cucinatori moderni con design italiano, progettati per precisione, potenza ed eleganza.",
+        "twitterDescription": "Cucinatori italiani premium progettati per precisione culinaria. Scopri la Collezione BULM Excellence."
+      }
+    },
+    "alterum": {
+      "title": "Collezione Alterum. Linee minimaliste in uno stile sobrio",
+      "description": "La Collezione Alterum presenta linee pulite e minimaliste in uno stile esclusivo — la perfetta armonia tra eleganza e semplicità.",
+      "sections": [
+        {
+          "title": "Easy Steam",
+          "description": "Evaporando l'acqua all'interno del forno, la funzione Easy Steam aiuta a cucinare meglio i cibi rispetto alla stessa cottura senza l'aggiunta di umidità."
+        },
+        {
+          "title": "Idroclean",
+          "description": "Senza utilizzare alcun tipo di detergente, questa funzione aiuta a rimuovere lo sporco all'interno del forno grazie all'umidità generata dal riscaldamento dell'acqua a 80-90°C."
+        }
+      ],
+      "seo": {
+        "title": "Forni Alterum | BULM Italia",
+        "description": "Scopri la collezione di forni da incasso Alterum di BULM — design minimalista, stile esclusivo e funzionalità intelligenti come Easy Steam e Idroclean per una cucina efficiente e pulita.",
+        "keywords": "Alterum, BULM, Forni da incasso, Design minimalista, Easy Steam, Idroclean, Cucina italiana, Forni premium, Elettrodomestici moderni",
+        "ogTitle": "Forni Alterum | BULM Italia",
+        "ogDescription": "Esplora i forni da incasso Alterum di BULM — eleganti, minimalisti e dotati di funzionalità innovative per una cucina più intelligente."
+      }
+    },
+    "enzo": {
+      "title": "Collezione Enzo. Integrazione perfetta tra stile ed efficienza",
+      "description": "L’innovazione e il fascino si rivelano nei modelli da incasso Enzo. Materiali di alta qualità progettati con tecnologia di ultima generazione, come le funzioni Easy Steam e Idroclean, garantiscono prestazioni elevate e risultati di cottura eccellenti. La collezione Enzo presenta linee semplici ed ergonomiche in uno stile esclusivo.",
+      "sections": [
+        {
+          "title": "Ampia cavità del forno",
+          "description": "74 litri utili (86 litri lordi), con guide laterali a 7 livelli — perfetto per preparazioni su più livelli."
+        },
+        {
+          "title": "Easy Steam",
+          "description": "Evaporando l’acqua all’interno del forno, la funzione Easy Steam aiuta a cuocere meglio i cibi aggiungendo il giusto grado di umidità."
+        },
+        {
+          "title": "Piano cottura Gas-Matik",
+          "description": "Il piano Gas-Matik di Enzo include funzioni avanzate: ogni bruciatore può essere programmato per spegnersi automaticamente o impostato come timer. Dispone anche di blocco bambini e spegnimento automatico dopo 4 ore di utilizzo continuo. Disponibile in dimensione 90 cm."
+        },
+        {
+          "title": "Idroclean",
+          "description": "Senza l’utilizzo di detergenti, questa funzione rimuove lo sporco all’interno del forno grazie all’umidità generata dal riscaldamento dell’acqua a 80-90°C."
+        }
+      ],
+      "products": [
+        {
+          "title": "Forno multifunzione elettrico Enzo"
+        },
+        {
+          "title": "Forno multifunzione elettrico"
+        },
+        {
+          "title": "Scopri di più"
+        }
+      ],
+      "seo": {
+        "title": "Forni da incasso Enzo | BULM Italia",
+        "description": "Scopri la collezione di forni da incasso Enzo di BULM – con funzioni Easy Steam, Idroclean e Gas-Matik. Design elegante e prestazioni eccezionali in ogni cottura.",
+        "keywords": "Forni Enzo, forni da incasso BULM, forni multifunzione, forni elettrici, Easy Steam, Idroclean, Gas-Matik, elettrodomestici da cucina italiani",
+        "ogTitle": "Forni da incasso Enzo | BULM Italia",
+        "ogDescription": "Design armonioso e cottura innovativa con i forni da incasso Enzo di BULM. Realizzati per prestazioni eccellenti con funzionalità all'avanguardia."
+      }
+    },
+    "enzoTitan": {
+      "title": "Collezione Enzo Titan. Uno spazio enorme con più potenza e prestazioni",
+      "description": "Immagina di non avere limiti di spazio e di avere ancora più possibilità; un risultato perfetto in ogni condizione, senza perdere tempo.",
+      "sections": [
+        {
+          "title": "Forni elettrici multifunzione giganti",
+          "description": "Scegli tra i forni elettrici multifunzione. Qualsiasi finitura tu preferisca, tutti i forni Titan da 90 cm offrono 141 litri di volume lordo e 121 litri utili con 7 livelli di griglie, programmi di cottura vari, preriscaldamento rapido e 2 ventole per una vera esperienza di cottura 3D."
+        },
+        {
+          "title": "Forni a gas giganti",
+          "description": "Una caratteristica unica dei forni a gas Titan è la presenza della ventola e del grill a gas a tutta larghezza. Una combinazione potente che offre controllo del calore e flessibilità. Kit girarrosto in acciaio inox che può essere posizionato su tutta la larghezza del forno con doppio supporto forchetta."
+        }
+      ],
+      "products": [
+        { "title": "Forno a gas con ventola" },
+        { "title": "Forno a gas con ventola" },
+        { "title": "Forno elettrico multifunzione" },
+        { "title": "Scopri di più" }
+      ],
+      "seo": {
+        "title": "Forni da incasso Enzo Titan | BULM Italia",
+        "description": "Scopri i forni da incasso Enzo Titan di BULM — forni da 90 cm a gas o elettrici multifunzione con capacità di 141L, doppia ventola, girarrosto e funzionalità avanzate per cucinare al meglio.",
+        "keywords": "Forni Enzo Titan, forni BULM, forni da incasso, forni da 90cm, forno multifunzione elettrico, forno a gas con ventola, forno con girarrosto, forni italiani",
+        "ogTitle": "Forni da incasso Enzo Titan | BULM Italia",
+        "ogDescription": "Senza limiti di spazio con i forni Enzo Titan di BULM. Scegli tra forni a gas potenti o multifunzione elettrici per cucinare con massima efficienza."
+      }
+    }
+    ,
+    "expertOvens": {
+      "meta": {
+        "title": "Forni da incasso Expert | BULM Italia",
+        "description": "Esplora la collezione di forni da incasso Expert di BULM – alte prestazioni con funzioni premium come Easy Steam, Idroclean, Pizza300°C e Lievitazione 40°C.",
+        "keywords": "forni Expert, forni da incasso BULM, forno elettrico multifunzione, Easy Steam, Idroclean, Pizza 300°C, Lievitazione 40°C, ampia cavità, elettrodomestici italiani",
+        "ogDescription": "Scopri i forni Expert di BULM – progettati per potenza, precisione e prestazioni. Funzioni avanzate per la tua cucina moderna."
+      },
+      "title": "Collezione Expert. Prestazioni professionali per la tua cucina",
+      "description": "La <strong>collezione Expert</strong> offre prestazioni professionali per la tua cucina domestica. Lo stile distintivo presenta manopole eleganti e maniglie ergonomiche, capacità, flessibilità e funzionalità speciali dedicate come <strong>Easy Steam</strong> e <strong>Idroclean</strong>.",
+      "sections": {
+        "easySteam": {
+          "title": "Easy Steam",
+          "description": "Easy Steam: Evaporando l’acqua all’interno del forno, la funzione Easy Steam aiuta a cuocere meglio i cibi rispetto alla stessa cottura senza aggiunta di umidità."
+        },
+        "idroclean": {
+          "title": "Idroclean",
+          "description": "Senza usare alcun tipo di detergente, questa funzione aiuta a rimuovere lo sporco all’interno del forno grazie all’umidità generata dall’acqua riscaldata a 80-90°C."
+        },
+        "leavening": {
+          "title": "Lievitazione 40°C",
+          "description": "Progettati per durare e soddisfare le esigenze quotidiane, questi forni ad alte prestazioni includono la funzione di lievitazione a 40°C per mantenere le caratteristiche dell’impasto e favorire una lievitazione ottimale."
+        },
+        "pizza": {
+          "title": "Funzione speciale Pizza 300°C",
+          "description": "La funzione speciale Pizza con 300°C ti permette di cuocere la pizza perfettamente come in un forno professionale. Si attivano la resistenza superiore e la ventola. Il calore proveniente dal basso è diffuso per convezione forzata."
+        },
+        "largeCavity": {
+          "title": "Ampia cavità del forno",
+          "description": "74 litri utilizzabili (86 lordi) con 7 livelli e griglie laterali facilmente rimovibili per preparazioni su più livelli."
+        }
+      },
+      "products": [
+        { "title": "Forno elettrico multifunzione" },
+        { "title": "Forno elettrico multifunzione" },
+        { "title": "Forno elettrico multifunzione" },
+        { "title": "Scopri di più" }
+      ]
+    },
+    "back": "Indietro_",
+    "landOvens": {
+      "meta": {
+        "title": "Forni da incasso Land | BULM Italia",
+        "description": "Scopri la Collezione Land di forni da incasso BULM — design rustico e senza tempo unito a prestazioni moderne. Scopri i forni elettrici multifunzione con funzione Idroclean e stile country tradizionale.",
+        "keywords": "forni Land, BULM, forni da incasso, forni rustici, elettrodomestici da cucina tradizionali, Idroclean, forno elettrico multifunzione, stile country chic",
+        "ogDescription": "Ispirata alla tradizione, la Collezione Land di BULM offre forni da incasso senza tempo con eleganti dettagli in ottone e la funzione Idroclean facile da usare."
+      },
+      "title": "Collezione Land. Ispirata alla tradizione",
+      "description": "Per chi ama un tocco di stile \"Country Chic\" in cucina e predilige le sfumature dei colori materici, i <strong>forni da incasso della Collezione Land</strong> sono la soluzione ideale, regalando agli spazi interni l’atmosfera tipica delle case di campagna.",
+      "sections": {
+        "countryStyle": {
+          "title": "Estetica country inconfondibile",
+          "description": "L’estetica country è valorizzata dalle manopole caratteristiche, tutte rigorosamente in ottone anticato; le serigrafie dorate riproducono un design retrò in equilibrio tra tradizione e innovazione."
+        },
+        "idroclean": {
+          "title": "Idroclean",
+          "description": "Senza utilizzare alcun tipo di detergente, questa funzione aiuta a rimuovere lo sporco all'interno del forno grazie all'umidità generata dall'acqua riscaldata a 80-90°C."
+        }
+      },
+      "products": [
+        { "title": "Forno elettrico multifunzione" },
+        { "title": "Forno elettrico multifunzione" },
+        { "title": "Scopri di più" }
       ]
     }
   }

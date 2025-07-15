@@ -1,17 +1,19 @@
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 type BreadcrumbsProps = {
-  linkColor?: string;       
-  activeColor?: string;     
-  separatorColor?: string;  
+  linkColor?: string;
+  activeColor?: string;
+  separatorColor?: string;
 };
 
 const Breadcrumbs = ({
-  linkColor = "#ffffff",      
-  activeColor = "#ffffff",     
-  separatorColor = "#ffffff", 
+  linkColor = "#ffffff",
+  activeColor = "#ffffff",
+  separatorColor = "#ffffff",
 }: BreadcrumbsProps) => {
   const location = useLocation();
+  const { t } = useTranslation();
   const pathnames = location.pathname.split("/").filter((x) => x);
 
   return (
@@ -34,7 +36,9 @@ const Breadcrumbs = ({
         {pathnames.map((value, index) => {
           const to = "/" + pathnames.slice(0, index + 1).join("/");
           const isLast = index === pathnames.length - 1;
-          const label = decodeURIComponent(value.charAt(0).toUpperCase() + value.slice(1));
+
+          // استخدم الترجمة لو كانت متوفرة وإلا استخدم النص كما هو
+          const label = t(`breadcrumbs.${value}`, value.charAt(0).toUpperCase() + value.slice(1));
 
           return (
             <li key={to} style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>

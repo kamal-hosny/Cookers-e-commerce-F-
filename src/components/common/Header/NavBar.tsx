@@ -15,7 +15,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
   const [showProductsMenu, setShowProductsMenu] = useState(false);
   const [openSearch, setOpenSearch] = useState(false);
   const location = useLocation();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     setShowCollectionsMenu(false);
@@ -68,7 +68,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                 }`}
                 to="/"
               >
-                Collections
+                {t("navbar.collections")}
               </Link>
 
               {showCollectionsMenu && (
@@ -82,28 +82,28 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
                           <Link to="/collections/collections-cookers/">
-                            Collections Cookers
+                            {t("navbar.collectionsCookers")}
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
                             <Link to="/collections/collections-cookers/antique">
-                              Antique
+                              {t("navbar.antique")}
                             </Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-cookers/perfection">
-                              Perfection
+                              {t("navbar.perfection")}
                             </Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-cookers/mixture">
-                              Mixture
+                              {t("navbar.mixture")}
                             </Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-cookers/elegant">
-                              Elegant
+                              {t("navbar.elegant")}
                             </Link>
                           </li>
                         </ul>
@@ -112,33 +112,33 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
                           <Link to="/collections/collections-ovens/">
-                            Collections Ovens
+                            {t("navbar.collectionsOvens")}
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
                             <Link to="/collections/collections-ovens/enzo-ovens">
-                              Enzo
+                              {t("navbar.enzo")}
                             </Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-ovens/enzo-titan-ovens">
-                              Enzo Titan
+                              {t("navbar.enzoTitan")}
                             </Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-ovens/land-ovens">
-                              Land
+                              {t("navbar.land")}
                             </Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-ovens/expert-ovens">
-                              Expert
+                              {t("navbar.expert")}
                             </Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-ovens/alterum-ovens">
-                              Alterum
+                              {t("navbar.alterum")}
                             </Link>
                           </li>
                         </ul>
@@ -147,18 +147,18 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
                           <Link to="/collections/collections-hobs/">
-                            Collections Hobs
+                            {t("navbar.collectionsHobs")}
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
                             <Link to="/collections/collections-hobs/enzo-hobs">
-                              Enzo Collection
+                              {t("navbar.enzoCollection")}
                             </Link>
                           </li>
                           <li>
                             <Link to="/collections/collections-hobs/land-hobs">
-                              Land Collection
+                              {t("navbar.landCollection")}
                             </Link>
                           </li>
                         </ul>
@@ -167,7 +167,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
                           <Link to="/collections/black-line-collection/">
-                            Black Line Collection
+                            {t("navbar.blackLine")}
                           </Link>
                         </p>
                       </div>
@@ -193,7 +193,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                 }`}
                 to="/product-category/cookers"
               >
-                Products
+                {t("navbar.products")}
               </Link>
 
               {showProductsMenu && (
@@ -212,35 +212,20 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                       />
                     </div>
                     <div className="w-1/3 flex flex-col justify-center px-10 space-y-6 font-semibold text-2xl text-[#7ba7b8]">
-                      <Link
-                        to="/product-category/cookers"
-                        className="hover:underline"
-                      >
-                        Cookers
+                      <Link to="/product-category/cookers" className="hover:underline">
+                        {t("navbar.cookers")}
                       </Link>
-                      <Link
-                        to="/product-category/ovens"
-                        className="hover:underline"
-                      >
-                        Ovens
+                      <Link to="/product-category/ovens" className="hover:underline">
+                        {t("navbar.ovens")}
                       </Link>
-                      <Link
-                        to="/product-category/hobs"
-                        className="hover:underline"
-                      >
-                        Hobs
+                      <Link to="/product-category/hobs" className="hover:underline">
+                        {t("navbar.hobs")}
                       </Link>
-                      <Link
-                        to="/product-category/hoods"
-                        className="hover:underline"
-                      >
-                        Hoods
+                      <Link to="/product-category/hoods" className="hover:underline">
+                        {t("navbar.hoods")}
                       </Link>
-                      <Link
-                        to="/product-category/compact-products"
-                        className="hover:underline"
-                      >
-                        Compact products
+                      <Link to="/product-category/compact-products" className="hover:underline">
+                        {t("navbar.compactProducts")}
                       </Link>
                     </div>
                   </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaTimes, FaSearch, FaArrowRight } from "react-icons/fa";
-import { useSearchProducts } from "../../../Hooks/useSearchProducts ";
+import { useSearchProducts } from "../../../Hooks/useSearchProducts";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -22,7 +22,7 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
   const [searchQuery, setSearchQuery] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
-  const { t } = useTranslation("search");
+  const { t } = useTranslation();
   const accentColor = "#6b8793";
 
   const { data: searchResults = [], isLoading } = useSearchProducts(searchQuery);
@@ -53,11 +53,11 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
 
   if (!openSearch) return null;
 
-  const rawTerms = t("popularTerms", { returnObjects: true });
+  const rawTerms = t("search.popularTerms", { returnObjects: true });
   const popularTerms = Array.isArray(rawTerms) ? rawTerms : [];
 
   return (
-    <div 
+    <div
       className="fixed inset-0 z-50 bg-white flex flex-col"
       style={{ backgroundColor: "rgba(255, 255, 255, 0.98)" }}
       onClick={() => setOpenSearch(false)}
@@ -69,7 +69,9 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
         <div className="flex justify-between items-center mb-8">
           <div className="flex items-center gap-3">
             <FaSearch className="text-gray-500" size={20} />
-            <h2 className="text-2xl font-light text-gray-800">{t("title")}</h2>
+            <h2 className="text-2xl font-light text-gray-800">
+              {t("search.title")}
+            </h2>
           </div>
           <button
             className="text-gray-500 hover:text-gray-800 transition-colors p-1"
@@ -85,7 +87,7 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={t("placeholder")}
+            placeholder={t("search.placeholder")}
             className="w-full py-4 px-4 text-xl border-b focus:outline-none"
             style={{ borderBottom: `2px solid ${accentColor}` }}
           />
@@ -94,24 +96,29 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
         <div className="flex-grow overflow-y-auto pb-4">
           {isLoading ? (
             <div className="flex flex-col items-center justify-center h-40">
-              <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2" style={{ borderColor: accentColor }}></div>
-              <p className="text-gray-600 mt-3">{t("loading")}</p>
+              <div
+                className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2"
+                style={{ borderColor: accentColor }}
+              ></div>
+              <p className="text-gray-600 mt-3">{t("search.loading")}</p>
             </div>
           ) : searchQuery && searchResults.length === 0 ? (
             <div className="text-center py-10">
               <div className="text-gray-300 mb-6">
                 <FaSearch size={60} />
               </div>
-              <h3 className="text-xl font-normal text-gray-700 mb-2">{t("notFoundTitle")}</h3>
+              <h3 className="text-xl font-normal text-gray-700 mb-2">
+                {t("search.notFoundTitle")}
+              </h3>
               <p className="text-gray-500 max-w-md mx-auto">
-                {t("notFoundDescription", { query: searchQuery })}
+                {t("search.notFoundDescription", { query: searchQuery })}
               </p>
             </div>
           ) : searchQuery ? (
             <div>
               <div className="flex justify-between items-center mb-6">
                 <h3 className="text-lg font-normal text-gray-700">
-                  {t("resultsTitle", { count: searchResults.length })}
+                  {t("search.resultsTitle", { count: searchResults.length })}
                 </h3>
               </div>
 
@@ -134,9 +141,11 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
                     </div>
 
                     <div className="flex-grow">
-                      <h4 className="text-lg font-normal text-gray-800 mb-1">{product.name}</h4>
+                      <h4 className="text-lg font-normal text-gray-800 mb-1">
+                        {product.name}
+                      </h4>
                       <p className="text-sm text-gray-500 mb-2">
-                        {t("sku")}: {product.sku || "N/A"}
+                        {t("search.sku")}: {product.sku || "N/A"}
                       </p>
                       {product.short_description && (
                         <p className="text-gray-600 text-sm line-clamp-2">
@@ -144,15 +153,23 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
                         </p>
                       )}
                       <div className="mt-2 flex items-center">
-                        <button className="flex items-center gap-1 text-sm font-medium" style={{ color: accentColor }}>
-                          {t("viewDetails")}
+                        <button
+                          className="flex items-center gap-1 text-sm font-medium"
+                          style={{ color: accentColor }}
+                        >
+                          {t("search.viewDetails")}
                           <FaArrowRight size={12} />
                         </button>
                       </div>
                     </div>
 
-                    <div className="flex-shrink-0 text-lg font-light" style={{ color: accentColor }}>
-                      {product.price || "$999.99"}
+                    <div
+                      className="flex-shrink-0 text-lg font-light"
+                      style={{ color: accentColor }}
+                    >
+                      {product.price
+                        ? `$${Number(product.price).toFixed(2)}`
+                        : "$999.99"}
                     </div>
                   </div>
                 ))}
@@ -163,11 +180,17 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
               <div className="text-gray-200 mb-6">
                 <FaSearch size={60} />
               </div>
-              <h3 className="text-xl font-normal text-gray-700 mb-2">{t("searchCatalogTitle")}</h3>
-              <p className="text-gray-500 max-w-md mx-auto mb-8">{t("searchCatalogDescription")}</p>
+              <h3 className="text-xl font-normal text-gray-700 mb-2">
+                {t("search.searchCatalogTitle")}
+              </h3>
+              <p className="text-gray-500 max-w-md mx-auto mb-8">
+                {t("search.searchCatalogDescription")}
+              </p>
 
               <div className="mt-8 max-w-md mx-auto">
-                <h4 className="text-left font-normal text-gray-700 mb-4 px-2">{t("popularSearches")}</h4>
+                <h4 className="text-left font-normal text-gray-700 mb-4 px-2">
+                  {t("search.popularSearches")}
+                </h4>
                 <div className="flex flex-wrap gap-3 justify-center">
                   {popularTerms.map((term) => (
                     <button
@@ -187,9 +210,7 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
 
         <div className="pt-4 pb-2 mt-auto">
           <div className="flex justify-center">
-            <p className="text-gray-500 text-sm">
-              {t("escToClose")}
-            </p>
+            <p className="text-gray-500 text-sm">{t("search.escToClose")}</p>
           </div>
         </div>
       </div>

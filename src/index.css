@@ -11,9 +11,10 @@
 
 @layer base {
   .container {
-    @apply mx-auto px-4 ;
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-screen-xl;
   }
 }
+
 
 body {
   color: #1d1d1b;

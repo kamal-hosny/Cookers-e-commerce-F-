@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 const Dealers = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     surname: "",
@@ -37,7 +39,6 @@ const Dealers = () => {
   return (
     <main>
       <div className="container py-1">
-
         <div className="Dealers-contact p-4 flex gap-4 justify-between items-start max-md:flex-col">
           <div className="flex-1 flex justify-between w-full">
             <div className="image h-100 flex-1 max-md:hidden">
@@ -49,15 +50,9 @@ const Dealers = () => {
             </div>
             <div className="bg-[#30505b] text-white p-4 flex-1 h-100 flex flex-col justify-between">
               <div className="text-xs gap-2 flex justify-center items-start flex-col space-y-4">
-                <p>
-                  For inquiries or dealership information, feel free to contact
-                  us via phone or email. Our team is ready to support you
-                  globally.
-                </p>
+                <p>{t("dealers.intro")}</p>
                 <div className="contact flex flex-col gap-2 self-start mt-12">
-                  <a href="mailto:info@bulm.it">
-                  info@bulm.it
-                  </a>
+                  <a href="mailto:info@bulm.it">info@bulm.it</a>
                   <a
                     href="http://www.bulm.com.it"
                     target="_blank"
@@ -77,7 +72,7 @@ const Dealers = () => {
                   <input
                     type="text"
                     name="name"
-                    placeholder="Name"
+                    placeholder={t("dealers.name")}
                     className="placeholder:text-[#1d1d1b] border p-3 outline-none"
                     value={formData.name}
                     onChange={handleChange}
@@ -86,7 +81,7 @@ const Dealers = () => {
                   <input
                     type="text"
                     name="surname"
-                    placeholder="Surname"
+                    placeholder={t("dealers.surname")}
                     className="border placeholder:text-[#1d1d1b] p-3 outline-none"
                     value={formData.surname}
                     onChange={handleChange}
@@ -95,7 +90,7 @@ const Dealers = () => {
                   <input
                     type="text"
                     name="company"
-                    placeholder="Company"
+                    placeholder={t("dealers.company")}
                     className="border placeholder:text-[#1d1d1b] p-3 outline-none"
                     value={formData.company}
                     onChange={handleChange}
@@ -103,7 +98,7 @@ const Dealers = () => {
                   <input
                     type="text"
                     name="role"
-                    placeholder="Role"
+                    placeholder={t("dealers.role")}
                     className="border placeholder:text-[#1d1d1b] p-3 outline-none"
                     value={formData.role}
                     onChange={handleChange}
@@ -111,7 +106,7 @@ const Dealers = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="Email"
+                    placeholder={t("dealers.email")}
                     className="border placeholder:text-[#1d1d1b] p-3 outline-none"
                     value={formData.email}
                     onChange={handleChange}
@@ -120,7 +115,7 @@ const Dealers = () => {
                   <input
                     type="tel"
                     name="phone"
-                    placeholder="Phone"
+                    placeholder={t("dealers.phone")}
                     className="border placeholder:text-[#1d1d1b] p-3 outline-none"
                     value={formData.phone}
                     onChange={handleChange}
@@ -128,7 +123,7 @@ const Dealers = () => {
                 </div>
                 <textarea
                   name="message"
-                  placeholder="Message"
+                  placeholder={t("dealers.message")}
                   className="border p-3 placeholder:text-[#1d1d1b] outline-none w-full min-h-28"
                   value={formData.message}
                   onChange={handleChange}
@@ -156,9 +151,9 @@ const Dealers = () => {
                       </label>
                     </StyledWrapper>
                     <label htmlFor="privacy-checkbox" className="ms-2 text-xs">
-                      We treat your personal data with care; view our{" "}
+                      {t("dealers.privacy")}{" "}
                       <Link to="/privacy-policy" className="underline">
-                        Privacy Policy
+                        {t("dealers.privacyLink")}
                       </Link>
                     </label>
                   </span>
@@ -166,7 +161,7 @@ const Dealers = () => {
                     type="submit"
                     className="hover:bg-[#1d1d1b] text-sm border-[#1d1d1b] border-b-2 hover:text-white transition-colors px-8 py-2 cursor-pointer"
                   >
-                    Submit
+                    {t("dealers.submit")}
                   </button>
                 </div>
               </form>
