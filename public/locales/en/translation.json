@@ -99,7 +99,7 @@
   "company": {
     "title": "BULM Italy SRL",
     "description": [
-      "BULM Italy SpA is a distinguished Italian company specializing in the design and production of high-end home appliances. Founded in 1979 in Milan, the brand has become a symbol of craftsmanship, innovation, and timeless elegance.",
+      "BULM Italy SRL is a distinguished Italian company specializing in the design and production of high-end home appliances. Founded in 1979 in Milan, the brand has become a symbol of craftsmanship, innovation, and timeless elegance.",
       "What began as a small manufacturing workshop driven by passion and precision, evolved into an international benchmark for quality. For over four decades, BULM has been redefining the modern cooking experience through cutting-edge technology, refined aesthetics, and unmatched performance.",
       "Every BULM product is born from a deep understanding of Italian design — attention to detail, excellence in materials, and a commitment to functionality. Today, the brand continues to create intelligent kitchen solutions that blend tradition with innovation.",
       "Official Email: info@bulm.it"
@@ -316,22 +316,23 @@
   "collections": {
     "title": "Unique Collections.",
     "subtitle": "Distinctive lines",
-    "description": "Talent for cooking also means being able to satisfy everyone with the several requirements arising from different cultures and approaches to cooking. For this reason, Elba offers the widest range of cooker appliances. Discover your best style for your kitchen with Elba Collections.",
+    "description": "Talent for cooking also means being able to satisfy everyone with the several requirements arising from different cultures and approaches to cooking. For this reason, BULM offers the widest range of cooker appliances. Discover your best style for your kitchen with BULM Collections.",
     "sections": [
       {
-        "title": "Collection Cookers",
-        "description": "Collection Cookers In Elba freestanding cookers we have therefore combined the functionality of technology with an attractive aesthetic, to create a welcoming and stimulating ambiance. Innovation and tradition are perfectly balanced in our designs, the result of years of experience in the field, creating flagship products for our business."
+        "title": "Collections Cookers",
+        "description": "BULM freestanding cookers combine advanced technology with timeless aesthetics. Explore our four unique lines — Antique, Perfection, Mixture, and Elegant — each crafted to reflect diverse tastes and lifestyles while upholding performance and design excellence."
       },
       {
-        "title": "Collection hobs",
-        "description": "There are classic gas, gas on glass and induction Elba hobs, with four or more burners and even smaller sized or traditional-looking hobs. All Elba hobs are made with top-quality materials and therefore always give above standard results. All are equipped with features for increased safety and performance, such as for example, in induction hobs, a booster function for rapid cooking times and reduced energy consumption."
+        "title": "Collections Hobs",
+        "description": "From classic gas and gas-on-glass to high-performance induction, BULM hobs come in multiple configurations with premium materials. All hobs offer exceptional performance and safety features — including booster functions for faster cooking and energy efficiency in our induction models."
       },
       {
-        "title": "Collection ovens",
-        "description": "We have ovens for specific uses, such as for meat, pizza, bread, cakes and leavened products. There is a right Elba oven for everybody because we want everyone to be able to show the best of their talents for cooking."
+        "title": "Collections Ovens",
+        "description": "Our ovens are tailored for all cooking needs — meat, pizza, bread, or pastries. BULM offers the perfect oven for every culinary enthusiast, helping you express your talent in the kitchen with confidence and precision."
       }
     ]
-  },
+  }
+,  
    "blackLinePage": {
     "title": "BULM Black Line – Precision Meets Elegance",
     "description": "Discover the essence of Italian engineering and refined aesthetics with the BULM Black Line. A premium collection of built-in kitchen appliances created for those who demand performance, elegance, and cutting-edge innovation — all in one.",
@@ -841,6 +842,26 @@
       { "title": "Electric multifunction oven" },
       { "title": "Find out more" }
     ]
+  },
+  "about": {
+    "mainTitle": "Since 1970 we are sharing our history, achievements, strengths and know-how all over the world",
+    "mainDescription": "Our deep experience and production flexibility in <strong>cooking appliances</strong> have empowered us to grow across more than 60 global markets.",
+
+    "section1Title": "Style, Design and Technology — Made in Italy",
+    "section1Desc": "All our production remains in Italy, combining advanced manufacturing techniques with local expertise, creativity, and craftsmanship. This is the true essence of Italian quality.",
+    "section2Title": "54,000 m² Production Site in Northern Italy",
+    "section2Desc": "Having our operations centralized in the northeast of Italy allows for tight quality control, innovation, and dedication to excellence at every stage of production.",
+    "section3Title": "Commitment to High-Quality Standards",
+    "section3Desc": "At BULM, 'Made in Italy' means more than assembly — it reflects a full ecosystem of quality-driven component sourcing, certified partners, and adherence to the strictest European standards.",
+
+    "blackSectionTitle": "Entirely made in Italy",
+    "blackSectionDesc": "What's the secret behind our success? It's the Italian style — admired worldwide — that we infuse into every product we make. This style goes beyond aesthetics; it's deeply embedded in our technology, design, and manufacturing values.",
+
+    "heartTitle": "In the heart of your kitchen",
+    "heartDesc": "More than a cooking space, the kitchen is a place of warmth, creativity, and togetherness. For over four decades, BULM has brought life into homes. We believe in the power of good food, family, and design — which is why every BULM appliance is designed to meet your unique culinary needs.",
+
+    "lastTitle": "Quality guaranteed",
+    "lastDesc": "Since 1979, BULM has prioritized excellence in every step of its production. Every process is guided by strict testing, quality controls, and documentation. We proudly earned ISO 9001 certification in 1998, having already met CE mark standards since 1995. Our quality system evolved with ISO 9001:2008 and ISO 9001:2015 updates — a testament to our legacy of trust and performance."
   }
 
   

@@ -47,7 +47,7 @@ const Header = () => {
 
   return (
     <header className={`${headerClasses} ${bgClass} ${heightClass}`}>
-      <div className="container flex justify-between items-center h-full">
+      <div className={`${"container flex justify-between  items-center h-full"} ${isScrolled && "pt-2"}`}>
         <MenuHamburger openMenu={openMenu} onToggleMenu={handleOpenMenu} isScrolled={isScrolled} />
         <Logo isScrolled={isScrolled} />
         <NavBar isScrolled={isScrolled} />

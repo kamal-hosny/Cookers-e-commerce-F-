@@ -20,7 +20,7 @@ const Footer = () => {
       className={`${footerClasses} py-8 px-4 sm:px-6 sm:py-12 md:px-8 md:py-16 lg:px-20 lg:py-20`}
     >
       <div className="container">
-        <ul className="flex flex-col items-start space-y-6 text-center sm:flex-row sm:justify-around sm:space-y-0 font-medium text-sm">
+        <ul className="flex flex-col items-center justify-center text-center space-y-6 sm:flex-row sm:justify-around sm:items-start sm:space-y-0 font-medium text-sm">
           <li className="text-xl font-semibold">
             {t("footer.company")} {new Date().getFullYear()}
           </li>

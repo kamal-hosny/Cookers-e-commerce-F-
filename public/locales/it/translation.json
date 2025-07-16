@@ -99,7 +99,7 @@
     "company": {
       "title": "BULM Italy SRL",
       "description": [
-        "BULM Italy SpA è un’azienda italiana rinomata, specializzata nella progettazione e produzione di elettrodomestici di fascia alta per la casa. Fondata nel 1979 a Milano, il marchio è diventato simbolo di artigianalità, innovazione ed eleganza senza tempo.",
+        "BULM Italy SRL è un’azienda italiana rinomata, specializzata nella progettazione e produzione di elettrodomestici di fascia alta per la casa. Fondata nel 1979 a Milano, il marchio è diventato simbolo di artigianalità, innovazione ed eleganza senza tempo.",
         "Nata come una piccola officina guidata da passione e precisione, si è evoluta in un punto di riferimento internazionale per la qualità. Da oltre quattro decenni, BULM ridefinisce l’esperienza culinaria moderna grazie a tecnologie all’avanguardia, estetica raffinata e prestazioni senza pari.",
         "Ogni prodotto BULM nasce da una profonda comprensione del design italiano — attenzione ai dettagli, eccellenza nei materiali e impegno per la funzionalità. Oggi il marchio continua a creare soluzioni intelligenti per la cucina che uniscono tradizione e innovazione.",
         "Email ufficiale: info@bulm.it"
@@ -314,22 +314,23 @@
     "collections": {
       "title": "Collezioni Uniche.",
       "subtitle": "Linee Distintive",
-      "description": "Il talento in cucina significa anche saper soddisfare tutti i requisiti derivanti da diverse culture e approcci alla cucina. Per questo motivo, Elba offre la più ampia gamma di elettrodomestici per la cucina. Scopri il tuo stile migliore per la cucina con le Collezioni Elba.",
+      "description": "Il talento per la cucina significa anche saper soddisfare esigenze diverse derivanti da culture e approcci differenti. Per questo motivo, BULM offre la più ampia gamma di elettrodomestici da cucina. Scopri il tuo stile ideale per la cucina con le Collezioni BULM.",
       "sections": [
         {
-          "title": "Collezione Cucine",
-          "description": "Nelle cucine free-standing Elba abbiamo quindi combinato la funzionalità della tecnologia con un'estetica attraente, per creare un ambiente accogliente e stimolante. Innovazione e tradizione sono perfettamente bilanciate nei nostri design, frutto di anni di esperienza nel settore, creando prodotti di punta per la nostra attività."
+          "title": "Collezioni Cucine",
+          "description": "Le cucine free-standing BULM combinano tecnologia avanzata ed estetica senza tempo. Scopri le nostre quattro linee uniche — Antico, Perfezione, Miscela ed Elegante — ognuna creata per riflettere gusti e stili di vita diversi, mantenendo alti standard di performance e design."
         },
         {
-          "title": "Collezione Piani Cottura",
-          "description": "Ci sono piani cottura a gas classici, gas su vetro e a induzione Elba, con quattro o più bruciatori e anche piani cottura più piccoli o dal look tradizionale. Tutti i piani cottura Elba sono realizzati con materiali di altissima qualità e offrono quindi risultati superiori alla media. Sono tutti dotati di funzionalità per maggiore sicurezza e prestazioni, come ad esempio, nei piani a induzione, la funzione booster per tempi di cottura rapidi e consumo energetico ridotto."
+          "title": "Collezioni Piani Cottura",
+          "description": "Dai classici a gas e gas su vetro fino agli innovativi piani a induzione, i piani cottura BULM offrono configurazioni multiple con materiali di alta qualità. Tutti i modelli garantiscono prestazioni eccellenti e funzioni di sicurezza, inclusa la funzione booster per cotture più rapide e risparmio energetico nei modelli a induzione."
         },
         {
-          "title": "Collezione Forni",
-          "description": "Abbiamo forni per usi specifici, come carne, pizza, pane, dolci e prodotti lievitati. Esiste il forno Elba giusto per tutti, perché vogliamo che ognuno possa mostrare al meglio il proprio talento in cucina."
+          "title": "Collezioni Forni",
+          "description": "I nostri forni sono pensati per ogni esigenza: carne, pizza, pane o dolci. BULM offre il forno perfetto per ogni appassionato di cucina, aiutandoti a esprimere il tuo talento culinario con sicurezza e precisione."
         }
       ]
-    },
+    }
+    ,
     "blackLinePage": {
       "title": "BULM Linea Nera – Precisione ed Eleganza",
       "description": "Scopri l'essenza dell'ingegneria italiana e dell'estetica raffinata con la linea Black di BULM. Una collezione premium di elettrodomestici da incasso per chi cerca prestazioni, eleganza e innovazione d’avanguardia — tutto in uno.",
@@ -839,6 +840,26 @@
         { "title": "Forno elettrico multifunzione" },
         { "title": "Scopri di più" }
       ]
+    },
+    "about": {
+      "mainTitle": "Dal 1970 condividiamo la nostra storia, i successi, i punti di forza e il know-how in tutto il mondo",
+      "mainDescription": "La nostra lunga esperienza e flessibilità produttiva negli <strong>elettrodomestici da cucina</strong> ci hanno permesso di espanderci in oltre 60 mercati globali.",
+  
+      "section1Title": "Stile, design e tecnologia — Made in Italy",
+      "section1Desc": "Tutta la nostra produzione resta in Italia, unendo tecnologie avanzate alla creatività e alla maestria artigianale locale. Questa è la vera essenza della qualità italiana.",
+      "section2Title": "54.000 m² di produzione nel Nord Italia",
+      "section2Desc": "Avere le operazioni centralizzate nel nord-est dell’Italia ci consente un controllo qualità rigoroso, innovazione e dedizione all’eccellenza in ogni fase della produzione.",
+      "section3Title": "Impegno verso gli standard di alta qualità",
+      "section3Desc": "Per BULM, 'Made in Italy' significa molto più dell’assemblaggio — rappresenta un intero ecosistema basato sulla qualità, fornitori certificati e rispetto dei più severi standard europei.",
+  
+      "blackSectionTitle": "Completamente realizzato in Italia",
+      "blackSectionDesc": "Qual è il segreto del nostro successo? È lo stile italiano — ammirato in tutto il mondo — che infondiamo in ogni prodotto. Questo stile va oltre l'estetica; è profondamente radicato nella nostra tecnologia, nel design e nei valori produttivi.",
+  
+      "heartTitle": "Nel cuore della tua cucina",
+      "heartDesc": "Più che uno spazio per cucinare, la cucina è un luogo di calore, creatività e condivisione. Da oltre quattro decenni, BULM porta vita nelle case. Crediamo nel buon cibo, nella famiglia e nel design — ed è per questo che ogni elettrodomestico BULM è progettato per soddisfare le tue esigenze culinarie uniche.",
+  
+      "lastTitle": "Qualità garantita",
+      "lastDesc": "Dal 1979, BULM punta all’eccellenza in ogni fase della produzione. Ogni processo è guidato da test rigorosi, controlli di qualità e documentazione. Abbiamo ottenuto la certificazione ISO 9001 nel 1998, già conformi al marchio CE dal 1995. Il nostro sistema qualità si è evoluto con gli aggiornamenti ISO 9001:2008 e ISO 9001:2015 — una testimonianza della nostra eredità di fiducia e prestazioni."
     }
   }
   

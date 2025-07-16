@@ -7,7 +7,7 @@ interface LogoProps {
 
 const Logo = ({ isScrolled }: LogoProps) => {
   const { pathname } = useLocation();
-  const { i18n } = useTranslation(); // استخراج اللغة الحالية
+  const { i18n } = useTranslation();
 
   let footerClasses = "transition-all duration-300";
 
@@ -48,7 +48,7 @@ const Logo = ({ isScrolled }: LogoProps) => {
   return (
     <Link
       to="/"
-      className={`flex items-center gap-1 md:gap-8 ${footerClasses}`}
+      className={`flex items-center gap-1 sm:gap-4 md:gap-6 lg:ps-50 ${footerClasses}`}
     >
       <div className="flex flex-col items-center transition-all duration-300 ease-in-out">
         <svg
@@ -57,7 +57,9 @@ const Logo = ({ isScrolled }: LogoProps) => {
           viewBox="0 0 459.000000 119.000000"
           preserveAspectRatio="xMidYMid meet"
           className={`transition-all duration-300 h-auto ${
-            isScrolled ? "w-24 md:w-36" : "w-28 md:w-44"
+            isScrolled
+              ? "w-20 sm:w-24 md:w-32"
+              : "w-24 sm:w-28 md:w-40"
           }`}
         >
           <g
@@ -73,7 +75,7 @@ const Logo = ({ isScrolled }: LogoProps) => {
         </svg>
 
         <p
-          className={`text-[10px] md:text-xs capitalize mt-1 font-medium transition-all duration-300 ${
+          className={`text-[7px] sm:text-[8px] md:text-[10px] capitalize mt-1 font-medium transition-all duration-300 ${
             isScrolled ? "scale-90" : "scale-100"
           }`}
           style={{ letterSpacing: "0.29em" }}
@@ -82,15 +84,17 @@ const Logo = ({ isScrolled }: LogoProps) => {
         </p>
       </div>
 
-      <span className="line block w-0.5 h-16 bg-[#d8dee0]"></span>
+      <span className="line block w-0.5 h-10 sm:h-12 md:h-16 bg-[#d8dee0]"></span>
 
       <div
-        className={`transition-all duration-300 overflow-hidden ${
-          isScrolled ? "w-10 md:w-16" : "w-12 md:w-20"
+        className={`transition-all duration-300 overflow-hidden py-3  flex items-center ${
+          isScrolled
+            ? "w-12 sm:w-16 md:w-16 "
+            : "w-16 sm:w-20 md:w-20 "
         }`}
       >
         <img
-          className="h-full w-full object-contain scale-150"
+          className="h-auto w-full object-contain scale-125"
           src={logoImageSrc}
           alt="Years-of-experience"
         />

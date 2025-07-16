@@ -29,13 +29,24 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
     };
   }, []);
 
+  const whitePages = [
+    "/collections",
+    "/collections/",
+    "/collections/collections-hobs",
+    "/collections/collections-hobs/",
+    "/collections/collections-ovens",
+    "/collections/collections-ovens/",
+    "/collections/collections-cookers",
+    "/collections/collections-cookers/",
+  ];
+
   let barColor = "";
   let textColor = "";
 
   if (openMenu) {
     barColor = "bg-white";
     textColor = "text-white";
-  } else if (isScrolled) {
+  } else if (isScrolled || whitePages.includes(pathname)) {
     barColor = "bg-black";
     textColor = "text-black";
   } else {
@@ -90,12 +101,12 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
       >
         <div className="text-white">
           <ul className="space-y-6">
-            <li className="text-4xl hover:text-black transition-colors">
+            <li className="text-4xl hover:text-black transition-colors uppercase">
               <Link onClick={onToggleMenu} to={"/about-bulm"}>
                 {t("menu.aboutBulm")}
               </Link>
             </li>
-            <li className="flex items-center justify-between group">
+            <li className="flex items-center justify-between group uppercase">
               <Link
                 onClick={onToggleMenu}
                 to="/collections"
@@ -117,7 +128,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                   <Link
                     onClick={onToggleMenu}
                     to="/collections/collections-cookers/"
-                    className="hover:text-black"
+                    className="hover:text-black uppercase"
                   >
                     {t("menu.collectionsCookers")}
                   </Link>
@@ -126,7 +137,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                   <Link
                     onClick={onToggleMenu}
                     to="/collections/collections-hobs/"
-                    className="hover:text-black"
+                    className="hover:text-black uppercase"
                   >
                     {t("menu.collectionsHobs")}
                   </Link>
@@ -135,7 +146,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                   <Link
                     onClick={onToggleMenu}
                     to="/collections/collections-ovens/"
-                    className="hover:text-black"
+                    className="hover:text-black uppercase"
                   >
                     {t("menu.collectionsOvens")}
                   </Link>
@@ -146,8 +157,8 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
             <li className="flex items-center justify-between group">
               <Link
                 onClick={onToggleMenu}
-                to="/product-category?cookers"
-                className="text-4xl hover:text-black transition-colors"
+                to="/product-category/cookers"
+                className="text-4xl hover:text-black transition-colors uppercase"
               >
                 {t("menu.products")}
               </Link>
@@ -160,12 +171,12 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
             </li>
 
             {openProducts && (
-              <ul className="pl-6 mt-2 space-y-2 text-2xl text-white">
+              <ul className="pl-6 mt-2 space-y-2 text-2xl text-white ">
                 <li>
                   <Link
                     onClick={onToggleMenu}
                     to="/product-category/cookers"
-                    className="hover:text-black"
+                    className="hover:text-black uppercase"
                   >
                     {t("menu.cookers")}
                   </Link>
@@ -174,7 +185,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                   <Link
                     onClick={onToggleMenu}
                     to="/product-category/ovens"
-                    className="hover:text-black"
+                    className="hover:text-black uppercase"
                   >
                     {t("menu.ovens")}
                   </Link>
@@ -183,7 +194,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                   <Link
                     onClick={onToggleMenu}
                     to="/product-category/hobs"
-                    className="hover:text-black"
+                    className="hover:text-black uppercase"
                   >
                     {t("menu.hobs")}
                   </Link>
@@ -192,7 +203,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                   <Link
                     onClick={onToggleMenu}
                     to="/product-category/hoods"
-                    className="hover:text-black"
+                    className="hover:text-black uppercase"
                   >
                     {t("menu.hoods")}
                   </Link>
@@ -201,7 +212,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                   <Link
                     onClick={onToggleMenu}
                     to="/product-category/compact-products"
-                    className="hover:text-black"
+                    className="hover:text-black uppercase"
                   >
                     {t("menu.compactProducts")}
                   </Link>
@@ -209,7 +220,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
               </ul>
             )}
 
-            <li className="text-4xl hover:text-black transition-colors">
+            <li className="text-4xl hover:text-black transition-colors uppercase">
               <Link onClick={onToggleMenu} to="/dealers">
                 {t("menu.dealers")}
               </Link>
@@ -223,7 +234,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
               <Link
                 onClick={onToggleMenu}
                 to="/"
-                className="p-2 hover:text-black transition-colors"
+                className="p-2 hover:text-black transition-colors uppercase"
               >
                 {t("menu.jobs")}
               </Link>
@@ -232,7 +243,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
               <Link
                 onClick={onToggleMenu}
                 to="/ita/login"
-                className="p-2 hover:text-black transition-colors"
+                className="p-2 hover:text-black transition-colors uppercase"
               >
                 {t("menu.service")}
               </Link>
@@ -241,7 +252,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
               <Link
                 onClick={onToggleMenu}
                 to="/contacts"
-                className="p-2 hover:text-black transition-colors"
+                className="p-2 hover:text-black transition-colors uppercase"
               >
                 {t("menu.contacts")}
               </Link>
@@ -250,7 +261,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
               <Link
                 onClick={onToggleMenu}
                 to="/reserved-area"
-                className="p-2 hover:text-black transition-colors"
+                className="p-2 hover:text-black transition-colors uppercase"
               >
                 {t("menu.reservedArea")}
               </Link>
