@@ -79,20 +79,20 @@
     "subheading": "with distinguished lines",
     "sections": [
       {
-        "title": "Vintage",
-        "description": "Our Vintage Collection is a nod to the past through charming retro design details and finishing details."
+        "title": "Antique",
+        "description": "Our Antique Collection is a tribute to classic design. Elegant retro touches meet modern technology in freestanding cookers built for both charm and performance."
       },
       {
-        "title": "Excellence",
-        "description": "Explore our modern collection designed for sleek and contemporary kitchens with advanced technology. Our Excellence Collection takes its inspiration from professional kitchens with a sleek shape and streamlined look."
+        "title": "Perfection",
+        "description": "Perfection Collection brings a sleek, contemporary look to your kitchen. Inspired by professional kitchens, it blends advanced functionality with minimalist elegance."
       },
       {
-        "title": "Fusion",
-        "description": "Soft lines and rounded edges distinguish the Fusion Collection where they coexist in perfect harmony with functional needs."
+        "title": "Mixture",
+        "description": "Rounded edges and soft lines define the Mixture Collection. Where functional innovation meets harmonious design — perfect for the modern lifestyle."
       },
       {
-        "title": "Classic",
-        "description": "The Classic Collection combines both cast-iron radiant heat cooking and conventional cooking, giving you the flexibility to choose your favorite way of cooking every day."
+        "title": "Elegant",
+        "description": "The Elegant Collection delivers timeless beauty and reliable cooking power. A balance of cast-iron tradition and contemporary control in one refined appliance."
       }
     ]
   },
