@@ -11,21 +11,21 @@ const sections = [
     title: "about.section1Title",
     description: "about.section1Desc",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-produzione-1.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/Style-Design-and-Technology-—-Made-in-Italy.webp",
   },
   {
     id: 2,
     title: "about.section2Title",
     description: "about.section2Desc",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-produzione-2.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/54000-m²-Production-Site-in-Northern-Italy.webp",
   },
   {
     id: 3,
     title: "about.section3Title",
     description: "about.section3Desc",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-produzione-3.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/Commitment-to-High-Quality-Standards.webp",
   },
 ];
 
@@ -34,12 +34,12 @@ const AboutBulm = () => {
 
   return (
     <main>
-      <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/01/primopiano-elba-fornelli.jpg.webp" />
+      <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/Bulm.jpeg" />
 
       <div className="container relative z-5 pt-[380px] pb-20 space-y-8"></div>
 
       <div className="mx-auto max-w-10/12 px-4">
-        <MainTitleCollections title={t("about.mainTitle")}> 
+        <MainTitleCollections title={t("about.mainTitle")}>
           <p dangerouslySetInnerHTML={{ __html: t("about.mainDescription") }} />
         </MainTitleCollections>
       </div>
@@ -48,7 +48,7 @@ const AboutBulm = () => {
 
       <div className="image container mt-20 relative w-full h-[700px] before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-1/2 before:w-full before:bg-[#1d1d1b] before:z-[-2] ">
         <img
-          src="https://www.elba-cookers.com/wp-content/uploads/2024/03/Elba-company.jpg.webp"
+          src="https://cms.bulm.it/wp-content/uploads/2025/07/company.jpeg"
           alt="banner"
           className="w-full h-full object-cover"
         />
@@ -58,15 +58,19 @@ const AboutBulm = () => {
       <div className="!bg-[#1d1d1b] text-white py-20">
         <div className="container relative z-5 space-y-12">
           <div className="mx-auto max-w-10/12 px-4">
-            <p className="text-4xl font-bold mb-8">{t("about.blackSectionTitle")}</p>
+            <p className="text-4xl font-bold mb-8">
+              {t("about.blackSectionTitle")}
+            </p>
             <p>{t("about.blackSectionDesc")}</p>
           </div>
 
-          <BlocksGap sections={sections.map((s) => ({
-            ...s,
-            title: t(s.title),
-            description: t(s.description),
-          }))} />
+          <BlocksGap
+            sections={sections.map((s) => ({
+              ...s,
+              title: t(s.title),
+              description: t(s.description),
+            }))}
+          />
         </div>
       </div>
 
@@ -89,12 +93,12 @@ const AboutBulm = () => {
             }}
             className="mySwiper"
           >
-            {[ 
-              "https://www.elba-cookers.com/wp-content/uploads/2022/01/bicchieri.jpg.webp",
-              "https://www.elba-cookers.com/wp-content/uploads/2022/01/verdure.jpg.webp",
-              "https://www.elba-cookers.com/wp-content/uploads/2022/01/pane.jpg.webp",
-              "https://www.elba-cookers.com/wp-content/uploads/2022/01/impiattamento.jpg.webp",
-              "https://www.elba-cookers.com/wp-content/uploads/2022/01/salmone.jpg.webp",
+            {[
+              "https://cms.bulm.it/wp-content/uploads/2025/07/salmone.jpg.webp",
+              "https://cms.bulm.it/wp-content/uploads/2025/07/impiattamento.jpg.webp",
+              "https://cms.bulm.it/wp-content/uploads/2025/07/pane.jpg.webp",
+              "https://cms.bulm.it/wp-content/uploads/2025/07/verdure.jpg.webp",
+              "https://cms.bulm.it/wp-content/uploads/2025/07/bicchieri.jpg.webp",
             ].map((img, index) => (
               <SwiperSlide key={index}>
                 <img

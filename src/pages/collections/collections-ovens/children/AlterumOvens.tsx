@@ -17,14 +17,14 @@ const AlterumOvens = () => {
       title: t("alterum.sections.0.title"),
       description: t("alterum.sections.0.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-easy-steam-oven.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Easy-Steam.webp",
     },
     {
       id: 2,
       title: t("alterum.sections.1.title"),
       description: t("alterum.sections.1.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-idroclean-oven.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Idroclean.webp",
     },
   ];
 
@@ -38,7 +38,7 @@ const AlterumOvens = () => {
         <meta property="og:description" content={t("alterum.seo.ogDescription")} />
         <meta
           property="og:image"
-          content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-alterum-collection-oven.jpg.webp"
+          content="https://cms.bulm.it/wp-content/uploads/2025/07/alterum.jpeg"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -52,7 +52,7 @@ const AlterumOvens = () => {
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-alterum-collection-oven.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/alterum.jpeg" />
         <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs

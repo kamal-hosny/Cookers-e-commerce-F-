@@ -10,11 +10,11 @@ const News = () => {
   const newsItems = [
     {
       id: 1,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/Vintage-1024x576.jpg.webp"
+      image: "/Home/news/news1.jpeg"
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg"
     }
   ];
 

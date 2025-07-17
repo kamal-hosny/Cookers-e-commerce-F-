@@ -26,25 +26,25 @@ const Mixture = () => {
       id: 1,
       title: t("mixture.sections.1.title"),
       description: t("mixture.sections.1.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-startend-of-cooking-electronic-programmer.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Simple-to-use-electronic-programmer.webp",
     },
     {
       id: 2,
       title: t("mixture.sections.2.title"),
       description: t("mixture.sections.2.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-cast-iron-pan-supports.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Cast-iron-pan-supports.webp",
     },
     {
       id: 3,
       title: t("mixture.sections.3.title"),
       description: t("mixture.sections.3.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-brushed-metal-handle.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Coordinated-handle-design.webp",
     },
     {
       id: 4,
       title: t("mixture.sections.4.title"),
       description: t("mixture.sections.4.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-knobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Double-finishing-knobs.webp",
     },
   ];
 
@@ -85,23 +85,23 @@ const Mixture = () => {
         <meta name="description" content={t("mixture.meta.description")} />
         <meta name="keywords" content={t("mixture.meta.keywords")} />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://bulm.it/collections/collections-cookers/fusion" />
-        <link rel="alternate" href="https://bulm.it/collections/collections-cookers/fusion" hrefLang="en" />
-        <link rel="alternate" href="https://bulm.it/it/collections/collections-cookers/fusion" hrefLang="it" />
-        <link rel="alternate" href="https://bulm.it/collections/collections-cookers/fusion" hrefLang="x-default" />
+        <link rel="canonical" href="https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg" />
+        <link rel="alternate" href="https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg" hrefLang="en" />
+        <link rel="alternate" href="https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg" hrefLang="it" />
+        <link rel="alternate" href="https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg" hrefLang="x-default" />
         <meta property="og:title" content={t("mixture.meta.ogTitle")} />
         <meta property="og:description" content={t("mixture.meta.ogDescription")} />
-        <meta property="og:image" content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-collection-range-cookers-made-in-italy.jpg.webp" />
-        <meta property="og:url" content="https://bulm.it/collections/collections-cookers/fusion" />
+        <meta property="og:image" content="https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg" />
+        <meta property="og:url" content="https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={t("mixture.meta.twitterTitle")} />
         <meta name="twitter:description" content={t("mixture.meta.twitterDescription")} />
-        <meta name="twitter:image" content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-collection-range-cookers-made-in-italy.jpg.webp" />
+        <meta name="twitter:image" content="https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg" />
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-collection-range-cookers-made-in-italy.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg" />
         <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs linkColor="#000000" activeColor="#000000" separatorColor="#000000" />

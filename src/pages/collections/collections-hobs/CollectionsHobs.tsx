@@ -12,7 +12,7 @@ const CollectionsHobs = () => {
       title: t("collectionsHobs.sections.enzo.title"),
       description: t("collectionsHobs.sections.enzo.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Enzo-Hobs.jpg",
       link: "/collections/collections-hobs/enzo-hobs",
       bgColor: "#e8e8e8",
       textColor: "#1d1d1b",
@@ -22,7 +22,7 @@ const CollectionsHobs = () => {
       title: t("collectionsHobs.sections.land.title"),
       description: t("collectionsHobs.sections.land.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-giant-electric-multifunction-ovens.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Land-Hobs.jpeg",
       link: "/collections/collections-hobs/land-hobs",
       bgColor: "#ede7d3",
       textColor: "#1d1d1b",

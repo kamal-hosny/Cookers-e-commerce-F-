@@ -29,31 +29,31 @@ const EnzoHobs = () => {
       id: 1,
       title: t("enzoHobs.sections.gasMetal.title"),
       description: t("enzoHobs.sections.gasMetal.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-collection-hobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Gas-on-metal-hobs.jpeg",
     },
     {
       id: 2,
       title: t("enzoHobs.sections.gasGlass.title"),
       description: t("enzoHobs.sections.gasGlass.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Gas-on-glass-hobs.webp",
     },
     {
       id: 3,
       title: t("enzoHobs.sections.gasMatik.title"),
       description: t("enzoHobs.sections.gasMatik.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-gas-matik-hobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Gas-matik-hob.jpeg",
     },
     {
       id: 4,
       title: t("enzoHobs.sections.vitro.title"),
       description: t("enzoHobs.sections.vitro.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-vitroceramic-hobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Vitroceramic-Enzo-hobs.jpeg",
     },
     {
       id: 5,
       title: t("enzoHobs.sections.induction.title"),
       description: t("enzoHobs.sections.induction.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-induction-hobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Induction-Enzo-hobs.jpeg",
     },
   ];
 
@@ -79,7 +79,7 @@ const EnzoHobs = () => {
     {
       id: 4,
       type: "special",
-      image: "https://www.elba-cookers.com/wp-content/uploads/2023/06/Elio-hob_500x700_new.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Find-out-.jpeg",
       title: t("enzoHobs.products.4.title"),
       link: "/home",
       collections: "Enzo",
@@ -102,7 +102,7 @@ const EnzoHobs = () => {
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-gas-induction-hobs.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/Enzo-Hobs-banner.jpeg" />
         <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs linkColor="#000000" activeColor="#000000" separatorColor="#000000" />

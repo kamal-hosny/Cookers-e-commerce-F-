@@ -1,11 +1,11 @@
-import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
-import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
+import { useNavigate } from "react-router-dom";
 import BlocksGap from "../../../../components/common/BlocksGap";
 import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
-import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
-import { Helmet } from "react-helmet-async";
+import MainTitleCollections from "../../../../components/common/MainTitleCollections";
+import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 
 const EnzoOvens = () => {
   const navigate = useNavigate();
@@ -16,45 +16,52 @@ const EnzoOvens = () => {
       id: 1,
       title: t("enzo.sections.0.title"),
       description: t("enzo.sections.0.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-maxi-cavity-74-litres.jpg.webp",
+      image:
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Large-oven-cavity.webp",
     },
     {
       id: 2,
       title: t("enzo.sections.1.title"),
       description: t("enzo.sections.1.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2023/05/easysteam-elba-900x600px-elba.jpg.webp",
+      image:
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Easy-Steam.jpeg",
     },
     {
       id: 3,
       title: t("enzo.sections.2.title"),
       description: t("enzo.sections.2.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-gas-matik-hobs.jpg.webp",
+      image:
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Gas-matik-hob-1.jpeg",
     },
     {
       id: 4,
       title: t("enzo.sections.3.title"),
       description: t("enzo.sections.3.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2023/05/idroclean-elba-900x600px-elba.jpg.webp",
+      image:
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Idroclean.jpeg",
     },
   ];
 
   const products = [
     {
       id: 1,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-elio-electric-multifunction-oven-el-11-xlb-300_front-on.jpg.webp",
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-elio-electric-multifunction-oven-el-11-xlb-300_front-on.jpg.webp",
       title: t("enzo.products.0.title"),
       code: "EN 11 XLB 300",
     },
     {
       id: 2,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-electric-multifunction-oven-el-10-xlx-300.png.webp",
+      image:
+        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-electric-multifunction-oven-el-10-xlx-300.png.webp",
       title: t("enzo.products.1.title"),
       code: "EN 10 XLX 300",
     },
     {
       id: 3,
       type: "special",
-      image: "https://www.elba-cookers.com/wp-content/uploads/2023/06/Elio_500x700_new.jpg.webp",
+      image:
+        "https://cms.bulm.it/wp-content/uploads/2025/07/d.jpeg",
       title: t("enzo.products.2.title"),
       link: "/home",
       collections: "Enzo",
@@ -71,7 +78,7 @@ const EnzoOvens = () => {
         <meta property="og:description" content={t("enzo.seo.ogDescription")} />
         <meta
           property="og:image"
-          content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-oven.jpg.webp"
+          content="https://cms.bulm.it/wp-content/uploads/2025/07/enzo-ovens.jpeg"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -85,7 +92,7 @@ const EnzoOvens = () => {
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-oven.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/enzo-ovens-2.jpeg" />
         <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs

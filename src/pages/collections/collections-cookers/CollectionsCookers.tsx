@@ -11,7 +11,7 @@ const CollectionsCookers = () => {
       title: t("collectionsCookers.sections.antique.title"),
       description: t("collectionsCookers.sections.antique.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-vintage-collection-freestanding-cookers.jpg.webp",
+        "/Home/Collections Cookers/Antique.jpeg",
       link: "/collections/collections-cookers/antique",
       bgColor: "#9baec4",
     },
@@ -20,7 +20,7 @@ const CollectionsCookers = () => {
       title: t("collectionsCookers.sections.perfection.title"),
       description: t("collectionsCookers.sections.perfection.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-excellence-collection-freestanding-cookers.jpg.webp",
+        "/Home/Collections Cookers/Perfection.jpeg",
       link: "/collections/collections-cookers/perfection",
       bgColor: "#cdc0b1",
     },
@@ -29,7 +29,7 @@ const CollectionsCookers = () => {
       title: t("collectionsCookers.sections.mixture.title"),
       description: t("collectionsCookers.sections.mixture.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-collection-freestanding-cookers.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg",
       link: "/collections/collections-cookers/mixture",
       bgColor: "#c1949c",
     },
@@ -38,7 +38,7 @@ const CollectionsCookers = () => {
       title: t("collectionsCookers.sections.elegant.title"),
       description: t("collectionsCookers.sections.elegant.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-collection-freestanding-cookers.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg",
       link: "/collections/collections-cookers/elegant",
       bgColor: "#bbbfaf",
     },

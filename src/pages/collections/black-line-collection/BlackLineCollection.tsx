@@ -40,10 +40,10 @@ const BlackLineCollection = () => {
   }[];
 
   const sectionImages = [
-    "https://www.elba-cookers.com/wp-content/uploads/2024/11/Elba-Black-Line-electric-oven.jpg.webp",
-    "https://www.elba-cookers.com/wp-content/uploads/2024/11/Elba-Black-Line-Combi-Microwave-45cm.jpg.webp",
-    "https://www.elba-cookers.com/wp-content/uploads/2024/11/Elba-Black-Line-electric-oven.jpg.webp",
-    "https://www.elba-cookers.com/wp-content/uploads/2024/11/Elba-Black-Line-Warming-Drawer.jpg.webp",
+    "https://cms.bulm.it/wp-content/uploads/2025/07/Combi-Microwave-45cm.jpeg",
+    "https://cms.bulm.it/wp-content/uploads/2025/07/Built-in-Electric-Multifunction-Oven.jpeg",
+    "https://cms.bulm.it/wp-content/uploads/2025/07/Coffee-Cappuccino-Maker.jpeg",
+    "https://cms.bulm.it/wp-content/uploads/2025/07/Warming-Drawer.jpeg",
   ];
 
   const sectionLinks = [
@@ -88,7 +88,7 @@ const BlackLineCollection = () => {
         />
         <meta
           property="og:image"
-          content="https://www.elba-cookers.com/wp-content/uploads/2024/11/gallery07.jpg.webp"
+          content="https://cms.bulm.it/wp-content/uploads/2025/07/bb.jpeg"
         />
         <meta property="og:url" content="https://bulm.it/collections/black-line" />
         <meta property="og:type" content="product.group" />
@@ -100,11 +100,11 @@ const BlackLineCollection = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.elba-cookers.com/wp-content/uploads/2024/11/gallery07.jpg.webp"
+          content="https://cms.bulm.it/wp-content/uploads/2025/07/bb.jpeg"
         />
       </Helmet>
 
-      <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-collection-gas-induction-hobs.jpg.webp" />
+      <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/bb.jpeg" />
 
       <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
         <div className="flex items-center justify-between">
@@ -126,7 +126,7 @@ const BlackLineCollection = () => {
 
         <div className="w-full overflow-hidden rounded-2xl shadow-lg my-10">
           <img
-            src="https://www.elba-cookers.com/wp-content/uploads/2024/11/gallery07.jpg.webp"
+            src="https://cms.bulm.it/wp-content/uploads/2025/07/banner-black-1.jpeg"
             alt="Black Line Gallery"
             loading="lazy"
             className="w-full h-[300px] md:h-[400px] lg:h-[550px] object-cover"

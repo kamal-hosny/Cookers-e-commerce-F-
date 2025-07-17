@@ -18,7 +18,7 @@ const LandHobs = () => {
       id: 1,
       title: t("landHobs.sections.1.title"),
       description: t("landHobs.sections.1.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-country-collection-hobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Land-design.jpeg",
     },
   ];
 
@@ -38,7 +38,7 @@ const LandHobs = () => {
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-country-collection-hobs.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/a-creative-double-exposure-image-combini_km2NLF14SN65csvMRvPrOQ_4N10BwRVQsWALAOVQSq54A.jpeg" />
         <div className="container  relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs linkColor={"#000000"} activeColor={"#000000"} separatorColor={"#000000"} />

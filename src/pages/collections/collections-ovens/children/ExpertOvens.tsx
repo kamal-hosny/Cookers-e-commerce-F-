@@ -26,36 +26,35 @@ const ExpertOvens = () => {
       id: 1,
       title: t("expertOvens.sections.easySteam.title"),
       description: t("expertOvens.sections.easySteam.description"),
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-collection-hobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Easy-Steam-2.jpeg",
     },
     {
       id: 2,
       title: t("expertOvens.sections.idroclean.title"),
       description: t("expertOvens.sections.idroclean.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-idroclean-oven.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Idroclean.webp",
     },
     {
       id: 3,
       title: t("expertOvens.sections.leavening.title"),
       description: t("expertOvens.sections.leavening.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-leavening-40.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Leavening-40.webp",
     },
     {
       id: 4,
       title: t("expertOvens.sections.pizza.title"),
       description: t("expertOvens.sections.pizza.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-pizza-300.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Special-function-Pizza300°C.jpeg",
     },
     {
       id: 5,
       title: t("expertOvens.sections.largeCavity.title"),
       description: t("expertOvens.sections.largeCavity.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-maxi-cavity-74-litres.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Large-oven-cavity.webp",
     },
   ];
 
@@ -85,7 +84,7 @@ const ExpertOvens = () => {
       id: 4,
       type: "special",
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/05/Professional_500x700.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Professional_500x700.jpg.webp",
       title: t("expertOvens.products.3.title"),
       link: "/home",
       collections: "Expert",
@@ -105,7 +104,7 @@ const ExpertOvens = () => {
         />
         <meta
           property="og:image"
-          content="https://www.elba-cookers.com/wp-content/uploads/2023/01/elba-professional-ovens-collection-2.jpg.webp"
+          content="https://cms.bulm.it/wp-content/uploads/2025/07/expert-ovens.jpeg"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -119,7 +118,7 @@ const ExpertOvens = () => {
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2023/01/elba-professional-ovens-collection-2.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/expert-ovens.jpeg" />
         <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs

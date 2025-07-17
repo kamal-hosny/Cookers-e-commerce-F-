@@ -16,13 +16,13 @@ const EnzoTitanOvens = () => {
       id: 1,
       title: t("enzoTitan.sections.0.title"),
       description: t("enzoTitan.sections.0.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-giant-electric-multifunction-ovens.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/a-modern-kitchen-interior-with-a-built-i_1bo6k_7EQSiuzdzQpUhXCA_09rzgcGQS96n80BEP59U2g.jpeg",
     },
     {
       id: 2,
       title: t("enzoTitan.sections.1.title"),
       description: t("enzoTitan.sections.1.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-giant-gas-collection-ovens.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Giant-gas-ovens.jpeg",
     },
   ];
 
@@ -48,7 +48,7 @@ const EnzoTitanOvens = () => {
     {
       id: 4,
       type: "special",
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/05/Patate_500x700.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/enzo-titan-ovens.jpeg",
       title: t("enzoTitan.products.3.title"),
       link: "/home",
       collections: "Titan",
@@ -65,7 +65,7 @@ const EnzoTitanOvens = () => {
         <meta property="og:description" content={t("enzoTitan.seo.ogDescription")} />
         <meta
           property="og:image"
-          content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-giant-collection.jpg.webp"
+          content="https://cms.bulm.it/wp-content/uploads/2025/07/a-modern-kitchen-interior-with-a-built-i_1bo6k_7EQSiuzdzQpUhXCA_09rzgcGQS96n80BEP59U2g.jpeg"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -79,7 +79,7 @@ const EnzoTitanOvens = () => {
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-giant-collection.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/enzo-titan-ovens.jpeg" />
         <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs

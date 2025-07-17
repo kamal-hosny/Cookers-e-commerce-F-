@@ -9,21 +9,21 @@ const BoxesFooter = () => {
     {
       key: "card1",
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/01/mondo-tech-1280x465.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-17-at-13.00.30_33c00c23.jpg",
       className: "bg-[#30505b] text-white",
       link: "/dealers",
     },
     {
       key: "card2",
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/01/Schermata-1-1280x465.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-17-at-13.00.31_47db0b99.jpg",
       className: "bg-[#1d1d1b] text-white",
       link: "/reserved-area",
     },
     {
       key: "card3",
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-italy-1280x704.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-17-at-13.00.32_ac0d7365.jpg",
       className: "bg-[#72909a] text-white",
       link: "/about-us", // نستخدمه فقط لتبديل اللغة
     },

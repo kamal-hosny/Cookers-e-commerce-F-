@@ -9,35 +9,35 @@ const sliders = [
     id: "1",
     name: "Cookers",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-freestanding-cookers.jpg.webp",
+      "/Home/DistinctiveItalianDesign/Cookers.jpeg",
     link: "/collections/collections-cookers/",
   },
   {
     id: "2",
     name: "Ovens",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-electric-ovens-1.jpg.webp",
+      "/Home/DistinctiveItalianDesign/Ovens.jpeg",
     link: "/collections/collections-ovens/",
   },
   {
     id: "3",
     name: "Hobs",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-gas-electric-gas-on-glass-hobs.jpg.webp",
+      "/Home/DistinctiveItalianDesign/Hobs.jpeg",
     link: "/collections/collections-hobs/",
   },
   {
     id: "4",
     name: "Hoods",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-chimney-hoods.jpg.webp",
+      "/Home/DistinctiveItalianDesign/Hoods.jpeg",
     link: "/product-category/hoods/",
   },
   {
     id: "5",
     name: "Compact products",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-microwave.jpg.webp",
+      "/Home/DistinctiveItalianDesign/Compact products.jpeg",
     link: "/product-category/compact-products/",
   },
 ];

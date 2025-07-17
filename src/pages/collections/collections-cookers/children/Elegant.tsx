@@ -26,19 +26,19 @@ const Elegant = () => {
       id: 1,
       title: t("elegant.sections.1.title"),
       description: t("elegant.sections.1.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-knobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/bulm-knobs.jpg.webp",
     },
     {
       id: 2,
       title: t("elegant.sections.2.title"),
       description: t("elegant.sections.2.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-pan-supports.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/bulm-pan-supports.jpg.webp",
     },
     {
       id: 3,
       title: t("elegant.sections.3.title"),
       description: t("elegant.sections.3.description"),
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-handle.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/bulm-handle.jpg.webp",
     },
   ];
 
@@ -79,23 +79,23 @@ const Elegant = () => {
         <meta name="description" content={t("elegant.meta.description")} />
         <meta name="keywords" content={t("elegant.meta.keywords")} />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://bulm.it/collections/collections-cookers/classic" />
-        <link rel="alternate" href="https://bulm.it/collections/collections-cookers/classic" hrefLang="en" />
+        <link rel="canonical" href="https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg" />
+        <link rel="alternate" href="https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg" hrefLang="en" />
         <link rel="alternate" href="https://bulm.it/it/collections/collections-cookers/classic" hrefLang="it" />
-        <link rel="alternate" href="https://bulm.it/collections/collections-cookers/classic" hrefLang="x-default" />
+        <link rel="alternate" href="https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg" hrefLang="x-default" />
         <meta property="og:title" content={t("elegant.meta.ogTitle")} />
         <meta property="og:description" content={t("elegant.meta.ogDescription")} />
-        <meta property="og:image" content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-collection-range-cookers-made-in-italy.jpg.webp" />
-        <meta property="og:url" content="https://bulm.it/collections/collections-cookers/classic" />
+        <meta property="og:image" content="https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg" />
+        <meta property="og:url" content="https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={t("elegant.meta.twitterTitle")} />
         <meta name="twitter:description" content={t("elegant.meta.twitterDescription")} />
-        <meta name="twitter:image" content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-collection-range-cookers-made-in-italy.jpg.webp" />
+        <meta name="twitter:image" content="https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg" />
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-collection-range-cookers-made-in-italy.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg" />
         <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs linkColor="#000000" activeColor="#000000" separatorColor="#000000" />

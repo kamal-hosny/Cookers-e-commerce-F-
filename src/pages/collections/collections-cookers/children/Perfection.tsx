@@ -24,21 +24,21 @@ const Perfection = () => {
       title: t("perfection.sections.1.title"),
       description: t("perfection.sections.1.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-brass-dual-burners.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/excellence-brass-dual-burners.jpg.webp",
     },
     {
       id: 3,
       title: t("perfection.sections.2.title"),
       description: t("perfection.sections.2.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-brushed-metal-finishing-knobs-with-outer-bezel.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/excellence-brushed-metal-finishing-knobs-with-outer-bezel.jpg.webp",
     },
     {
       id: 4,
       title: t("perfection.sections.3.title"),
       description: t("perfection.sections.3.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/excellence-double-finishing-handle.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/imgi_7_excellence-double-finishing-handle.jpg.png",
     },
   ];
 
@@ -109,7 +109,7 @@ const Perfection = () => {
         />
         <meta
           property="og:image"
-          content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-collection-range-cookers-made-in-italy.jpg.webp"
+          content="https://cms.bulm.it/wp-content/uploads/2025/07/Perfection.jpeg"
         />
         <meta
           property="og:url"
@@ -124,12 +124,12 @@ const Perfection = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-collection-range-cookers-made-in-italy.jpg.webp"
+          content="https://cms.bulm.it/wp-content/uploads/2025/07/Perfection.jpeg"
         />
       </Helmet>
 
       <div>
-        <HeadCollection image="https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-collection-range-cookers-made-in-italy.jpg.webp" />
+        <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/Perfection.jpeg" />
         <div className="container relative z-5 pt-[580px] pb-20 space-y-8">
           <div className="flex items-center justify-between">
             <Breadcrumbs

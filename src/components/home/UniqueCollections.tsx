@@ -10,8 +10,8 @@ const UniqueCollections = () => {
       title: t("uniqueCollections.sections.0.title"),
       description: t("uniqueCollections.sections.0.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-vintage-collection-freestanding-cookers.jpg.webp",
-      link: "/collections/collections-cookers/vintage/",
+        "/Home/Collections Cookers/Antique.jpeg",
+      link: "/collections/collections-cookers/antique/",
       bgColor: "#9baec4",
     },
     {
@@ -19,8 +19,8 @@ const UniqueCollections = () => {
       title: t("uniqueCollections.sections.1.title"),
       description: t("uniqueCollections.sections.1.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-excellence-collection-freestanding-cookers.jpg.webp",
-      link: "/collections/collections-cookers/excellence/",
+        "/Home/Collections Cookers/Perfection.jpeg",
+      link: "/collections/collections-cookers/perfection/",
       bgColor: "#cdc0b1",
     },
     {
@@ -28,8 +28,8 @@ const UniqueCollections = () => {
       title: t("uniqueCollections.sections.2.title"),
       description: t("uniqueCollections.sections.2.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-fusion-collection-freestanding-cookers.jpg.webp",
-      link: "/collections/collections-classic/",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg",
+      link: "/collections/collections-cookers/mixture/",
       bgColor: "#c1949c",
     },
     {
@@ -37,8 +37,8 @@ const UniqueCollections = () => {
       title: t("uniqueCollections.sections.3.title"),
       description: t("uniqueCollections.sections.3.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-classic-collection-freestanding-cookers.jpg.webp",
-      link: "/collections/collections-cookers/classic/",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Elegant-1.jpeg",
+      link: "/collections/collections-cookers/elegant/",
       bgColor: "#bbbfaf",
     },
   ];
