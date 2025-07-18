@@ -860,6 +860,33 @@
   
       "lastTitle": "Qualità garantita",
       "lastDesc": "Dal 1979, BULM punta all’eccellenza in ogni fase della produzione. Ogni processo è guidato da test rigorosi, controlli di qualità e documentazione. Abbiamo ottenuto la certificazione ISO 9001 nel 1998, già conformi al marchio CE dal 1995. Il nostro sistema qualità si è evoluto con gli aggiornamenti ISO 9001:2008 e ISO 9001:2015 — una testimonianza della nostra eredità di fiducia e prestazioni."
+    },
+    "common": {
+      "back": "Indietro_",
+      "loading": "Caricamento...",
+      "error": "Errore"
+    },
+    "product": {
+      "classic": "Classico",
+      "model": "Modello",
+      "dimensions": "Dimensioni",
+      "aesthetics": "Estetica",
+      "line": "Linea",
+      "color": "Colore",
+      "installationMode": "Modalità di installazione",
+      "technicalSpecifications": "Specifiche Tecniche",
+      "overallDimensions": "Dimensioni complessive",
+      "cooktop": "Piano cottura",
+      "controlZone": "Zona di controllo",
+      "door": "Porta",
+      "oven": "Forno",
+      "cavity": "Camera",
+      "other": "Altro",
+      "electricConnection": "Connessione elettrica",
+      "gasConnection": "Connessione gas",
+      "accessories": "Accessori",
+      "noImage": "Nessuna immagine disponibile",
+      "notFound": "Prodotto non trovato"
     }
   }
   

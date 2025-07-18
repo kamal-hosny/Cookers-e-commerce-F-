@@ -104,7 +104,7 @@ const AppRouter = () => {
         { path: "/company-info", element: <CompanyInfo /> },
         { path: "/about-bulm", element: <AboutBulm /> },
         { path: "/product", element: <SingleProduct /> },
-        { path: "/product:id", element: <SingleProduct /> },
+        { path: "/product/:sku", element: <SingleProduct /> },
       ],
     },
     {

@@ -190,6 +190,7 @@ interface RealProduct {
 
 // Enhanced Product Card Component
 const ProductCard = memo(({ product }: { product: RealProduct }) => (
+  <Link to={`/product/${product.sku}`}>
   <div className="w-full max-w-[260px] h-full bg-white rounded-xl shadow-md overflow-hidden group transition-all duration-300 hover:shadow-xl border border-gray-100">
     <div className="relative h-[200px] overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
@@ -219,6 +220,7 @@ const ProductCard = memo(({ product }: { product: RealProduct }) => (
       </div>
     </div>
   </div>
+  </Link>
 ));
 
 // Custom Filter Option Component

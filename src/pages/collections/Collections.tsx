@@ -10,7 +10,7 @@ const Collections = () => {
       title: t("collections.sections.0.title"),
       description: t("collections.sections.0.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-freestanding-cookers.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Collections-Cookers.jpeg",
       link: "/collections/collections-cookers/",
       bgColor: "#9baec4",
       textColor: "#1d1d1b",
@@ -20,7 +20,7 @@ const Collections = () => {
       title: t("collections.sections.1.title"),
       description: t("collections.sections.1.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-induction-gas-on-glass-hobs.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Collections-Hobs.jpeg",
       link: "/collections/collections-hobs/",
       bgColor: "#bbbfb0",
       textColor: "#1d1d1b",
@@ -30,7 +30,7 @@ const Collections = () => {
       title: t("collections.sections.2.title"),
       description: t("collections.sections.2.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-electric-ovens.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Collections-Ovens.jpeg",
       link: "/collections/collections-ovens/",
       bgColor: "#3e4346",
       textColor: "#ffffff",
