@@ -161,7 +161,7 @@ const SingleProduct = () => {
         <div className="bg-white rounded-xl p-6 mb-8 shadow-sm border border-[#d0d8da]">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="max-w-lg">
-              <p className="text-xl font-semibold text-[#30505b] mb-3">
+              <p className="text-xl font-semibold text-[#30505b] mb-3 uppercase">
                 {getMetaDataValue("collection") || t("product.classic")}
               </p>
               <h1 className="text-2xl md:text-3xl font-bold text-[#30505b] mb-3">
@@ -202,7 +202,9 @@ const SingleProduct = () => {
                     {currentProduct.sku}
                   </div>
                 </div>
-                <div className="bg-[#f5f9fa] px-3 py-2 rounded-lg border border-[#d0d8da]">
+                
+                {getMetaDataValue("overall_dimensions") && (
+                  <div className="bg-[#f5f9fa] px-3 py-2 rounded-lg border border-[#d0d8da]">
                   <div className="text-xs text-[#30505b] opacity-80">
                     {t("product.dimensions")}
                   </div>
@@ -210,6 +212,8 @@ const SingleProduct = () => {
                     {getMetaDataValue("overall_dimensions")}
                   </div>
                 </div>
+                )}
+                
               </div>
             </div>
             <div className="bg-white p-4 rounded-xl shadow-sm border border-[#d0d8da]">
@@ -238,28 +242,28 @@ const SingleProduct = () => {
           <div className="px-6 py-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="flex flex-col p-4 border border-[#e2eaeb] bg-[#f5f9fa] rounded-lg">
-                <span className="text-sm text-[#30505b] opacity-80 mb-1">
+                <span className="text-sm text-[#30505b] opacity-80 mb-1 uppercase">
                   {t("product.line")}
                 </span>
-                <span className="font-medium text-[#30505b]">
+                <span className="font-medium text-[#30505b] uppercase">
                   {getMetaDataValue("collection")}
                 </span>
               </div>
               <div className="flex flex-col p-4 border border-[#e2eaeb] bg-[#f5f9fa] rounded-lg">
-                <span className="text-sm text-[#30505b] opacity-80 mb-1">
+                <span className="text-sm text-[#30505b] opacity-80 mb-1 uppercase">
                   {t("product.color")}
                 </span>
-                <span className="font-medium text-[#30505b]">
-                  {getMetaDataValue("color")}
+                <span className="font-medium text-[#30505b] uppercase">
+                {getMetaDataValue("color")?.replace(/_/g, " ")}
                 </span>
               </div>
 
               {getMetaDataValue("installation_mode") !== "-- Choose --:" && (
                 <div className="flex flex-col p-4 border border-[#e2eaeb] bg-[#f5f9fa] rounded-lg">
-                  <span className="text-sm text-[#30505b] opacity-80 mb-1">
+                  <span className="text-sm text-[#30505b] opacity-80 mb-1 uppercase">
                     {t("product.installationMode")}
                   </span>
-                  <span className="font-medium text-[#30505b]">
+                  <span className="font-medium text-[#30505b] uppercase">
                     {getMetaDataValue("installation_mode")}
                   </span>
                 </div>

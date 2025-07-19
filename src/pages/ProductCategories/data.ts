@@ -12,7 +12,7 @@ export const banners: Banner[] = [
     description:
       "Built to inspire, every BULM freestanding cooker is a blend of refined design and high performance — perfect for modern culinary spaces.",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-freestanding-cookers.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg",
   },
   {
     category: "ovens",
@@ -20,7 +20,7 @@ export const banners: Banner[] = [
     description:
       "Elevate your kitchen with BULM built-in ovens — engineered for reliability and refined for gourmet results. Available in 60cm and 90cm sizes, with multifunctional features including Easy Steam, Master Pizza mode, rotisserie, and more.",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-professional-built-in-ovens.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/enzo-ovens-2.jpeg",
   },
   {
     category: "hobs",
@@ -28,7 +28,7 @@ export const banners: Banner[] = [
     description:
       "Discover BULM hobs in gas, induction, and vitroceramic variants — all meticulously designed to pair seamlessly with our oven range and deliver unmatched precision.",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-elio-gas-matik-hobs.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/Vitroceramic-Enzo-hobs.jpeg",
   },
   {
     category: "hoods",
@@ -36,7 +36,7 @@ export const banners: Banner[] = [
     description:
       "BULM chimney and under-cabinet hoods are designed for quiet operation and maximum performance — ensuring a fresh, clean, and elegant kitchen atmosphere.",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-hoods-1.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/Vitroceramic-Enzo-hobs.jpeg",
   },
   {
     category: "compact-products",
@@ -44,6 +44,6 @@ export const banners: Banner[] = [
     description:
       "Perfectly complementing the BULM kitchen collection, our compact range delivers exceptional efficiency and timeless style for modern homes.",
     image:
-      "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-compact-appliances.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/compact-products.jpeg",
   },
 ];

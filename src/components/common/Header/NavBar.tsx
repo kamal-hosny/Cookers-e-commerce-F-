@@ -15,8 +15,22 @@ const NavBar = ({ isScrolled }: LogoProps) => {
   const [showProductsMenu, setShowProductsMenu] = useState(false);
   const [openSearch, setOpenSearch] = useState(false);
   const [showLangMenu, setShowLangMenu] = useState(false);
+  const [productPreviewImage, setProductPreviewImage] = useState("https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg");
+
+
   const location = useLocation();
   const { t, i18n } = useTranslation();
+
+
+  const productImages: Record<string, string> = {
+    cookers: "https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg",
+    ovens: "https://cms.bulm.it/wp-content/uploads/2025/07/enzo-ovens-2.jpeg",
+    hobs: "https://cms.bulm.it/wp-content/uploads/2025/07/Vitroceramic-Enzo-hobs.jpeg",
+    hoods: "https://cms.bulm.it/wp-content/uploads/2025/07/hoods.jpeg",
+    compact: "https://cms.bulm.it/wp-content/uploads/2025/07/compact-products.jpeg",
+  };
+  
+  
 
   useEffect(() => {
     setShowCollectionsMenu(false);
@@ -115,7 +129,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/collections-cookers/">
+                          <Link to="/collections/collections-cookers/" >
                             {t("navbar.collectionsCookers")}
                           </Link>
                         </p>
@@ -239,29 +253,56 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                   <div className="bg-[#1d1d1b] fixed flex justify-center items-center z-[5] text-white top-0 left-0 h-[80vh] w-screen p-20">
                     <div className="w-2/3 h-5/6 self-end">
                       <img
-                        src="https://www.elba-cookers.com/wp-content/uploads/2023/09/Big-menu-cookers-V2.jpg"
+                        src={productPreviewImage}
                         alt="Product Preview"
                         loading="eager"
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="w-1/3 flex flex-col justify-center px-10 space-y-6 font-semibold text-2xl text-[#7ba7b8]">
-                      <Link to="/product-category/cookers" className="hover:underline">
-                        {t("navbar.cookers")}
-                      </Link>
-                      <Link to="/product-category/ovens" className="hover:underline">
-                        {t("navbar.ovens")}
-                      </Link>
-                      <Link to="/product-category/hobs" className="hover:underline">
-                        {t("navbar.hobs")}
-                      </Link>
-                      <Link to="/product-category/hoods" className="hover:underline">
-                        {t("navbar.hoods")}
-                      </Link>
-                      <Link to="/product-category/compact-products" className="hover:underline">
-                        {t("navbar.compactProducts")}
-                      </Link>
-                    </div>
+                    <div className="w-1/3 flex flex-col justify-center px-10 space-y-6 font-semibold text-2xl text-[#7ba7b8]"
+     onMouseLeave={() => setProductPreviewImage("https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg")}>
+
+  <Link 
+    to="/product-category/cookers" 
+    onMouseEnter={() => setProductPreviewImage(productImages.cookers)} 
+    className="hover:underline"
+  >
+    {t("navbar.cookers")}
+  </Link>
+
+  <Link 
+    to="/product-category/ovens" 
+    onMouseEnter={() => setProductPreviewImage(productImages.ovens)} 
+    className="hover:underline"
+  >
+    {t("navbar.ovens")}
+  </Link>
+
+  <Link 
+    to="/product-category/hobs" 
+    onMouseEnter={() => setProductPreviewImage(productImages.hobs)} 
+    className="hover:underline"
+  >
+    {t("navbar.hobs")}
+  </Link>
+
+  <Link 
+    to="/product-category/hoods" 
+    onMouseEnter={() => setProductPreviewImage(productImages.hoods)} 
+    className="hover:underline"
+  >
+    {t("navbar.hoods")}
+  </Link>
+
+  <Link 
+    to="/product-category/compact-products" 
+    onMouseEnter={() => setProductPreviewImage(productImages.compact)} 
+    className="hover:underline"
+  >
+    {t("navbar.compactProducts")}
+  </Link>
+</div>
+
                   </div>
                 </div>
               )}
