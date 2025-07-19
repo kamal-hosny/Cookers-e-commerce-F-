@@ -130,7 +130,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link rel="prefetch" to="/collections/collections-cookers/" >
+                          <Link rel="prefetch" to="collections/collections-cookers/" >
                             {t("navbar.collectionsCookers")}
                           </Link>
                         </p>
