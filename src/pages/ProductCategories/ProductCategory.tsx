@@ -201,7 +201,11 @@ const ProductCard = memo(({ product }: { product: RealProduct }) => (
         alt={product.name || "Product image"}
         loading="lazy"
       />
-
+{product.collection && (
+          <span className="bg-[#e8f2f0] text-[#30505b] absolute top-3 right-3 uppercase text-xs font-bold px-2 py-1 rounded whitespace-nowrap">
+            {product.collection.replace(/_/g, " ")}
+          </span>
+        )}
       <div className="absolute bottom-0 left-0 w-full py-2 px-3 bg-gradient-to-t from-black/70 to-transparent z-10">
         <p className="text-white font-bold text-sm">{product.sku}</p>
       </div>
@@ -209,14 +213,10 @@ const ProductCard = memo(({ product }: { product: RealProduct }) => (
 
     <div className="p-4">
       <div className="flex justify-between items-start mb-2">
-        <h3 className="font-semibold text-gray-800 text-lg line-clamp-2 h-14">
+        <h3 className="font-semibold text-gray-800 text line-clamp-2 h-14">
           {product.name}
         </h3>
-        {product.collection && (
-          <span className="bg-[#e8f2f0] text-[#30505b] text-xs font-bold px-2 py-1 rounded whitespace-nowrap">
-            {product.collection.replace(/_/g, " ")}
-          </span>
-        )}
+        
       </div>
     </div>
   </div>
