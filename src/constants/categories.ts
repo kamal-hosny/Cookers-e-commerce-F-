@@ -10,6 +10,6 @@ export const categoryMapIT: Record<string, number> = {
   cookers: 38,
   ovens: 40,
   hobs: 42,
-  hoods: 44,
+  hoods: 59,
   "compact-products": 46,
 };

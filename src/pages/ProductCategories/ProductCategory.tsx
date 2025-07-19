@@ -27,7 +27,7 @@ const categoryFilters: Record<string, Filter[]> = {
         "burgundy",
         "white",
         "cream",
-        "nero",
+        "black",
         "slate_gray",
         "stainless_steel",
       ],
@@ -57,7 +57,7 @@ const categoryFilters: Record<string, Filter[]> = {
         "avena",
         "mirror",
         "white",
-        "nero",
+        "black",
         "stainless_steel",
       ],
     },
@@ -105,7 +105,7 @@ const categoryFilters: Record<string, Filter[]> = {
   hobs: [
     {
       title: "color",
-      options: ["anthracite", "avena", "white", "nero", "stainless_steel"],
+      options: ["anthracite", "avena", "white", "black", "stainless_steel"],
     },
     {
       title: "width",
@@ -137,7 +137,7 @@ const categoryFilters: Record<string, Filter[]> = {
     },
     {
       title: "collection",
-      options: ["enzo", "elegant"],
+      options: ["enzo", "elegant", "nero"],
     },
     {
       title: "installation_mode",

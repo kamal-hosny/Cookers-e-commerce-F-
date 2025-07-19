@@ -130,7 +130,90 @@ const SingleProduct = () => {
     },
   ];
 
-  if (isLoading) return <div>{t("common.loading")}</div>;
+  // Loading State UI
+  if (isLoading) {
+    return (
+      <main className="font-sans bg-[#e2eaeb] min-h-screen py-4">
+        <div className="container">
+          <div className="flex items-center justify-between">
+            <Breadcrumbs
+              linkColor={"#000000"}
+              activeColor={"#000000"}
+              separatorColor={"#000000"}
+            />
+            <button
+              onClick={() => navigate(-1)}
+              className="text-xl font-bold cursor-pointer"
+            >
+              {t("common.back")}
+            </button>
+          </div>
+        </div>
+        
+        <div className="max-w-6xl mx-auto px-4 pt-6">
+          {/* Skeleton Header */}
+          <div className="bg-white rounded-xl p-6 mb-8 shadow-sm border border-[#d0d8da]">
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+              <div className="max-w-lg w-full">
+                <div className="h-6 w-40 bg-gray-200 rounded-full mb-4 animate-pulse"></div>
+                <div className="h-8 w-64 bg-gray-200 rounded mb-6 animate-pulse"></div>
+                
+                <div className="space-y-3">
+                  <div className="h-4 w-full bg-gray-200 rounded animate-pulse"></div>
+                  <div className="h-4 w-4/5 bg-gray-200 rounded animate-pulse"></div>
+                  <div className="h-4 w-3/4 bg-gray-200 rounded animate-pulse"></div>
+                </div>
+                
+                <div className="h-8 w-32 bg-gray-200 rounded-full mt-6 mb-4 animate-pulse"></div>
+                
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <div className="bg-gray-200 w-32 h-16 rounded-lg animate-pulse"></div>
+                  <div className="bg-gray-200 w-32 h-16 rounded-lg animate-pulse"></div>
+                </div>
+              </div>
+              
+              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-80 h-80 animate-pulse"></div>
+            </div>
+          </div>
+          
+          {/* Skeleton Aesthetics */}
+          <div className="bg-white rounded-xl shadow-sm overflow-hidden mb-8 border border-[#d0d8da]">
+            <div className="bg-[#30505b] px-6 py-4">
+              <div className="h-6 w-48 bg-gray-300 rounded animate-pulse"></div>
+            </div>
+            <div className="px-6 py-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {[1, 2, 3].map((item) => (
+                  <div 
+                    key={item}
+                    className="h-20 bg-gray-200 rounded-lg animate-pulse"
+                  ></div>
+                ))}
+              </div>
+            </div>
+          </div>
+          
+          {/* Skeleton Specifications */}
+          <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-[#d0d8da]">
+            <div className="bg-[#30505b] px-6 py-4">
+              <div className="h-6 w-56 bg-gray-300 rounded animate-pulse"></div>
+            </div>
+            
+            <div className="divide-y divide-[#e2eaeb]">
+              {[1, 2, 3, 4, 5].map((item) => (
+                <div key={item} className="p-4">
+                  <div className="flex justify-between items-center">
+                    <div className="h-5 w-48 bg-gray-200 rounded animate-pulse"></div>
+                    <div className="h-5 w-5 bg-gray-200 rounded-full animate-pulse"></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </main>
+    );
+  }
   if (error)
     return (
       <div>
