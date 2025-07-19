@@ -327,7 +327,8 @@ const SingleProduct = () => {
                     <div className="px-6 pb-4 pt-1 bg-[#f5f9fa] animate-fadeIn">
                       <div className="space-y-2">
                         {value.split(" – ").map((item, index) => {
-                          const [keyPart, ...valueParts] = item.split(":");
+                          // const [keyPart, ...valueParts] = item.split(":");
+                          const [ ...valueParts] = item.split(":");
                           const valuePart = valueParts.join(":").trim();
 
                           return (
@@ -335,10 +336,10 @@ const SingleProduct = () => {
                               key={index}
                               className="flex justify-between py-1"
                             >
-                              <span className="text-gray-600">
+                              {/* <span className="text-gray-600">
                                 {keyPart.trim()}
-                              </span>
-                              <span className="font-medium text-right max-w-[200px]">
+                              </span> */}
+                              <span className="font-medium ">
                                 {valuePart || item}
                               </span>
                             </div>
