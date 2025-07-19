@@ -230,7 +230,7 @@
       "collectionsHobs": "Collezioni Piani Cottura",
       "enzoCollection": "Collezione Enzo",
       "landCollection": "Collezione Terra",
-      "blackLine": "Collezione Linea Nera",
+      "neroLine": "Collezione Linea Nera",
       "products": "Prodotti",
       "cookers": "Cucine",
       "ovens": "Forni",
@@ -241,7 +241,7 @@
     "breadcrumbs": {
       "home": "< Casa",
       "collections": "Collezioni",
-      "black-line-collection": "Linea Nera",
+      "nero-line-collection": "Linea Nera",
       "collections-cookers": "Cucine",
       "elegant": "Elegante",
       "perfection": "Perfezione",
@@ -331,25 +331,25 @@
       ]
     }
     ,
-    "blackLinePage": {
-      "title": "BULM Linea Nera – Precisione ed Eleganza",
-      "description": "Scopri l'essenza dell'ingegneria italiana e dell'estetica raffinata con la linea Black di BULM. Una collezione premium di elettrodomestici da incasso per chi cerca prestazioni, eleganza e innovazione d’avanguardia — tutto in uno.",
-      "back": "Indietro_",
+    "neroLinePage": {
+      "title": "BULM Linea Nero – Precisione ed Eleganza",
+      "description": "Scopri l'essenza dell'ingegneria italiana e dell'estetica raffinata con la linea Nero di BULM. Una collezione premium di elettrodomestici da incasso per chi cerca prestazioni, eleganza e innovazione d’avanguardia — tutto in uno.",
+      "back": "Indietro",
       "meta": {
-        "title": "Collezione Black Line | BULM Italia – Eleganza da Incasso",
-        "description": "Scopri la collezione Black Line di BULM: forni da incasso, microonde, macchine da caffè e cassetti scaldavivande. Design italiano e tecnologia all'avanguardia.",
-        "keywords": "BULM Black Line, elettrodomestici da incasso, cucina italiana, forno multifunzione, microonde, macchina da caffè, cassetto scaldavivande",
-        "ogTitle": "Collezione Black Line | BULM Italia",
-        "ogDescription": "Scopri la collezione Black Line di BULM — elettrodomestici da incasso di alta gamma che uniscono prestazioni e stile italiano.",
-        "twitterTitle": "Collezione Black Line | BULM Italia",
-        "twitterDescription": "BULM Black Line è una collezione di elettrodomestici eleganti, innovativi e da incasso, progettati in Italia.",
-        "imageAlt": "Galleria della linea Black"
+        "title": "Collezione Nero Line | BULM Italia – Eleganza da Incasso",
+        "description": "Scopri la collezione Nero Line di BULM: forni da incasso, microonde, macchine da caffè e cassetti scaldavivande. Design italiano e tecnologia all'avanguardia.",
+        "keywords": "BULM Nero Line, elettrodomestici da incasso, cucina italiana, forno multifunzione, microonde, macchina da caffè, cassetto scaldavivande",
+        "ogTitle": "Collezione Nero Line | BULM Italia",
+        "ogDescription": "Scopri la collezione Nero Line di BULM — elettrodomestici da incasso di alta gamma che uniscono prestazioni e stile italiano.",
+        "twitterTitle": "Collezione Nero Line | BULM Italia",
+        "twitterDescription": "BULM Nero Line è una collezione di elettrodomestici eleganti, innovativi e da incasso, progettati in Italia.",
+        "imageAlt": "Galleria della linea Nero"
       },
-      "mainImageAlt": "Immagine Principale Black Line",
+      "mainImageAlt": "Immagine Principale Nero Line",
       "breadcrumb": {
         "home": "Home",
         "collections": "Collezioni",
-        "blackLine": "Black Line"
+        "neroLine": "Linea Nero"
       },
       "productTitle": "Esplora i Nostri Prodotti",
       "sections": [
@@ -367,7 +367,7 @@
         },
         {
           "title": "Cassetto Scaldavivande",
-          "description": "Un'aggiunta elegante alla tua cucina, perfetta per preriscaldare i piatti o mantenere i cibi caldi prima di servirli. In linea con il design Black Line di BULM."
+          "description": "Un'aggiunta elegante alla tua cucina, perfetta per preriscaldare i piatti o mantenere i cibi caldi prima di servirli. In linea con il design Nero Line di BULM."
         }
       ],
       "products": [
@@ -381,7 +381,8 @@
           "title": "Macchina Automatica per Caffè e Cappuccino"
         }
       ]
-    },
+    }
+    ,
     "collectionsCookers": {
       "layout": {
         "title": "Collezioni di Cucine",

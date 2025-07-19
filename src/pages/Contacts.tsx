@@ -156,7 +156,7 @@ const Contacts = () => {
                   </StyledWrapper>
                   <label htmlFor="privacy-checkbox" className="ms-2">
                     {t("contact.form.privacyLabel")}{" "}
-                    <Link to="/privacy-policy" className="underline">
+                    <Link rel="prefetch" to="/privacy-policy" className="underline">
                       {t("contact.form.privacyLink")}
                     </Link>
                   </label>

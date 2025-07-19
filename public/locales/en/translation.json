@@ -229,7 +229,7 @@
     "collectionsHobs": "Collections Hobs",
     "enzoCollection": "Enzo Collection",
     "landCollection": "Land Collection",
-    "blackLine": "Black Line Collection",
+    "neroLine": "Nero Line Collection",
     "products": "Products",
     "cookers": "Cookers",
     "ovens": "Ovens",
@@ -240,7 +240,7 @@
   "breadcrumbs": {
     "home": "< Home",
     "collections": "Collections",
-    "black-line-collection": "Black Line Collection",
+    "nero-line-collection": "Nero Line Collection",
     "collections-cookers": "Cookers",
     "elegant": "Elegant",
     "perfection": "Perfection",
@@ -333,57 +333,58 @@
     ]
   }
 ,  
-   "blackLinePage": {
-    "title": "BULM Black Line – Precision Meets Elegance",
-    "description": "Discover the essence of Italian engineering and refined aesthetics with the BULM Black Line. A premium collection of built-in kitchen appliances created for those who demand performance, elegance, and cutting-edge innovation — all in one.",
-    "back": "Back_",
-    "meta": {
-      "title": "Black Line Collection | BULM Italy – Built-in Kitchen Elegance",
-      "description": "Discover BULM's Black Line collection: built-in ovens, microwaves, coffee machines, and warming drawers. Italian design and cutting-edge technology in your kitchen.",
-      "keywords": "BULM Black Line, built-in appliances, Italian kitchen appliances, modern oven, multifunction oven, microwave, warming drawer, coffee machine",
-      "ogTitle": "Black Line Collection | BULM Italy",
-      "ogDescription": "Explore the Black Line by BULM — a collection of premium built-in appliances blending performance and Italian elegance.",
-      "twitterTitle": "Black Line Collection | BULM Italy",
-      "twitterDescription": "BULM Black Line is a collection of elegant, innovative, and built-in kitchen appliances crafted in Italy.",
-      "imageAlt": "Black Line Gallery"
-    },
-    "mainImageAlt": "Black Line Hero Image",
-    "breadcrumb": {
-      "home": "Home",
-      "collections": "Collections",
-      "blackLine": "Black Line"
-    },
-    "productTitle": "Explore Our Products",
-    "sections": [
-      {
-        "title": "Built-in Electric Multifunction Oven",
-        "description": "Packed with multiple innovative features, this oven offers a professional culinary experience. With 11 modes including Air Fry, Pizza 300°C, Easy Steam, and Booster for fast preheating, it redefines home cooking."
-      },
-      {
-        "title": "Combi Microwave 45cm",
-        "description": "Grill, bake, roast, and more — all in one efficient unit with 13 functions and preset auto menus for everyday recipes like vegetables, pizza, or soups. Designed to match any modern kitchen."
-      },
-      {
-        "title": "Coffee & Cappuccino Maker",
-        "description": "Enjoy barista-style coffee at home. This elegant appliance is designed to brew rich espresso and creamy cappuccinos at the touch of a button — combining Italian tradition with modern convenience."
-      },
-      {
-        "title": "Warming Drawer",
-        "description": "A stylish addition to your kitchen, perfect for preheating dishes or keeping meals warm before serving. Fully aligned with the Black Line design language by BULM."
-      }
-    ],
-    "products": [
-      {
-        "title": "Electric Multifunction Oven"
-      },
-      {
-        "title": "Combi Microwave Oven"
-      },
-      {
-        "title": "Automatic Coffee & Cappuccino Maker"
-      }
-    ]
+"neroLinePage": {
+  "title": "BULM Nero Line – Precision Meets Elegance",
+  "description": "Discover the essence of Italian engineering and refined aesthetics with the BULM Nero Line. A premium collection of built-in kitchen appliances created for those who demand performance, elegance, and cutting-edge innovation — all in one.",
+  "back": "Back",
+  "meta": {
+    "title": "Nero Line Collection | BULM Italy – Built-in Kitchen Elegance",
+    "description": "Discover BULM's Nero Line collection: built-in ovens, microwaves, coffee machines, and warming drawers. Italian design and cutting-edge technology in your kitchen.",
+    "keywords": "BULM Nero Line, built-in appliances, Italian kitchen appliances, modern oven, multifunction oven, microwave, warming drawer, coffee machine",
+    "ogTitle": "Nero Line Collection | BULM Italy",
+    "ogDescription": "Explore the Nero Line by BULM — a collection of premium built-in appliances blending performance and Italian elegance.",
+    "twitterTitle": "Nero Line Collection | BULM Italy",
+    "twitterDescription": "BULM Nero Line is a collection of elegant, innovative, and built-in kitchen appliances crafted in Italy.",
+    "imageAlt": "Nero Line Gallery"
   },
+  "mainImageAlt": "Nero Line Hero Image",
+  "breadcrumb": {
+    "home": "Home",
+    "collections": "Collections",
+    "neroLine": "Nero Line"
+  },
+  "productTitle": "Explore Our Products",
+  "sections": [
+    {
+      "title": "Built-in Electric Multifunction Oven",
+      "description": "Packed with multiple innovative features, this oven offers a professional culinary experience. With 11 modes including Air Fry, Pizza 300°C, Easy Steam, and Booster for fast preheating, it redefines home cooking."
+    },
+    {
+      "title": "Combi Microwave 45cm",
+      "description": "Grill, bake, roast, and more — all in one efficient unit with 13 functions and preset auto menus for everyday recipes like vegetables, pizza, or soups. Designed to match any modern kitchen."
+    },
+    {
+      "title": "Coffee & Cappuccino Maker",
+      "description": "Enjoy barista-style coffee at home. This elegant appliance is designed to brew rich espresso and creamy cappuccinos at the touch of a button — combining Italian tradition with modern convenience."
+    },
+    {
+      "title": "Warming Drawer",
+      "description": "A stylish addition to your kitchen, perfect for preheating dishes or keeping meals warm before serving. Fully aligned with the Nero Line design language by BULM."
+    }
+  ],
+  "products": [
+    {
+      "title": "Electric Multifunction Oven"
+    },
+    {
+      "title": "Combi Microwave Oven"
+    },
+    {
+      "title": "Automatic Coffee & Cappuccino Maker"
+    }
+  ]
+},
+
   "collectionsCookers": {
     "layout": {
       "title": "Cookers Collections",

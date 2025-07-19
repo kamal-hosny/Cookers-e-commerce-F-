@@ -27,7 +27,7 @@ const categoryFilters: Record<string, Filter[]> = {
         "burgundy",
         "white",
         "cream",
-        "black",
+        "nero",
         "slate_gray",
         "stainless_steel",
       ],
@@ -57,7 +57,7 @@ const categoryFilters: Record<string, Filter[]> = {
         "avena",
         "mirror",
         "white",
-        "black",
+        "nero",
         "stainless_steel",
       ],
     },
@@ -72,7 +72,7 @@ const categoryFilters: Record<string, Filter[]> = {
         "enzo_titan",
         "land",
         "elementum",
-        "black",
+        "nero",
         "enzo",
         "alterum",
       ],
@@ -105,7 +105,7 @@ const categoryFilters: Record<string, Filter[]> = {
   hobs: [
     {
       title: "color",
-      options: ["anthracite", "avena", "white", "black", "stainless_steel"],
+      options: ["anthracite", "avena", "white", "nero", "stainless_steel"],
     },
     {
       title: "width",
@@ -129,7 +129,7 @@ const categoryFilters: Record<string, Filter[]> = {
   hoods: [
     {
       title: "color",
-      options: ["brown", "white", "black", "stainless_steel"],
+      options: ["brown", "white", "nero", "stainless_steel"],
     },
     {
       title: "width",
@@ -190,7 +190,7 @@ interface RealProduct {
 
 // Enhanced Product Card Component
 const ProductCard = memo(({ product }: { product: RealProduct }) => (
-  <Link to={`/product/${product.sku}`}>
+  <Link rel="prefetch" to={`/product/${product.sku}`}>
   <div className="w-full max-w-[260px] h-full bg-white rounded-xl shadow-md overflow-hidden group transition-all duration-300 hover:shadow-xl border border-gray-100">
     <div className="relative h-[200px] overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
@@ -548,7 +548,7 @@ const ProductCategory = () => {
             >
               {categories.map((category) => (
                 <li key={category.path} className="list-none">
-                  <Link
+                  <Link rel="prefetch"
                     to={`/product-category/${category.path}`}
                     className={`block py-2 px-4 ${
                       activeCategory === category.path
@@ -590,7 +590,7 @@ const ProductCategory = () => {
                 >
                   <button
                     onClick={() => toggleAccordion(filter.title)}
-                    className="w-full text-left py-2 font-bold flex justify-between items-center"
+                    className="w-full text-left py-2 font-bold flex justify-between items-center "
                   >
                     {formatFilterTitle(filter.title)}
                     <FaChevronRight
@@ -604,7 +604,7 @@ const ProductCategory = () => {
                       openAccordions[filter.title] ? "max-h-96 mt-2" : "max-h-0"
                     }`}
                   >
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex flex-wrap gap-2 ">
                       {filter.options.map((option) => (
                         <FilterOption
                           key={option}
@@ -633,7 +633,7 @@ const ProductCategory = () => {
               <ul className="space-y-1 p-2">
                 {categories.map((category) => (
                   <li key={category.path}>
-                    <Link
+                    <Link rel="prefetch"
                       to={`/product-category/${category.path}`}
                       className={`block py-2 px-3 rounded transition-colors ${
                         activeCategory === category.path
@@ -658,11 +658,11 @@ const ProductCategory = () => {
                   <div key={filter.title}>
                     <button
                       onClick={() => toggleAccordion(filter.title)}
-                      className="w-full text-left font-bold py-2 flex justify-between items-center"
+                      className="w-full text-left font-bold py-2  flex justify-between items-center"
                     >
                       {formatFilterTitle(filter.title)}
                       <FaChevronRight
-                        className={`transform transition-transform duration-300 ${
+                        className={`transform transition-transform  duration-300 ${
                           openAccordions[filter.title]
                             ? "rotate-90"
                             : "rotate-0"

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bulm.it/sitemap.xml
+
+Disallow: /reserved-area
+Disallow: /ita/login

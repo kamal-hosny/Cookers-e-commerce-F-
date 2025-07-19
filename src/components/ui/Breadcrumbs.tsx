@@ -21,6 +21,7 @@ const Breadcrumbs = ({
       <ul style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", alignItems: "center" }}>
         <li style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>
           <Link
+          rel="prefetch"
             to="/"
             style={{
               color: linkColor,
@@ -46,7 +47,7 @@ const Breadcrumbs = ({
               {isLast ? (
                 <span style={{ color: activeColor, fontWeight: "600" }}>{label}</span>
               ) : (
-                <Link
+                <Link rel="prefetch"
                   to={to}
                   style={{
                     color: linkColor,

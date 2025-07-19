@@ -152,7 +152,7 @@ const Dealers = () => {
                     </StyledWrapper>
                     <label htmlFor="privacy-checkbox" className="ms-2 text-xs">
                       {t("dealers.privacy")}{" "}
-                      <Link to="/privacy-policy" className="underline">
+                      <Link rel="prefetch" to="/privacy-policy" className="underline">
                         {t("dealers.privacyLink")}
                       </Link>
                     </label>

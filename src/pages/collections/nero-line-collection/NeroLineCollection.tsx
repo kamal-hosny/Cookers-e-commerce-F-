@@ -8,11 +8,11 @@ import HeadCollection from "../../../components/common/HeadCollection";
 import MainTitleCollections from "../../../components/common/MainTitleCollections";
 import Breadcrumbs from "../../../components/ui/Breadcrumbs";
 
-const BlackLineCollection = () => {
+const NeroLineCollection = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
 
-  const localizedSections = t("blackLinePage.sections", {
+  const localizedSections = t("neroLinePage.sections", {
     returnObjects: true,
   }) as {
     title: string;
@@ -27,10 +27,10 @@ const BlackLineCollection = () => {
   ];
 
   const sectionLinks = [
-    "/collections/black-line-collection/",
-    "/collections/black-line-collection/",
-    "/collections/black-line-collection/",
-    "/collections/black-line-collection/",
+    "/collections/nero-line-collection/",
+    "/collections/nero-line-collection/",
+    "/collections/nero-line-collection/",
+    "/collections/nero-line-collection/",
   ];
 
   const sections = localizedSections.map((section, index) => ({
@@ -48,40 +48,40 @@ const BlackLineCollection = () => {
       <Helmet>
         <html lang={i18n.language} />
         <title>
-          Black Line Collection | BULM Italy – Built-in Kitchen Elegance
+          Nero Line Collection | BULM Italy – Built-in Kitchen Elegance
         </title>
         <meta
           name="description"
-          content="Discover BULM's Black Line collection: built-in ovens, microwaves, coffee machines, and warming drawers. Italian design and cutting-edge technology in your kitchen."
+          content="Discover BULM's Nero Line collection: built-in ovens, microwaves, coffee machines, and warming drawers. Italian design and cutting-edge technology in your kitchen."
         />
         <meta
           name="keywords"
-          content="BULM Black Line, built-in appliances, Italian kitchen appliances, modern oven, multifunction oven, microwave, warming drawer, coffee machine"
+          content="BULM Nero Line, built-in appliances, Italian kitchen appliances, modern oven, multifunction oven, microwave, warming drawer, coffee machine"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://bulm.it/collections/black-line" />
+        <link rel="canonical" href="https://bulm.it/collections/nero-line" />
         <link
           rel="alternate"
-          href="https://bulm.it/collections/black-line"
+          href="https://bulm.it/collections/nero-line"
           hrefLang="en"
         />
         <link
           rel="alternate"
-          href="https://bulm.it/it/collections/black-line"
+          href="https://bulm.it/it/collections/nero-line"
           hrefLang="it"
         />
         <link
           rel="alternate"
-          href="https://bulm.it/collections/black-line"
+          href="https://bulm.it/collections/nero-line"
           hrefLang="x-default"
         />
         <meta
           property="og:title"
-          content="Black Line Collection | BULM Italy"
+          content="Nero Line Collection | BULM Italy"
         />
         <meta
           property="og:description"
-          content="Explore the Black Line by BULM — a collection of premium built-in appliances blending performance and Italian elegance."
+          content="Explore the Nero Line by BULM — a collection of premium built-in appliances blending performance and Italian elegance."
         />
         <meta
           property="og:image"
@@ -89,17 +89,17 @@ const BlackLineCollection = () => {
         />
         <meta
           property="og:url"
-          content="https://bulm.it/collections/black-line"
+          content="https://bulm.it/collections/nero-line"
         />
         <meta property="og:type" content="product.group" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Black Line Collection | BULM Italy"
+          content="Nero Line Collection | BULM Italy"
         />
         <meta
           name="twitter:description"
-          content="BULM Black Line is a collection of elegant, innovative, and built-in kitchen appliances crafted in Italy."
+          content="BULM Nero Line is a collection of elegant, innovative, and built-in kitchen appliances crafted in Italy."
         />
         <meta
           name="twitter:image"
@@ -120,12 +120,12 @@ const BlackLineCollection = () => {
             onClick={() => navigate(-1)}
             className="text-xl font-bold cursor-pointer"
           >
-            {t("blackLinePage.back")}
+            {t("neroLinePage.back")}
           </button>
         </div>
 
-        <MainTitleCollections title={t("blackLinePage.title")}>
-          <p>{t("blackLinePage.description")}</p>
+        <MainTitleCollections title={t("neroLinePage.title")}>
+          <p>{t("neroLinePage.description")}</p>
         </MainTitleCollections>
 
         <Blocks sections={sections} />
@@ -133,7 +133,7 @@ const BlackLineCollection = () => {
         <div className="w-full overflow-hidden rounded-2xl shadow-lg my-10">
           <img
             src="https://cms.bulm.it/wp-content/uploads/2025/07/banner-black-1.jpeg"
-            alt="Black Line Gallery"
+            alt="Nero Line Gallery"
             loading="lazy"
             className="w-full h-[300px] md:h-[400px] lg:h-[550px] object-cover"
           />
@@ -145,4 +145,4 @@ const BlackLineCollection = () => {
   );
 };
 
-export default BlackLineCollection;
+export default NeroLineCollection;

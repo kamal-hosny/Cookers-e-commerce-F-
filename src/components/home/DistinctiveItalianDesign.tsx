@@ -88,7 +88,7 @@ const DistinctiveItalianDesign = () => {
                 <div className="absolute flex justify-center flex-col items-center gap-2 transition-all duration-500 group-hover:top-0 -top-48 left-0 right-0 bg-[#30505b] bg-opacity-60 py-8 text-white text-center group-hover:bg-opacity-80">
                   <p>{t("distinctive.explore")}</p>
                   <p className="font-bold text-2xl">{slider.name}</p>
-                  <Link to={slider.link} className="text-sm underline">
+                  <Link rel="prefetch" to={slider.link} className="text-sm underline">
                     <IoArrowForward size={23} />
                   </Link>
                 </div>

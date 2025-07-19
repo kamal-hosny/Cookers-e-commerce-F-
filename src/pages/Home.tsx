@@ -7,6 +7,9 @@ import UniqueCollections from "../components/home/UniqueCollections";
 import BoxesFooter from "../components/common/BoxesFooter";
 
 const Home = () => {
+  const siteUrl = "https://bulm.it";
+  const logoUrl = `${siteUrl}/logo/BULMlogo.svg`;
+
   return (
     <main>
       <Helmet>
@@ -14,38 +17,83 @@ const Home = () => {
         <title>BULM Italy – Luxury Italian Kitchen Appliances</title>
         <meta
           name="description"
-          content="Discover BULM's exclusive Italian-made kitchen appliances. Where innovation meets timeless design. Explore cookers, ovens, hobs, and more."
+          content="Discover BULM's exclusive Italian-made kitchen appliances. Cookers, ovens, hobs, and more – crafted with timeless Italian design."
         />
         <meta
           name="keywords"
-          content="Italian kitchen appliances, luxury cookers, built-in ovens, BULM Italy, modern kitchen design, gas hobs, induction cooking, premium home appliances"
+          content="Italian kitchen appliances, BULM Italy, luxury cookers, modern ovens, gas hobs, induction appliances, premium kitchen design"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://bulm.it/" />
+        <link rel="canonical" href={siteUrl} />
 
-        {/* hreflang for multilingual SEO */}
-        <link rel="alternate" href="https://bulm.it/" hrefLang="en" />
-        <link rel="alternate" href="https://bulm.it/it" hrefLang="it" />
-        <link rel="alternate" href="https://bulm.it/" hrefLang="x-default" />
+        {/* hreflang */}
+        <link rel="alternate" href={siteUrl} hrefLang="en" />
+        <link rel="alternate" href={`${siteUrl}/it`} hrefLang="it" />
+        <link rel="alternate" href={siteUrl} hrefLang="x-default" />
 
         {/* Open Graph */}
         <meta property="og:title" content="BULM Italy – Luxury Italian Kitchen Appliances" />
         <meta
           property="og:description"
-          content="Elegant and innovative kitchen appliances made in Italy. Explore the collections of BULM – the essence of Italian craftsmanship."
+          content="Elegant and innovative kitchen appliances made in Italy. Discover the essence of Italian craftsmanship at BULM."
         />
-        <meta property="og:image" content="/logo/BULMlogo.svg" />
-        <meta property="og:url" content="https://bulm.it/" />
+        <meta property="og:image" content={logoUrl} />
+        <meta property="og:url" content={siteUrl} />
         <meta property="og:type" content="website" />
 
-        {/* Twitter Card */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="BULM Italy – Luxury Kitchen Appliances" />
         <meta
           name="twitter:description"
-          content="Discover premium Italian-made kitchen appliances by BULM. Where quality meets style."
+          content="Premium Italian-made kitchen appliances from BULM – blending innovation and timeless style."
         />
-        <meta name="twitter:image" content="/logo/BULMlogo.svg" />
+        <meta name="twitter:image" content={logoUrl} />
+
+        {/* Schema.org Structured Data (JSON-LD) */}
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "BULM Italy",
+            "url": "${siteUrl}",
+            "logo": "${logoUrl}",
+            "sameAs": [
+              "https://www.facebook.com/bulmitaly",
+              "https://www.instagram.com/bulmitaly"
+            ]
+          }
+          `}
+        </script>
+
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "${siteUrl}",
+            "name": "BULM Italy",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "${siteUrl}/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+          `}
+        </script>
+
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Home",
+            "url": "${siteUrl}/",
+            "description": "Explore premium Italian kitchen appliances from BULM – where timeless design meets modern technology."
+          }
+          `}
+        </script>
       </Helmet>
 
       <Landing />

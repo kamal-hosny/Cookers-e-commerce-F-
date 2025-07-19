@@ -27,7 +27,7 @@ const Logo = ({ isScrolled }: LogoProps) => {
     "/collections/collections-ovens/alterum-ovens/",
     "/collections/collections-ovens/professional-ovens/",
     "/collections/collections-ovens/country-ovens/",
-    "/collections/black-line-collection/",
+    "/collections/nero-line-collection/",
     "/about-bulm",
   ];
 
@@ -48,6 +48,7 @@ const Logo = ({ isScrolled }: LogoProps) => {
   return (
     <Link
       to="/"
+      rel="prefetch"
       className={`flex items-center gap-1 sm:gap-4 md:gap-6 lg:ps-50 ${footerClasses}`}
     >
       <div className="flex flex-col items-center transition-all duration-300 ease-in-out">

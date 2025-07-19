@@ -107,6 +107,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
               className="relative"
             >
               <Link
+              rel="prefetch"
                 className={`uppercase hover:underline relative z-[10] ${
                   showCollectionsMenu || showProductsMenu
                     ? "text-white"
@@ -129,28 +130,28 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/collections-cookers/" >
+                          <Link rel="prefetch" to="/collections/collections-cookers/" >
                             {t("navbar.collectionsCookers")}
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
-                            <Link to="/collections/collections-cookers/antique">
+                            <Link rel="prefetch" to="/collections/collections-cookers/antique">
                               {t("navbar.antique")}
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-cookers/perfection">
+                            <Link rel="prefetch" to="/collections/collections-cookers/perfection">
                               {t("navbar.perfection")}
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-cookers/mixture">
+                            <Link rel="prefetch" to="/collections/collections-cookers/mixture">
                               {t("navbar.mixture")}
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-cookers/elegant">
+                            <Link rel="prefetch" to="/collections/collections-cookers/elegant">
                               {t("navbar.elegant")}
                             </Link>
                           </li>
@@ -159,33 +160,33 @@ const NavBar = ({ isScrolled }: LogoProps) => {
 
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/collections-ovens/">
+                          <Link rel="prefetch" to="/collections/collections-ovens/">
                             {t("navbar.collectionsOvens")}
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
-                            <Link to="/collections/collections-ovens/enzo-ovens">
+                            <Link rel="prefetch" to="/collections/collections-ovens/enzo-ovens">
                               {t("navbar.enzo")}
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-ovens/enzo-titan-ovens">
+                            <Link rel="prefetch" to="/collections/collections-ovens/enzo-titan-ovens">
                               {t("navbar.enzoTitan")}
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-ovens/land-ovens">
+                            <Link rel="prefetch" to="/collections/collections-ovens/land-ovens">
                               {t("navbar.land")}
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-ovens/expert-ovens">
+                            <Link rel="prefetch" to="/collections/collections-ovens/expert-ovens">
                               {t("navbar.expert")}
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-ovens/alterum-ovens">
+                            <Link rel="prefetch" to="/collections/collections-ovens/alterum-ovens">
                               {t("navbar.alterum")}
                             </Link>
                           </li>
@@ -194,18 +195,18 @@ const NavBar = ({ isScrolled }: LogoProps) => {
 
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/collections-hobs/">
+                          <Link rel="prefetch" to="/collections/collections-hobs/">
                             {t("navbar.collectionsHobs")}
                           </Link>
                         </p>
                         <ul className="space-y-4">
                           <li>
-                            <Link to="/collections/collections-hobs/enzo-hobs">
+                            <Link rel="prefetch" to="/collections/collections-hobs/enzo-hobs">
                               {t("navbar.enzoCollection")}
                             </Link>
                           </li>
                           <li>
-                            <Link to="/collections/collections-hobs/land-hobs">
+                            <Link rel="prefetch" to="/collections/collections-hobs/land-hobs">
                               {t("navbar.landCollection")}
                             </Link>
                           </li>
@@ -214,8 +215,8 @@ const NavBar = ({ isScrolled }: LogoProps) => {
 
                       <div>
                         <p className="font-bold mb-4 uppercase text-[#7ba7b8]">
-                          <Link to="/collections/black-line-collection/">
-                            {t("navbar.blackLine")}
+                          <Link rel="prefetch" to="/collections/nero-line-collection/">
+                            {t("navbar.neroLine")}
                           </Link>
                         </p>
                       </div>
@@ -232,6 +233,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
               className="relative"
             >
               <Link
+              rel="prefetch"
                 className={`uppercase hover:underline relative z-[10] ${
                   showProductsMenu || showCollectionsMenu
                     ? "text-white"
@@ -239,7 +241,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                     ? "text-black"
                     : ""
                 }`}
-                to="/product-category/cookers"
+                to="/product-category/ovens"
               >
                 {t("navbar.products")}
               </Link>
@@ -263,6 +265,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
      onMouseLeave={() => setProductPreviewImage("https://cms.bulm.it/wp-content/uploads/2025/07/Mixture-1.jpeg")}>
 
   <Link 
+  rel="prefetch"
     to="/product-category/cookers" 
     onMouseEnter={() => setProductPreviewImage(productImages.cookers)} 
     className="hover:underline"
@@ -270,7 +273,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
     {t("navbar.cookers")}
   </Link>
 
-  <Link 
+  <Link rel="prefetch"
     to="/product-category/ovens" 
     onMouseEnter={() => setProductPreviewImage(productImages.ovens)} 
     className="hover:underline"
@@ -278,7 +281,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
     {t("navbar.ovens")}
   </Link>
 
-  <Link 
+  <Link rel="prefetch"
     to="/product-category/hobs" 
     onMouseEnter={() => setProductPreviewImage(productImages.hobs)} 
     className="hover:underline"
@@ -286,7 +289,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
     {t("navbar.hobs")}
   </Link>
 
-  <Link 
+  <Link rel="prefetch"
     to="/product-category/hoods" 
     onMouseEnter={() => setProductPreviewImage(productImages.hoods)} 
     className="hover:underline"
@@ -295,6 +298,7 @@ const NavBar = ({ isScrolled }: LogoProps) => {
   </Link>
 
   <Link 
+  rel="prefetch"
     to="/product-category/compact-products" 
     onMouseEnter={() => setProductPreviewImage(productImages.compact)} 
     className="hover:underline"

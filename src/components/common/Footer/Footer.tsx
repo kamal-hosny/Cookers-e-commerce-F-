@@ -25,7 +25,7 @@ const Footer = () => {
             {t("footer.company")} {new Date().getFullYear()}
           </li>
           <li className="space-y-3">
-            <Link to="/ita/Login" className="underline">
+            <Link rel="prefetch" to="/ita/Login" className="underline">
               {t("footer.serviceArea")}
             </Link>
           </li>
@@ -35,12 +35,12 @@ const Footer = () => {
             </p>
           </li>
           <li className="space-y-3">
-            <Link to="/company-info" className="underline block">
+            <Link rel="prefetch" to="/company-info" className="underline block">
               {t("footer.companyInfo")}
             </Link>
           </li>
           <li className="space-y-3">
-            <Link to="/privacy-policy" className="underline block">
+            <Link rel="prefetch" to="/privacy-policy" className="underline block">
               {t("footer.privacyPolicy")}
             </Link>
           </li>

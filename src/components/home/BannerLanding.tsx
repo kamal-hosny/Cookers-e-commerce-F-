@@ -56,7 +56,7 @@ const BannerLanding = () => {
 
           {/* Button */}
           <div className="group relative">
-            <Link
+            <Link rel="prefetch"
               to="/about-elba/"
               className="inline-block rounded-lg bg-gradient-to-r from-[#30505b] to-[#4c6f7c] px-6 py-2.5 sm:px-8 sm:py-3 font-semibold text-white shadow-md transition-all hover:shadow-xl hover:brightness-110"
             >

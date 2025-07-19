@@ -87,6 +87,7 @@ const DiscoverTheCollection = ({ products }: IProps) => {
                     </p>
                     {product.link ? (
                       <Link
+                      rel="prefetch"
                         to={product.link}
                         className="text-base font-bold border-b-2 p-2"
                       >
@@ -99,6 +100,7 @@ const DiscoverTheCollection = ({ products }: IProps) => {
                     )}
                     {product.link ? (
                       <Link
+                      rel="prefetch"
                         to={product.link}
                         className="absolute bg-[#2e4a56] border-4 border-white z-40 right-0 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center"
                       >

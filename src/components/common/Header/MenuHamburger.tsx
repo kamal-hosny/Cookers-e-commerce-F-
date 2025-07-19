@@ -102,12 +102,13 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
         <div className="text-white">
           <ul className="space-y-6">
             <li className="text-4xl hover:text-black transition-colors uppercase">
-              <Link onClick={onToggleMenu} to={"/about-bulm"}>
+              <Link rel="prefetch" onClick={onToggleMenu} to={"/about-bulm"}>
                 {t("menu.aboutBulm")}
               </Link>
             </li>
             <li className="flex items-center justify-between group uppercase">
               <Link
+              rel="prefetch"
                 onClick={onToggleMenu}
                 to="/collections"
                 className="text-4xl hover:text-black transition-colors"
@@ -126,6 +127,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
               <ul className="pl-6 mt-2 space-y-2 text-2xl text-white">
                 <li>
                   <Link
+                  rel="prefetch"
                     onClick={onToggleMenu}
                     to="/collections/collections-cookers/"
                     className="hover:text-black uppercase"
@@ -135,6 +137,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 </li>
                 <li>
                   <Link
+                  rel="prefetch"
                     onClick={onToggleMenu}
                     to="/collections/collections-hobs/"
                     className="hover:text-black uppercase"
@@ -144,6 +147,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 </li>
                 <li>
                   <Link
+                  rel="prefetch"
                     onClick={onToggleMenu}
                     to="/collections/collections-ovens/"
                     className="hover:text-black uppercase"
@@ -156,6 +160,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
 
             <li className="flex items-center justify-between group">
               <Link
+              rel="prefetch"
                 onClick={onToggleMenu}
                 to="/product-category/cookers"
                 className="text-4xl hover:text-black transition-colors uppercase"
@@ -174,6 +179,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
               <ul className="pl-6 mt-2 space-y-2 text-2xl text-white ">
                 <li>
                   <Link
+                  rel="prefetch"
                     onClick={onToggleMenu}
                     to="/product-category/cookers"
                     className="hover:text-black uppercase"
@@ -183,6 +189,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 </li>
                 <li>
                   <Link
+                  rel="prefetch"
                     onClick={onToggleMenu}
                     to="/product-category/ovens"
                     className="hover:text-black uppercase"
@@ -192,6 +199,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 </li>
                 <li>
                   <Link
+                  rel="prefetch"
                     onClick={onToggleMenu}
                     to="/product-category/hobs"
                     className="hover:text-black uppercase"
@@ -201,6 +209,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 </li>
                 <li>
                   <Link
+                  rel="prefetch"
                     onClick={onToggleMenu}
                     to="/product-category/hoods"
                     className="hover:text-black uppercase"
@@ -210,6 +219,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
                 </li>
                 <li>
                   <Link
+                  rel="prefetch"
                     onClick={onToggleMenu}
                     to="/product-category/compact-products"
                     className="hover:text-black uppercase"
@@ -221,7 +231,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
             )}
 
             <li className="text-4xl hover:text-black transition-colors uppercase">
-              <Link onClick={onToggleMenu} to="/dealers">
+              <Link rel="prefetch" onClick={onToggleMenu} to="/dealers">
                 {t("menu.dealers")}
               </Link>
             </li>
@@ -232,6 +242,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
           <ul className="text-white space-y-2 text-xl">
             <li>
               <Link
+              rel="prefetch"
                 onClick={onToggleMenu}
                 to="/"
                 className="p-2 hover:text-black transition-colors uppercase"
@@ -241,6 +252,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
             </li>
             <li>
               <Link
+              rel="prefetch"
                 onClick={onToggleMenu}
                 to="/ita/login"
                 className="p-2 hover:text-black transition-colors uppercase"
@@ -250,6 +262,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
             </li>
             <li>
               <Link
+              rel="prefetch"
                 onClick={onToggleMenu}
                 to="/contacts"
                 className="p-2 hover:text-black transition-colors uppercase"
@@ -259,6 +272,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
             </li>
             <li>
               <Link
+              rel="prefetch"
                 onClick={onToggleMenu}
                 to="/reserved-area"
                 className="p-2 hover:text-black transition-colors uppercase"

@@ -46,6 +46,7 @@ const Blocks = ({ sections }: IProps) => {
               <h2 className="text-3xl font-bold">{section.title}</h2>
               <p className="text-base leading-relaxed">{section.description}</p>
               <Link
+              rel="prefetch"
                 to={section.link}
                 className="text-sm font-semibold underline underline-offset-4 w-fit hover:text-gray-300 transition"
               >

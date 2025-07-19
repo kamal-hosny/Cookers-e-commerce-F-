@@ -3,6 +3,8 @@ import Breadcrumbs from "../components/ui/Breadcrumbs";
 import { useNavigate, useParams } from "react-router-dom";
 import { useGetSingleProductBySku } from "../Hooks/useGetSingleProductBySku";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
+
 
 // Define TypeScript interfaces
 interface MetaData {
@@ -137,8 +139,40 @@ const SingleProduct = () => {
     );
   if (!currentProduct) return <div>{t("product.notFound")}</div>;
 
+
+  const productStructuredData = {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": currentProduct.name,
+    "sku": currentProduct.sku,
+    "description": currentProduct.short_description,
+    "image": currentProduct.images?.[0]?.src || "",
+  };
+
   return (
     <main className="font-sans bg-[#e2eaeb] min-h-screen py-4">
+
+<Helmet>
+        <title>{currentProduct.name} | Bulm</title>
+        <meta
+          name="description"
+          content={currentProduct.short_description.replace(/<[^>]+>/g, "").slice(0, 160)}
+        />
+        <meta property="og:title" content={currentProduct.name} />
+        <meta property="og:description" content={currentProduct.short_description.replace(/<[^>]+>/g, "").slice(0, 160)} />
+        <meta property="og:image" content={currentProduct.images?.[0]?.src || ""} />
+        <meta property="og:type" content="product" />
+        <meta property="og:url" content={`https://bulm.it/product/${currentProduct.sku}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={currentProduct.name} />
+        <meta name="twitter:description" content={currentProduct.short_description.replace(/<[^>]+>/g, "").slice(0, 160)} />
+        <meta name="twitter:image" content={currentProduct.images?.[0]?.src || ""} />
+        <link rel="canonical" href={`https://bulm.it/product/${currentProduct.sku}`} />
+        <script type="application/ld+json">
+          {JSON.stringify(productStructuredData)}
+        </script>
+      </Helmet>
+
       <div className="container">
         <div className="flex items-center justify-between">
           <Breadcrumbs
