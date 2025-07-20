@@ -89,7 +89,7 @@ const DiscoverTheCollection = ({ products }: IProps) => {
                       <Link
                       rel="prefetch"
                         to={product.link}
-                        className="text-base font-bold border-b-2 p-2"
+                        className="text-base font-bold border-b-2 p-2 "
                       >
                         {product.collections}
                       </Link>
@@ -110,6 +110,7 @@ const DiscoverTheCollection = ({ products }: IProps) => {
                   </div>
                 </div>
               ) : (
+                <Link to={product.link || "#"} >
                 <div className="flex flex-col items-center text-center h-full p-4">
                   <div className="w-full aspect-[3/4] flex items-center justify-center overflow-hidden">
                     <img
@@ -126,6 +127,7 @@ const DiscoverTheCollection = ({ products }: IProps) => {
                     <p className="text-xs text-gray-600 mt-1">{product.code}</p>
                   </div>
                 </div>
+                </Link>
               )}
             </SwiperSlide>
           ))}

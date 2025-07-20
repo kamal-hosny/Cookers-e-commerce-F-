@@ -1,21 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
-import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
-interface IProduct {
-  id: number;
-  image: string;
-  title: string;
-  code?: string;
-  link?: string;
-  type?: "normal" | "special";
-  collections?: string;
-}
+
 
 const Elegant = () => {
   const navigate = useNavigate();
@@ -42,34 +33,7 @@ const Elegant = () => {
     },
   ];
 
-  const products: IProduct[] = [
-    {
-      id: 1,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-664-im.png.webp",
-      title: t("elegant.products.1.title"),
-      code: "CXX 664 IM",
-    },
-    {
-      id: 2,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-965-bm.png.webp",
-      title: t("elegant.products.2.title"),
-      code: "CXX 965 BM",
-    },
-    {
-      id: 3,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-classic-freestanding-cooker-cxx-965-vm.png.webp",
-      title: t("elegant.products.3.title"),
-      code: "CXX 965 VM",
-    },
-    {
-      id: 4,
-      type: "special",
-      image: "https://www.elba-cookers.com/wp-content/uploads/2023/06/04_Linea_Classica_1_v2_500x700_new.jpg.webp",
-      title: t("elegant.products.4.title"),
-      link: "/home",
-      collections: "Elegant",
-    },
-  ];
+ 
 
   return (
     <>
@@ -109,7 +73,6 @@ const Elegant = () => {
           </MainTitleCollections>
 
           <BlocksGap sections={sections} />
-          <DiscoverTheCollection products={products} />
         </div>
       </div>
     </>

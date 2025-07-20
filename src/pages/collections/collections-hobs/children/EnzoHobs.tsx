@@ -60,28 +60,31 @@ const EnzoHobs = () => {
   const products: IProduct[] = [
     {
       id: 1,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-induction-hob-ein-900-xf.png.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/B95-425X-FQ904CPGV58XS2P41.webp",
       title: t("enzoHobs.products.1.title"),
-      code: "EIN 900 XF",
+      code: "B95-425X",
+      link: "/product/B95-425X",
     },
     {
       id: 2,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-gas-on-glass-hob-elio-95-g-matik.png.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/B95-901-X-FQ905VRLL50XS2F81-1.webp",
       title: t("enzoHobs.products.2.title"),
-      code: "ELIO 95G-MATIK",
+      code: "B95-901X",
+      link: "/product/B95-901X",
     },
     {
       id: 3,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-gas-hob-elio-95-545.png.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/g-matik.webp",
       title: t("enzoHobs.products.3.title"),
-      code: "ELIO 95-545",
+      code: "B95G-MATIK",
+      link: "/product/B95G-MATIK",
     },
     {
       id: 4,
       type: "special",
       image: "https://cms.bulm.it/wp-content/uploads/2025/07/Find-out-.jpeg",
       title: t("enzoHobs.products.4.title"),
-      link: "/home",
+      link: "/product-category/hobs",
       collections: "Enzo",
     },
   ];

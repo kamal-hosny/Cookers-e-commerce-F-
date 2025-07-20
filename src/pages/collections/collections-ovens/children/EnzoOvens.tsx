@@ -2,7 +2,6 @@ import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import BlocksGap from "../../../../components/common/BlocksGap";
-import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import HeadCollection from "../../../../components/common/HeadCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
@@ -42,31 +41,7 @@ const EnzoOvens = () => {
     },
   ];
 
-  const products = [
-    {
-      id: 1,
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2023/06/elba-elio-electric-multifunction-oven-el-11-xlb-300_front-on.jpg.webp",
-      title: t("enzo.products.0.title"),
-      code: "EN 11 XLB 300",
-    },
-    {
-      id: 2,
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-electric-multifunction-oven-el-10-xlx-300.png.webp",
-      title: t("enzo.products.1.title"),
-      code: "EN 10 XLX 300",
-    },
-    {
-      id: 3,
-      type: "special",
-      image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/d.jpeg",
-      title: t("enzo.products.2.title"),
-      link: "/home",
-      collections: "Enzo",
-    },
-  ];
+
 
   return (
     <>
@@ -113,7 +88,6 @@ const EnzoOvens = () => {
           </MainTitleCollections>
 
           <BlocksGap sections={sections} />
-          <DiscoverTheCollection products={products} />
         </div>
       </div>
     </>

@@ -17,7 +17,9 @@ const Contacts = () => {
     privacy: false,
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
@@ -26,13 +28,52 @@ const Contacts = () => {
     setFormData((prev) => ({ ...prev, privacy: e.target.checked }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
     if (!formData.privacy) {
       alert(t("contact.form.privacyError"));
       return;
     }
-    console.log("Form submitted:", formData);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mwpqvndp", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          surname: formData.surname,
+          company: formData.company,
+          role: formData.role,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert(t("contact.form.successMessage"));
+        setFormData({
+          name: "",
+          surname: "",
+          company: "",
+          role: "",
+          email: "",
+          phone: "",
+          message: "",
+          privacy: false,
+        });
+      } else {
+        alert(result.error || t("contact.form.errorMessage"));
+      }
+    } catch (error) {
+      alert(t("contact.form.errorMessage"));
+    }
   };
 
   return (
@@ -46,15 +87,25 @@ const Contacts = () => {
         <link rel="canonical" href="https://bulm.it/contact" />
         <link rel="alternate" href="https://bulm.it/contact" hrefLang="en" />
         <link rel="alternate" href="https://bulm.it/it/contact" hrefLang="it" />
-        <link rel="alternate" href="https://bulm.it/contact" hrefLang="x-default" />
+        <link
+          rel="alternate"
+          href="https://bulm.it/contact"
+          hrefLang="x-default"
+        />
         <meta property="og:title" content={t("contact.meta.ogTitle")} />
-        <meta property="og:description" content={t("contact.meta.ogDescription")} />
+        <meta
+          property="og:description"
+          content={t("contact.meta.ogDescription")}
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://bulm.it/contact" />
         <meta property="og:image" content="/logo/BULMlogo.svg" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={t("contact.meta.twitterTitle")} />
-        <meta name="twitter:description" content={t("contact.meta.twitterDescription")} />
+        <meta
+          name="twitter:description"
+          content={t("contact.meta.twitterDescription")}
+        />
       </Helmet>
 
       <div>
@@ -156,7 +207,11 @@ const Contacts = () => {
                   </StyledWrapper>
                   <label htmlFor="privacy-checkbox" className="ms-2">
                     {t("contact.form.privacyLabel")}{" "}
-                    <Link rel="prefetch" to="/privacy-policy" className="underline">
+                    <Link
+                      rel="prefetch"
+                      to="/privacy-policy"
+                      className="underline"
+                    >
                       {t("contact.form.privacyLink")}
                     </Link>
                   </label>

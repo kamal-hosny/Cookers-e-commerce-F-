@@ -129,7 +129,7 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
                     className="flex items-center gap-6 p-4 hover:bg-gray-50 transition cursor-pointer"
                     onClick={() => {
                       setOpenSearch(false);
-                      navigate(`/product/${product.id}`);
+                      navigate(`/product/${product.sku}`);
                     }}
                   >
                     <div className="flex-shrink-0 w-24 h-24 bg-gray-100 flex items-center justify-center">
@@ -163,14 +163,6 @@ const Search = ({ openSearch, setOpenSearch }: SearchProps) => {
                       </div>
                     </div>
 
-                    <div
-                      className="flex-shrink-0 text-lg font-light"
-                      style={{ color: accentColor }}
-                    >
-                      {product.price
-                        ? `$${Number(product.price).toFixed(2)}`
-                        : "$999.99"}
-                    </div>
                   </div>
                 ))}
               </div>

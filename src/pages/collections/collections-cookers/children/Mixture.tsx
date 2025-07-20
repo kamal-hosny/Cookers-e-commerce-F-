@@ -1,21 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
-import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
-interface IProduct {
-  id: number;
-  image: string;
-  title: string;
-  code?: string;
-  link?: string;
-  type?: "normal" | "special";
-  collections?: string;
-}
+
 
 const Mixture = () => {
   const navigate = useNavigate();
@@ -48,34 +39,6 @@ const Mixture = () => {
     },
   ];
 
-  const products: IProduct[] = [
-    {
-      id: 1,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fr-9642-m.png.webp",
-      title: t("mixture.products.1.title"),
-      code: "FR 9642 M",
-    },
-    {
-      id: 2,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fa-9642-m.png.webp",
-      title: t("mixture.products.2.title"),
-      code: "FA 9642 M",
-    },
-    {
-      id: 3,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-fusion-freestanding-cooker-fx-9642-m.png.webp",
-      title: t("mixture.products.3.title"),
-      code: "FX 9642 M",
-    },
-    {
-      id: 4,
-      type: "special",
-      image: "https://www.elba-cookers.com/wp-content/uploads/2023/06/03_Linea_Fusion_1_500x700_new.jpg.webp",
-      title: t("mixture.products.4.title"),
-      link: "/home",
-      collections: "Mixture",
-    },
-  ];
 
   return (
     <>
@@ -115,7 +78,6 @@ const Mixture = () => {
           </MainTitleCollections>
 
           <BlocksGap sections={sections} />
-          <DiscoverTheCollection products={products} />
         </div>
       </div>
     </>

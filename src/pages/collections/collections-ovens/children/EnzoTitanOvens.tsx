@@ -29,28 +29,31 @@ const EnzoTitanOvens = () => {
   const products = [
     {
       id: 1,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-gas-oven-elio-g90.png.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/B101-501NERO-1.webp",
       title: t("enzoTitan.products.0.title"),
-      code: "ENZO G90",
+      code: "B101-501NERO",
+      link: "/product/B101-501NERO",
     },
     {
       id: 2,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-gas-oven-elio-g92.png.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/BULM-B95-BLK-FM90KF06M3NNSB12P40.webp",
       title: t("enzoTitan.products.1.title"),
-      code: "ENZO G92",
+      code: "BULM95BLK",
+      link: "/product/BULM95BLK",
     },
     {
       id: 3,
-      image: "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-electric-multifunction-oven-140-e95-mf.png.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/210-969-B-DIGITAL-FM60CE09D6NNNB12P40.webp",
       title: t("enzoTitan.products.2.title"),
-      code: "140-E95 MF",
+      code: "B101-501NERO",
+      link: "/product/B101-501NERO",
     },
     {
       id: 4,
       type: "special",
       image: "https://cms.bulm.it/wp-content/uploads/2025/07/enzo-titan-ovens.jpeg",
       title: t("enzoTitan.products.3.title"),
-      link: "/home",
+      link: "/product-category/ovens",
       collections: "Titan",
     },
   ];

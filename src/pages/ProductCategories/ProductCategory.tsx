@@ -191,35 +191,39 @@ interface RealProduct {
 // Enhanced Product Card Component
 const ProductCard = memo(({ product }: { product: RealProduct }) => (
   <Link rel="prefetch" to={`/product/${product.sku}`}>
-  <div className="w-full max-w-[260px] h-full bg-white rounded-xl shadow-md overflow-hidden group transition-all duration-300 hover:shadow-xl border border-gray-100">
-    <div className="relative h-[200px] overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+    <div className="w-full max-w-[260px] h-full bg-white rounded-xl shadow-md overflow-hidden group transition-all duration-300 hover:shadow-xl border border-gray-100">
+      <div className="relative h-[200px] overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
 
-      <img
-        className="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105"
-        src={product.images || "/placeholder-image.jpg"}
-        alt={product.name || "Product image"}
-        loading="lazy"
-      />
-{product.collection && (
+        <img
+          className="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105"
+          src={product.images || "/placeholder-image.jpg"}
+          alt={product.name || "Product image"}
+          loading="lazy"
+        />
+
+        {product.collection && (
           <span className="bg-[#e8f2f0] text-[#30505b] absolute top-3 right-3 uppercase text-xs font-bold px-2 py-1 rounded whitespace-nowrap">
             {product.collection.replace(/_/g, " ")}
           </span>
         )}
-      <div className="absolute bottom-0 left-0 w-full py-2 px-3 bg-gradient-to-t from-black/70 to-transparent z-10">
-        <p className="text-white font-bold text-sm">{product.sku}</p>
-      </div>
-    </div>
 
-    <div className="p-4">
-      <div className="flex justify-between items-start mb-2">
-        <h3 className="font-semibold text-gray-800 text line-clamp-2 h-14">
-          {product.name}
-        </h3>
-        
+        <div className="absolute bottom-0 left-0 w-full py-2 px-3 bg-gradient-to-t from-black/70 to-transparent z-10">
+          <p className="text-white font-bold text-sm">{product.sku}</p>
+        </div>
+      </div>
+
+      <div className="p-4">
+        <div className="flex justify-between items-start mb-2">
+          <h3
+            className="font-semibold text-gray-800 text-sm line-clamp-2"
+            title={product.name || ""} 
+          >
+            {product.name}
+          </h3>
+        </div>
       </div>
     </div>
-  </div>
   </Link>
 ));
 

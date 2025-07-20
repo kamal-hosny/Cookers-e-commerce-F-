@@ -17,23 +17,48 @@ const oauth = new OAuth({
 
 
 export const fetchProductsByCategoryId = async (categoryId: number) => {
-  const url = `${BASE_URL}?category=${categoryId}`;
+  const allProducts: any[] = [];
+  let page = 1;
+  const perPage = 100; 
+  const maxTotal = 2000;
 
-  const request_data = {
-    url,
-    method: "GET",
-  };
+  while (true) {
+    const url = `${BASE_URL}?category=${categoryId}&per_page=${perPage}&page=${page}`;
 
-  const authHeader = oauth.toHeader(oauth.authorize(request_data));
+    const request_data = {
+      url,
+      method: "GET",
+    };
 
-  const response = await axios.get(url, {
-    headers: {
-      ...authHeader,
-    },
-  });
+    const authHeader = oauth.toHeader(oauth.authorize(request_data));
 
-  return response.data;
+    try {
+      const response = await axios.get(url, {
+        headers: {
+          ...authHeader,
+        },
+      });
+
+      const products = response.data;
+
+      if (products.length === 0) break;
+
+      allProducts.push(...products);
+
+      if (products.length < perPage || allProducts.length >= maxTotal) {
+        break;
+      }
+
+      page++;
+    } catch (error) {
+      console.error("Error fetching products:", error);
+      break;
+    }
+  }
+
+  return allProducts.slice(0, maxTotal); 
 };
+
 
 
 export const fetchProductsBySearchQuery = async (query: string) => {

@@ -1,68 +1,68 @@
 {
-    "privacy": {
-      "title": "Privacy Policy – BULM Italy",
-      "metaDescription": "Read BULM Italy's privacy policy to understand how we collect, use, and protect your personal data in accordance with European privacy laws (GDPR).",
-      "metaKeywords": "Privacy Policy, GDPR, Data Protection, Personal Data, BULM Italy, Italian kitchen appliances",
-      "introTitle": "Information on the Processing of Personal Data",
-      "introText": "BULM Italian Cuisine, as the owner of the processing of your personal data (hereinafter \"Owner\"), releases this information in compliance with the European and Italian legislation...",
-      "categoriesTitle": "Categories of Data Processed",
-      "navigationDataTitle": "Navigation data",
-      "navigationDataText": "The computer systems and software procedures used to operate this website acquire...",
-      "userDataTitle": "Data Provided Voluntarily by the User",
-      "userDataText": "Sending e-mails to the addresses indicated on the Site – optional, explicit and voluntary...",
-      "cookiesTitle": "Cookies",
-      "cookiesText": "For any information regarding the use of cookies by the Site, access the appropriate information by clicking",
-      "processingPurposeTitle": "Purpose and Legal Basis of the Processing...",
-      "processingPurposeText": "The Data Controller will process your data to facilitate navigation...",
-      "retentionTitle": "Data Retention Period",
-      "retentionText": "The Data Controller will process the personal data collected through the use of the Site...",
-      "communicationScopeTitle": "Scope of Data Communication and Categories of Recipients",
-      "communicationScopeText": "The Data Controller will not disclose the data, but intends to communicate them to internal figures...",
-      "transferTitle": "Data Transfer to a Third Country and/or an International Organization",
-      "transferText": "Your personal data will not be transferred to non-European third countries.",
-      "rightsTitle": "Rights of the Interested Parties",
-      "rightsText": "It is your right to ask the Data Controller to access your personal data...",
-      "lastUpdated": "Last updated: June {{year}}.",
-      "checkUpdateNote": "This information may be subject to changes: we therefore recommend that you check the date of the last revision.",
-      "clickHere": "here"
+  "privacy": {
+    "title": "Privacy Policy – BULM Italy",
+    "metaDescription": "Read BULM Italy's privacy policy to understand how we collect, use, and protect your personal data in accordance with European privacy laws (GDPR).",
+    "metaKeywords": "Privacy Policy, GDPR, Data Protection, Personal Data, BULM Italy, Italian kitchen appliances",
+    "introTitle": "Information on the Processing of Personal Data",
+    "introText": "BULM Italian Cuisine, as the owner of the processing of your personal data (hereinafter \"Owner\"), releases this information in compliance with the European and Italian legislation...",
+    "categoriesTitle": "Categories of Data Processed",
+    "navigationDataTitle": "Navigation data",
+    "navigationDataText": "The computer systems and software procedures used to operate this website acquire...",
+    "userDataTitle": "Data Provided Voluntarily by the User",
+    "userDataText": "Sending e-mails to the addresses indicated on the Site – optional, explicit and voluntary...",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "For any information regarding the use of cookies by the Site, access the appropriate information by clicking",
+    "processingPurposeTitle": "Purpose and Legal Basis of the Processing...",
+    "processingPurposeText": "The Data Controller will process your data to facilitate navigation...",
+    "retentionTitle": "Data Retention Period",
+    "retentionText": "The Data Controller will process the personal data collected through the use of the Site...",
+    "communicationScopeTitle": "Scope of Data Communication and Categories of Recipients",
+    "communicationScopeText": "The Data Controller will not disclose the data, but intends to communicate them to internal figures...",
+    "transferTitle": "Data Transfer to a Third Country and/or an International Organization",
+    "transferText": "Your personal data will not be transferred to non-European third countries.",
+    "rightsTitle": "Rights of the Interested Parties",
+    "rightsText": "It is your right to ask the Data Controller to access your personal data...",
+    "lastUpdated": "Last updated: June {{year}}.",
+    "checkUpdateNote": "This information may be subject to changes: we therefore recommend that you check the date of the last revision.",
+    "clickHere": "here"
+  },
+  "boxesFooter": {
+    "card1": {
+      "title": "BULM around you",
+      "description": "Explore our product range and locate certified BULM dealers near you.",
+      "button": "Find dealers"
     },
-    "boxesFooter": {
-      "card1": {
-        "title": "BULM around you",
-        "description": "Explore our product range and locate certified BULM dealers near you.",
-        "button": "Find dealers"
-      },
-      "card2": {
-        "title": "Partner access",
-        "description": "Restricted access for authorized BULM distributors and service providers.",
-        "button": "Access area"
-      },
-      "card3": {
-        "title": "Discover BULM",
-        "description": "Get to know BULM’s story and our dedication to excellence.",
-        "button": "Learn more"
-      }
+    "card2": {
+      "title": "Partner access",
+      "description": "Restricted access for authorized BULM distributors and service providers.",
+      "button": "Access area"
     },
-      "bannerLanding": {
-        "title": "Transform Your Culinary Wishes With",
-        "highlight": "Premium Cooking Appliances",
-        "description": "Crafted with precision since 1979, BULM cookers, hobs, and ovens bring together Italian elegance, cutting-edge technology, and unmatched performance to elevate every kitchen experience.",
-        "years": "+45 Years",
-        "yearsSubtext": "of Italian Craftsmanship & Innovation",
-        "discoverMore": "Discover More"
-      },
-      "landing": {
-        "headline": "BLACK LINE. High-quality kitchen experience",
-        "discover": "Discover the new Collection",
-        "scroll": "Scroll"
-      },
-      "distinctive": {
-        "title": "Distinctive <1>Italian Design</1>",
-        "explore": "Explore",
-        "catalogText": "For every type of cooking, for every style of kitchen. Check out our complete selection of high-performance <1>cooking appliances</1> catalogue. A vast range of <3>cooking products</3>, all suitable for customer personalization."
-      },
+    "card3": {
+      "title": "Discover BULM",
+      "description": "Get to know BULM’s story and our dedication to excellence.",
+      "button": "Learn more"
+    }
+  },
+  "bannerLanding": {
+    "title": "Transform Your Culinary Wishes With",
+    "highlight": "Premium Cooking Appliances",
+    "description": "Crafted with precision since 1979, BULM cookers, hobs, and ovens bring together Italian elegance, cutting-edge technology, and unmatched performance to elevate every kitchen experience.",
+    "years": "+45 Years",
+    "yearsSubtext": "of Italian Craftsmanship & Innovation",
+    "discoverMore": "Discover More"
+  },
+  "landing": {
+    "headline": "BLACK LINE. High-quality kitchen experience",
+    "discover": "Discover the new Collection",
+    "scroll": "Scroll"
+  },
+  "distinctive": {
+    "title": "Distinctive <1>Italian Design</1>",
+    "explore": "Explore",
+    "catalogText": "For every type of cooking, for every style of kitchen. Check out our complete selection of high-performance <1>cooking appliances</1> catalogue. A vast range of <3>cooking products</3>, all suitable for customer personalization."
+  },
 
-     "news": {
+  "news": {
     "title": "News",
     "button": "Explore",
     "items": [
@@ -204,12 +204,10 @@
     "searchCatalogDescription": "Find appliances by name, category, or keywords",
     "popularSearches": "Popular Searches",
     "popularTerms": [
-      "Electric multifunction oven",
-      "Ovens",
-      "Hobs",
-      "Hoods",
-      "Microwave",
-      "Dishwasher"
+      "Italian Built-in Electric Oven 90cm – 9 Functions",
+      "Italian Wall-Mounted Hood",
+      "Built-in Electric Ceramic Hob",
+      "Italian Built-in Electric Oven 60cm"
     ],
     "escToClose": "Press ESC to close"
   },
@@ -331,59 +329,58 @@
         "description": "Our ovens are tailored for all cooking needs — meat, pizza, bread, or pastries. BULM offers the perfect oven for every culinary enthusiast, helping you express your talent in the kitchen with confidence and precision."
       }
     ]
-  }
-,  
-"neroLinePage": {
-  "title": "BULM Nero Line – Precision Meets Elegance",
-  "description": "Discover the essence of Italian engineering and refined aesthetics with the BULM Nero Line. A premium collection of built-in kitchen appliances created for those who demand performance, elegance, and cutting-edge innovation — all in one.",
-  "back": "Back",
-  "meta": {
-    "title": "Nero Line Collection | BULM Italy – Built-in Kitchen Elegance",
-    "description": "Discover BULM's Nero Line collection: built-in ovens, microwaves, coffee machines, and warming drawers. Italian design and cutting-edge technology in your kitchen.",
-    "keywords": "BULM Nero Line, built-in appliances, Italian kitchen appliances, modern oven, multifunction oven, microwave, warming drawer, coffee machine",
-    "ogTitle": "Nero Line Collection | BULM Italy",
-    "ogDescription": "Explore the Nero Line by BULM — a collection of premium built-in appliances blending performance and Italian elegance.",
-    "twitterTitle": "Nero Line Collection | BULM Italy",
-    "twitterDescription": "BULM Nero Line is a collection of elegant, innovative, and built-in kitchen appliances crafted in Italy.",
-    "imageAlt": "Nero Line Gallery"
   },
-  "mainImageAlt": "Nero Line Hero Image",
-  "breadcrumb": {
-    "home": "Home",
-    "collections": "Collections",
-    "neroLine": "Nero Line"
+  "neroLinePage": {
+    "title": "BULM Nero Line – Precision Meets Elegance",
+    "description": "Discover the essence of Italian engineering and refined aesthetics with the BULM Nero Line. A premium collection of built-in kitchen appliances created for those who demand performance, elegance, and cutting-edge innovation — all in one.",
+    "back": "Back",
+    "meta": {
+      "title": "Nero Line Collection | BULM Italy – Built-in Kitchen Elegance",
+      "description": "Discover BULM's Nero Line collection: built-in ovens, microwaves, coffee machines, and warming drawers. Italian design and cutting-edge technology in your kitchen.",
+      "keywords": "BULM Nero Line, built-in appliances, Italian kitchen appliances, modern oven, multifunction oven, microwave, warming drawer, coffee machine",
+      "ogTitle": "Nero Line Collection | BULM Italy",
+      "ogDescription": "Explore the Nero Line by BULM — a collection of premium built-in appliances blending performance and Italian elegance.",
+      "twitterTitle": "Nero Line Collection | BULM Italy",
+      "twitterDescription": "BULM Nero Line is a collection of elegant, innovative, and built-in kitchen appliances crafted in Italy.",
+      "imageAlt": "Nero Line Gallery"
+    },
+    "mainImageAlt": "Nero Line Hero Image",
+    "breadcrumb": {
+      "home": "Home",
+      "collections": "Collections",
+      "neroLine": "Nero Line"
+    },
+    "productTitle": "Explore Our Products",
+    "sections": [
+      {
+        "title": "Built-in Electric Multifunction Oven",
+        "description": "Packed with multiple innovative features, this oven offers a professional culinary experience. With 11 modes including Air Fry, Pizza 300°C, Easy Steam, and Booster for fast preheating, it redefines home cooking."
+      },
+      {
+        "title": "Combi Microwave 45cm",
+        "description": "Grill, bake, roast, and more — all in one efficient unit with 13 functions and preset auto menus for everyday recipes like vegetables, pizza, or soups. Designed to match any modern kitchen."
+      },
+      {
+        "title": "Coffee & Cappuccino Maker",
+        "description": "Enjoy barista-style coffee at home. This elegant appliance is designed to brew rich espresso and creamy cappuccinos at the touch of a button — combining Italian tradition with modern convenience."
+      },
+      {
+        "title": "Warming Drawer",
+        "description": "A stylish addition to your kitchen, perfect for preheating dishes or keeping meals warm before serving. Fully aligned with the Nero Line design language by BULM."
+      }
+    ],
+    "products": [
+      {
+        "title": "Electric Multifunction Oven"
+      },
+      {
+        "title": "Combi Microwave Oven"
+      },
+      {
+        "title": "Automatic Coffee & Cappuccino Maker"
+      }
+    ]
   },
-  "productTitle": "Explore Our Products",
-  "sections": [
-    {
-      "title": "Built-in Electric Multifunction Oven",
-      "description": "Packed with multiple innovative features, this oven offers a professional culinary experience. With 11 modes including Air Fry, Pizza 300°C, Easy Steam, and Booster for fast preheating, it redefines home cooking."
-    },
-    {
-      "title": "Combi Microwave 45cm",
-      "description": "Grill, bake, roast, and more — all in one efficient unit with 13 functions and preset auto menus for everyday recipes like vegetables, pizza, or soups. Designed to match any modern kitchen."
-    },
-    {
-      "title": "Coffee & Cappuccino Maker",
-      "description": "Enjoy barista-style coffee at home. This elegant appliance is designed to brew rich espresso and creamy cappuccinos at the touch of a button — combining Italian tradition with modern convenience."
-    },
-    {
-      "title": "Warming Drawer",
-      "description": "A stylish addition to your kitchen, perfect for preheating dishes or keeping meals warm before serving. Fully aligned with the Nero Line design language by BULM."
-    }
-  ],
-  "products": [
-    {
-      "title": "Electric Multifunction Oven"
-    },
-    {
-      "title": "Combi Microwave Oven"
-    },
-    {
-      "title": "Automatic Coffee & Cappuccino Maker"
-    }
-  ]
-},
 
   "collectionsCookers": {
     "layout": {
@@ -765,9 +762,9 @@
       }
     ],
     "products": [
-      { "title": "Fan gas oven" },
-      { "title": "Fan gas oven" },
-      { "title": "Electric multifunction oven" },
+      { "title": "Italian Built-in Electric Oven 90cm – 9 Functions" },
+      { "title": "Built-in Electric Oven 90cm – 9 Functions" },
+      { "title": "Italian Built-in Electric Oven 60cm – 9 Functions (Digital)" },
       { "title": "Find out more" }
     ],
     "seo": {
@@ -777,8 +774,7 @@
       "ogTitle": "Enzo Titan Built-in Ovens | BULM Italy",
       "ogDescription": "Experience no space limits with BULM Enzo Titan ovens. Choose between powerful gas or multifunction electric ovens for high-performance cooking."
     }
-  }
-  ,
+  },
   "expertOvens": {
     "meta": {
       "title": "Expert Built-in Ovens | BULM Italy",
@@ -817,8 +813,7 @@
       { "title": "Find out more" }
     ]
   },
-  "back": "Back_"
-  ,
+  "back": "Back_",
   "landOvens": {
     "meta": {
       "title": "Land Built-in Ovens | BULM Italy",
@@ -863,8 +858,7 @@
 
     "lastTitle": "Quality guaranteed",
     "lastDesc": "Since 1979, BULM has prioritized excellence in every step of its production. Every process is guided by strict testing, quality controls, and documentation. We proudly earned ISO 9001 certification in 1998, having already met CE mark standards since 1995. Our quality system evolved with ISO 9001:2008 and ISO 9001:2015 updates — a testament to our legacy of trust and performance."
-  }
-  ,
+  },
   "common": {
     "back": "Back_",
     "loading": "Loading...",
@@ -892,9 +886,4 @@
     "noImage": "No Image Available",
     "notFound": "Product not found"
   }
-  
-  
-  
-
-  }
-  
+}

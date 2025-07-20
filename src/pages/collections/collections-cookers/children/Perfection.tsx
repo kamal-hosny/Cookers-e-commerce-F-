@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
-import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
 import { Helmet } from "react-helmet-async";
@@ -42,38 +41,6 @@ const Perfection = () => {
     },
   ];
 
-  const products = [
-    {
-      id: 1,
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-ea-966-m.png.webp",
-      title: t("perfection.products.0.title"),
-      code: "BLM 966 M",
-    },
-    {
-      id: 2,
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-eg-965-im.png.webp",
-      title: t("perfection.products.1.title"),
-      code: "BLM 965 IM",
-    },
-    {
-      id: 3,
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-excellence-freestanding-cooker-ex-106-m.png.webp",
-      title: t("perfection.products.2.title"),
-      code: "BLM 106 M",
-    },
-    {
-      id: 4,
-      type: "special",
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2023/06/02_Linea_Excellence_1_500x700_new.jpg.webp",
-      title: t("perfection.products.3.title"),
-      link: "/home",
-      collections: "Excellence",
-    },
-  ];
 
   return (
     <>
@@ -150,7 +117,6 @@ const Perfection = () => {
           </MainTitleCollections>
 
           <BlocksGap sections={sections} />
-          <DiscoverTheCollection products={products} />
         </div>
       </div>
     </>

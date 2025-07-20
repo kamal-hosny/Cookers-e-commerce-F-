@@ -2,20 +2,10 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Breadcrumbs from "../../../../components/ui/Breadcrumbs";
 import BlocksGap from "../../../../components/common/BlocksGap";
-import DiscoverTheCollection from "../../../../components/common/DiscoverTheCollection";
 import MainTitleCollections from "../../../../components/common/MainTitleCollections";
 import HeadCollection from "../../../../components/common/HeadCollection";
 import { Helmet } from "react-helmet-async";
 
-interface IProduct {
-  id: number;
-  image: string;
-  title: string;
-  code?: string;
-  link?: string;
-  type?: "normal" | "special";
-  collections?: string;
-}
 
 const ExpertOvens = () => {
   const navigate = useNavigate();
@@ -58,38 +48,6 @@ const ExpertOvens = () => {
     },
   ];
 
-  const products: IProduct[] = [
-    {
-      id: 1,
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-professional-electric-multifunction-oven-pro-9-xla.png.webp",
-      title: t("expertOvens.products.0.title"),
-      code: "EX 9 XLA",
-    },
-    {
-      id: 2,
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-professional-electric-multifunction-oven-pro-9-xlx.png.webp",
-      title: t("expertOvens.products.1.title"),
-      code: "EX 9 XLX",
-    },
-    {
-      id: 3,
-      image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-professional-electric-multifunction-oven-pro-11-xlx.png.webp",
-      title: t("expertOvens.products.2.title"),
-      code: "EX 11 XLX",
-    },
-    {
-      id: 4,
-      type: "special",
-      image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/Professional_500x700.jpg.webp",
-      title: t("expertOvens.products.3.title"),
-      link: "/home",
-      collections: "Expert",
-    },
-  ];
 
   return (
     <>
@@ -144,7 +102,6 @@ const ExpertOvens = () => {
 
           <BlocksGap sections={sections} />
 
-          <DiscoverTheCollection products={products} />
         </div>
       </div>
     </>

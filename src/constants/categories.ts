@@ -7,9 +7,9 @@ export const categoryMapEN: Record<string, number> = {
 };
 
 export const categoryMapIT: Record<string, number> = {
-  cookers: 38,
+  cookers: 104,
   ovens: 40,
-  hobs: 42,
+  hobs: 78,
   hoods: 59,
-  "compact-products": 46,
+  "compact-products": 101,
 };

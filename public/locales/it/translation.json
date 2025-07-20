@@ -205,12 +205,10 @@
       "searchCatalogDescription": "Trova elettrodomestici per nome, categoria o parole chiave",
       "popularSearches": "Ricerche popolari",
       "popularTerms": [
-        "Forno multifunzione elettrico",
-        "Forni",
-        "Piani cottura",
-        "Cappe",
-        "Microonde",
-        "Lavastoviglie"
+        "Forno da Incasso Elettrico Italiano 90cm – 9 Funzioni",
+        "Cappa a Parete",
+        "Piano cottura elettrico in vetroceramica da incasso",
+        "Forno Elettrico da Incasso Italiano 60cm"
       ],
       "escToClose": "Premi ESC per chiudere"
     },
@@ -512,9 +510,9 @@
         }
       },
       "products": {
-        "1": { "title": "Piano a induzione" },
-        "2": { "title": "Piano a gas" },
-        "3": { "title": "Piano a gas" },
+        "1": { "title": "Piano cottura a gas ed elettrico in ceramica da incasso 90cm Italiano BULM" },
+        "2": { "title": "Piano cottura a gas da incasso 90 cm Italiano by BULM" },
+        "3": { "title": "Piano Cottura a Gas in Ceramica da Incasso 90 cm BULM" },
         "4": { "title": "Scopri di più" }
       },
       "meta": {
@@ -764,9 +762,9 @@
         }
       ],
       "products": [
-        { "title": "Forno a gas con ventola" },
-        { "title": "Forno a gas con ventola" },
-        { "title": "Forno elettrico multifunzione" },
+        { "title": "Forno da Incasso Elettrico Italiano 90cm – 9 Funzioni" },
+        { "title": "Forno da Incasso Elettrico Italiano 90cm – 9 Funzioni" },
+        { "title": "Forno Elettrico da Incasso Italiano 60cm – 9 Funzioni (Digitale)" },
         { "title": "Scopri di più" }
       ],
       "seo": {
