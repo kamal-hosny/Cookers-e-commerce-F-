@@ -30,14 +30,6 @@ const BoxesFooter = () => {
   ];
 
   const handleNavigate = (path: string) => {
-    // if (path === "/about-us") {
-    //   const newLang = i18n.language === "en" ? "it" : "en";
-    //   i18n.changeLanguage(newLang);
-    //   document.documentElement.lang = newLang;
-    //   document.documentElement.dir = "ltr";
-    //   return;
-    // }
-
     if (path) {
       navigate(path);
     }
