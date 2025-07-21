@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const BoxesFooter = () => {
   const navigate = useNavigate();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const card = [
     {
