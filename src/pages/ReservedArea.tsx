@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 const ReservedArea = () => {
@@ -5,15 +6,16 @@ const ReservedArea = () => {
 
   return (
     <main className="py-10 bg-[#1d1d1b]">
+      <Helmet>
+        <title>Reserved Area | BULM</title>
+      </Helmet>
       <div className="container">
         <div className="main-title">
           <p className="relative text-[#30505b] mb-10 text-[32px] font-bold after:content-[''] after:absolute after:left-0 after:-bottom-4 after:w-14 after:h-1 after:bg-[#30505b]">
             {t("reserved.title")}
           </p>
 
-          <p className="text-white font-medium">
-            {t("reserved.subtitle")}
-          </p>
+          <p className="text-white font-medium">{t("reserved.subtitle")}</p>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-10 mt-10">
           <form className="flex-1 bg-white py-20 px-12 flex flex-col gap-5 max-w-lg min-w-[350px]">
@@ -61,7 +63,8 @@ const ReservedArea = () => {
               {t("reserved.register.description")}{" "}
               <a href="#" className="underline">
                 {t("reserved.register.link")}
-              </a>.
+              </a>
+              .
             </p>
           </div>
         </div>

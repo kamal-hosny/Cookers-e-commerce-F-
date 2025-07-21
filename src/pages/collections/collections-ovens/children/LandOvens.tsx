@@ -33,7 +33,7 @@ const LandOvens = () => {
   return (
     <>
       <Helmet>
-        <title>{t("landOvens.meta.title")}</title>
+        <title>Land | BULM</title>
         <meta name="description" content={t("landOvens.meta.description")} />
         <meta name="keywords" content={t("landOvens.meta.keywords")} />
         <meta property="og:title" content={t("landOvens.meta.title")} />

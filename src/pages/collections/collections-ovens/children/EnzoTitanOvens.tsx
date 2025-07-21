@@ -61,7 +61,7 @@ const EnzoTitanOvens = () => {
   return (
     <>
       <Helmet>
-        <title>{t("enzoTitan.seo.title")}</title>
+        <title>Enzo Titan | BULM</title>
         <meta name="description" content={t("enzoTitan.seo.description")} />
         <meta name="keywords" content={t("enzoTitan.seo.keywords")} />
         <meta property="og:title" content={t("enzoTitan.seo.ogTitle")} />

@@ -51,7 +51,7 @@ const CollectionsCookers = () => {
     <>
       <Helmet>
         <html lang={currentLang} />
-        <title>{t("collectionsCookers.meta.title")}</title>
+        <title>Collections Cookers | BULM</title>
         <meta name="description" content={t("collectionsCookers.meta.description")} />
         <meta name="keywords" content={t("collectionsCookers.meta.keywords")} />
         <meta name="robots" content="index, follow" />

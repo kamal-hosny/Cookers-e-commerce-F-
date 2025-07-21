@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 
 const Dealers = () => {
   const { t } = useTranslation();
@@ -38,6 +39,9 @@ const Dealers = () => {
 
   return (
     <main>
+      <Helmet>
+        <title>Dealers | BULM</title>
+      </Helmet>
       <div className="container py-1">
         <div className="Dealers-contact p-4 flex gap-4 justify-between items-start max-md:flex-col">
           <div className="flex-1 flex justify-between w-full">

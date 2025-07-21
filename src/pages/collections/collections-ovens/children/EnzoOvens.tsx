@@ -16,7 +16,7 @@ const EnzoOvens = () => {
       title: t("enzo.sections.0.title"),
       description: t("enzo.sections.0.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/Large-oven-cavity.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/cook61612860353.webp",
     },
     {
       id: 2,
@@ -46,7 +46,7 @@ const EnzoOvens = () => {
   return (
     <>
       <Helmet>
-        <title>{t("enzo.seo.title")}</title>
+      <title>Enzo | BULM</title>
         <meta name="description" content={t("enzo.seo.description")} />
         <meta name="keywords" content={t("enzo.seo.keywords")} />
         <meta property="og:title" content={t("enzo.seo.ogTitle")} />

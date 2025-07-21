@@ -7,13 +7,14 @@ const CompanyInfo = () => {
   const descriptionParagraphs: string[] = t("company.description", {
     returnObjects: true,
   }) as string[];
+
   
 
   return (
     <main className="container py-12 max-w-5xl bg-white space-y-6">
       <Helmet>
         <html lang="en" />
-        <title>{t("company.meta.title")}</title>
+        <title>"Company Info | BULM</title>
         <meta name="description" content={t("company.meta.description")} />
         <meta name="keywords" content={t("company.meta.keywords")} />
         <meta name="robots" content="index, follow" />

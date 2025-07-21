@@ -17,21 +17,21 @@ const AlternateOvens = () => {
       title: t("alterum.sections.0.title"),
       description: t("alterum.sections.0.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/Easy-Steam.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/0793547_4.jpg",
     },
     {
       id: 2,
       title: t("alterum.sections.1.title"),
       description: t("alterum.sections.1.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/Idroclean.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/25286293_KnowYourApplianceOvensActiveClean_2720x1530px.webp",
     },
   ];
 
   return (
     <>
       <Helmet>
-        <title>{t("alterum.seo.title")}</title>
+        <title>Alternate | BULM</title>
         <meta name="description" content={t("alterum.seo.description")} />
         <meta name="keywords" content={t("alterum.seo.keywords")} />
         <meta property="og:title" content={t("alterum.seo.ogTitle")} />

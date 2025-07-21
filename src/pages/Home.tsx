@@ -14,7 +14,7 @@ const Home = () => {
     <main>
       <Helmet>
         <html lang="en" />
-        <title>BULM Italy – Luxury Italian Kitchen Appliances</title>
+        <title>Home | BULM</title>
         <meta
           name="description"
           content="Discover BULM's exclusive Italian-made kitchen appliances. Cookers, ovens, hobs, and more – crafted with timeless Italian design."
@@ -31,8 +31,6 @@ const Home = () => {
         <link rel="alternate" href={`${siteUrl}/it`} hrefLang="it" />
         <link rel="alternate" href={siteUrl} hrefLang="x-default" />
 
-        {/* Open Graph */}
-        <meta property="og:title" content="BULM Italy – Luxury Italian Kitchen Appliances" />
         <meta
           property="og:description"
           content="Elegant and innovative kitchen appliances made in Italy. Discover the essence of Italian craftsmanship at BULM."

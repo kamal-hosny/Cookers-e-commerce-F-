@@ -48,7 +48,7 @@ const NeroLineCollection = () => {
       <Helmet>
         <html lang={i18n.language} />
         <title>
-          Nero Line Collection | BULM Italy – Built-in Kitchen Elegance
+          Nero Line Collection | BULM 
         </title>
         <meta
           name="description"

@@ -17,20 +17,15 @@ const Elegant = () => {
       id: 1,
       title: t("elegant.sections.1.title"),
       description: t("elegant.sections.1.description"),
-      image: "https://cms.bulm.it/wp-content/uploads/2025/07/bulm-knobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/112397811alt4-scaled.webp",
     },
     {
       id: 2,
       title: t("elegant.sections.2.title"),
       description: t("elegant.sections.2.description"),
-      image: "https://cms.bulm.it/wp-content/uploads/2025/07/bulm-pan-supports.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/61I0ptYawCL._UF10001000_QL80_.jpg",
     },
-    {
-      id: 3,
-      title: t("elegant.sections.3.title"),
-      description: t("elegant.sections.3.description"),
-      image: "https://cms.bulm.it/wp-content/uploads/2025/07/bulm-handle.jpg.webp",
-    },
+    
   ];
 
  
@@ -39,7 +34,7 @@ const Elegant = () => {
     <>
       <Helmet>
         <html lang="en" />
-        <title>{t("elegant.meta.title")}</title>
+        <title>Elegant | BULM</title>
         <meta name="description" content={t("elegant.meta.description")} />
         <meta name="keywords" content={t("elegant.meta.keywords")} />
         <meta name="robots" content="index, follow" />

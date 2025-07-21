@@ -26,7 +26,7 @@ const LandHobs = () => {
     <>
       <Helmet>
         <html lang={currentLang} />
-        <title>{t("landHobs.meta.title")}</title>
+        <title>Land Collection | BULM</title>
         <meta name="description" content={t("landHobs.meta.description")} />
         <meta name="keywords" content={t("landHobs.meta.keywords")} />
         <meta property="og:title" content={t("landHobs.meta.ogTitle")} />

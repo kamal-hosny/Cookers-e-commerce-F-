@@ -17,25 +17,25 @@ const Antique = () => {
       id: 1,
       title: t("antique.sections.1.title"),
       description: t("antique.sections.1.description"),
-      image: "https://cms.bulm.it/wp-content/uploads/2025/07/vintage-design-made-in-italy.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/Clementi-Gold-Wood-Fired-Pizza-Oven-The-Pizza-Oven-Shop-UK-1.webp",
     },
     {
       id: 2,
       title: t("antique.sections.2.title"),
       description: t("antique.sections.2.description"),
-      image: "https://cms.bulm.it/wp-content/uploads/2025/07/vintage-knobs.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/112397811alt4-scaled.webp",
     },
     {
       id: 3,
       title: t("antique.sections.3.title"),
       description: t("antique.sections.3.description"),
-      image: "https://cms.bulm.it/wp-content/uploads/2025/07/vintage-charming-design-details.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/s-l1200.png",
     },
     {
       id: 4,
       title: t("antique.sections.4.title"),
       description: t("antique.sections.4.description"),
-      image: "https://cms.bulm.it/wp-content/uploads/2025/07/vintage-cast-iron-pan-supports.jpg.webp",
+      image: "https://cms.bulm.it/wp-content/uploads/2025/07/61btHkn20BL._UF350350_QL80_.jpg",
     },
   ];
 
@@ -45,7 +45,7 @@ const Antique = () => {
     <>
       <Helmet>
         <html lang="en" />
-        <title>{t("antique.meta.title")}</title>
+        <title>Antique | BULM</title>
         <meta name="description" content={t("antique.meta.description")} />
         <meta name="keywords" content={t("antique.meta.keywords")} />
         <meta name="robots" content="index, follow" />

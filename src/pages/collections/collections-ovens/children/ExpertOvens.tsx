@@ -23,14 +23,14 @@ const ExpertOvens = () => {
       title: t("expertOvens.sections.idroclean.title"),
       description: t("expertOvens.sections.idroclean.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/Idroclean.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/25286293_KnowYourApplianceOvensActiveClean_2720x1530px.webp",
     },
     {
       id: 3,
       title: t("expertOvens.sections.leavening.title"),
       description: t("expertOvens.sections.leavening.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/Leavening-40.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/475344814_18035466359579879_2599917484872250557_n.jpg",
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const ExpertOvens = () => {
       title: t("expertOvens.sections.largeCavity.title"),
       description: t("expertOvens.sections.largeCavity.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/Large-oven-cavity.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/cook61612860353.webp",
     },
   ];
 
@@ -52,7 +52,7 @@ const ExpertOvens = () => {
   return (
     <>
       <Helmet>
-        <title>{t("expertOvens.meta.title")}</title>
+        <title>Expert | BULM</title>
         <meta name="description" content={t("expertOvens.meta.description")} />
         <meta name="keywords" content={t("expertOvens.meta.keywords")} />
         <meta property="og:title" content={t("expertOvens.meta.title")} />

@@ -402,10 +402,7 @@ const ProductCategory = () => {
   }, [currentFilters]);
 
   // SEO meta data
-  const seoTitle = `Premium ${activeBanner.title.replace(
-    "Premium ",
-    ""
-  )} | Kitchen Appliances`;
+  const seoTitle = ` Product | BULM`;
   const seoDescription = `Discover our collection of high-quality ${activeBanner.title.replace(
     "Premium ",
     ""

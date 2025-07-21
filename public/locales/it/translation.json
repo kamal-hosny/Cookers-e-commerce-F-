@@ -74,12 +74,12 @@
       ]
     },
     "uniqueCollections": {
-      "heading": "Collezioni Uniche",
-      "subheading": "con linee distintive",
+      "heading": "Stili Distintivi",
+      "subheading": "caratterizzati da forme aggraziate",
       "sections": [
         {
           "title": "Antico",
-          "description": "La collezione Antico è un omaggio al design classico. Tocchi retrò eleganti incontrano la tecnologia moderna in cucine free-standing ricche di fascino e prestazioni."
+          "description": "La collezione Antico è un omaggio al design Elegant. Tocchi retrò eleganti incontrano la tecnologia moderna in cucine free-standing ricche di fascino e prestazioni."
         },
         {
           "title": "Perfezione",
@@ -106,7 +106,7 @@
     },
     "contact": {
       "meta": {
-        "title": "Contatta BULM Italy – Richiedi Informazioni o Supporto",
+        "title": "Contatti | BULM",
         "description": "Contatta BULM Italy per informazioni sui prodotti, opportunità di collaborazione o supporto clienti. Siamo qui per aiutarti.",
         "keywords": "Contatta BULM, elettrodomestici da cucina italiani, supporto clienti, contatti BULM Italy, richiesta prodotti",
         "ogTitle": "Contatta BULM Italy – Scrivici Ora",
@@ -154,12 +154,12 @@
       "privacyPolicy": "Informativa sulla privacy"
     },
     "timeline_swiper": {
-      "title": "Una Storia di Successo Italiana",
+      "title": "Lo Spirito del Successo Italiano",
       "seo": {
-        "title": "Cronologia BULM – Una Storia di Successo Italiana",
+        "title": "Cronologia BULM – Lo Spirito del Successo Italiano",
         "description": "Scopri la storia ispiratrice di BULM – da un'idea nel 1979 a un marchio globale negli elettrodomestici da cucina premium.",
         "keywords": "cronologia BULM, storia dell'azienda, elettrodomestici italiani, innovazione in cucina, evoluzione culinaria",
-        "og_title": "Cronologia BULM – Una Storia di Successo Italiana",
+        "og_title": "Cronologia BULM – Lo Spirito del Successo Italiano",
         "og_description": "Esplora come BULM ha ridefinito le cucine nel tempo grazie a design, innovazione e artigianato italiano."
       },
       "entries": [
@@ -384,7 +384,7 @@
       "layout": {
         "title": "Collezioni Cucine",
         "subtitle": "Pensate per ogni gusto culinario",
-        "description": "Le cucine free-standing BULM rappresentano l’unione tra l’eccellenza artigianale italiana e prestazioni elevate. Che il tuo stile sia classico o moderno, troverai una collezione BULM capace di valorizzare ogni ambiente."
+        "description": "Le cucine free-standing BULM rappresentano l’unione tra l’eccellenza artigianale italiana e prestazioni elevate. Che il tuo stile sia Elegant o moderno, troverai una collezione BULM capace di valorizzare ogni ambiente."
       },
       "sections": {
         "antique": {
@@ -401,13 +401,13 @@
         },
         "elegant": {
           "title": "Elegante",
-          "description": "La collezione Elegante abbina stile classico e potenza affidabile. Una perfetta sintesi tra tradizione in ghisa e comandi moderni in un elettrodomestico raffinato."
+          "description": "La collezione Elegante abbina stile Elegant e potenza affidabile. Una perfetta sintesi tra tradizione in ghisa e comandi moderni in un elettrodomestico raffinato."
         }
       },
       "meta": {
         "title": "Collezioni Cucine BULM | Antico, Elegante e Altre",
         "description": "Scopri le collezioni BULM di cucine free-standing: Antico, Elegante, Perfezione e Miscela. Quando il design italiano incontra la tecnologia per la cucina moderna.",
-        "keywords": "Cucine BULM, cucine free-standing italiane, cucine dallo stile vintage, cucine moderne, cucine a gas professionali, linea cucine Elegante",
+        "keywords": "Cucine BULM, cucine free-standing italiane, cucine dallo stile Antique, cucine moderne, cucine a gas professionali, linea cucine Elegante",
         "ogTitle": "Collezioni Cucine BULM | Antico, Elegante e Altre",
         "ogDescription": "Scopri le cucine BULM progettate in Italia, adatte a ogni stile — dal retrò raffinato al minimal contemporaneo.",
         "ogImage": "/public/Home/Collections Cookers/Antique.jpeg",
@@ -538,17 +538,17 @@
       },
       "meta": {
         "title": "Collezione Piani Cottura Land BULM | Fascino rustico e innovazione italiana",
-        "description": "Scopri i piani cottura della collezione Land di BULM: un mix di estetica classica, manopole in ottone anticato e dettagli retrò per dare calore alla tua cucina.",
+        "description": "Scopri i piani cottura della collezione Land di BULM: un mix di estetica Elegant, manopole in ottone anticato e dettagli retrò per dare calore alla tua cucina.",
         "keywords": "Piani Cottura Land, estetica rustica, collezione BULM Land, manopole in ottone anticato, cucina tradizionale, elettrodomestici country",
         "ogTitle": "Collezione Piani Cottura Land BULM | Fascino rustico e innovazione italiana",
-        "ogDescription": "Ispirati allo stile country, i piani cottura Land di BULM fondono fascino classico e performance moderne.",
+        "ogDescription": "Ispirati allo stile country, i piani cottura Land di BULM fondono fascino Elegant e performance moderne.",
         "ogImage": "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-country-collection-hobs.jpg.webp"
       }
     }
     ,
     "antique": {
       "title": "Eleganza senza tempo, realizzazione impeccabile",
-      "paragraph": "La serie Vintage dona personalità e stile a ogni cucina, combinando linee armoniose, una varietà di colori e un’estetica retrò inconfondibile.\nDisponibile con forno singolo, doppio o triplo, la collezione Vintage BULM abbina piani cottura a gas con forni elettrici o ventilati per un'esperienza di cottura versatile.",
+      "paragraph": "La serie Antique dona personalità e stile a ogni cucina, combinando linee armoniose, una varietà di colori e un’estetica retrò inconfondibile.\nDisponibile con forno singolo, doppio o triplo, la collezione Antique BULM abbina piani cottura a gas con forni elettrici o ventilati per un'esperienza di cottura versatile.",
       "back": "Indietro_",
       "sections": {
         "1": {
@@ -561,7 +561,7 @@
         },
         "3": {
           "title": "Manopole dal gusto retrò",
-          "description": "Ispirate alle antiche stufe a legna degli anni ‘50, le cucine della linea Vintage presentano manopole con finitura in acciaio inox dal design elegante."
+          "description": "Ispirate alle antiche stufe a legna degli anni ‘50, le cucine della linea Antique presentano manopole con finitura in acciaio inox dal design elegante."
         },
         "4": {
           "title": "Dettagli curati",
@@ -569,23 +569,23 @@
         }
       },
       "products": {
-        "1": { "title": "Cucina indipendente Vintage a tre cavità con doppia alimentazione" },
-        "2": { "title": "Cucina indipendente Vintage a una cavità con forno a gas" },
-        "3": { "title": "Cucina indipendente Vintage a due cavità con doppia alimentazione" },
+        "1": { "title": "Cucina indipendente Antique a tre cavità con doppia alimentazione" },
+        "2": { "title": "Cucina indipendente Antique a una cavità con forno a gas" },
+        "3": { "title": "Cucina indipendente Antique a due cavità con doppia alimentazione" },
         "4": { "title": "Scopri di più" }
       },
       "meta": {
-        "title": "Cucine BULM Vintage | Cucine a Libera Installazione in Stile Retrò",
-        "description": "Scopri la linea Vintage BULM — cucine classiche dal fascino italiano che uniscono estetica retrò e funzionalità moderna. Disponibili in versioni a gas e doppia alimentazione.",
-        "keywords": "elettrodomestici da cucina retrò, BULM Vintage, cucine vintage, cucine a gas, cucine italiane a doppia alimentazione",
-        "ogDescription": "Con uno stile ispirato al passato e una costruzione di qualità, le cucine BULM Vintage portano eleganza e funzionalità nella tua cucina.",
-        "twitterDescription": "Con linee ispirate agli anni ‘50 e funzioni moderne, le cucine BULM Vintage offrono un perfetto equilibrio tra estetica e prestazioni."
+        "title": "Cucine BULM Antique | Cucine a Libera Installazione in Stile Retrò",
+        "description": "Scopri la linea Antique BULM — cucine classiche dal fascino italiano che uniscono estetica retrò e funzionalità moderna. Disponibili in versioni a gas e doppia alimentazione.",
+        "keywords": "elettrodomestici da cucina retrò, BULM Antique, cucine Antique, cucine a gas, cucine italiane a doppia alimentazione",
+        "ogDescription": "Con uno stile ispirato al passato e una costruzione di qualità, le cucine BULM Antique portano eleganza e funzionalità nella tua cucina.",
+        "twitterDescription": "Con linee ispirate agli anni ‘50 e funzioni moderne, le cucine BULM Antique offrono un perfetto equilibrio tra estetica e prestazioni."
       }
     }
     ,
     "elegant": {
-      "title": "Collezione Classica. Uno stile che non passa mai",
-      "paragraph": "La Collezione Classica rappresenta una scelta pratica e affidabile per la cucina quotidiana. Materiali di alta qualità si uniscono alla maestria artigianale italiana per creare un design sobrio ed essenziale. Le cucine a singola cavità sono disponibili in due larghezze: 60 cm e 90 cm.",
+      "title": "Collezione Elegant. Uno stile che non passa mai",
+      "paragraph": "La Collezione Elegant rappresenta una scelta pratica e affidabile per la cucina quotidiana. Materiali di alta qualità si uniscono alla maestria artigianale italiana per creare un design sobrio ed essenziale. Le cucine a singola cavità sono disponibili in due larghezze: 60 cm e 90 cm.",
       "back": "Indietro_",
       "sections": {
         "1": {
@@ -598,29 +598,29 @@
         },
         "3": {
           "title": "Maniglia in metallo minimalista",
-          "description": "Tutte le cucine della Collezione Classica sono dotate di una maniglia in metallo spazzolato per un tocco raffinato."
+          "description": "Tutte le cucine della Collezione Elegant sono dotate di una maniglia in metallo spazzolato per un tocco raffinato."
         }
       },
       "products": {
-        "1": { "title": "Cucina classica a induzione a singola cavità a libera installazione" },
-        "2": { "title": "Cucina classica a doppia alimentazione a singola cavità a libera installazione" },
-        "3": { "title": "Cucina classica elettrica a singola cavità a libera installazione" },
+        "1": { "title": "Cucina Elegant a induzione a singola cavità a libera installazione" },
+        "2": { "title": "Cucina Elegant a doppia alimentazione a singola cavità a libera installazione" },
+        "3": { "title": "Cucina Elegant elettrica a singola cavità a libera installazione" },
         "4": { "title": "Scopri di più" }
       },
       "meta": {
         "title": "Collezione Cucine Classiche | BULM Italia – Elegante & Duratura",
-        "description": "Scopri la Collezione Classica di BULM: cucine a libera installazione raffinate, realizzate in Italia. Disponibili a induzione, elettriche o a doppia alimentazione.",
+        "description": "Scopri la Collezione Elegant di BULM: cucine a libera installazione raffinate, realizzate in Italia. Disponibili a induzione, elettriche o a doppia alimentazione.",
         "keywords": "cucine classiche, cucine a libera installazione italiane, modelli a induzione, elettrodomestici a doppia alimentazione, cucine elettriche, design duraturo, BULM Italia",
         "ogTitle": "Collezione Cucine Classiche | BULM Italia",
-        "ogDescription": "Vivi l'eleganza italiana classica con le cucine a libera installazione BULM. Stile duraturo e prestazioni affidabili.",
+        "ogDescription": "Vivi l'eleganza italiana Elegant con le cucine a libera installazione BULM. Stile duraturo e prestazioni affidabili.",
         "twitterTitle": "Collezione Cucine Classiche | BULM Italia",
-        "twitterDescription": "Scopri il design senza tempo della Collezione Classica di BULM. Cucine a induzione, elettriche o a doppia alimentazione, tutte Made in Italy."
+        "twitterDescription": "Scopri il design senza tempo della Collezione Elegant di BULM. Cucine a induzione, elettriche o a doppia alimentazione, tutte Made in Italy."
       }
     }
     ,
     "mixture": {
       "title": "Collezione Fusion. Perfetta armonia con la tua cucina.",
-      "paragraph": "Progettata per adattarsi in modo naturale a qualsiasi disposizione della cucina, la Collezione Fusion propone cucine a libera installazione con piani di cottura a doppia alimentazione e forni a gas o elettrici. Le linee essenziali di questi apparecchi si fondono con eleganza negli ambienti cucina moderni.",
+      "paragraph": "Progettata per adattarsi in modo naturale a qualsiasi disposizione della cucina, la Collezione mixture propone cucine a libera installazione con piani di cottura a doppia alimentazione e forni a gas o elettrici. Le linee essenziali di questi apparecchi si fondono con eleganza negli ambienti cucina moderni.",
       "back": "Indietro_",
       "sections": {
         "1": {
@@ -641,26 +641,26 @@
         }
       },
       "products": {
-        "1": { "title": "Cucina a libera installazione Fusion con singola cavità e doppia alimentazione" },
-        "2": { "title": "Cucina a libera installazione Fusion con singola cavità e doppia alimentazione" },
-        "3": { "title": "Cucina a libera installazione Fusion con singola cavità e doppia alimentazione" },
+        "1": { "title": "Cucina a libera installazione mixture con singola cavità e doppia alimentazione" },
+        "2": { "title": "Cucina a libera installazione mixture con singola cavità e doppia alimentazione" },
+        "3": { "title": "Cucina a libera installazione mixture con singola cavità e doppia alimentazione" },
         "4": { "title": "Scopri di più" }
       },
       "meta": {
-        "title": "Cucine BULM Fusion | Soluzioni eleganti a doppia alimentazione",
-        "description": "Scopri la Collezione BULM Fusion – cucine moderne ed eleganti, perfettamente integrate con comandi avanzati e design italiano.",
+        "title": "Cucine BULM mixture | Soluzioni eleganti a doppia alimentazione",
+        "description": "Scopri la Collezione BULM mixture – cucine moderne ed eleganti, perfettamente integrate con comandi avanzati e design italiano.",
         "keywords": "cucine BULM, collezione Fusion, cucine doppia alimentazione, cucine a libera installazione, forni design italiano, elettrodomestici moderni, forni a gas ed elettrici, supporti pentole robusti",
-        "ogTitle": "Cucine BULM Fusion | Soluzioni eleganti a doppia alimentazione",
-        "ogDescription": "Le cucine BULM della Collezione Fusion uniscono estetica raffinata e funzionalità affidabile per ambienti cucina moderni.",
-        "twitterTitle": "Cucine BULM Fusion | Soluzioni eleganti a doppia alimentazione",
-        "twitterDescription": "La Collezione Fusion di BULM porta nella tua casa prestazioni elevate e design italiano di classe."
+        "ogTitle": "Cucine BULM mixture | Soluzioni eleganti a doppia alimentazione",
+        "ogDescription": "Le cucine BULM della Collezione mixture uniscono estetica raffinata e funzionalità affidabile per ambienti cucina moderni.",
+        "twitterTitle": "Cucine BULM mixture | Soluzioni eleganti a doppia alimentazione",
+        "twitterDescription": "La Collezione mixture di BULM porta nella tua casa prestazioni elevate e design italiano di classe."
       }
     }
     
     ,
     "perfection": {
-      "title": "Collezione Excellence — Prestazioni Elevate, Design Ispirato al Professionale",
-      "description": "Ispirata all’ambiente professionale e progettata per garantire massima efficienza, la Linea Excellence di BULM stabilisce nuovi standard per le cucine free-standing.Disponibile in versioni da 60cm e 90cm, con possibilità di scelta tra piani a induzione oppure a gas, abbinati a forni multifunzione elettrici o soluzioni ibride.",
+      "title": "Collezione Perfection — Prestazioni Elevate, Design Ispirato al Professionale",
+      "description": "Ispirata all’ambiente professionale e progettata per garantire massima efficienza, la Linea Perfection di BULM stabilisce nuovi standard per le cucine free-standing.Disponibile in versioni da 60cm e 90cm, con possibilità di scelta tra piani a induzione oppure a gas, abbinati a forni multifunzione elettrici o soluzioni ibride.",
       "sections": [
         {
           "title": "Gestione Digitale Avanzata",
@@ -686,12 +686,12 @@
         { "title": "Scopri di più" }
       ],
       "seo": {
-        "title": "Cucinatori Excellence di BULM | Cucine Free-standing di Alta Gamma",
-        "description": "Scopri l’eccellenza con la gamma BULM Excellence – cucine free-standing dal design italiano, prestazioni elevate e configurazioni su misura per ogni esigenza.",
-        "keywords": "Cucinatori BULM, Collezione Excellence, cucine italiane free-standing, piani cottura a induzione, cucine a gas, forni multifunzione, elettrodomestici professionali, design moderno",
-        "ogTitle": "Cucinatori Excellence di BULM | Prestazioni e Stile Professionale",
-        "ogDescription": "Con un design raffinato e prestazioni di alto livello, la Collezione Excellence di BULM ridefinisce il concetto di cucina free-standing.",
-        "twitterDescription": "BULM Excellence: la linea di cucinatori per chi cerca performance superiori e uno stile ispirato al mondo professionale."
+        "title": "Cucinatori Perfection di BULM | Cucine Free-standing di Alta Gamma",
+        "description": "Scopri l’eccellenza con la gamma BULM Perfection – cucine free-standing dal design italiano, prestazioni elevate e configurazioni su misura per ogni esigenza.",
+        "keywords": "Cucinatori BULM, Collezione Perfection, cucine italiane free-standing, piani cottura a induzione, cucine a gas, forni multifunzione, elettrodomestici professionali, design moderno",
+        "ogTitle": "Cucinatori Perfection di BULM | Prestazioni e Stile Professionale",
+        "ogDescription": "Con un design raffinato e prestazioni di alto livello, la Collezione Perfection di BULM ridefinisce il concetto di cucina free-standing.",
+        "twitterDescription": "BULM Perfection: la linea di cucinatori per chi cerca performance superiori e uno stile ispirato al mondo professionale."
       }
     }
     
@@ -831,7 +831,7 @@
     "landOvens": {
       "meta": {
         "title": "Forni da incasso Land | BULM Italia",
-        "description": "Scopri la linea Land di forni da incasso BULM — unione tra estetica rustica e tecnologia moderna. Forni elettrici multifunzione con funzione Idroclean e dettagli in stile country classico.",
+        "description": "Scopri la linea Land di forni da incasso BULM — unione tra estetica rustica e tecnologia moderna. Forni elettrici multifunzione con funzione Idroclean e dettagli in stile country Elegant.",
         "keywords": "forni Land, BULM, forni da incasso, stile rustico, elettrodomestici cucina, Idroclean, forni elettrici multifunzione, country chic",
         "ogDescription": "La collezione Land di BULM unisce fascino tradizionale e praticità contemporanea con forni da incasso dal design caldo e raffinato."
       },
@@ -840,7 +840,7 @@
       "sections": {
         "countryStyle": {
           "title": "Estetica country distintiva",
-          "description": "Il design rustico si distingue per le manopole in ottone anticato e le serigrafie dorate che richiamano uno stile vintage, perfetto connubio tra fascino classico e innovazione."
+          "description": "Il design rustico si distingue per le manopole in ottone anticato e le serigrafie dorate che richiamano uno stile Antique, perfetto connubio tra fascino Elegant e innovazione."
         },
         "idroclean": {
           "title": "Idroclean",
@@ -883,7 +883,7 @@
       "error": "Errore"
     },
     "product": {
-      "classic": "Classico",
+      "classic": "Elegant",
       "model": "Modello",
       "dimensions": "Dimensioni",
       "aesthetics": "Estetica",

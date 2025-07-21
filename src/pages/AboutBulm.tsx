@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import TimelineSwiper from "../components/AboutBulm/TimelineSwiper";
 import BlocksGap from "../components/common/BlocksGap";
 import HeadCollection from "../components/common/HeadCollection";
@@ -34,6 +35,11 @@ const AboutBulm = () => {
 
   return (
     <main>
+            <Helmet>
+   
+        <title>About | BULM</title>
+    
+      </Helmet>
       <HeadCollection image="https://cms.bulm.it/wp-content/uploads/2025/07/Bulm.jpeg" />
 
       <div className="container relative z-5 pt-[380px] pb-20 space-y-8"></div>

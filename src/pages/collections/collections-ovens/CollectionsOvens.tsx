@@ -65,7 +65,7 @@ const CollectionsOvens = () => {
     <>
       <Helmet>
         <html lang={currentLang} />
-        <title>{t("collectionsOvens.meta.title")}</title>
+        <title>Collections Ovens | BULM</title>
         <meta name="description" content={t("collectionsOvens.meta.description")} />
         <meta name="keywords" content={t("collectionsOvens.meta.keywords")} />
         <meta property="og:title" content={t("collectionsOvens.meta.ogTitle")} />

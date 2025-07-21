@@ -34,6 +34,7 @@ const CollectionsHobs = () => {
       <Helmet>
         <html lang={i18n.language} />
         <title>{t("collectionsHobs.meta.title")}</title>
+        <title>Collections Hobs | BULM</title>
         <meta name="description" content={t("collectionsHobs.meta.description")} />
         <meta name="keywords" content={t("collectionsHobs.meta.keywords")} />
         <meta name="robots" content="index, follow" />

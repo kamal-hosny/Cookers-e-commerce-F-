@@ -16,28 +16,28 @@ const Perfection = () => {
       title: t("perfection.sections.0.title"),
       description: t("perfection.sections.0.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-excellence-touch-control-electronic-programmer.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Untitled-design-2025-04-01T135211.834.jpg",
     },
     {
       id: 2,
       title: t("perfection.sections.1.title"),
       description: t("perfection.sections.1.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/excellence-brass-dual-burners.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/61fkdciolrl._ac_sl1500__vsm6a7ape9o7de4u.webp",
     },
     {
       id: 3,
       title: t("perfection.sections.2.title"),
       description: t("perfection.sections.2.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/excellence-brushed-metal-finishing-knobs-with-outer-bezel.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/zline-classic-stainless-steel-gas-range-CGR-BR-36-door-detail-2_800x.webp",
     },
     {
       id: 4,
       title: t("perfection.sections.3.title"),
       description: t("perfection.sections.3.description"),
       image:
-        "https://cms.bulm.it/wp-content/uploads/2025/07/imgi_7_excellence-double-finishing-handle.jpg.png",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/AZ2_PRO365DFMXVL.avif",
     },
   ];
 
@@ -46,7 +46,7 @@ const Perfection = () => {
     <>
       <Helmet>
         <html lang="en" />
-        <title>{t("perfection.seo.title")}</title>
+        <title>Perfection | BULM</title>
         <meta name="description" content={t("perfection.seo.description")} />
         <meta name="keywords" content={t("perfection.seo.keywords")} />
         <meta name="robots" content="index, follow" />

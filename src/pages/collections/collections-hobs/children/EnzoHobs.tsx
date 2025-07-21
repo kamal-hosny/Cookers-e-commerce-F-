@@ -93,7 +93,7 @@ const EnzoHobs = () => {
     <>
       <Helmet>
         <html lang={currentLang} />
-        <title>{t("enzoHobs.meta.title")}</title>
+        <title>Enzo Collection | BULM</title>
         <meta name="description" content={t("enzoHobs.meta.description")} />
         <meta name="keywords" content={t("enzoHobs.meta.keywords")} />
         <meta property="og:title" content={t("enzoHobs.meta.ogTitle")} />

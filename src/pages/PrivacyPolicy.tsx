@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
     <main className="container px-8 md:px-4 py-12 max-w-5xl bg-white">
       <Helmet>
         <html lang="en" />
-        <title>{t("privacy.title")}</title>
+        <title>Privacy Policy | BULM</title>
         <meta name="description" content={t("privacy.metaDescription")} />
         <meta name="keywords" content={t("privacy.metaKeywords")} />
         <meta name="robots" content="index, follow" />
