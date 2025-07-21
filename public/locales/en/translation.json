@@ -916,24 +916,128 @@
   },
   "banner": {
     "cookers": {
-      "title": "Italian Craftsmanship for Cooking",
-      "description": "Built to inspire, every BULM freestanding cooker is a blend of refined design and high performance — perfect for modern culinary spaces."
+      "title": "Italian Design Meets Cooking Excellence",
+      "description": "Every BULM freestanding cooker combines sleek aesthetics with dependable power — an ideal match for today's kitchens."
     },
     "ovens": {
-      "title": "Built-in ovens with Italian innovation and elegance",
-      "description": "Elevate your kitchen with BULM built-in ovens — engineered for reliability and refined for gourmet results. Available in 60cm and 90cm sizes, with multifunctional features including Easy Steam, Master Pizza mode, rotisserie, and more."
+      "title": "Built-in Ovens Blending Style and Innovation",
+      "description": "Bring precision and elegance to your culinary space with BULM built-in ovens. Available in 60cm and 90cm models, featuring functions like Easy Steam, Pizza Mode, rotisserie, and more."
     },
     "hobs": {
-      "title": "Cutting-edge hobs for refined tastes",
-      "description": "Discover BULM hobs in gas, induction, and vitroceramic variants — all meticulously designed to pair seamlessly with our oven range and deliver unmatched precision."
+      "title": "Precision Cooking on Every Surface",
+      "description": "Choose from BULM’s gas, induction, and ceramic hobs — engineered to harmonize with your kitchen and offer accurate, responsive heat control."
     },
     "hoods": {
-      "title": "Stylish and efficient kitchen hoods",
-      "description": "BULM chimney and under-cabinet hoods are designed for quiet operation and maximum performance — ensuring a fresh, clean, and elegant kitchen atmosphere."
+      "title": "Quiet Power, Elegant Ventilation",
+      "description": "BULM's chimney and under-cabinet hoods offer high efficiency with low noise — maintaining fresh air and a refined kitchen ambiance."
     },
     "compact": {
-      "title": "Compact appliances. Maximum performance.",
-      "description": "Perfectly complementing the BULM kitchen collection, our compact range delivers exceptional efficiency and timeless style for modern homes."
+      "title": "Smart-Sized Appliances with Big Performance",
+      "description": "Our compact collection enhances your kitchen with efficient technology and sophisticated styling, fitting seamlessly into contemporary living spaces."
+    }
+  }
+  ,
+  "productCategory": {
+    "loading": "Loading products...",
+    "errorTitle": "Error Loading Products",
+    "errorMessage": "Please try again later or contact support.",
+    "reload": "Reload Page",
+    "activeFilters": "Active filters",
+    "clearAllFilters": "Clear all filters",
+    "categoriesTitle": "Categories",
+    "filtersTitle": "Filters",
+    "productsFound": "{{count}} Products Found",
+    "noProducts": "No products match your filters",
+    "tryAdjust": "Try adjusting your filters or browse other categories",
+    "resetFilters": "Reset Filters",
+    "categories": {
+      "cookers": "Cookers",
+      "ovens": "Ovens",
+      "hobs": "Hobs",
+      "hoods": "Hoods",
+      "compact-products": "Compact Products"
+    },
+    "filters": {
+      "color": "Color",
+      "width": "Width",
+      "collection": "Collection",
+      "cooktop_type": "Cooktop Type",
+      "oven_type": "Oven Type",
+      "special_function": "Special Function",
+      "cooking_zone": "Cooking Zone",
+      "installation_mode": "Installation Mode"
+    },
+    "filterOptions": {
+      "color": {
+        "anthracite": "Anthracite",
+        "burgundy": "Burgundy",
+        "white": "White",
+        "cream": "Cream",
+        "black": "Black",
+        "slate_gray": "Slate Gray",
+        "stainless_steel": "Stainless Steel",
+        "avena": "Avena",
+        "mirror": "Mirror",
+        "brown": "Brown",
+        "nero": "Nero"
+      },
+      "width": {
+        "30": "30 cm",
+        "45": "45 cm",
+        "60": "60 cm",
+        "75": "75 cm",
+        "80": "80 cm",
+        "90": "90 cm",
+        "100": "100 cm",
+        "120": "120 cm"
+      },
+      "collection": {
+        "antique": "Antique",
+        "elegant": "Elegant",
+        "mixture": "Mixture",
+        "perfection": "Perfection",
+        "expert": "Expert",
+        "enzo_titan": "Enzo Titan",
+        "land": "Land",
+        "elementum": "Elementum",
+        "nero": "Nero",
+        "enzo": "Enzo",
+        "alternate": "Alternate"
+      },
+      "cooktop_type": {
+        "gas": "Gas",
+        "electric": "Electric",
+        "mixed": "Mixed"
+      },
+      "oven_type": {
+        "electric": "Electric",
+        "gas": "Gas",
+        "gas_with_fan": "Gas with Fan",
+        "electric_multifunction": "Electric Multifunction",
+        "electric_static": "Electric Static",
+        "electric_fan": "Electric Fan"
+      },
+      "special_function": {
+        "rotisserie": "Rotisserie",
+        "true_fan_cooking": "True Fan Cooking",
+        "pizza_300°c": "Pizza 300°C",
+        "leavening_40°c": "Leavening 40°C",
+        "easy_steam": "Easy Steam",
+        "idroclean": "Idroclean",
+        "booster": "Booster",
+        "leavening": "Leavening"
+      },
+      "cooking_zone": {
+        "electric_solid_plates": "Electric Solid Plates",
+        "mixed": "Mixed",
+        "gas_burners": "Gas Burners",
+        "induction": "Induction",
+        "ceramic": "Ceramic"
+      },
+      "installation_mode": {
+        "under_cabinet": "Under Cabinet",
+        "wall": "Wall Mounted"
+      }
     }
   }
 }

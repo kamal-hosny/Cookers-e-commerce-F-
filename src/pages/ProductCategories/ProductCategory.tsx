@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback, useMemo, memo } from "react";
+import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import {
   FaChevronDown,
   FaChevronRight,
@@ -9,9 +10,8 @@ import {
 import { Link, useParams } from "react-router-dom";
 import BoxesFooter from "../../components/common/BoxesFooter";
 import Breadcrumbs from "../../components/ui/Breadcrumbs";
-import { banners } from "./data";
 import { useProductsByCategory } from "../../Hooks/useProductsByCategory";
-import { useTranslation } from "react-i18next";
+import { banners } from "./data";
 
 interface Filter {
   title: string;
@@ -151,11 +151,11 @@ const categoryFilters: Record<string, Filter[]> = {
 
 // Categories structure with name and path
 const categories = [
-  { name: "Cookers", path: "cookers" },
-  { name: "Ovens", path: "ovens" },
-  { name: "Hobs", path: "hobs" },
-  { name: "Hoods", path: "hoods" },
-  { name: "Compact Products", path: "compact-products" },
+  { name: "cookers", path: "cookers" },
+  { name: "ovens", path: "ovens" },
+  { name: "hobs", path: "hobs" },
+  { name: "hoods", path: "hoods" },
+  { name: "compact-products", path: "compact-products" },
 ];
 
 interface MetaDataItem {
@@ -232,11 +232,11 @@ const ProductCard = memo(({ product }: { product: RealProduct }) => (
 
 // Custom Filter Option Component
 const FilterOption = ({
-  option,
+  label,
   isSelected,
   onClick,
 }: {
-  option: string;
+  label: string;
   isSelected: boolean;
   onClick: () => void;
 }) => (
@@ -248,7 +248,7 @@ const FilterOption = ({
         : "bg-gray-100 text-gray-700 hover:bg-gray-200"
     }`}
   >
-    {option.replace(/_/g, " ")}
+    {label}
   </button>
 );
 
@@ -273,11 +273,6 @@ const ProductCategory = () => {
   const currentFilters = useMemo(() => {
     return categoryFilters[activeCategory] || categoryFilters.cookers;
   }, [activeCategory]);
-
-  // Helper function to format filter titles for display
-  const formatFilterTitle = useCallback((title: string) => {
-    return title.replace(/_/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
-  }, []);
 
   // Initialize selected filters
   useEffect(() => {
@@ -417,7 +412,7 @@ const ProductCategory = () => {
       <div className="min-h-screen bg-[#eaeaea] flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-[#30505b] mx-auto"></div>
-          <p className="mt-4 text-[#30505b] font-medium">Loading products...</p>
+          <p className="mt-4 text-[#30505b] font-medium">{t('productCategory.loading')}</p>
         </div>
       </div>
     );
@@ -426,12 +421,8 @@ const ProductCategory = () => {
     return (
       <div className="min-h-screen bg-[#eaeaea] flex items-center justify-center">
         <div className="text-center p-8 bg-white rounded-lg shadow-lg max-w-md">
-          <h2 className="text-xl font-bold text-red-600 mb-4">
-            Error Loading Products
-          </h2>
-          <p className="text-gray-700 mb-6">
-            Please try again later or contact support.
-          </p>
+          <h2 className="text-xl font-bold text-red-600 mb-4">{t('productCategory.errorTitle')}</h2>
+          <p className="text-gray-700 mb-6">{t('productCategory.errorMessage')}</p>
           <button
             className="px-6 py-3 bg-[#30505b] text-white rounded-lg hover:bg-[#1d3a43] transition-colors flex items-center justify-center mx-auto"
             onClick={() => window.location.reload()}
@@ -448,7 +439,7 @@ const ProductCategory = () => {
                 clipRule="evenodd"
               />
             </svg>
-            Reload Page
+            {t('productCategory.reload')}
           </button>
         </div>
       </div>
@@ -501,7 +492,7 @@ const ProductCategory = () => {
         {activeFilters.length > 0 && (
           <div className="mb-6 bg-white p-4 rounded-lg shadow-sm">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="font-medium text-gray-700">Active filters:</span>
+              <span className="font-medium text-gray-700">{t('productCategory.activeFilters')}:</span>
               {activeFilters.map(({ filter, option }) => (
                 <div
                   key={`${filter}-${option}`}
@@ -509,7 +500,7 @@ const ProductCategory = () => {
                 >
                   <span className="text-sm font-medium">
                     <span className="text-[#30505b] font-semibold">
-                      {formatFilterTitle(filter)}:
+                      {t(`productCategory.filters.${filter}`)}:
                     </span>{" "}
                     {option.replace(/_/g, " ")}
                   </span>
@@ -525,7 +516,7 @@ const ProductCategory = () => {
                 onClick={resetFilters}
                 className="ml-auto text-sm text-red-600 font-medium hover:text-red-800 transition-colors"
               >
-                Clear all filters
+                {t('productCategory.clearAllFilters')}
               </button>
             </div>
           </div>
@@ -538,7 +529,7 @@ const ProductCategory = () => {
               onClick={() => setShowCategories(!showCategories)}
               className="w-full bg-[#6b8793] text-white px-4 py-3 flex justify-between items-center rounded-t-lg"
             >
-              <span className="font-bold">Categories</span>
+              <span className="font-bold">{t('productCategory.categoriesTitle')}</span>
               <FaChevronDown
                 size={14}
                 className={`transition-transform duration-300 ${
@@ -561,7 +552,7 @@ const ProductCategory = () => {
                         : "hover:bg-gray-50"
                     }`}
                   >
-                    {category.name}
+                    {t(`productCategory.categories.${category.name}`)}
                   </Link>
                 </li>
               ))}
@@ -574,7 +565,7 @@ const ProductCategory = () => {
               className="w-full bg-white border px-4 py-3 flex justify-between items-center rounded-t-lg"
             >
               <span className="font-bold flex items-center gap-2">
-                <FaFilter size={14} /> Filters
+                <FaFilter size={14} /> {t('productCategory.filtersTitle')}
               </span>
               <FaChevronDown
                 size={14}
@@ -597,7 +588,7 @@ const ProductCategory = () => {
                     onClick={() => toggleAccordion(filter.title)}
                     className="w-full text-left py-2 font-bold flex justify-between items-center "
                   >
-                    {formatFilterTitle(filter.title)}
+                    {t(`productCategory.filters.${filter.title}`)}
                     <FaChevronRight
                       className={`transform transition-transform duration-300 ${
                         openAccordions[filter.title] ? "rotate-90" : "rotate-0"
@@ -613,7 +604,7 @@ const ProductCategory = () => {
                       {filter.options.map((option) => (
                         <FilterOption
                           key={option}
-                          option={option}
+                          label={t(`productCategory.filterOptions.${filter.title}.${option}`)}
                           isSelected={selectedFilters[filter.title] === option}
                           onClick={() =>
                             handleFilterChange(filter.title, option)
@@ -633,7 +624,7 @@ const ProductCategory = () => {
           <div className="hidden lg:block col-span-1 space-y-6">
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="bg-[#6b8793] text-white px-4 py-3 font-bold">
-                Categories
+                {t('productCategory.categoriesTitle')}
               </div>
               <ul className="space-y-1 p-2">
                 {categories.map((category) => (
@@ -646,7 +637,7 @@ const ProductCategory = () => {
                           : "hover:bg-gray-50"
                       }`}
                     >
-                      {category.name}
+                      {t(`productCategory.categories.${category.name}`)}
                     </Link>
                   </li>
                 ))}
@@ -656,7 +647,7 @@ const ProductCategory = () => {
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="flex items-center gap-2 bg-[#6b8793] text-white px-4 py-3 font-bold">
                 <FaFilter />
-                <span>Filters</span>
+                <span>{t('productCategory.filtersTitle')}</span>
               </div>
               <div className="p-4 space-y-6">
                 {currentFilters.map((filter) => (
@@ -665,7 +656,7 @@ const ProductCategory = () => {
                       onClick={() => toggleAccordion(filter.title)}
                       className="w-full text-left font-bold py-2  flex justify-between items-center"
                     >
-                      {formatFilterTitle(filter.title)}
+                      {t(`productCategory.filters.${filter.title}`)}
                       <FaChevronRight
                         className={`transform transition-transform  duration-300 ${
                           openAccordions[filter.title]
@@ -685,7 +676,7 @@ const ProductCategory = () => {
                         {filter.options.map((option) => (
                           <FilterOption
                             key={option}
-                            option={option}
+                            label={t(`productCategory.filterOptions.${filter.title}.${option}`)}
                             isSelected={
                               selectedFilters[filter.title] === option
                             }
@@ -706,7 +697,7 @@ const ProductCategory = () => {
           <div className="col-span-3">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
               <h2 className="text-xl font-bold text-[#30505b]">
-                {filteredProducts.length} Products Found
+                {t('productCategory.productsFound', { count: filteredProducts.length })}
               </h2>
 
               {activeFilters.length > 0 && (
@@ -715,7 +706,7 @@ const ProductCategory = () => {
                   onClick={resetFilters}
                 >
                   <FaTimes className="mr-1" size={12} />
-                  Clear All Filters
+                  {t('productCategory.clearAllFilters')}
                 </button>
               )}
             </div>
@@ -738,18 +729,14 @@ const ProductCategory = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  No products match your filters
-                </h3>
-                <p className="text-gray-600 max-w-md mx-auto mb-6">
-                  Try adjusting your filters or browse other categories
-                </p>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">{t('productCategory.noProducts')}</h3>
+                <p className="text-gray-600 max-w-md mx-auto mb-6">{t('productCategory.tryAdjust')}</p>
                 <div className="flex justify-center gap-3">
                   <button
                     className="px-5 py-2 cursor-pointer bg-[#30505b] text-white rounded-lg hover:bg-[#1d3a43] transition-colors"
                     onClick={resetFilters}
                   >
-                    Reset Filters
+                    {t('productCategory.resetFilters')}
                   </button>
                 </div>
               </div>

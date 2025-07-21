@@ -907,24 +907,128 @@
     },
     "banner": {
       "cookers": {
-        "title": "Artigianato italiano per la cucina",
-        "description": "Progettati per ispirare, ogni cucina a libera installazione BULM è una combinazione di design raffinato e alte prestazioni — perfetta per gli spazi culinari moderni."
+        "title": "Design italiano e prestazioni in cucina",
+        "description": "Le cucine a libera installazione BULM uniscono estetica elegante e funzionalità avanzate — pensate per la vita moderna."
       },
       "ovens": {
-        "title": "Forni da incasso con innovazione ed eleganza italiana",
-        "description": "Dai valore alla tua cucina con i forni da incasso BULM — progettati per affidabilità e perfezionati per risultati gourmet. Disponibili nei formati da 60 cm e 90 cm, con funzionalità multifunzione come Easy Steam, modalità Master Pizza, girarrosto e altro ancora."
+        "title": "Forni da incasso: tecnologia ed eleganza",
+        "description": "Con i forni da incasso BULM, trasformi la tua cucina in uno spazio gourmet. Disponibili in 60 e 90 cm, con funzioni come Easy Steam, modalità Pizza, girarrosto e altro."
       },
       "hobs": {
-        "title": "Piani cottura all'avanguardia per gusti raffinati",
-        "description": "Scopri i piani cottura BULM a gas, induzione e vetroceramica — tutti progettati con cura per abbinarsi perfettamente alla nostra gamma di forni e offrire una precisione senza pari."
+        "title": "Cottura precisa per ogni esigenza",
+        "description": "I piani cottura BULM, disponibili in versioni a gas, induzione e vetroceramica, sono progettati per garantire controllo preciso e integrazione estetica con il tuo ambiente cucina."
       },
       "hoods": {
-        "title": "Cappe da cucina eleganti ed efficienti",
-        "description": "Le cappe BULM a camino e sottopensile sono progettate per un funzionamento silenzioso e prestazioni massime — garantendo un'atmosfera cucina fresca, pulita ed elegante."
+        "title": "Cappe silenziose dal design raffinato",
+        "description": "Le cappe BULM, sia a camino che sottopensile, combinano potenza aspirante e funzionamento silenzioso per una cucina sempre fresca e ordinata."
       },
       "compact": {
-        "title": "Elettrodomestici compatti. Prestazioni massime.",
-        "description": "Perfettamente complementari alla collezione cucina BULM, la nostra gamma compatta offre efficienza eccezionale e stile senza tempo per le case moderne."
+        "title": "Piccoli elettrodomestici, grandi risultati",
+        "description": "La gamma compatta BULM offre soluzioni salvaspazio ad alte prestazioni, ideali per ambienti moderni e dinamici."
+      }
+    }
+    ,
+    "productCategory": {
+      "loading": "Caricamento prodotti...",
+      "errorTitle": "Errore nel caricamento dei prodotti",
+      "errorMessage": "Riprova più tardi o contatta il supporto.",
+      "reload": "Ricarica pagina",
+      "activeFilters": "Filtri attivi",
+      "clearAllFilters": "Rimuovi tutti i filtri",
+      "categoriesTitle": "Categorie",
+      "filtersTitle": "Filtri",
+      "productsFound": "{{count}} prodotti trovati",
+      "noProducts": "Nessun prodotto corrisponde ai filtri selezionati",
+      "tryAdjust": "Prova a modificare i filtri o esplora altre categorie",
+      "resetFilters": "Reimposta filtri",
+      "categories": {
+        "cookers": "Cucine",
+        "ovens": "Forni",
+        "hobs": "Piani cottura",
+        "hoods": "Cappe",
+        "compact-products": "Prodotti compatti"
+      },
+      "filters": {
+        "color": "Colore",
+        "width": "Larghezza",
+        "collection": "Collezione",
+        "cooktop_type": "Tipo piano cottura",
+        "oven_type": "Tipo forno",
+        "special_function": "Funzione speciale",
+        "cooking_zone": "Zona di cottura",
+        "installation_mode": "Modalità installazione"
+      },
+      "filterOptions": {
+        "color": {
+          "anthracite": "Antracite",
+          "burgundy": "Bordeaux",
+          "white": "Bianco",
+          "cream": "Crema",
+          "black": "Nero",
+          "slate_gray": "Grigio ardesia",
+          "stainless_steel": "Acciaio inox",
+          "avena": "Avena",
+          "mirror": "Specchio",
+          "brown": "Marrone",
+          "nero": "Nero"
+        },
+        "width": {
+          "30": "30 cm",
+          "45": "45 cm",
+          "60": "60 cm",
+          "75": "75 cm",
+          "80": "80 cm",
+          "90": "90 cm",
+          "100": "100 cm",
+          "120": "120 cm"
+        },
+        "collection": {
+          "antique": "Antico",
+          "elegant": "Elegante",
+          "mixture": "Miscela",
+          "perfection": "Perfezione",
+          "expert": "Esperto",
+          "enzo_titan": "Enzo Titan",
+          "land": "Terra",
+          "elementum": "Elementum",
+          "nero": "Nero",
+          "enzo": "Enzo",
+          "alternate": "Alternate"
+        },
+        "cooktop_type": {
+          "gas": "Gas",
+          "electric": "Elettrico",
+          "mixed": "Misto"
+        },
+        "oven_type": {
+          "electric": "Elettrico",
+          "gas": "Gas",
+          "gas_with_fan": "Gas ventilato",
+          "electric_multifunction": "Elettrico multifunzione",
+          "electric_static": "Elettrico statico",
+          "electric_fan": "Elettrico ventilato"
+        },
+        "special_function": {
+          "rotisserie": "Girarrosto",
+          "true_fan_cooking": "Cottura ventilata",
+          "pizza_300°c": "Pizza 300°C",
+          "leavening_40°c": "Lievitazione 40°C",
+          "easy_steam": "Easy Steam",
+          "idroclean": "Idroclean",
+          "booster": "Booster",
+          "leavening": "Lievitazione"
+        },
+        "cooking_zone": {
+          "electric_solid_plates": "Piastre elettriche solide",
+          "mixed": "Misto",
+          "gas_burners": "Bruciatori a gas",
+          "induction": "Induzione",
+          "ceramic": "Ceramica"
+        },
+        "installation_mode": {
+          "under_cabinet": "Sottopensile",
+          "wall": "A parete"
+        }
       }
     }
   }
