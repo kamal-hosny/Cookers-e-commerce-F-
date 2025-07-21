@@ -42,8 +42,8 @@ const NeroLineCollection = lazy(
 const CollectionsOvens = lazy(
   () => import("../pages/collections/collections-ovens/CollectionsOvens")
 );
-const AlterumOvens = lazy(
-  () => import("../pages/collections/collections-ovens/children/AlterumOvens")
+const AlternateOvens = lazy(
+  () => import("../pages/collections/collections-ovens/children/AlternateOvens")
 );
 const LandOvens = lazy(
   () => import("../pages/collections/collections-ovens/children/LandOvens")
@@ -144,8 +144,8 @@ const AppRouter = () => {
           element: <CollectionsOvens />,
         },
         {
-          path: "collections/collections-ovens/alterum-ovens",
-          element: <AlterumOvens />,
+          path: "collections/collections-ovens/alternate-ovens",
+          element: <AlternateOvens />,
         },
         {
           path: "collections/collections-ovens/land-ovens",

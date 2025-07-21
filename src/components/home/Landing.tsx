@@ -16,7 +16,7 @@ const Landing = () => {
         <div className="video relative">
           <img
             className="w-full h-[800px] object-cover"
-            src="/Home/landingImage.webp"
+            src="https://cms.bulm.it/wp-content/uploads/2025/07/bb.jpeg"
             loading="eager"
           />
 

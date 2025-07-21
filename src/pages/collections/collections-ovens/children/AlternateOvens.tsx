@@ -7,7 +7,7 @@ import HeadCollection from "../../../../components/common/HeadCollection";
 import BoxesFooter from "../../../../components/common/BoxesFooter";
 import { Helmet } from "react-helmet-async";
 
-const AlterumOvens = () => {
+const AlternateOvens = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
@@ -80,4 +80,4 @@ const AlterumOvens = () => {
   );
 };
 
-export default AlterumOvens;
+export default AlternateOvens;

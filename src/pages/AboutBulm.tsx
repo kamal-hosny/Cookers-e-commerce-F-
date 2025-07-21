@@ -11,21 +11,21 @@ const sections = [
     title: "about.section1Title",
     description: "about.section1Desc",
     image:
-      "https://cms.bulm.it/wp-content/uploads/2025/07/Style-Design-and-Technology-—-Made-in-Italy.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/dd.jpg",
   },
   {
     id: 2,
     title: "about.section2Title",
     description: "about.section2Desc",
     image:
-      "https://cms.bulm.it/wp-content/uploads/2025/07/54000-m²-Production-Site-in-Northern-Italy.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/dfsd.jpg",
   },
   {
     id: 3,
     title: "about.section3Title",
     description: "about.section3Desc",
     image:
-      "https://cms.bulm.it/wp-content/uploads/2025/07/Commitment-to-High-Quality-Standards.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/dsfg.jpg",
   },
 ];
 
@@ -80,36 +80,39 @@ const AboutBulm = () => {
           <p>{t("about.heartDesc")}</p>
         </div>
 
-        <div className="about-swiper-section ">
-          <Swiper
-            spaceBetween={10}
-            pagination={{ clickable: true }}
-            breakpoints={{
-              320: { slidesPerView: 1 },
-              640: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1024: { slidesPerView: 4 },
-              1280: { slidesPerView: 5 },
-            }}
-            className="mySwiper"
-          >
-            {[
-              "https://cms.bulm.it/wp-content/uploads/2025/07/salmone.jpg.webp",
-              "https://cms.bulm.it/wp-content/uploads/2025/07/impiattamento.jpg.webp",
-              "https://cms.bulm.it/wp-content/uploads/2025/07/pane.jpg.webp",
-              "https://cms.bulm.it/wp-content/uploads/2025/07/verdure.jpg.webp",
-              "https://cms.bulm.it/wp-content/uploads/2025/07/bicchieri.jpg.webp",
-            ].map((img, index) => (
-              <SwiperSlide key={index}>
-                <img
-                  src={img}
-                  alt={`slide-${index}`}
-                  className="w-full h-[300px] object-cover "
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
+        <div className="about-swiper-section">
+  <Swiper
+    spaceBetween={10}
+    pagination={{ clickable: true }}
+    breakpoints={{
+      320: { slidesPerView: 1 },
+      640: { slidesPerView: 2 },
+      768: { slidesPerView: 3 },
+      1024: { slidesPerView: 4 },
+      1280: { slidesPerView: 5 },
+    }}
+    className="mySwiper"
+  >
+    {[
+      "https://cms.bulm.it/wp-content/uploads/2025/07/istockphoto-517161718-612x612-1.jpg",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/istockphoto-1009279168-612x612-1.jpg",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/istockphoto-1803824173-612x612-1.jpg",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/pizza-basil-leaf-detail.jpg.webp",
+      "https://cms.bulm.it/wp-content/uploads/2025/07/istockphoto-939935006-612x612-1.jpg",
+    ].map((img, index) => (
+      <SwiperSlide key={index}>
+        <div className="w-full aspect-[4/5] overflow-hidden rounded-xl">
+          <img
+            src={img}
+            alt={`slide-${index}`}
+            className="w-full h-full object-cover transition duration-300 hover:scale-105"
+          />
         </div>
+      </SwiperSlide>
+    ))}
+  </Swiper>
+</div>
+
 
         <div className="about-last-title space-y-6 text-start mx-auto max-w-10/12 px-4">
           <p className="text-3xl font-bold">{t("about.lastTitle")}</p>

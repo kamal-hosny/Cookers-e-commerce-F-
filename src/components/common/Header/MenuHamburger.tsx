@@ -293,7 +293,7 @@ const MenuHamburger = ({ openMenu, onToggleMenu, isScrolled }: Props) => {
           }`}
         >
           <img
-            src="https://www.elba-cookers.com/wp-content/uploads/2022/01/Vintage-2-1280x937.jpg.webp"
+            src="https://cms.bulm.it/wp-content/uploads/2025/07/Gas-on-glass-hobs.webp"
             alt="Menu Visual"
             className="w-full h-full object-cover"
           />

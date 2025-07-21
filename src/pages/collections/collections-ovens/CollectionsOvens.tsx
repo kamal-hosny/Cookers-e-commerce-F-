@@ -11,7 +11,7 @@ const CollectionsOvens = () => {
       title: t("collectionsOvens.sections.enzo.title"),
       description: t("collectionsOvens.sections.enzo.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/27085R15_900x600.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Enzo.jpeg",
       link: "/collections/collections-ovens/enzo-ovens",
       bgColor: "#e8e8e8",
       textColor: "#1d1d1b",
@@ -21,7 +21,7 @@ const CollectionsOvens = () => {
       title: t("collectionsOvens.sections.enzoTitan.title"),
       description: t("collectionsOvens.sections.enzoTitan.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/03/elba-elio-giant-electric-multifunction-ovens.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Enzo-Titan.jpeg",
       link: "/collections/collections-ovens/enzo-titan-ovens",
       bgColor: "#3e4346",
       textColor: "#ffffff",
@@ -31,7 +31,7 @@ const CollectionsOvens = () => {
       title: t("collectionsOvens.sections.land.title"),
       description: t("collectionsOvens.sections.land.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-country-built-in-ovens.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Land.jpeg",
       link: "/collections/collections-ovens/land-ovens",
       bgColor: "#ede7d3",
       textColor: "#1d1d1b",
@@ -41,7 +41,7 @@ const CollectionsOvens = () => {
       title: t("collectionsOvens.sections.expert.title"),
       description: t("collectionsOvens.sections.expert.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/02/elba-collections-gas-electric-ovens.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Expert.jpeg",
       link: "/collections/collections-ovens/expert-ovens",
       bgColor: "#b5b5b5",
       textColor: "#1d1d1b",
@@ -51,7 +51,7 @@ const CollectionsOvens = () => {
       title: t("collectionsOvens.sections.alterum.title"),
       description: t("collectionsOvens.sections.alterum.description"),
       image:
-        "https://www.elba-cookers.com/wp-content/uploads/2022/05/elba-alterum-built-in-ovens.jpg.webp",
+        "https://cms.bulm.it/wp-content/uploads/2025/07/Alternate.jpeg",
       link: "/collections/collections-ovens/alterum-ovens",
       bgColor: "#ededb1",
       textColor: "#1d1d1b",

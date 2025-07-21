@@ -43,7 +43,7 @@ const Dealers = () => {
           <div className="flex-1 flex justify-between w-full">
             <div className="image h-100 flex-1 max-md:hidden">
               <img
-                src="https://www.elba-cookers.com/wp-content/uploads/2022/01/paesaggio-1280x625.jpg.webp"
+                src="https://cms.bulm.it/wp-content/uploads/2025/07/newsletter-primavera.webp"
                 alt="dealers"
                 className="h-full object-cover"
               />
@@ -54,11 +54,11 @@ const Dealers = () => {
                 <div className="contact flex flex-col gap-2 self-start mt-12">
                   <a href="mailto:info@bulm.it">info@bulm.it</a>
                   <a
-                    href="http://www.bulm.com.it"
+                    href="http://www.bulm.it"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    http://www.bulm.com.it
+                    www.bulm.it
                   </a>
                 </div>
               </div>

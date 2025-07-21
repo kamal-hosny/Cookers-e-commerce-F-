@@ -186,8 +186,8 @@ const NavBar = ({ isScrolled }: LogoProps) => {
                             </Link>
                           </li>
                           <li>
-                            <Link rel="prefetch" to="/collections/collections-ovens/alterum-ovens">
-                              {t("navbar.alterum")}
+                            <Link rel="prefetch" to="/collections/collections-ovens/alternate-ovens">
+                              {t("navbar.alternate")}
                             </Link>
                           </li>
                         </ul>

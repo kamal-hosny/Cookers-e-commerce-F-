@@ -25,18 +25,18 @@ const BoxesFooter = () => {
       image:
         "https://cms.bulm.it/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-17-at-13.00.32_ac0d7365.jpg",
       className: "bg-[#72909a] text-white",
-      link: "/about-us", // نستخدمه فقط لتبديل اللغة
+     
     },
   ];
 
   const handleNavigate = (path: string) => {
-    if (path === "/about-us") {
-      const newLang = i18n.language === "en" ? "it" : "en";
-      i18n.changeLanguage(newLang);
-      document.documentElement.lang = newLang;
-      document.documentElement.dir = "ltr";
-      return;
-    }
+    // if (path === "/about-us") {
+    //   const newLang = i18n.language === "en" ? "it" : "en";
+    //   i18n.changeLanguage(newLang);
+    //   document.documentElement.lang = newLang;
+    //   document.documentElement.dir = "ltr";
+    //   return;
+    // }
 
     if (path) {
       navigate(path);
