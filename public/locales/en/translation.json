@@ -1,4 +1,6 @@
 {
+  "discoverMore": "Discover More"
+  ,
   "privacy": {
     "title": "Privacy Policy – BULM Italy",
     "metaDescription": "Read BULM Italy's privacy policy to understand how we collect, use, and protect your personal data in accordance with European privacy laws (GDPR).",
@@ -911,5 +913,27 @@
     "accessories": "Accessories",
     "noImage": "No Image Available",
     "notFound": "Product not found"
+  },
+  "banner": {
+    "cookers": {
+      "title": "Italian Craftsmanship for Cooking",
+      "description": "Built to inspire, every BULM freestanding cooker is a blend of refined design and high performance — perfect for modern culinary spaces."
+    },
+    "ovens": {
+      "title": "Built-in ovens with Italian innovation and elegance",
+      "description": "Elevate your kitchen with BULM built-in ovens — engineered for reliability and refined for gourmet results. Available in 60cm and 90cm sizes, with multifunctional features including Easy Steam, Master Pizza mode, rotisserie, and more."
+    },
+    "hobs": {
+      "title": "Cutting-edge hobs for refined tastes",
+      "description": "Discover BULM hobs in gas, induction, and vitroceramic variants — all meticulously designed to pair seamlessly with our oven range and deliver unmatched precision."
+    },
+    "hoods": {
+      "title": "Stylish and efficient kitchen hoods",
+      "description": "BULM chimney and under-cabinet hoods are designed for quiet operation and maximum performance — ensuring a fresh, clean, and elegant kitchen atmosphere."
+    },
+    "compact": {
+      "title": "Compact appliances. Maximum performance.",
+      "description": "Perfectly complementing the BULM kitchen collection, our compact range delivers exceptional efficiency and timeless style for modern homes."
+    }
   }
 }

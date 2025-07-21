@@ -1,4 +1,5 @@
 {
+  "discoverMore": "Scopri di più",
     "privacy": {
       "title": "Informativa sulla Privacy – BULM Italy",
       "metaDescription": "Leggi l'informativa sulla privacy di BULM Italy per capire come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali in conformità al GDPR.",
@@ -485,9 +486,9 @@
     }
     ,
     "enzoHobs": {
-      "title": "Enzo Hobs Collection",
-      "description": "The Enzo hobs series stands out for its use of high-quality materials and smart functionality. Whether gas or induction, each hob is designed to offer efficient cooking and a sleek appearance. Choose between gas on metal, gas on glass, vitroceramic, or induction models, available in a variety of dimensions and configurations.",
-      "back": "Back_",
+      "title": "Collezione Enzo Hobs",
+      "description": "La serie di piani cottura Enzo si distingue per l'uso di materiali di alta qualità e funzionalità intelligenti. Che si tratti di gas o induzione, ogni piano cottura è progettato per offrire una cottura efficiente e un aspetto elegante. Scegli tra modelli a gas su metallo, gas su vetro, vetroceramica o induzione, disponibili in una varietà di dimensioni e configurazioni.",
+      "back": "Indietro_",
       "sections": {
         "gasMetal": {
           "title": "Gas on metal hobs",
@@ -903,6 +904,28 @@
       "accessories": "Accessori",
       "noImage": "Nessuna immagine disponibile",
       "notFound": "Prodotto non trovato"
+    },
+    "banner": {
+      "cookers": {
+        "title": "Artigianato italiano per la cucina",
+        "description": "Progettati per ispirare, ogni cucina a libera installazione BULM è una combinazione di design raffinato e alte prestazioni — perfetta per gli spazi culinari moderni."
+      },
+      "ovens": {
+        "title": "Forni da incasso con innovazione ed eleganza italiana",
+        "description": "Dai valore alla tua cucina con i forni da incasso BULM — progettati per affidabilità e perfezionati per risultati gourmet. Disponibili nei formati da 60 cm e 90 cm, con funzionalità multifunzione come Easy Steam, modalità Master Pizza, girarrosto e altro ancora."
+      },
+      "hobs": {
+        "title": "Piani cottura all'avanguardia per gusti raffinati",
+        "description": "Scopri i piani cottura BULM a gas, induzione e vetroceramica — tutti progettati con cura per abbinarsi perfettamente alla nostra gamma di forni e offrire una precisione senza pari."
+      },
+      "hoods": {
+        "title": "Cappe da cucina eleganti ed efficienti",
+        "description": "Le cappe BULM a camino e sottopensile sono progettate per un funzionamento silenzioso e prestazioni massime — garantendo un'atmosfera cucina fresca, pulita ed elegante."
+      },
+      "compact": {
+        "title": "Elettrodomestici compatti. Prestazioni massime.",
+        "description": "Perfettamente complementari alla collezione cucina BULM, la nostra gamma compatta offre efficienza eccezionale e stile senza tempo per le case moderne."
+      }
     }
   }
   

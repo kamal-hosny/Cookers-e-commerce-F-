@@ -11,11 +11,14 @@ import BoxesFooter from "../../components/common/BoxesFooter";
 import Breadcrumbs from "../../components/ui/Breadcrumbs";
 import { banners } from "./data";
 import { useProductsByCategory } from "../../Hooks/useProductsByCategory";
+import { useTranslation } from "react-i18next";
 
 interface Filter {
   title: string;
   options: string[];
 }
+
+
 
 // Define filters for each category
 const categoryFilters: Record<string, Filter[]> = {
@@ -264,6 +267,7 @@ const ProductCategory = () => {
   const [activeFilters, setActiveFilters] = useState<
     { filter: string; option: string }[]
   >([]);
+  const { t } = useTranslation();
 
   // Get current category filters
   const currentFilters = useMemo(() => {
@@ -468,11 +472,11 @@ const ProductCategory = () => {
       <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-[#1d3a43] to-[#30505b] text-white">
         <div className="lg:w-1/2 flex max-md:flex-col justify-between items-center mb-10 lg:mb-0 py-16 px-8">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 self-start leading-snug min-h-[3.5rem] sm:min-h-[4rem] lg:min-h-[5rem]">
-            {activeBanner.title}
+          {t(activeBanner.title)}
           </h1>
 
           <p className="text-sm lg:w-1/2 leading-relaxed opacity-90">
-            {activeBanner.description}
+          {t(activeBanner.description)}
           </p>
         </div>
         <div className="lg:w-1/3 flex justify-center">
@@ -480,7 +484,7 @@ const ProductCategory = () => {
             <img
               src={activeBanner.image}
               className="w-full h-full object-cover"
-              alt={activeBanner.title}
+              alt= {t(activeBanner.title)}
             />
           </div>
         </div>

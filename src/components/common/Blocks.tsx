@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 interface Section {
@@ -15,6 +16,7 @@ interface IProps {
 }
 
 const Blocks = ({ sections }: IProps) => {
+  const { t } = useTranslation();
   return (
     <div className="w-full py-8">
       {sections.map((section, index) => (
@@ -50,7 +52,7 @@ const Blocks = ({ sections }: IProps) => {
                 to={section.link}
                 className="text-sm font-semibold underline underline-offset-4 w-fit hover:text-gray-300 transition"
               >
-                Discover More
+                {t("discoverMore")}
               </Link>
             </div>
           </div>
