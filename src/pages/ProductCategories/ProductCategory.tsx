@@ -113,7 +113,7 @@ const categoryFilters: Record<string, Filter[]> = {
     },
     {
       title: "collection",
-      options: ["land", "elementum", "domino", "enzo", "alternate"],
+      options: ["land", "enzo"],
     },
     {
       title: "cooking_zone",
